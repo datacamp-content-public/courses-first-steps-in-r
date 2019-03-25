@@ -73,7 +73,7 @@ Please use the function # read.csv() (reads comma separated columns)
 
 `@solution`
 ```{r}
-APC <- read.csv2("../data/APC-dataset-anonym.csv")
+APC <- read.csv(Verkaufsdaten.csv)
 ```
 
 `@sct`
