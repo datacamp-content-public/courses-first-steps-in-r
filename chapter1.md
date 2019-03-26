@@ -52,7 +52,7 @@ key: 1e15c44df4
 xp: 100
 ```
 
-Erste Schritte, um R hands-on zu lernen und die interaktive Programmierumgebung kennenzulernen. 
+Erste Schritte, um R hands-on zu lernen und die interaktive Programmierumgebung kennenzulernen.
 
 `@instructions`
 Willkommen in der Programmierumgebung DataCamp. Lasst uns direkt loslegen. 
