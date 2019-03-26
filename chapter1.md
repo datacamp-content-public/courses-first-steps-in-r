@@ -52,18 +52,21 @@ key: 1e15c44df4
 xp: 100
 ```
 
-First steps in R for an interactive programming environment to teach and better learn R
+Erste Schritte, um R hands-on zu lernen und die interaktive Programmierumgebung kennenzulernen. 
 
 `@instructions`
-Start with your first steps in the software environment DataCamp a interactive software environment of R
-First read Step: 1) Read your dataset that you want to manipulate in
+Willkommen in der Programmierumgebung DataCamp. Lasst uns direkt loslegen. 
+
+Hier Vorgeschichte Datenset + Problemstellung
+Zurerst lese das zu bearbeitende Datenset "Schraenke" ein.
 
 `@hint`
 Please use the function # read.csv() (reads comma separated columns)
 
 `@pre_exercise_code`
 ```{r}
-
+library(dplyr)
+read.csv(Schraenke) <- read.csv(https://assets.datacamp.com/production/repositories/4810/datasets/45de207edffda856248885983c45ebfc770147f4/Verkaufsdaten.csv)
 ```
 
 `@sample_code`
@@ -73,10 +76,10 @@ Please use the function # read.csv() (reads comma separated columns)
 
 `@solution`
 ```{r}
-APC <- read.csv(https://assets.datacamp.com/production/repositories/4810/datasets/45de207edffda856248885983c45ebfc770147f4/Verkaufsdaten.csv)
+read.csv(Schraenke)
 ```
 
 `@sct`
 ```{r}
-
+read.csv(Schraenke)
 ```
