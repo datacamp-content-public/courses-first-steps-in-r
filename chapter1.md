@@ -58,7 +58,7 @@ Erste Schritte, um R hands-on zu lernen und die interaktive Programmierumgebung 
 Willkommen in der Programmierumgebung DataCamp. Lasst uns direkt loslegen. 
 
 Hier Vorgeschichte Datenset + Problemstellung
-Zurerst lese das zu bearbeitende Datenset "Schraenke" ein.
+Zurerst lese das zu bearbeitende Datenset "Verkaufsdaten" ein.
 
 `@hint`
 Please use the function #read.csv() (reads comma separated columns)
@@ -66,7 +66,7 @@ Please use the function #read.csv() (reads comma separated columns)
 `@pre_exercise_code`
 ```{r}
 library(dplyr)
-read.csv(Verkaufsdaten) 
+read.csv(Verkaufsdaten)
 ```
 
 `@sample_code`
