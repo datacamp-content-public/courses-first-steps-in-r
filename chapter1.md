@@ -44,7 +44,7 @@ This is an example exercise.
 
 ---
 
-## Insert exercise title here
+## Starte mit R
 
 ```yaml
 type: NormalExercise
@@ -61,12 +61,12 @@ Hier Vorgeschichte Datenset + Problemstellung
 Zurerst lese das zu bearbeitende Datenset "Schraenke" ein.
 
 `@hint`
-Please use the function # read.csv() (reads comma separated columns)
+Please use the function #read.csv() (reads comma separated columns)
 
 `@pre_exercise_code`
 ```{r}
 library(dplyr)
-read.csv(Schraenke) <- read.csv(https://assets.datacamp.com/production/repositories/4810/datasets/45de207edffda856248885983c45ebfc770147f4/Verkaufsdaten.csv)
+read.csv(Verkaufsdaten) <- read.csv(https://assets.datacamp.com/production/repositories/4810/datasets/45de207edffda856248885983c45ebfc770147f4/Verkaufsdaten.csv)
 ```
 
 `@sample_code`
@@ -76,7 +76,7 @@ read.csv(Schraenke) <- read.csv(https://assets.datacamp.com/production/repositor
 
 `@solution`
 ```{r}
-read.csv(Schraenke)
+read.csv(Verkaufsdaten)
 ```
 
 `@sct`
