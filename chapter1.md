@@ -76,7 +76,7 @@ read.csv(Verkaufsdaten) <- read.csv(https://assets.datacamp.com/production/repos
 
 `@solution`
 ```{r}
-read.csv(Verkaufsdaten)
+
 ```
 
 `@sct`
