@@ -66,7 +66,7 @@ Please use the function #read.csv() (reads comma separated columns)
 `@pre_exercise_code`
 ```{r}
 library(dplyr)
-read.csv(Verkaufsdaten) <- read.csv(https://assets.datacamp.com/production/repositories/4810/datasets/45de207edffda856248885983c45ebfc770147f4/Verkaufsdaten.csv)
+read.csv(Verkaufsdaten) 
 ```
 
 `@sample_code`
@@ -76,7 +76,7 @@ read.csv(Verkaufsdaten) <- read.csv(https://assets.datacamp.com/production/repos
 
 `@solution`
 ```{r}
-
+read.csv(Verkaufsdaten)
 ```
 
 `@sct`
