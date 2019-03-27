@@ -1,10 +1,10 @@
 ---
-title: 'Chapter Title Here'
-description: 'Chapter description goes here.'
+title: 'Wie R funktioniert'
+description: "Um die Übung zu lösen, geben Sie im Editor auf der rechten Seite den R-Code ein. Wenn Sie auf den Button \"Submit Answer\" klicken, wird jede Codezeile interpretiert und durch R ausgeführt. Sie erhalten eine Nachricht, ob der von Ihnen erstellte Code richtig war. Ihre Ausgabe des R-Codes wird in der Konsole unten rechts angezeigt.\n\nIn R wird die #-Taste genutzt, um Kommentare zu kennzeichnen, die Ihnen und anderen R-Nutzern zusätzliche Informationen über den Code bereitstellen. Kommentare werden nicht als R-Code ausgeführt, somit beeinflussen sie die Ergebnisse nicht. Zum Beispiel Berechnen Sie 3+4 ist im Editor rechts ein Kommentar.\n\nSie können die R-Befehle auch direkt in der Konsole ausführen. Dies ist ein guter Weg, um mit R-Code zu experimentieren, denn Ihre Eingabe wird nicht auf Richtigkeit überprüft."
 free_preview: true
 ---
 
-## Example coding exercise
+## Wie R funktioniert
 
 ```yaml
 type: NormalExercise
@@ -17,14 +17,15 @@ skills: 1
 This is an example exercise.
 
 `@instructions`
-
+Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Erkennen Sie, welche Linien tatsächlich die R Codes und welche Linien 	die Kommentare sind?
+    Fügen Sie eine Codezeile hinzu, die die Summe von 6 und 12 berechnet und klicken Sie auf den Button "Antwort abschicken".
 
 `@hint`
-
+Fügen Sie eine Zeile R-Code ein, die die Summe von 6 und 12 berechnet, genau wie im Beispielcode demonstriert.
 
 `@pre_exercise_code`
 ```{r}
-
+6+12
 ```
 
 `@sample_code`
@@ -34,12 +35,12 @@ This is an example exercise.
 
 `@solution`
 ```{r}
-
+6+12
 ```
 
 `@sct`
 ```{r}
-
+success_msg("Sehr gut")
 ```
 
 ---
