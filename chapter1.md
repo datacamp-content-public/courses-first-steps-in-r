@@ -216,7 +216,7 @@ Nutze die Funktion #read.table()
 
 `@pre_exercise_code`
 ```{r}
-read.csv2("Shower_data.csv")
+read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/92686befd7e2045e704ac3f441df3e5ddddbd2f4/Shower_data.csv")
 ```
 
 `@sample_code`
