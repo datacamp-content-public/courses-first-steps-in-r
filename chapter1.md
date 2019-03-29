@@ -140,7 +140,7 @@ success_msg("Nice work! Hast du richtig gut gemacht!")
 
 ---
 
-## Insert exercise title here
+## Test für das Abfangen der Fehllösungen
 
 ```yaml
 type: NormalExercise
@@ -151,10 +151,10 @@ xp: 100
 
 
 `@instructions`
-Summiere 5 und 12
+5 + 12
 
 `@hint`
-
+Auf geht´s - nimm es leicht, einfach eintippen, wie im Taschenrechner
 
 `@pre_exercise_code`
 ```{r}
@@ -163,7 +163,7 @@ Summiere 5 und 12
 
 `@sample_code`
 ```{r}
-
+# Rechnung hier eintragen
 ```
 
 `@solution`
@@ -174,6 +174,7 @@ Summiere 5 und 12
 `@sct`
 ```{r}
 
+success_msg("Super!", praise = FALSE)
 ```
 
 ---
@@ -221,49 +222,6 @@ Der Variable my_var wurde jetzt im Beispiel der Wert 4 zugeteilt. Machen Sie gen
 x <- 42
 # Geben Sie den Wert der Variable x aus
 x
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
-## Insert exercise title here
-
-```yaml
-type: NormalExercise
-key: 1398ecb355
-xp: 100
-```
-
-Variablenzuweisung
-
-Jeder leckere Obstkorb besteht nicht nur aus einer Frucht. Sie entscheiden sich also dazu, sechs Orangen hinzuzufügen. Als Datenanalyst ist Ihr Reflex, sofort die Variable my_oranges mit dem Wert 6 zu erstellen. Als nächstes wollen Sie kalkulieren, wie viel Obst Sie insgesamt in Ihrem Obstkorb haben. Da Sie den Werten sinnvolle Namen gegeben haben, können Sie nun auf eine einfache Weise den Code erstellen.
-
-my_apples + my_oranges
-
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
 ```
 
 `@sct`
@@ -369,7 +327,7 @@ xp: 100
 `@solution`
 ```{r}
 # Create a vector called my_vect containing 1 through 5
-my_vect <- c(1, 2, 3, 4, 5)
+my_vect <- c(1,2,3,4,5)
 
 # Take the mean and assign to my_mean
 my_mean <- mean(my_vect)
@@ -380,19 +338,8 @@ sum((my_vect - my_mean)^2)
 
 `@sct`
 ```{r}
-# sct code
-# first instruction
-test_student_typed("my_vect <- c(1,2,3,4,5)", not_typed_msg = "Something is wrong with `my_vect`. Take another look at the instruction.")
 
-# second instruction
-test_student_typed("my_mean <- mean(my_vect)", not_typed_msg = "Something is wrong with `my_mean`.")
-
-# third instruction
-test_student_typed("sum((my_vect - my_mean)^2)", not_typed_msg = "Take a look at your code for the third instruction. To calculate the sum of squares you will need to take the sum of the square of the difference between `my_vect` and `my_mean`.")
-
-# General
-test_error()
-success_msg("Nice work! Success messages are a great way to keep users engaged even after the exercise is over. Try to encourage them to play around in the console to really grasp the concepts you're trying to teach!")
+success_msg(msg, praise = FALSE)
 ```
 
 ---
