@@ -1,5 +1,6 @@
-title: First steps in R
-description: Course description goes here.
+title: Ermittle den profitträchtigsten Kunden
+description: |
+  1. Erste Schritte in R: Einführung
+  2. Teaching Case: Ermittle den profitträchtigsten Kunden
 programming_language: r
-from: "r-base-prod:v1.0.2"
-#from: "tidyverse-base-prod:v1.0.2"
+from: 'r-base-prod:v1.0.2'
