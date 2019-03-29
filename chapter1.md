@@ -140,6 +140,44 @@ success_msg("Nice work! Hast du richtig gut gemacht!")
 
 ---
 
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: 79b661d576
+xp: 100
+```
+
+
+
+`@instructions`
+Summiere 5 und 12
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+17
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
 ## Variablenzuweisung
 
 ```yaml
@@ -192,6 +230,173 @@ x
 
 ---
 
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: 1398ecb355
+xp: 100
+```
+
+Variablenzuweisung
+
+Jeder leckere Obstkorb besteht nicht nur aus einer Frucht. Sie entscheiden sich also dazu, sechs Orangen hinzuzufügen. Als Datenanalyst ist Ihr Reflex, sofort die Variable my_oranges mit dem Wert 6 zu erstellen. Als nächstes wollen Sie kalkulieren, wie viel Obst Sie insgesamt in Ihrem Obstkorb haben. Da Sie den Werten sinnvolle Namen gegeben haben, können Sie nun auf eine einfache Weise den Code erstellen.
+
+my_apples + my_oranges
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Basisdatentypen in R
+
+```yaml
+type: NormalExercise
+key: bd7572143c
+xp: 100
+```
+
+Basisdatentypen in R
+
+   R arbeitet mit zahlreichen Datentypen. Einige der grundlegendsten Datentypen sind:
+   
+   Dezimalwerte, wie 4.5 werden auch 'numerics' (Numerik) genannt.
+   Natürliche Zahlen, wie 4, heißen auch 'integers' (Ganze Zahlen). Ganze Zahlen sind auch Numerik.
+   Boolesche Werte (TRUE oder FALSE) werden auch 'logical' (logisch) genannt.
+   Text- (oder String-) Werte werden auch als 'characters' (Zeichen) bezeichnet.
+   
+Beachten Sie, wie die Anführungszeichen auf der rechten Seite zeigen, dass "einige Texte" ein Zeichen sind.
+
+`@instructions`
+Ändern Sie die Werte von:
+
+ 1. Variable my_numeric zu 42.
+ 2. Variable my_character zu "universe". Beachten Sie, dass die Anführungszeichen zeigen, 
+ 	dass "universe" ein Zeichen ist.
+ 3. Variable my_logical zu FALSE.
+    
+Beachten Sie in R die Groß- und Kleinschreibung.
+
+`@hint`
+Ersetzen Sie die Werte im Editor mit den Werten, die bei der Übung vorgesehen sind. 
+Zum Beispiel: my_numeric <- 42 , um der Variable my_numeric den Wert 42 zuzuweisen.
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+# Verändern Sie my_numeric zu 42
+
+# Verändern Sie my_character zu "universe"
+
+# Verändern Sie my_logical zu FALSE
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Erstelle einen Vektor
+
+```yaml
+type: NormalExercise
+key: bd8c85316c
+xp: 100
+```
+
+
+
+`@instructions`
+1. Create a vector called my_vect containing 1 through 5.
+2. Take the mean of my_vect and assign it to a variable named my_mean. Use the mean() function.
+3. Use my_mean to compute the sum of squares of my_vect. Use the sum() function.
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+# Create a vector called my_vect containing 1 through 5
+
+# Take the mean and assign to my_mean
+
+# Use my_mean to compute the sum of squares of my_vect
+
+```
+
+`@solution`
+```{r}
+# Create a vector called my_vect containing 1 through 5
+my_vect <- c(1, 2, 3, 4, 5)
+
+# Take the mean and assign to my_mean
+my_mean <- mean(my_vect)
+
+# Use my_mean to compute the sum of squares of my_vect
+sum((my_vect - my_mean)^2)
+```
+
+`@sct`
+```{r}
+# sct code
+# first instruction
+test_student_typed("my_vect <- c(1,2,3,4,5)", not_typed_msg = "Something is wrong with `my_vect`. Take another look at the instruction.")
+
+# second instruction
+test_student_typed("my_mean <- mean(my_vect)", not_typed_msg = "Something is wrong with `my_mean`.")
+
+# third instruction
+test_student_typed("sum((my_vect - my_mean)^2)", not_typed_msg = "Take a look at your code for the third instruction. To calculate the sum of squares you will need to take the sum of the square of the difference between `my_vect` and `my_mean`.")
+
+# General
+test_error()
+success_msg("Nice work! Success messages are a great way to keep users engaged even after the exercise is over. Try to encourage them to play around in the console to really grasp the concepts you're trying to teach!")
+```
+
+---
+
 ## Hands-on R: Lasst uns anfangen
 
 ```yaml
@@ -202,16 +407,17 @@ xp: 100
 
 Erste Schritte, um R 'hands-on' zu lernen und die interaktive Programmierumgebung kennenzulernen.
 Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt anhand eines Teaching Cases durchgehen.
+
 ![1](https://assets.datacamp.com/production/repositories/4810/datasets/82d92f41d7649657073e1e2e0b813011ecc4973a/Data_Science_Explore.png)
 
 `@instructions`
 Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Datensatz loslegen. 
 
 Hier Vorgeschichte Datenset + Problemstellung + Was macht ein DataScientist
-Zuerst lese das zu bearbeitende Datenset "Verkaufsdaten" ein.!
+Zuerst lese das zu bearbeitende Datenset "Shower_data" ein, dass durch Semikola getrennte Spalten enthält!
 
 `@hint`
-Nutze die Funktion #read.table() 
+Nutze die Funktion #read.csv2() 
 (liest externen Datensatz ein)
 
 `@pre_exercise_code`
@@ -231,5 +437,19 @@ read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/926
 
 `@sct`
 ```{r}
-success_msg("Nice work! Success messages are a great way to keep users engaged even after the exercise is over. Try to encourage them to play around in the console to really grasp the concepts you're trying to teach!")
+# sct code
+# first instruction
+test_object("", incorrect_msg = "Something is wrong with `my_vect`. Take another look at the instruction.")
+
+# second instruction
+test_object("", incorrect_msg = "Something is wrong with `my_mean`. The easiest way to complete this instruction is to use the `mean()` function with `my_vect`.")
+test_function("mean")
+
+# third instruction
+test_output_contains("", incorrect_msg = "Take a look at your code for the third instruction. To calculate the sum of squares you will need to take the sum of the square of the difference between `my_vect` and `my_mean`.")
+test_function("sum")
+
+# General
+test_error()
+success_msg("Good job! You've learned some very important and useful functions in this course. Writing SCT's can get complex, but mastering the functions covered in this exercise will get you started so that you can begin creating your own content.")
 ```
