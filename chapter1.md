@@ -69,7 +69,8 @@ xp: 100
 
 Rechnen mit R:
 In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	
-	Addition: +
+	
+    Addition: +
     Subtraktion: -
     Multiplikation: *
     Division: /
@@ -165,7 +166,7 @@ xp: 100
 5 + 12
 
 `@hint`
-Auf geht´s - nimm es leicht, einfach eintippen, wie im Taschenrechner
+Auf geht´s - nimm es leicht, einfach eintippen, wie im eigenen Taschenrechner
 
 `@pre_exercise_code`
 ```{r}
@@ -202,7 +203,7 @@ Variablenzuweisung
 
 Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
 
-Eine Variable ermöglicht es Ihnen, einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variable hinterlegt sind.
+Eine Variable ermöglicht es Ihnen, einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
 
 Sie können der Variable my_var den Wert 4 zuweisen.
 
