@@ -55,8 +55,7 @@ xp: 100
 ```
 
 Rechnen mit R:
-In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:
-
+In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	
 	Addition: +
     Subtraktion: -
     Multiplikation: *
@@ -66,9 +65,8 @@ In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden
 
 Die letzten beiden Operatoren benötigen eine Erklärung:
 
-    Der ^ Operator steigert die linke Zahl durch die Größe der rechten Zahl, es ist die Potenz: Zum Beispiel 3^2 ist 9.
-
-    Der Operator Modulo liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 5 Modulo 3 oder 5 %% 3 ist 2.
+    Der ^ Operator steigert die linke Zahl durch die Größe der rechten Zahl, es ist die Potenz: Zum Beispiel 4^2 ist 16.
+    Der Operator Modulo liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 Modulo 2 oder 7 %% 2 ist 1.
 
 Behalten Sie diese Informationen im Hinterkopf und befolgen Sie die nachstehenden Anweisungen, um die Übung abzuschließen.
 
@@ -80,11 +78,11 @@ Behalten Sie diese Informationen im Hinterkopf und befolgen Sie die nachstehende
 5. Potenzieren Sie 2 hoch 5
 6. Berechnen Sie 28 Modulo 6.
     
-Klicken Sie auf 'Antwort abschicken' und schauen Sie sich die R-Ausgabe in der Konsole an. 
+Klicken Sie auf 'Submit Answer' und schauen Sie sich die R-Ausgabe in der Konsole an. 
 Beachten Sie, wie das '#' Symbol in den R-Codes verwendet wird. (Damit sind Kommentare gekennzeichnet.)
 
 `@hint`
-Ein weiteres Beispiel für den Modulo Operator: 9 %% 2 gleich 1.
+Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
 
 `@pre_exercise_code`
 ```{r}
@@ -253,7 +251,7 @@ Beachten Sie, wie die Anführungszeichen auf der rechten Seite zeigen, dass "ein
 `@instructions`
 Ändern Sie die Werte von:
 
- 1. Variable my_numeric zu 42.
+ 1. Variable my_numeric zu 13.
  2. Variable my_character zu "universe". Beachten Sie, dass die Anführungszeichen zeigen, 
  	dass "universe" ein Zeichen ist.
  3. Variable my_logical zu FALSE.
@@ -262,7 +260,7 @@ Beachten Sie in R die Groß- und Kleinschreibung.
 
 `@hint`
 Ersetzen Sie die Werte im Editor mit den Werten, die bei der Übung vorgesehen sind. 
-Zum Beispiel: my_numeric <- 42 , um der Variable my_numeric den Wert 42 zuzuweisen.
+Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweisen.
 
 `@pre_exercise_code`
 ```{r}
@@ -344,6 +342,78 @@ success_msg(msg, praise = FALSE)
 
 ---
 
+## Data Frames
+
+```yaml
+type: NormalExercise
+key: 35f2e90e22
+xp: 100
+```
+
+Bislang war immer von ein Vektor die Rede. Des Weiteren gibt es noch Matrizen, die wir aufgrund der Einführung in diesem Kurs weglassen werden.
+
+**Data Frames:**
+Der Datensatz des folgenden Unternehmens der aus der Datenbank des Informationssystem stammt, enthält den Namen der Verkaufsgegenstände, den jeweiligen Preis, die Absatzmenge pro Quartal, für welche Kundenart er verkauft wurde. In eine Matrix bekommen Sie diese Daten nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt heißt in R (data frame). 
+
+(ggf. noch ändern: de Vries/Meys 2018, S.146)
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Haben Sie es verstanden?
+
+```yaml
+type: PureMultipleChoiceExercise
+key: a24e1b005a
+xp: 50
+```
+
+14 %% 3
+
+`@hint`
+
+
+`@possible_answers`
+- 5
+- 4
+- 3
+- [2]
+- 1
+
+`@feedback`
+- "Nein, da haben Sie etwas falsch verstanden"
+- "Nein, da liegen Sie nicht richtig"
+- "Nein, da liegen Sie nicht richtig"
+- "Super gemacht, 14 Modulo 3 ergibt 2"
+- "Nein, da liegen Sie nicht richtig"
+
+---
+
 ## Hands-on R: Lasst uns anfangen
 
 ```yaml
@@ -353,9 +423,11 @@ xp: 100
 ```
 
 Erste Schritte, um R 'hands-on' zu lernen und die interaktive Programmierumgebung kennenzulernen.
-Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt anhand eines Teaching Cases durchgehen.
+Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt anhand eines kleinen Datensatzes von Kundendaten aus drei Informationssystemen der Firma XY durchgehen.
 
 ![1](https://assets.datacamp.com/production/repositories/4810/datasets/82d92f41d7649657073e1e2e0b813011ecc4973a/Data_Science_Explore.png)
+
+(Quelle: Wickham/Grolemund 2018, S.XI)
 
 `@instructions`
 Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Datensatz loslegen. 
