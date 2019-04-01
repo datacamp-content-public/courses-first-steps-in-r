@@ -30,7 +30,7 @@ Nutze die Funktion #read.csv2()
 
 `@pre_exercise_code`
 ```{r}
-read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/92686befd7e2045e704ac3f441df3e5ddddbd2f4/Shower_data.csv")
+ShowerPath <- "https://assets.datacamp.com/production/repositories/4810/datasets/92686befd7e2045e704ac3f441df3e5ddddbd2f4/Shower_data.csv"
 ```
 
 `@sample_code`
@@ -40,24 +40,10 @@ read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/926
 
 `@solution`
 ```{r}
-
+read.csv2(ShowerPath)
 ```
 
 `@sct`
 ```{r}
-# sct code
-# first instruction
-test_object("", incorrect_msg = "Something is wrong with `my_vect`. Take another look at the instruction.")
 
-# second instruction
-test_object("", incorrect_msg = "Something is wrong with `my_mean`. The easiest way to complete this instruction is to use the `mean()` function with `my_vect`.")
-test_function("mean")
-
-# third instruction
-test_output_contains("", incorrect_msg = "Take a look at your code for the third instruction. To calculate the sum of squares you will need to take the sum of the square of the difference between `my_vect` and `my_mean`.")
-test_function("sum")
-
-# General
-test_error()
-success_msg("Good job! You've learned some very important and useful functions in this course. Writing SCT's can get complex, but mastering the functions covered in this exercise will get you started so that you can begin creating your own content.")
 ```

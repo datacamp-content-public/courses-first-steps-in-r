@@ -185,7 +185,7 @@ Auf geht´s - nimm es leicht, einfach eintippen, wie im eigenen Taschenrechner
 
 `@sct`
 ```{r}
-
+ex() %>% check_code(c("5+12", "12+5"), fixed = TRUE)
 success_msg("Super!", praise = FALSE)
 ```
 
