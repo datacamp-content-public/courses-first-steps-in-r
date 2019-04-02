@@ -224,7 +224,7 @@ Ziehen Sie von der Zahl 234 64 ab.
 
 `@sct`
 ```{r}
-
+ex() %>% check_code(c("234-64"), fixed = TRUE)
 success_msg("Richtig!", praise = FALSE)
 ```
 
