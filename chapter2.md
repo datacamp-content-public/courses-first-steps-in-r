@@ -16,7 +16,7 @@ xp: 50
 
 ---
 
-## Hands-on R: Lasst uns anfangen
+## Lasst uns anfangen: Daten einlesen
 
 ```yaml
 type: NormalExercise
@@ -43,7 +43,7 @@ Zuerst lese das zu bearbeitende Datenset "Verkaufsdaten" ein. (Auszug hier der D
 
 `@hint`
 Nutze die Funktion #read.csv2() 
-(liest externen Datensatz ein)
+(liest externen Datensatz ein, der mit Semikolons separiert ist)
 
 `@pre_exercise_code`
 ```{r}
@@ -61,6 +61,23 @@ read.csv2(ShowerPath)
 ```
 
 `@sct`
+```{r}
+
+```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: TabExercise
+key: cac9b34188
+xp: 100
+```
+
+Schaue Dir die Daten zuerst an und verschaffe Dir einen Überblick, was an Datentypen und Werten vorliegt. 
+
+`@pre_exercise_code`
 ```{r}
 
 ```
