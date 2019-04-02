@@ -4,7 +4,7 @@ description: "Um die Übung zu lösen, geben Sie im Editor auf der rechten Seite
 free_preview: true
 ---
 
-## Motivation | Einstieg
+## Motivation | Einstieg | Was  ist Data Science
 
 ```yaml
 type: VideoExercise
@@ -217,7 +217,8 @@ Der Variable my_var wurde jetzt im Beispiel der Wert 4 zugeteilt. Machen Sie gen
 
 `@pre_exercise_code`
 ```{r}
-
+ex() %>% check_code(c("my_var <- 42"), fixed = TRUE)
+success_msg("Super!", praise = FALSE)
 
 ```
 

@@ -47,3 +47,16 @@ read.csv2(ShowerPath)
 ```{r}
 
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: VideoExercise
+key: b55ea9901e
+xp: 50
+```
+
+`@projector_key`
+6b5aa056d6283392bbe5e5d08d0bb795
