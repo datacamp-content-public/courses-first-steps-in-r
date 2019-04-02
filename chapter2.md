@@ -34,11 +34,12 @@ Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt a
 `@instructions`
 Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Importieren der Datensätze loslegen. 
 
-Datensätze können in R auf verschiedenste Weise importiert werden.  
-read.table
-read.csv
-read.csv2
-Zuerst lese das zu bearbeitende Datenset "Shower_Data" ein, dass durch Semikola getrennte Spalten enthält!
+Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten aus Exceltabellen und csv-Dateien zu importieren, gibt es zwei gängige Methoden: 
+
+1) read.csv 	(Komma 		(,) separierte Dateien)
+2) read.csv2 	(Semikolon  (;) separierte Dateien)
+
+Zuerst lese das zu bearbeitende Datenset "Verkaufsdaten" ein. (Auszug hier der Datei)
 
 `@hint`
 Nutze die Funktion #read.csv2() 
