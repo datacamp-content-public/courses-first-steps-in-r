@@ -3,16 +3,16 @@ title: 'Teaching Case: Verkaufsgruppenanalyse'
 description: 'Das Unternehmen XY.'
 ---
 
-## Käuferanalyse: Vorstellung Unternehmen XY
+## Problemstellung
 
 ```yaml
 type: VideoExercise
-key: b55ea9901e
+key: 570b5b662b
 xp: 50
 ```
 
 `@projector_key`
-6b5aa056d6283392bbe5e5d08d0bb795
+32f5909bd9725fdcbf4b5ffeb2ee4f3f
 
 ---
 
@@ -67,7 +67,7 @@ read.csv2(ShowerPath)
 
 ---
 
-## Insert exercise title here
+## Daten erkunden
 
 ```yaml
 type: TabExercise
@@ -81,3 +81,196 @@ Schaue Dir die Daten zuerst an und verschaffe Dir einen Überblick, was an Daten
 ```{r}
 
 ```
+
+---
+
+## Daten bereinigen
+
+```yaml
+type: NormalExercise
+key: a446c3e473
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Transformieren
+
+```yaml
+type: NormalExercise
+key: 8767c4d2d3
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Visualisieren
+
+```yaml
+type: NormalExercise
+key: 78c1c653dc
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## (Modellieren)
+
+```yaml
+type: NormalExercise
+key: 2a50556aeb
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Was haben Sie an Information gewonnen?
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 64b02c906d
+xp: 50
+```
+
+
+
+`@hint`
+
+
+`@possible_answers`
+
+
+`@feedback`
+
+
+---
+
+## Kommunizieren
+
+```yaml
+type: PureMultipleChoiceExercise
+key: fa8fdf9d03
+xp: 50
+```
+
+
+
+`@hint`
+
+
+`@possible_answers`
+
+
+`@feedback`
