@@ -1,6 +1,19 @@
 ---
-title: 'Case: Verkaufsgruppenanalyse'
-description: 'Das Unternehmen XY'
+title: 'Teaching Case: Verkaufsgruppenanalyse'
+description: 'Das Unternehmen XY.'
+---
+
+## Käuferanalyse: Vorstellung Unternehmen XY
+
+```yaml
+type: VideoExercise
+key: b55ea9901e
+xp: 50
+```
+
+`@projector_key`
+6b5aa056d6283392bbe5e5d08d0bb795
+
 ---
 
 ## Hands-on R: Lasst uns anfangen
@@ -11,17 +24,20 @@ key: 8b850e45ae
 xp: 100
 ```
 
-Erste Schritte, um R 'hands-on' zu lernen und die interaktive Programmierumgebung kennenzulernen.
-Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt anhand eines kleinen Datensatzes von Kundendaten aus drei Informationssystemen der Firma XY durchgehen.
+Erste Schritte, um R 'hands-on' zu lernen und anzuwenden.
+Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt anhand der Datensätze von Kundendaten aus drei verschiedenen Datenbanken des Informationssystems der Firma XY durchgehen.
 
 ![1](https://assets.datacamp.com/production/repositories/4810/datasets/82d92f41d7649657073e1e2e0b813011ecc4973a/Data_Science_Explore.png)
 
 (Quelle: Wickham/Grolemund 2018, S.XI)
 
 `@instructions`
-Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Datensatz loslegen. 
+Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Importieren der Datensätze loslegen. 
 
-Hier Vorgeschichte Datenset + Problemstellung + Was macht ein DataScientist
+Datensätze können in R auf verschiedenste Weise importiert werden.  
+read.table
+read.csv
+read.csv2
 Zuerst lese das zu bearbeitende Datenset "Shower_Data" ein, dass durch Semikola getrennte Spalten enthält!
 
 `@hint`
@@ -47,16 +63,3 @@ read.csv2(ShowerPath)
 ```{r}
 
 ```
-
----
-
-## Insert exercise title here
-
-```yaml
-type: VideoExercise
-key: b55ea9901e
-xp: 50
-```
-
-`@projector_key`
-6b5aa056d6283392bbe5e5d08d0bb795

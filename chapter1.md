@@ -217,8 +217,6 @@ Der Variable my_var wurde jetzt im Beispiel der Wert 4 zugeteilt. Machen Sie gen
 
 `@pre_exercise_code`
 ```{r}
-ex() %>% check_code(c("my_var <- 42"), fixed = TRUE)
-success_msg("Super!", praise = FALSE)
 
 ```
 
@@ -239,7 +237,8 @@ x
 
 `@sct`
 ```{r}
-
+ex() %>% check_code(c("x <- 42"), fixed = TRUE)
+success_msg("Gut gemacht!", praise = FALSE)
 ```
 
 ---
@@ -351,6 +350,7 @@ sum((my_vect - my_mean)^2)
 
 `@sct`
 ```{r}
+
 success_msg("Wunderbar", praise = FALSE)
 ```
 
