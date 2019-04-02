@@ -147,7 +147,85 @@ Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
 
 `@sct`
 ```{r}
+ex() %>% check_code(c("5+12", "12+5"), fixed = TRUE)
 success_msg("Nice work! Hast du richtig gut gemacht!")
+```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: TabExercise
+key: f427f55a6b
+xp: 100
+```
+
+Rechnen mit R
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 8aca41b2ae
+xp: 50
+```
+
+`@instructions`
+1. Summieren Sie die Zahlen 23 mit 46.
+
+`@hint`
+Benutze das script.R wie deinen Taschenrechner
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+69
+```
+
+`@sct`
+```{r}
+ex() %>% check_code(c("23+46", "46+23"), fixed = TRUE)
+success_msg("Richtig!", praise = FALSE)
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: b62ad32841
+xp: 50
+```
+
+`@instructions`
+Ziehen Sie von der Zahl 234 64 ab.
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+170
+```
+
+`@sct`
+```{r}
+
+success_msg("Richtig!", praise = FALSE)
 ```
 
 ---
