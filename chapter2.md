@@ -236,7 +236,7 @@ xp: 100
 
 ---
 
-## Was haben Sie an Information gewonnen?
+## Welche Erkenntnisse durch die Datenanalyse haben Sie gewonnen?
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -257,7 +257,7 @@ xp: 50
 
 ---
 
-## Kommunizieren
+## Kommunizieren: Führungskräftemeeting
 
 ```yaml
 type: PureMultipleChoiceExercise
