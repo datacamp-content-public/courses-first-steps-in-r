@@ -356,7 +356,7 @@ success_msg("Wunderbar", praise = FALSE)
 
 ---
 
-## Matrix 
+## Matrix
 
 ```yaml
 type: NormalExercise

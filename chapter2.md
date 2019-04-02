@@ -75,7 +75,7 @@ key: cac9b34188
 xp: 100
 ```
 
-Schaue Dir die Daten zuerst an und verschaffe Dir einen Überblick, was an Datentypen und Werten vorliegt. 
+Schaue Dir die Daten zuerst an und verschaffe Dir einen Überblick, was an Datentypen und Werten vorliegt.
 
 `@pre_exercise_code`
 ```{r}
