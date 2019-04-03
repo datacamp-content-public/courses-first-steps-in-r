@@ -342,12 +342,10 @@ Beachten Sie, wie die Anführungszeichen auf der rechten Seite zeigen, dass "ein
 
 `@instructions`
 Ändern Sie die Werte von:
-
  1. Variable my_numeric zu 13.
  2. Variable my_character zu "universe". Beachten Sie, dass die Anführungszeichen zeigen, 
  	dass "universe" ein Zeichen ist.
- 3. Variable my_logical zu FALSE.
-    
+ 3. Variable my_logical zu FALSE.   
 Beachten Sie in R die Groß- und Kleinschreibung.
 
 `@hint`
