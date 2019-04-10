@@ -39,6 +39,7 @@ Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Imp
 Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten aus Exceltabellen und csv-Dateien zu importieren, gibt es zwei gängige Methoden: 
 
 1) read.csv 	(Komma 		(,) separierte Dateien)
+
 2) read.csv2 	(Semikolon  (;) separierte Dateien)
 
 Zuerst lese das zu bearbeitende Datenset "Verkaufsdaten" ein. (Auszug hier der Datei)
@@ -80,6 +81,81 @@ xp: 100
 Schaue Dir die Daten zuerst an und verschaffe Dir einen Überblick, was an Datentypen und Werten vorliegt.
 
 `@pre_exercise_code`
+```{r}
+ShowerPath <- "https://assets.datacamp.com/production/repositories/4810/datasets/92686befd7e2045e704ac3f441df3e5ddddbd2f4/Shower_data.csv"
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: f5a76cb84c
+xp: 100
+```
+
+`@instructions`
+Wie viele Zeilen gibt es? Wie viele Spalten sind im Datensatz vorhanden?
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: TabExercise
+key: adaa725c93
+xp: 100
+```
+
+
+
+`@pre_exercise_code`
+```{r}
+Shower <- read.csv2("../data/Shower_data.csv")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 2d24f8f943
+xp: 100
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
 ```{r}
 
 ```

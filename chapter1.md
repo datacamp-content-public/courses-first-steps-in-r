@@ -136,9 +136,9 @@ Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
 #2 Subtraktion
 170
 #3 Multiplikation
-222
-#4 Division
 13098
+#4 Division
+155
 #5 Potenzierung
 32
 #6 Modulo
@@ -147,7 +147,10 @@ Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("5+12", "12+5"), fixed = TRUE)
+codeaddition <- c("23+46", "23+46")
+codesubtraktion <- c("234-64")
+codemultiplikation <- c("222*59")
+ex() %>% check_code(c(codeaddition, codesubtraktion, codemultiplikation), fixed = TRUE)
 success_msg("Nice work! Hast du richtig gut gemacht!")
 ```
 
