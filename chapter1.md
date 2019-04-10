@@ -35,7 +35,7 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@hint`
 1. Fügen Sie eine Zeile R-Code ein, die die Summe von 6 und 12 berechnet, genau wie im Beispielcode demonstriert.
-2. Stellen Sie sicher, dass Sie '6 + 12' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird Ihr Code nicht ausgeführt!!
+2. Stellen Sie sicher, dass Sie '6 + 12' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird Ihr Code nicht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@pre_exercise_code`
 ```{r}
@@ -333,8 +333,8 @@ Basisdatentypen in R
 
    R arbeitet mit zahlreichen Datentypen. Einige der grundlegendsten Datentypen sind:
    
-   Dezimalwerte, wie 4.5 werden auch 'numerics' (Numerik) genannt.
-   Natürliche Zahlen, wie 4, heißen auch 'integers' (Ganze Zahlen). Ganze Zahlen sind auch Numerik.
+   Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('integers'). Ganze Zahlen sind auch Numerik.
+   Dezimalwerte, wie 4.5 werden auch Numerik ('numerics') genannt.
    Boolesche Werte (TRUE oder FALSE) werden auch 'logical' (logisch) genannt.
    Text- (oder String-) Werte werden auch als 'characters' (Zeichen) bezeichnet.
    

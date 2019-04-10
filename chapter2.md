@@ -31,6 +31,8 @@ Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt a
 
 (Quelle: Wickham/Grolemund 2018, S.XI)
 
+![1](https://assets.datacamp.com/production/repositories/4810/datasets/7da83df34940ea84c60793cd8a39b10fa91808f4/CRISP-DM.jpg)
+
 `@instructions`
 Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Importieren der Datensätze loslegen. 
 
