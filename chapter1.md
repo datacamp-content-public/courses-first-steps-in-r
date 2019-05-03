@@ -30,12 +30,12 @@ skills: 1
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
-- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
-- Fügen Sie eine Codezeile hinzu, die die Summe von 14 und 32 berechnet und klicken Sie auf "Submit Answer" (Antwort abschicken).
+- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachte, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
+- Füge bitte zuerst eine Codezeile hinzu, die die Summe von 14 und 32 berechnet und klicke danach auf "Submit Answer" (Antwort abschicken).
 
 `@hint`
-1. Fügen Sie eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
-2. Stellen Sie sicher, dass Sie '14 + 32' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird Ihr Code nicht ausgeführt, da damit Kommentare gekennzeichnet werden!
+1. Füge eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
+2. Stelle sicher, dass Du '14 + 32' in einer neuen Zeile eingefügt hast. Starte die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@pre_exercise_code`
 ```{r}
@@ -46,12 +46,14 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 ```{r}
 # Addition 67+78
 67+78
-# Ihre Lösung
+# Ihre Lösung für die zweite Addition
 
 ```
 
 `@solution`
 ```{r}
+67+78
+
 14+32
 ```
 
@@ -73,7 +75,7 @@ xp: 100
 ```
 
 Rechnen mit R:
-In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	
+In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachte folgende Rechenoperatoren:	
 	
     Addition: +
     Subtraktion: -
@@ -84,10 +86,10 @@ In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden
 
 Die letzten beiden Operatoren benötigen eine Erklärung:
 
-	Der ^ Operator steigert die linke Zahl durch die Größe der rechten Zahl, es ist die Potenz: Zum Beispiel 4^2 ist 16.
-    Der Operator Modulo liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 Modulo 2 oder 7 %% 2 ist 1.
+	Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: Zum Beispiel 4^2 ist 16.
+    Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 %% 2 ist 1.
 
-Behalten Sie diese Informationen im Hinterkopf und befolgen Sie die nachstehenden Anweisungen, um die Übung abzuschließen.
+Behalte diese Informationen im Hinterkopf und befolge sie in den nachstehenden Aufgaben, um die Übung erfolgreich abzuschließen.
 
 `@instructions`
 1. Summieren Sie die Zahlen 23 46
@@ -97,8 +99,8 @@ Behalten Sie diese Informationen im Hinterkopf und befolgen Sie die nachstehende
 5. Potenzieren Sie 2 hoch 5
 6. Berechnen Sie 28 Modulo 6.
     
-Klicken Sie auf 'Submit Answer' und schauen Sie sich die R-Ausgabe in der Konsole an. 
-Beachten Sie, wie das '#' Symbol in den R-Codes verwendet wird. (Damit sind Kommentare gekennzeichnet.)
+Klicke nach dem Programmieren auf 'Submit Answer' und schaue Dir die R-Ausgabe in der Konsole an. 
+Beachte, wie das '#' Symbol in den R-Codes verwendet wird.
 
 `@hint`
 Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
@@ -157,83 +159,6 @@ codesubtraktion <- c("234-64")
 codemultiplikation <- c("222*59")
 ex() %>% check_code(c(codeaddition, codesubtraktion, codemultiplikation), fixed = TRUE)
 success_msg("Gute Arbeit! Hast du richtig gut gemacht!")
-```
-
----
-
-## Insert exercise title here
-
-```yaml
-type: TabExercise
-key: f427f55a6b
-xp: 100
-```
-
-Rechnen mit R
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: 8aca41b2ae
-xp: 50
-```
-
-`@instructions`
-1. Summieren Sie die Zahlen 23 mit 46.
-
-`@hint`
-Benutze das script.R wie deinen Taschenrechner
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-69
-```
-
-`@sct`
-```{r}
-ex() %>% check_code(c("23+46", "46+23"), fixed = TRUE)
-success_msg("Richtig!", praise = FALSE)
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: b62ad32841
-xp: 50
-```
-
-`@instructions`
-Ziehen Sie von der Zahl 234 64 ab.
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-170
-```
-
-`@sct`
-```{r}
-ex() %>% check_code(c("234-64"), fixed = TRUE)
-success_msg("Richtig!", praise = FALSE)
 ```
 
 ---
@@ -308,6 +233,8 @@ Basisdatentypen:
    Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
    Boolesche Werte (TRUE oder FALSE) werden auch als 'logicals' bezeichnet.
    Text-(oder String-)Werte werden als Zeichen ('characters') benannt und Texte werden in **"**Anführungszeichen**"** gesetzt.
+   
+   Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
   
 
 `@instructions`
@@ -318,8 +245,13 @@ Basisdatentypen:
  4. Variable my_logical zu FALSE.
 
 `@hint`
-Ersetzen Sie die Werte im Editor mit den Werten, die bei der Anweisung vorgegeben sind. 
+```
+1. Kommen Sie, einfach die Variable reinschreiben oder mit dem Operator print(Variable) ausgeben lassen.
+```
+```
+2. Ersetzen Sie die Werte im Editor mit den Werten, die bei der Anweisung vorgegeben sind. 
 Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweisen.
+```
 
 `@pre_exercise_code`
 ```{r}
@@ -389,7 +321,7 @@ Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 ```{r}
 # Erstelle einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
 
-# Berechne den Durschnnitt von dem vorher angelegten Vektor.
+# Berechne den Durschnitt (arithmetisches Mittel) von dem vorher angelegten Vektor. Beachte, der Code ist immer im Englischen zu schreiben.
 
 ```
 
@@ -412,7 +344,7 @@ success_msg("Top. Gut programmiert", praise = FALSE)
 
 ---
 
-## Matrix
+## (Matrizen)
 
 ```yaml
 type: NormalExercise
@@ -420,7 +352,7 @@ key: 3e48f500af
 xp: 100
 ```
 
-ggf. Matrix hier einfügen
+
 
 `@instructions`
 
@@ -458,12 +390,11 @@ key: 35f2e90e22
 xp: 100
 ```
 
-Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die wir aufgrund der Kürze der Einführung in diesem Kurs überspringen.
+Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die wir aufgrund der Kürze der Einführung in diesem Kurs überspringen. Nun kommen wir direkt zu den Data Frames
 
 **Data Frames:**
 Der Datensatz des folgenden Unternehmens der aus der Datenbank des Informationssystem stammt, enthält den Namen der Verkaufsgegenstände, den jeweiligen Preis, die Absatzmenge pro Quartal, für welche Kundenart er verkauft wurde. In eine Matrix bekommen Sie diese Daten nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt heißt in R (data frame). 
-
-(Ggf. noch ändern: De Vries/Meys 2018, S.146)
+(Quelle: De Vries/Meys 2018, S.146)
 
 `@instructions`
 
@@ -473,7 +404,7 @@ Der Datensatz des folgenden Unternehmens der aus der Datenbank des Informationss
 
 `@pre_exercise_code`
 ```{r}
-
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/dataMay-3-2019.csv")
 ```
 
 `@sample_code`
