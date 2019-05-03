@@ -36,7 +36,7 @@ Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt a
 `@instructions`
 Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Importieren der Datensätze loslegen. 
 
-Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten aus Exceltabellen und csv-Dateien zu importieren, gibt es zwei gängige Methoden: 
+Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten aus Exceltabellen und csv-Dateien zu importieren, gibt es zwei gängige Möglichkeiten: 
 
 1) read.csv 	(Komma 		(,) separierte Dateien)
 

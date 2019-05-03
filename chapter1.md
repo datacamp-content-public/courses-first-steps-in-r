@@ -30,12 +30,12 @@ skills: 1
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
-- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Erkennen Sie, welche Linien tatsächlich die R Codes und welche Linien 	die Kommentare sind?
-- Fügen Sie eine Codezeile hinzu, die die Summe von 6 und 12 berechnet und klicken Sie auf den Button "Antwort abschicken".
+- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
+- Fügen Sie eine Codezeile hinzu, die die Summe von 14 und 32 berechnet und klicken Sie auf "Submit Answer" (Antwort abschicken).
 
 `@hint`
-1. Fügen Sie eine Zeile R-Code ein, die die Summe von 6 und 12 berechnet, genau wie im Beispielcode demonstriert.
-2. Stellen Sie sicher, dass Sie '6 + 12' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird Ihr Code nicht ausgeführt, da damit Kommentare gekennzeichnet werden!
+1. Fügen Sie eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
+2. Stellen Sie sicher, dass Sie '14 + 32' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird Ihr Code nicht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@pre_exercise_code`
 ```{r}
@@ -44,17 +44,22 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@sample_code`
 ```{r}
-6+12
+# Addition 67+78
+67+78
+# Ihre Lösung
+
 ```
 
 `@solution`
 ```{r}
-6+12
+14+32
 ```
 
 `@sct`
 ```{r}
-success_msg("Sehr gut")
+codeaddition <- c("14+32", "32+14")
+ex() %>% check_code(c(codeaddition), fixed = TRUE)
+success_msg("Sie sehen das Ergebnis in der Console. Sehr gut gemacht.")
 ```
 
 ---
@@ -79,7 +84,7 @@ In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden
 
 Die letzten beiden Operatoren benötigen eine Erklärung:
 
-    Der ^ Operator steigert die linke Zahl durch die Größe der rechten Zahl, es ist die Potenz: Zum Beispiel 4^2 ist 16.
+	Der ^ Operator steigert die linke Zahl durch die Größe der rechten Zahl, es ist die Potenz: Zum Beispiel 4^2 ist 16.
     Der Operator Modulo liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 Modulo 2 oder 7 %% 2 ist 1.
 
 Behalten Sie diese Informationen im Hinterkopf und befolgen Sie die nachstehenden Anweisungen, um die Übung abzuschließen.
@@ -151,7 +156,7 @@ codeaddition <- c("23+46", "23+46")
 codesubtraktion <- c("234-64")
 codemultiplikation <- c("222*59")
 ex() %>% check_code(c(codeaddition, codesubtraktion, codemultiplikation), fixed = TRUE)
-success_msg("Nice work! Hast du richtig gut gemacht!")
+success_msg("Gute Arbeit! Hast du richtig gut gemacht!")
 ```
 
 ---
@@ -233,45 +238,6 @@ success_msg("Richtig!", praise = FALSE)
 
 ---
 
-## Test für das Abfangen der Fehllösungen
-
-```yaml
-type: NormalExercise
-key: 79b661d576
-xp: 100
-```
-
-
-
-`@instructions`
-5 + 12
-
-`@hint`
-Auf geht´s - nimm es leicht, einfach eintippen, wie im eigenen Taschenrechner
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-# Rechnung hier eintragen
-```
-
-`@solution`
-```{r}
-17
-```
-
-`@sct`
-```{r}
-ex() %>% check_code(c("5+12", "12+5"), fixed = TRUE)
-success_msg("Super!", praise = FALSE)
-```
-
----
-
 ## Variablenzuweisung
 
 ```yaml
@@ -284,17 +250,17 @@ Variablenzuweisung
 
 Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
 
-Eine Variable ermöglicht es Ihnen, einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
+Eine Variable ermöglicht es Ihnen einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
 
-Sie können der Variable my_var den Wert 4 zuweisen.
-
-my_var <- 4
+So können Sie der Variable my_var den Wert 4 zuweisen.
 
 `@instructions`
-Ihre Aufgabe: Vervollständigen Sie den Code im Editor, sodass der Variable x der Wert 42 zugeordnet wird. Schicken Sie Ihre Antwort ab. Beachten Sie: Wenn Sie R nach x fragen, wird der Wert 42 angezeigt.
+Ihre Aufgabe: 
+Vervollständigen Sie den Code im Editor, sodass der Variable x der Wert 42 zugeordnet wird. Schicken Sie Ihre Antwort ab. 
+Beachten Sie: Wenn Sie R nach x fragen, wird der Wert angezeigt.
 
 `@hint`
-Der Variable my_var wurde jetzt im Beispiel der Wert 4 zugeteilt. Machen Sie genau das Gleiche im Editor, aber statt dem Wert 4 ordnen Sie der Variable x den Wert 42 zu.
+Der Variable my_var wurde jetzt im Beispiel der Wert 4 zugeteilt. Orientieren Sie sich einfach daran.
 
 `@pre_exercise_code`
 ```{r}
@@ -306,6 +272,7 @@ Der Variable my_var wurde jetzt im Beispiel der Wert 4 zugeteilt. Machen Sie gen
 # Weisen Sie x den Wert 42 zu
 
 # Geben Sie den Wert der Variable x aus
+
 ```
 
 `@solution`
@@ -318,7 +285,9 @@ x
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("x <- 42"), fixed = TRUE)
+codezuweisung <- c(x <- 42)
+printcode <- c(x, print(x))
+ex() %>% check_code(c(codezuweisung, printcode), fixed = TRUE)
 success_msg("Gut gemacht!", praise = FALSE)
 ```
 
@@ -332,37 +301,37 @@ key: bd7572143c
 xp: 100
 ```
 
-Basisdatentypen in R
-
-   R arbeitet mit zahlreichen Datentypen. Einige der grundlegendsten Datentypen sind:
+Basisdatentypen:
+   R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
    
-   Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('integers'). Ganze Zahlen sind auch Numerik.
-   Dezimalwerte, wie 4.5 werden auch Numerik ('numerics') genannt.
-   Boolesche Werte (TRUE oder FALSE) werden auch 'logical' (logisch) genannt.
-   Text- (oder String-) Werte werden auch als 'characters' (Zeichen) bezeichnet.
-   
-Beachten Sie, wie die Anführungszeichen auf der rechten Seite zeigen, dass "einige Texte" ein Zeichen sind.
+   Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers'). Ganze Zahlen sind auch numerische Zahlen ('Numerics').
+   Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
+   Boolesche Werte (TRUE oder FALSE) werden auch als 'logicals' bezeichnet.
+   Text-(oder String-)Werte werden als Zeichen ('characters') benannt und Texte werden in **"**Anführungszeichen**"** gesetzt.
+  
 
 `@instructions`
 Ändern Sie die Werte von:
- 1. Variable my_numeric zu 13.
- 2. Variable my_character zu "universe". Beachten Sie, dass die Anführungszeichen zeigen, 
- 	dass "universe" ein Zeichen ist.
- 3. Variable my_logical zu FALSE.   
-Beachten Sie in R die Groß- und Kleinschreibung.
+ 1. Geben Sie den Wert von my_numeric aus.
+ 2. Variable my_numeric zu 13.
+ 3. Variable my_character zu "universe". Beachten Sie den Datentyp.
+ 4. Variable my_logical zu FALSE.
 
 `@hint`
-Ersetzen Sie die Werte im Editor mit den Werten, die bei der Übung vorgesehen sind. 
+Ersetzen Sie die Werte im Editor mit den Werten, die bei der Anweisung vorgegeben sind. 
 Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweisen.
 
 `@pre_exercise_code`
 ```{r}
+my_numeric <- 3
 
 ```
 
 `@sample_code`
 ```{r}
-# Verändern Sie my_numeric zu 42
+# Welchen Wert hat my_numeric
+
+# Verändern Sie my_numeric zu 54
 
 # Verändern Sie my_character zu "universe"
 
@@ -372,12 +341,24 @@ Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweis
 
 `@solution`
 ```{r}
-
+# Welchen Wert hat my_numeric
+print(my_numeric)
+# Verändern Sie my_numeric zu 42
+my_numeric <- 54
+# Verändern Sie my_character zu "universe"
+my_character <- "universe"
+# Verändern Sie my_logical zu FALSE
+my_logical <- FALSE
 ```
 
 `@sct`
 ```{r}
-
+codewert <- c("print(my_numeric)", "my_numeric")
+codezuweisung <- c("my_numeric <- 54")
+character <- c("my_character <- universe")
+boolean <- c("my_logical <- FALSE")
+ex() %>% check_code(c(codewert, codezuweisung, character, boolean), fixed = TRUE)
+success_msg("Gute Arbeit - so langsam werden Sie warm ;)! Sehr gut gemacht!")
 ```
 
 ---
@@ -390,12 +371,11 @@ key: bd8c85316c
 xp: 100
 ```
 
-
+Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 
 `@instructions`
-1. Create a vector called my_vect containing 1 through 5.
-2. Take the mean of my_vect and assign it to a variable named my_mean. Use the mean() function.
-3. Use my_mean to compute the sum of squares of my_vect. Use the sum() function.
+1. Erstelle einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
+2. Berechne den Durschnitt des Vektors my_vec und weise ihm den Namen my_mean zu.
 
 `@hint`
 
@@ -407,30 +387,27 @@ xp: 100
 
 `@sample_code`
 ```{r}
-# Create a vector called my_vect containing 1 through 5
+# Erstelle einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
 
-# Take the mean and assign to my_mean
-
-# Use my_mean to compute the sum of squares of my_vect
+# Berechne den Durschnnitt von dem vorher angelegten Vektor.
 
 ```
 
 `@solution`
 ```{r}
-# Create a vector called my_vect containing 1 through 5
+# Erstelle einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
 my_vect <- c(1,2,3,4,5)
 
-# Take the mean and assign to my_mean
+# Berechne den Durschnnitt von dem vorher angelegten Vektor.
 my_mean <- mean(my_vect)
-
-# Use my_mean to compute the sum of squares of my_vect
-sum((my_vect - my_mean)^2)
 ```
 
 `@sct`
 ```{r}
-
-success_msg("Wunderbar", praise = FALSE)
+vektor <- c("my_vect <- c(1,2,3,4,5)", "my_vect <- c(1:5)")
+mean <- c("my_mean <- mean(my_vect)")
+ex() %>% check_code(c(vektor, mean), fixed = TRUE)
+success_msg("Top. Gut programmiert", praise = FALSE)
 ```
 
 ---
@@ -481,12 +458,12 @@ key: 35f2e90e22
 xp: 100
 ```
 
-Bislang war immer von ein Vektor die Rede. Des Weiteren gibt es noch Matrizen, die wir aufgrund der Einführung in diesem Kurs weglassen werden.
+Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die wir aufgrund der Einführung in diesem Kurs weglassen werden.
 
 **Data Frames:**
 Der Datensatz des folgenden Unternehmens der aus der Datenbank des Informationssystem stammt, enthält den Namen der Verkaufsgegenstände, den jeweiligen Preis, die Absatzmenge pro Quartal, für welche Kundenart er verkauft wurde. In eine Matrix bekommen Sie diese Daten nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt heißt in R (data frame). 
 
-(ggf. noch ändern: de Vries/Meys 2018, S.146)
+(Ggf. noch ändern: De Vries/Meys 2018, S.146)
 
 `@instructions`
 
