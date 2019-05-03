@@ -358,7 +358,7 @@ codezuweisung <- c("my_numeric <- 54")
 character <- c("my_character <- universe")
 boolean <- c("my_logical <- FALSE")
 ex() %>% check_code(c(codewert, codezuweisung, character, boolean), fixed = TRUE)
-success_msg("Gute Arbeit - so langsam werden Sie warm ;)! Sehr gut gemacht!")
+success_msg("Gute Arbeit - so langsam werden Sie warm ;)!", praise = FALSE)
 ```
 
 ---
@@ -374,8 +374,8 @@ xp: 100
 Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 
 `@instructions`
-1. Erstelle einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
-2. Berechne den Durschnitt des Vektors my_vec und weise ihm den Namen my_mean zu.
+1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
+2. Berechnen Sie den Durschnitt des Vektors my_vec und weise Sie ihm den Namen my_mean zu.
 
 `@hint`
 
@@ -396,17 +396,17 @@ Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 `@solution`
 ```{r}
 # Erstelle einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
-my_vect <- c(1,2,3,4,5)
+my_vec <- c(1,2,3,4,5)
 
 # Berechne den Durschnnitt von dem vorher angelegten Vektor.
-my_mean <- mean(my_vect)
+my_mean <- mean(my_vec)
 ```
 
 `@sct`
 ```{r}
-vektor <- c("my_vect <- c(1,2,3,4,5)", "my_vect <- c(1:5)")
-mean <- c("my_mean <- mean(my_vect)")
-ex() %>% check_code(c(vektor, mean), fixed = TRUE)
+vector <- c("my_vec <- c(1,2,3,4,5)", "my_vec <- c(1:5)")
+mean <- c("my_mean <- mean(my_vec)")
+ex() %>% check_code(c(vector, mean), fixed = TRUE)
 success_msg("Top. Gut programmiert", praise = FALSE)
 ```
 
@@ -458,7 +458,7 @@ key: 35f2e90e22
 xp: 100
 ```
 
-Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die wir aufgrund der Einführung in diesem Kurs weglassen werden.
+Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die wir aufgrund der Kürze der Einführung in diesem Kurs überspringen.
 
 **Data Frames:**
 Der Datensatz des folgenden Unternehmens der aus der Datenbank des Informationssystem stammt, enthält den Namen der Verkaufsgegenstände, den jeweiligen Preis, die Absatzmenge pro Quartal, für welche Kundenart er verkauft wurde. In eine Matrix bekommen Sie diese Daten nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt heißt in R (data frame). 
