@@ -237,8 +237,8 @@ Basisdatentypen:
    Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
 
 `@instructions`
-Ändern Sie die Werte von:
- 1. Geben Sie den Wert von my_numeric aus.
+1. Geben Sie den Wert von my_numeric aus.
+ Ändern Sie die Werte von:
  2. Variable my_numeric zu 13.
  3. Variable my_character zu "universe". Beachten Sie den Datentyp.
  4. Variable my_logical zu FALSE.
