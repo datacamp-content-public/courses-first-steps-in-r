@@ -103,7 +103,8 @@ Klicken Sie nach dem Programmieren auf 'Submit Answer' und schauen Sie sich die 
 Beachten Sie, wie das '#' Symbol in den R-Codes verwendet wird.
 
 `@hint`
-Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
+1. Achten Sie bitte auf die richtigen Operatoren und mögliche Tippfehler, da diese als Fehler ausgegeben werden.
+2. Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
 
 `@pre_exercise_code`
 ```{r}
