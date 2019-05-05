@@ -211,10 +211,10 @@ x
 
 `@sct`
 ```{r}
-codezuweisung <- c(x <- 42)
-printcode <- c(x, print(x))
-ex() %>% check_code(c(codezuweisung, printcode), fixed = TRUE)
-success_msg("Gut gemacht!", praise = FALSE)
+zuweisung <- c("x <- 42")
+ausgabe <- c("print(x)", "x")
+ex() %>% check_code(c(zuweisung, ausgabe), fixed = TRUE)
+success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
 ---
