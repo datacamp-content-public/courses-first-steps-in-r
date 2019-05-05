@@ -305,7 +305,7 @@ Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
-2. Berechnen Sie den Durchnitt des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
+2. Berechnen Sie den Durchnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
 
 `@hint`
 
@@ -319,7 +319,7 @@ Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 ```{r}
 # Erstellen Sie einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
 
-# Berechnen Sie den Durchnitt (arithmetisches Mittel) von dem vorher angelegten Vektor. Beachte, der Code ist immer im Englischen zu schreiben.
+# Berechnen Sie den Durchnitt (arithmetisches Mittel) von dem vorher angelegten Vektor. Beachten Sie, der Code ist immer im Englischen zu schreiben.
 
 ```
 
