@@ -283,7 +283,7 @@ my_logical <- FALSE
 
 `@sct`
 ```{r}
-codewert <- c("print(my_numeric)", "my_numeric")
+codewert <- c(print(my_numeric), "my_numeric")
 codezuweisung <- c("my_numeric <- 54")
 character <- c("my_character <- universe")
 boolean <- c("my_logical <- FALSE")
