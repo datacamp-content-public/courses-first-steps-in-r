@@ -235,7 +235,6 @@ Basisdatentypen:
    Text-(oder String-)Werte werden als Zeichen ('characters') benannt und Texte werden in **"**Anführungszeichen**"** gesetzt.
    
    Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
-  
 
 `@instructions`
 Ändern Sie die Werte von:
