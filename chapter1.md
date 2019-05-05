@@ -229,7 +229,7 @@ xp: 100
 Basisdatentypen:
    R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
    
-   Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers'). Ganze Zahlen sind auch numerische Zahlen ('Numerics').
+   Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers').-(Numerics auch anfügen?)
    Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
    Boolesche Werte (TRUE oder FALSE) werden auch als 'logicals' bezeichnet.
    Text-(oder String-)Werte werden als Zeichen ('characters') benannt und Texte werden in **"**Anführungszeichen**"** gesetzt.
@@ -285,17 +285,17 @@ my_logical <- FALSE
 
 `@sct`
 ```{r}
-codewert <- c("print(my_numeric)", "my_numeric")
-codezuweisung <- c("my_numeric <- 54")
-character <- c("my_character <- universe")
-boolean <- c("my_logical <- FALSE")
+codewert <- c(print(my_numeric), my_numeric)
+codezuweisung <- c(my_numeric <- 54)
+character <- c(my_character <- "universe")
+boolean <- c(my_logical <- FALSE)
 ex() %>% check_code(c(codewert, codezuweisung, character, boolean), fixed = TRUE)
 success_msg("Gute Arbeit - so langsam werden Sie warm ;)!", praise = FALSE)
 ```
 
 ---
 
-## Erstelle einen Vektors
+## Erstellen eines Vektors
 
 ```yaml
 type: NormalExercise
