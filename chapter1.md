@@ -231,7 +231,7 @@ R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibun
 Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers').-(Numerics auch anfügen?)
 Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
 Boolesche Werte (TRUE oder FALSE) werden auch als 'logicals' bezeichnet.
-Text-(oder String-)Werte werden als Zeichen ('characters') benannt und Texte werden in **"Anführungszeichen"** gesetzt.
+Text-(oder String-)Werte werden als Zeichen ('characters') benannt und Texte werden in "Anführungszeichen" gesetzt.
 ```
  Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
 
