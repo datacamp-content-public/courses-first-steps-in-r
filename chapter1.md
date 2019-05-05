@@ -305,7 +305,7 @@ Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
-2. Berechnen Sie den Durschnitt des Vektors my_vec und weise Sie ihm den Namen my_mean zu.#
+2. Berechnen Sie den Durschnitt des Vektors my_vec und weise Sie ihm den Namen my_mean zu.
 
 `@hint`
 
