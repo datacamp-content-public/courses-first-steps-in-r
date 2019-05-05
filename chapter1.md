@@ -255,7 +255,6 @@ Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweis
 `@pre_exercise_code`
 ```{r}
 my_numeric <- 3
-
 ```
 
 `@sample_code`
@@ -306,7 +305,7 @@ Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
-2. Berechnen Sie den Durschnitt des Vektors my_vec und weise Sie ihm den Namen my_mean zu.
+2. Berechnen Sie den Durschnitt des Vektors my_vec und weise Sie ihm den Namen my_mean zu.#
 
 `@hint`
 
