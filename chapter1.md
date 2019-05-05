@@ -228,7 +228,7 @@ xp: 100
 
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
 ```
-Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers').-(Numerics auch anfügen?)
+Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers').
 Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
 Boolesche Werte (TRUE oder FALSE) werden auch als 'logicals' bezeichnet.
 Text-(oder String-)Werte werden als Zeichen ('characters') benannt und Texte werden in "Anführungszeichen" gesetzt.
