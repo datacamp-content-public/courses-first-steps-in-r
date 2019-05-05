@@ -30,12 +30,12 @@ skills: 1
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
-- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachte, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
-- Füge bitte zuerst eine Codezeile hinzu, die die Summe von 14 und 32 berechnet und klicke danach auf "Submit Answer" (Antwort abschicken).
+- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
+- Fügen Sie bitte zuerst eine Codezeile hinzu, die die Summe von 14 und 32 berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken).
 
 `@hint`
-1. Füge eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
-2. Stelle sicher, dass Du '14 + 32' in einer neuen Zeile eingefügt hast. Starte die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
+1. Fügen Sie bitte eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
+2. Stellen Sie sicher, dass Sie '14 + 32' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@pre_exercise_code`
 ```{r}
@@ -89,7 +89,7 @@ Die letzten beiden Operatoren benötigen eine Erklärung:
 	Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: Zum Beispiel 4^2 ist 16.
     Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 %% 2 ist 1.
 
-Behalte diese Informationen im Hinterkopf und befolge sie in den nachstehenden Aufgaben, um die Übung erfolgreich abzuschließen.
+Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachstehenden Aufgaben, um die Übung erfolgreich abzuschließen.
 
 `@instructions`
 1. Summieren Sie die Zahlen 23 46
@@ -99,8 +99,8 @@ Behalte diese Informationen im Hinterkopf und befolge sie in den nachstehenden A
 5. Potenzieren Sie 2 hoch 5
 6. Berechnen Sie 28 Modulo 6.
     
-Klicke nach dem Programmieren auf 'Submit Answer' und schaue Dir die R-Ausgabe in der Konsole an. 
-Beachte, wie das '#' Symbol in den R-Codes verwendet wird.
+Klicken Sie nach dem Programmieren auf 'Submit Answer' und schauen Sie sich die R-Ausgabe in der Konsole an. 
+Beachten Sie, wie das '#' Symbol in den R-Codes verwendet wird.
 
 `@hint`
 Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
@@ -175,13 +175,13 @@ Variablenzuweisung
 
 Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
 
-Eine Variable ermöglicht es Ihnen einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
+Eine Variable ermöglicht es einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
 
 So können Sie der Variable my_var den Wert 4 zuweisen.
 
 `@instructions`
 Ihre Aufgabe: 
-Vervollständigen Sie den Code im Editor, sodass der Variable x der Wert 42 zugeordnet wird. Schicken Sie Ihre Antwort ab. 
+Vervollständigen Sie bitte den Code im Editor, sodass der Variable x der Wert 42 zugeordnet wird. Schicken Sie dann die Antwort ab. 
 Beachten Sie: Wenn Sie R nach x fragen, wird der Wert angezeigt.
 
 `@hint`
@@ -305,7 +305,7 @@ Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
-2. Berechnen Sie den Durschnitt des Vektors my_vec und weise ihm dem Namen my_mean zu.
+2. Berechnen Sie den Durchnitt des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
 
 `@hint`
 
@@ -317,18 +317,18 @@ Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 
 `@sample_code`
 ```{r}
-# Erstelle einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
+# Erstellen Sie einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
 
-# Berechne den Durschnitt (arithmetisches Mittel) von dem vorher angelegten Vektor. Beachte, der Code ist immer im Englischen zu schreiben.
+# Berechnen Sie den Durchnitt (arithmetisches Mittel) von dem vorher angelegten Vektor. Beachte, der Code ist immer im Englischen zu schreiben.
 
 ```
 
 `@solution`
 ```{r}
-# Erstelle einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
+# Erstellen Sie einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
 my_vec <- c(1,2,3,4,5)
 
-# Berechne den Durschnnitt von dem vorher angelegten Vektor.
+# Berechnen Sie den Durschnnitt von dem vorher angelegten Vektor.
 my_mean <- mean(my_vec)
 ```
 
