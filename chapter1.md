@@ -233,7 +233,7 @@ Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
 Boolesche Werte (TRUE oder FALSE) werden auch als 'logicals' bezeichnet.
 Text-(oder String-)Werte werden als Zeichen ('characters') benannt und Texte werden in "Anführungszeichen" gesetzt.
 ```
- Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
+Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
 
 `@instructions`
 1. Geben Sie den Wert von my_numeric aus.
