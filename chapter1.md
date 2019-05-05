@@ -75,7 +75,7 @@ xp: 100
 ```
 
 Rechnen mit R:
-In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachte folgende Rechenoperatoren:	
+In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	
 	
     Addition: +
     Subtraktion: -
