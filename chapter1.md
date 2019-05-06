@@ -244,7 +244,7 @@ Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
  
 Ändern Sie die Werte von:
  2. Variable my_numeric zu 13.
- 3. Variable my_character zu "universe". Beachten Sie den Datentyp.
+ 3. Variable my_character zu "universe".
  4. Variable my_logical zu FALSE.
 
 `@hint`
