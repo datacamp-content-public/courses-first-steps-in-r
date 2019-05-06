@@ -97,7 +97,7 @@ Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachs
 3. Multiplizieren Sie die Zahlen 222 und 59
 4. Dividieren Sie 465 durch 3
 5. Potenzieren Sie 2 hoch 5
-6. Berechnen Sie 28 Modulo 6.
+6. Berechnen Sie 119 Modulo 13.
     
 Klicken Sie nach dem Programmieren auf 'Submit Answer' und schauen Sie sich die R-Ausgabe in der Konsole an. 
 Beachten Sie, wie das '#' Symbol in den R-Codes verwendet wird.
@@ -150,7 +150,7 @@ Beachten Sie, wie das '#' Symbol in den R-Codes verwendet wird.
 #5 Potenzierung
 32
 #6 Modulo
-4
+2
 ```
 
 `@sct`
@@ -158,7 +158,10 @@ Beachten Sie, wie das '#' Symbol in den R-Codes verwendet wird.
 codeaddition <- c("23+46", "23+46")
 codesubtraktion <- c("234-64")
 codemultiplikation <- c("222*59")
-ex() %>% check_code(c(codeaddition, codesubtraktion, codemultiplikation), fixed = TRUE)
+codedivision <- c("465/3")
+codepotenzierung <- c("2^5", "2*2*2*2*2")
+codemodulo <- c("119%%13", "119-9*13")
+ex() %>% check_code(c(codeaddition, codesubtraktion, codemultiplikation, codedivision, codepotenzierung, codemodulo), fixed = TRUE)
 success_msg("Gute Arbeit! Hast du richtig gut gemacht!")
 ```
 
