@@ -302,7 +302,8 @@ key: bd8c85316c
 xp: 100
 ```
 
-Hier Beschreibung von Vektoren und Sinnhaftigkeit!
+Hier Beschreibung von Vektoren und Einsatzmöglichkeiten
+
 
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
@@ -329,7 +330,7 @@ Hier Beschreibung von Vektoren und Sinnhaftigkeit!
 # Erstellen Sie einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
 my_vec <- c(1,2,3,4,5)
 
-# Berechnen Sie den Durschnnitt von dem vorher angelegten Vektor.
+# Berechnen Sie den Durchnitt von dem vorher angelegten Vektor.
 my_mean <- mean(my_vec)
 ```
 
