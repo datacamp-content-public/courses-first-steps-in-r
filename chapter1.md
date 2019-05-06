@@ -609,7 +609,7 @@ Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes t
 
 `@pre_exercise_code`
 ```{r}
-"Kundendaten" <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/dataMay-3-2019.csv")
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/dataMay-3-2019.csv")
 ```
 
 `@sample_code`
