@@ -167,6 +167,208 @@ success_msg("Gute Arbeit! Hast du richtig gut gemacht!")
 
 ---
 
+## Rechnen mit R
+
+```yaml
+type: TabExercise
+key: eb3ada4691
+xp: 100
+```
+
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: f3ad798fa3
+xp: 20
+```
+
+`@instructions`
+Summieren Sie die Zahlen 23 und 46
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Summieren Sie die Zahlen 23 und 46
+
+```
+
+`@solution`
+```{r}
+
+23+46
+```
+
+`@sct`
+```{r}
+codeaddition <- c("23+46", "23+46")
+ex() %>% check_code(c(codeaddition), fixed = TRUE)
+success_msg("Richtig, weiter geht es!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: dfd9aea716
+xp: 20
+```
+
+`@instructions`
+2. Ziehen Sie von der Zahl 2345 87 ab.
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Ziehen Sie von der Zahl 2345 87 ab.
+
+```
+
+`@solution`
+```{r}
+2345-87
+```
+
+`@sct`
+```{r}
+codesubstraktion <- c("2345-87")
+ex() %>% check_code(c(codesubstraktion), fixed = TRUE)
+success_msg("Richtig und die nächste Aufgabe!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 33bebf536a
+xp: 20
+```
+
+`@instructions`
+Multiplizieren Sie die Zahlen 222 und 59
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Multiplizieren Sie die Zahlen 222 und 59
+
+```
+
+`@solution`
+```{r}
+222*59
+```
+
+`@sct`
+```{r}
+codemultiplikation <- c("222*59", "59*222")
+ex() %>% check_code(c(codemultiplikation), fixed = TRUE)
+success_msg("Richtig und die nächste Aufgabe!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: bfa213b421
+xp: 20
+```
+
+`@instructions`
+Potenzieren Sie 2 hoch 5
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Potenzieren Sie 2 hoch 5
+
+```
+
+`@solution`
+```{r}
+2^5		
+```
+
+`@sct`
+```{r}
+codepotenzierung <- c("2^5", "2*2*2*2*2")
+ex() %>% check_code(c(codepotenzierung), fixed = TRUE)
+success_msg("Richtig und die nächste Aufgabe!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 94b44944a6
+xp: 20
+```
+
+`@instructions`
+Berechnen Sie 119 Modulo 13
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Berechnen Sie 119 Modulo 13
+
+```
+
+`@solution`
+```{r}
+119 %% 13
+```
+
+`@sct`
+```{r}
+codemodulo <- c("119%%13", "2")
+ex() %>% check_code(c(codemodulo), fixed = TRUE)
+success_msg("Richtig und die nächste Aufgabe!")
+```
+
+***
+
+```yaml
+type: MultipleChoiceExercise
+key: 6df8493e71
+```
+
+`@question`
+Was ist das Ergebnis von 9 Modulo 2
+
+`@possible_answers`
+- [1]
+- 2
+- 3
+- 9
+
+`@hint`
+Das geht im Kopf - hier geht es um Verständnis.
+
+`@sct`
+```{r}
+
+```
+
+---
+
 ## Variablenzuweisung
 
 ```yaml
@@ -396,9 +598,8 @@ xp: 100
 ```
 
 Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die wir aufgrund der Kürze der Einführung in diesem Kurs überspringen. Nun kommen wir direkt zu den **Data Frames**:
-In eine Matrix bekommen Sie diese Daten unterschieden Datentyps nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt (Tabelle) heißt in R Data Frame. (Quelle: De Vries/Meys 2018, S.146)
-
-Der Datensatz des Unternehmens Bambergus, der aus der Kundendatenbatenbank stammt, enthält verschiedene Informationen über Kunden. 
+In eine Matrix bekommen Sie diese Daten unterschiedlichen Datentyps nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt (Tabelle) heißt in R Data Frame. (Quelle: De Vries/Meys 2018, S.146)
+Der Datensatz des Unternehmens Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
 Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen # Kundendaten und ist eine Variable. der Verkaufsgegenstände, den jeweiligen Preis, die Absatzmenge pro Quartal, für welche Kundenart er verkauft wurde. 
 
 `@instructions`
