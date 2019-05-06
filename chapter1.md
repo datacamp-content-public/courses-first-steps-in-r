@@ -305,7 +305,8 @@ key: bd8c85316c
 xp: 100
 ```
 
-Hier Beschreibung von Vektoren und Einsatzmöglichkeiten
+Vektoren erzeugen und erstellen:
+- 
 
 
 `@instructions`
