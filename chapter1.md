@@ -416,10 +416,10 @@ x
 
 `@sct`
 ```{r}
-zuweisung <- "x<-42"
+#x <- 42
 #ausgabe <- c("print(x)", "x")
 #ex() %>% check_code(c(zuweisung), fixed = TRUE)
-is_equal(x, 42) %>% check_result() %>% check_equal()
+ex() %>% check_object("x")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
