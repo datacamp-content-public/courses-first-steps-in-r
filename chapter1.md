@@ -175,7 +175,7 @@ key: eb3ada4691
 xp: 100
 ```
 
-
+![Bier](https://assets.datacamp.com/production/repositories/4810/datasets/60bfcabd6718aeffbe70679de850ae528bf09cee/bier.jpg)
 
 `@pre_exercise_code`
 ```{r}
@@ -655,3 +655,20 @@ xp: 50
 - "Nein, da liegen Sie nicht richtig"
 - "Super gemacht, 14 Modulo 3 ergibt 2"
 - "Nein, da liegen Sie nicht richtig"
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: TabExercise
+key: 147d6f2f44
+xp: 100
+```
+
+
+
+`@pre_exercise_code`
+```{r}
+
+```
