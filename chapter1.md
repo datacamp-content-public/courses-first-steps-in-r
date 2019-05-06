@@ -511,7 +511,6 @@ Vektoren erzeugen und erstellen:
 - Ein Vektor ist die einfachste Datenstruktur in R und wird als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" definiert (R-Handbuch). Es ist die kleinstmögliche Dateneinheit in R. (de Vries/Meys 2018)
 Bsp.: Um einen Vektor mit den Zahlen von 1 bis 2 zu erzeugen: myfirstvector <- c(1,2).
 
-
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
@@ -600,7 +599,7 @@ xp: 100
 Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die wir aufgrund der Kürze der Einführung in diesem Kurs überspringen. Nun kommen wir direkt zu den **Data Frames**:
 In eine Matrix bekommen Sie diese Daten unterschiedlichen Datentyps nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt (Tabelle) heißt in R Data Frame. (Quelle: De Vries/Meys 2018, S.146)
 Der Datensatz des Unternehmens Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
-Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen # Kundendaten und ist eine Variable. der Verkaufsgegenstände, den jeweiligen Preis, die Absatzmenge pro Quartal, für welche Kundenart er verkauft wurde. 
+Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen # Kundendaten und ist eine Variable. der Verkaufsgegenstände, den jeweiligen Preis, die Absatzmenge pro Quartal, für welche Kundenart er verkauft wurde.
 
 `@instructions`
 
