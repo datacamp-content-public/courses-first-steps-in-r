@@ -421,7 +421,7 @@ x
 #ex() %>% check_code(c(zuweisung), fixed = TRUE)
 ex() %>% check_object("x") %>% check_equal(42)
 ex() %>% check_code(c("print(x)", "x"))
-ex() %>% check_output("42", fixed=TRUE)
+ex() %>% check_output("42", fixed=TRUE, missing_msg="Bla")
 #if zuweisung_ok 
 #{
 #  check_output("42")
