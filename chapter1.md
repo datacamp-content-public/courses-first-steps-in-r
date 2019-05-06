@@ -357,7 +357,7 @@ key: 3e48f500af
 xp: 100
 ```
 
-Matrizen sind eine rechteckige Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. Statistik werden häufig Matrixberechnungen angewandt. (deVries/Meys 2018)
+Matrizen sind eine rechteckige Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. Statistik werden häufig Matrixberechnungen angewandt. (de Vries/Meys 2018)
 
 `@instructions`
 
