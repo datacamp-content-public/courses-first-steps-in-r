@@ -45,7 +45,7 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 `@sample_code`
 ```{r}
 # Addition 67+78
-67+78
+
 # Ihre Lösung für die zweite Addition
 
 ```
