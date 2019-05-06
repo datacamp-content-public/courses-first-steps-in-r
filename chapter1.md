@@ -419,7 +419,7 @@ x
 zuweisung <- "x<-42"
 #ausgabe <- c("print(x)", "x")
 #ex() %>% check_code(c(zuweisung), fixed = TRUE)
-ex() %>% check_equal(c(x,42))
+is_equal(x, 42)
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
