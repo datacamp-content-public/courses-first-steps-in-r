@@ -312,7 +312,7 @@ Bsp.: Um einen Vektor mit den Zahlen von 1 bis 2 zu erzeugen: myfirstvector <- c
 
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
-2. Berechnen Sie den Durchnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
+2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
 
 `@hint`
 
@@ -357,7 +357,7 @@ key: 3e48f500af
 xp: 100
 ```
 
-
+Matrizen sind eine rechteckige Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. Statistik werden häufig Matrixberechnungen angewandt. (deVries/Meys 2018)
 
 `@instructions`
 
