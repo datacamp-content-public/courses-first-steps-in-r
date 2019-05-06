@@ -263,25 +263,25 @@ my_numeric <- 3
 
 `@sample_code`
 ```{r}
-# Welchen Wert hat my_numeric
+# Welchen Wert hat my_numeric:
 
-# Verändern Sie my_numeric zu 54
+# Weisen Sie my_numeric den Wert 54 zu:
 
-# Verändern Sie my_character zu "universe"
+# Verändern Sie my_character zu "universe":
 
-# Verändern Sie my_logical zu FALSE
+# Verändern Sie my_logical zu FALSE:
 
 ```
 
 `@solution`
 ```{r}
-# Welchen Wert hat my_numeric
+# Geben Sie bitte den Wert von my_numeric aus:
 print(my_numeric)
-# Verändern Sie my_numeric zu 42
+# Weisen Sie my_numeric den Wert:
 my_numeric <- 54
-# Verändern Sie my_character zu "universe"
+# Verändern Sie my_character zu "universe":
 my_character <- "universe"
-# Verändern Sie my_logical zu FALSE
+# Verändern Sie my_logical zu FALSE:
 my_logical <- FALSE
 ```
 
