@@ -492,22 +492,11 @@ my_logical <- FALSE
 
 `@sct`
 ```{r}
-ex() %>% check_object("my_numeric") %>% check_equal(3)
+ex() %>% check_object("my_numeric")
 ex() %>% check_object("my_numeric") %>% check_equal(54)
 ex() %>% check_object("my_character") %>% check_equal("universe")
 ex() %>% check_object("my_logical") %>% check_equal("FALSE")
-
-ex() %>% check_object("x") %>% check_equal(42)
-ex() %>% check_code(c("print(x)", "x"))
-ex() %>% check_output("42", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
-
-codewert <- c(print(my_numeric), "my_numeric")
-codezuweisung <- c("my_numeric <- 54")
-character <- c("my_character <- universe")
-boolean <- c("my_logical <- FALSE")
-ex() %>% check_code(c(codewert, codezuweisung, character, boolean), fixed = TRUE)
-success_msg("Gute Arbeit - so langsam werden Sie warm ;)!", praise = FALSE)
 ```
 
 ---
