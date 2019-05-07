@@ -486,9 +486,9 @@ nonalc <- "66 Liter"
 `@solution`
 ```{r}
 # Alkolische Getränke
-x <- alc
+x <- "alc"
 # Nicht-alkolische Getränke
-y <- nonalc
+y <- "nonalc"
 # Augabe Menge Alkohol
 print(x)
 ```
