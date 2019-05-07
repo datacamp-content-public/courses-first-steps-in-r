@@ -524,9 +524,9 @@ Bsp.: Um einen Vektor mit den Zahlen von 1 bis 2 zu erzeugen: myfirstvector <- c
 
 `@sample_code`
 ```{r}
-# Erstellen Sie einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
+# 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
 
-# Berechnen Sie den Durchnitt (arithmetisches Mittel - mean) von dem vorher angelegten Vektor.
+# 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
 
 ```
 
