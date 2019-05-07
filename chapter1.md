@@ -436,18 +436,18 @@ xp: 100
 ```
 
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
-```
-Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers').
-Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
-Boolesche Werte (TRUE oder FALSE) werden auch als 'logicals' bezeichnet.
-Text-(oder String-)Werte werden als Zeichen ('characters') benannt und Texte werden in "Anführungszeichen" gesetzt.
-```
+
+- Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers').
+- Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
+- Boolesche Werte (TRUE oder FALSE) werden auch als Wahrheitswerte bezeichnet.
+- Text-(oder String-)Werte werden als Zeichen ('Characters') benannt und Textwerte werden in "Anführungszeichen" gesetzt.
+
 Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
 
 `@instructions`
 1. Geben Sie den Wert von my_numeric aus.
  
-Ändern Sie die Werte von:
+	Ändern Sie die Werte von:
  2. Variable my_numeric zu 13.
  3. Variable my_character zu "universe".
  4. Variable my_logical zu FALSE.
@@ -492,10 +492,10 @@ my_logical <- FALSE
 
 `@sct`
 ```{r}
-ex() %>% check_object("my_numeric")
-ex() %>% check_object("my_numeric") %>% check_equal(54)
+ex() %>% check_code(c("print(my_numeric)","my_numeric"), fixed = TRUE)
+ex() %>% check_object("my_numeric")   %>% check_equal(54)
 ex() %>% check_object("my_character") %>% check_equal("universe")
-ex() %>% check_object("my_logical") %>% check_equal("FALSE")
+ex() %>% check_object("my_logical")   %>% check_equal("FALSE")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
