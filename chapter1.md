@@ -469,7 +469,7 @@ Weisen Sie bitte der Variablen x und y die passende Beschreibung zu:
 
 `@pre_exercise_code`
 ```{r}
-alc 	<- "50 Liter"
+alc <- "50 Liter"
 nonalc <- "66 Liter"
 ```
 
@@ -479,6 +479,8 @@ nonalc <- "66 Liter"
 
 # Nicht-alkolische Getränke
 
+# Ausgabe Alkohol
+
 ```
 
 `@solution`
@@ -487,6 +489,8 @@ nonalc <- "66 Liter"
 x <- alc
 # Nicht-alkolische Getränke
 y <- nonalc
+# Augabe Menge Alkohol
+print(x)
 ```
 
 `@sct`
