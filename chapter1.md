@@ -404,7 +404,7 @@ So können Sie der Variable my_var den Wert 4 zuweisen: my_var <- 4
 
 `@instructions`
 Ihre Aufgabe: 
-Vervollständigen Sie bitte den Code im Editor, sodass der Variable x der Wert 42 zugeordnet wird. Schicken Sie dann die Antwort ab. 
+Vervollständigen Sie bitte den Code im Editor, sodass der Variable der x der Wert 42 zugeordnet wird. Schicken Sie dann die Antwort ab. 
 Bsp.: Beachten Sie: Wenn Sie R nach x fragen, wird der Wert angezeigt.
 
 `@hint`
@@ -437,6 +437,61 @@ ex() %>% check_object("x") %>% check_equal(42)
 ex() %>% check_code(c("print(x)", "x"))
 ex() %>% check_output("42", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
+```
+
+---
+
+## Einkauf für die Feier
+
+```yaml
+type: NormalExercise
+key: 547d116662
+xp: 100
+```
+
+Variablenzuweisung
+
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
+
+Eine Variable ermöglicht es einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
+
+So können Sie der Variable my_var den Wert 4 zuweisen: my_var <- 4
+
+`@instructions`
+Sie haben eine Feier bevorstehen: 
+- x ist die Anzahl der alkoholischen Getränke (alc)
+- y ist die Anzahl der nicht-alkolischen Getränke (nonalc)
+
+Weisen Sie bitte der Variablen x und y die passende Beschreibung zu:
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+alc 	<- "50 Liter"
+nonalc <- "66 Liter"
+```
+
+`@sample_code`
+```{r}
+# Alkolische Getränke
+
+# Nicht-alkolische Getränke
+
+```
+
+`@solution`
+```{r}
+# Alkolische Getränke
+x <- alc
+# Nicht-alkolische Getränke
+y <- nonalc
+```
+
+`@sct`
+```{r}
+
 ```
 
 ---
