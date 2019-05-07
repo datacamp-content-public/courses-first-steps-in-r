@@ -175,7 +175,24 @@ key: eb3ada4691
 xp: 100
 ```
 
-![Bier](https://assets.datacamp.com/production/repositories/4810/datasets/60bfcabd6718aeffbe70679de850ae528bf09cee/bier.jpg)
+Rechnen mit R:
+In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	
+	
+    Addition: +
+    Subtraktion: -
+    Multiplikation: *
+    Division: /
+    Potenzierung: ^
+    Modulo: %%
+
+Die letzten beiden Operatoren benötigen eine Erklärung:
+
+	Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: Zum Beispiel 4^2 ist 16.
+    Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 %% 2 ist 1.
+
+Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachstehenden Aufgaben, um die Übung erfolgreich abzuschließen.
+
+![Festival](https://assets.datacamp.com/production/repositories/4810/datasets/ea4229f5119575af1f4a2c9660d9614c3ee64628/festival_farben.jpg)
 
 `@pre_exercise_code`
 ```{r}
@@ -601,7 +618,7 @@ Nun kommen wir direkt zu den **Data Frames**:
 In eine Matrix bekommen Sie diese Daten unterschiedlichen Datentyps nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt (Tabelle) heißt in R Data Frame. (Quelle: De Vries/Meys 2018, S.146)
 
 Der Datensatz des Unternehmens Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
-Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen # Kundendaten und ist eine Variable. der Verkaufsgegenstände, den jeweiligen Preis, die Absatzmenge pro Quartal, für welche Kundenart er verkauft wurde.
+Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen **Kundendaten** und ist eine Variable.
 
 `@instructions`
 
