@@ -541,10 +541,10 @@ my_mean <- mean(my_vec)
 
 `@sct`
 ```{r}
-vector <- c("my_vec <- c(1,2,3,4,5)", "my_vec <- c(1:5)")
-mean <- c("my_mean <- mean(my_vec)")
-ex() %>% check_code(c(vector, mean), fixed = TRUE)
-success_msg("Top. Gut programmiert", praise = FALSE)
+ex() %>% check_object("my_vec") %>% check_equal(c(1,2,3,4,5), c(1:5))
+ex() %>% check_object("my_mean") %>% check_equal("my_vec")
+ex() %>% check_output("42", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
 ---
