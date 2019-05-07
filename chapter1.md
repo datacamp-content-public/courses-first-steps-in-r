@@ -543,7 +543,7 @@ my_mean <- mean(my_vec)
 ```{r}
 ex() %>% check_object("my_vec") %>% check_equal(c(1,2,3,4,5), c(1:5))
 ex() %>% check_object("my_mean") %>% check_equal("mean(my_vec)")
-ex() %>% check_output("2.5", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+ex() %>% check_output("3", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
