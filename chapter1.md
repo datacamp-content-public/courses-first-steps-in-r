@@ -469,7 +469,7 @@ my_numeric <- 3
 
 # Weisen Sie my_numeric den Wert 54 zu:
 
-# Verändern Sie my_character zu "universe":
+# Verändern Sie my_character zu universe:
 
 # Verändern Sie my_logical zu FALSE:
 
@@ -489,7 +489,7 @@ my_logical <- FALSE
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("print(my_numeric)","my_numeric"), fixed = TRUE)
+ex() %>% check_code(c("print(my_numeric)", "my_numeric"), fixed = TRUE)
 ex() %>% check_object("my_numeric")   %>% check_equal(54)
 ex() %>% check_object("my_character") %>% check_equal("universe")
 ex() %>% check_object("my_logical")   %>% check_equal("FALSE")
@@ -532,10 +532,10 @@ Bsp.: Um einen Vektor mit den Zahlen von 1 bis 2 zu erzeugen: myfirstvector <- c
 
 `@solution`
 ```{r}
-# Erstellen Sie einen Vektor, der die Zahlen von 1 bis 5 beinhaltet.
+# 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet:
 my_vec <- c(1,2,3,4,5)
 
-# Berechnen Sie den Durchnitt von dem vorher angelegten Vektor.
+# 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
 my_mean <- mean(my_vec)
 ```
 
