@@ -302,7 +302,7 @@ xp: 20
 ```
 
 `@instructions`
-Potenzieren Sie 2 hoch 5
+4. Potenzieren Sie 2 hoch 5
 
 `@hint`
 
@@ -333,7 +333,7 @@ xp: 20
 ```
 
 `@instructions`
-Berechnen Sie 119 Modulo 13
+5. Berechnen Sie 119 Modulo 13
 
 `@hint`
 
@@ -351,9 +351,8 @@ Berechnen Sie 119 Modulo 13
 
 `@sct`
 ```{r}
-codemodulo <- c("119%%13", "2")
-ex() %>% check_code(c(codemodulo), fixed = TRUE)
-success_msg("Richtig und die nächste Aufgabe!")
+ex() %>% check_output(2, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+success_msg("Richtig")
 ```
 
 ***
