@@ -89,7 +89,7 @@ Tipp: Wenn Sie die Bedeutung einer Funktion nicht mehr parat haben, können Sie 
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/92686befd7e2045e704ac3f441df3e5ddddbd2f4/Shower_data.csv"
+Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/400b53fb59ceec79beddacd8a9ea615f0f0df336/Kundendaten.csv"
 ```
 
 ***
