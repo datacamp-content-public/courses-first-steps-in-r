@@ -370,7 +370,7 @@ Wie lautet das Ergebnis von 10 Modulo 4
 - 9
 
 `@hint`
-Das geht im Kopf - hier geht es um das Verständnis.
+Das geht im Kopf - hier geht es nun um das Verständnis.
 
 `@sct`
 ```{r}
