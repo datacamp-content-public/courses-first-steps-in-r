@@ -264,17 +264,17 @@ key: 6df8493e71
 Wie lautet das Ergebnis von 10 Modulo 4
 
 `@possible_answers`
-- 1
-- [2]
-- 3
-- 9
+1
+[2]
+3
+9
 
 `@hint`
 Das geht im Kopf - hier geht es nun um das Verständnis.
 
 `@sct`
 ```{r}
-ex() %>% check_output([2], fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+ex() %>% check_output(2, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
 success_msg("Richtig")
 ```
 
