@@ -162,7 +162,7 @@ codedivision <- c("465/3")
 codepotenzierung <- c("2^5", "2*2*2*2*2")
 codemodulo <- c("119%%13", "119-9*13")
 ex() %>% check_code(c(codeaddition, codesubtraktion, codemultiplikation, codedivision, codepotenzierung, codemodulo), fixed = TRUE)
-success_msg("Gute Arbeit! Hast du richtig gut gemacht!")
+success_msg("Gute Arbeit! Yeah richtig gut gemacht!")
 ```
 
 ---
@@ -227,9 +227,9 @@ Summieren Sie die Zahlen 23 und 46
 
 `@sct`
 ```{r}
-codeaddition <- c("23+46", "23+46")
-ex() %>% check_code(c(codeaddition), fixed = TRUE)
-success_msg("Richtig, weiter geht es!")
+ex() %>% check_object("69") %>% check_equal(69)
+ex() %>% check_output("69", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
 ***
