@@ -88,7 +88,7 @@ Nützliche Funktionen für die Datenerkundung in R sind:
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/400b53fb59ceec79beddacd8a9ea615f0f0df336/Kundendaten.csv"
+Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/10696eb6afd691cd79a8537c8ae6f300af7ecea5/Kundendaten1.csv"
 ```
 
 ***
