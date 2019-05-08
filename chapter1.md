@@ -192,8 +192,6 @@ Die letzten beiden Operatoren benötigen eine Erklärung:
 
 Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachstehenden Aufgaben, um die Übung erfolgreich abzuschließen.
 
-![Festival](https://assets.datacamp.com/production/repositories/4810/datasets/ea4229f5119575af1f4a2c9660d9614c3ee64628/festival_farben.jpg)
-
 `@pre_exercise_code`
 ```{r}
 
