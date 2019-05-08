@@ -271,7 +271,7 @@ xp: 20
 ```
 
 `@instructions`
-Multiplizieren Sie die Zahlen 222 und 59
+3. Multiplizieren Sie die Zahlen 222 und 59
 
 `@hint`
 
@@ -289,8 +289,7 @@ Multiplizieren Sie die Zahlen 222 und 59
 
 `@sct`
 ```{r}
-codemultiplikation <- c("222*59", "59*222")
-ex() %>% check_code(c(codemultiplikation), fixed = TRUE)
+ex() %>% check_output(13098, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
