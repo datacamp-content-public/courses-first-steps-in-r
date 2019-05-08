@@ -85,7 +85,6 @@ Nützliche Funktionen für die Datenerkundung in R sind:
 - **summary()**: Ist eine generische Funktion, um Ergebniszusammenfassungen zu erstellen.
 (Quelle: R Dokumentation)
 
-
 `@pre_exercise_code`
 ```{r}
 Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/400b53fb59ceec79beddacd8a9ea615f0f0df336/Kundendaten.csv"
