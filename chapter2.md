@@ -40,24 +40,26 @@ Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten au
 
 2) read.csv2 	(Semikolon  (;) separierte Dateien)
 
-Zuerst lese das zu bearbeitende Datenset **Kundendaten** ein.
+Zuerst lese das zu bearbeitende Datenset ein, das hier liegt: "https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv"
 
 `@hint`
 Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolon separiert ist)
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv")
+Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv"
 ```
 
 `@sample_code`
 ```{r}
+# Bitte Daten einlesen
 
 ```
 
 `@solution`
 ```{r}
-read.csv2("Kundendaten")
+# Bitten Datensatz Kundendaten einlesen:
+read.csv2(Kundendaten)
 ```
 
 `@sct`
