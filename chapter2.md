@@ -40,7 +40,7 @@ Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten au
 
 2) read.csv2 	(Semikolon  (;) separierte Dateien)
 
-Zuerst lese das zu bearbeitende Datenset **ShowerPath** ein. (Auszug hier der Datei)
+Zuerst lese das zu bearbeitende Datenset **Kundendaten** ein. (Auszug hier der Datei)
 
 `@hint`
 Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolons separiert ist)
