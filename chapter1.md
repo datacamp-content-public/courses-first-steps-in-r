@@ -33,12 +33,11 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 - Wie viele Programmierbücher fangen wir auch mit dem Programm an: Der Welt Hallo Sagen
 - Dafür schreiben wir print("Hallo Welt!") in das Skribt und drücken auf 'Submit Answer'
 - Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
-- Fügen Sie bitte eine weitere Codezeile hinzu, die die **Summe von 285,51 und 3211** berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken). Schauen Sie dann in die Console.
--
+- Fügen Sie bitte eine weitere Codezeile hinzu, die die **Summe von 285; 51 und 3211** berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken). Schauen Sie dann in die Console.
 
 `@hint`
 1. Fügen Sie bitte eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
-2. Stellen Sie sicher, dass Sie '285,51 und 3211' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
+2. Stellen Sie sicher, dass Sie '285; 51 und 3211' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@pre_exercise_code`
 ```{r}
