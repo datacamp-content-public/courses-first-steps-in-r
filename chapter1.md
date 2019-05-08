@@ -469,8 +469,7 @@ Weisen Sie bitte der Variablen x und y die passende Beschreibung zu:
 
 `@pre_exercise_code`
 ```{r}
-alc <- "50 Liter"
-nonalc <- "66 Liter"
+
 ```
 
 `@sample_code`
