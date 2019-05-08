@@ -233,7 +233,7 @@ Der Chef fragt Sie, ob Sie A
 
 ---
 
-## Insert exercise title here
+## Check: Auffälligkeiten entdeckt?
 
 ```yaml
 type: PureMultipleChoiceExercise
@@ -243,15 +243,17 @@ xp: 50
 
 Der Chef von Ihnen fragt Sie, ob Sie Auffälligkeiten entdeckt haben oder der Datensatz zu weiteren Analyse schon verwendbar sei.
 Was sagen Sie Ihm?
+Achtung: Es ist nur eine Möglichkeit richtig! Lesen Sie bitte genau und wählen danach.
 
 `@hint`
 
 
 `@possible_answers`
 - 1 : Ja, der Datensatz Kundendaten ist für die Analyse fertig bereinigt und enthält keine Auffälligkeiten 
-- [2] : Nein, es sind noch fehlende Werte enthalten
-- [3] : Nein, es gibt Ausreißerwerte bei dem Umsatz, die kommen mir nicht realistisch vor.
-- 4 : Sorry Chef, ich habe keinen Überlick gewonnen und bin mir nicht sicher.
+- 2 : Nein, es sind fehlende Werte enthalten
+- 3 : Nein, es gibt Ausreißerwerte bei dem Umsatz, die kommen mir nicht realistisch vor.
+- [4]: Nein, es gibt unrealistische Werte bei dem Umsatzdaten einzelner Kunden und es sind fehlende Werte im Datensatz enthalten.
+- 5 : Sorry Chef, ich habe keinen Überlick gewonnen und bin mir nicht sicher.
 
 `@feedback`
 
