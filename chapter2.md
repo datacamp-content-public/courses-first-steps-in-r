@@ -203,7 +203,7 @@ key: a446c3e473
 xp: 100
 ```
 
-
+Der Chef fragt Sie, ob Sie A
 
 `@instructions`
 
@@ -230,6 +230,28 @@ xp: 100
 ```{r}
 
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 47a850ee0f
+xp: 50
+```
+
+Der Chef von Ihnen fragt Sie, ob Sie Auffälligkeiten entdeckt haben oder der Datensatz zu weiteren Analyse schon verwendbar sei.
+Was sagen Sie Ihm?
+
+`@hint`
+
+
+`@possible_answers`
+
+
+`@feedback`
+
 
 ---
 
