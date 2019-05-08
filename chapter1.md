@@ -569,7 +569,7 @@ ex() %>% check_output("3", fixed=TRUE, missing_msg="So ist das nicht ganz richti
 ex() %>% check_object("my_numeric")   %>% check_equal(54)
 ex() %>% check_object("my_character") %>% check_equal("universe")
 ex() %>% check_object("my_logical")   %>% check_equal("FALSE")
-ex() %>% check_output("FALSE", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+ex() %>% check_output("FALSE", fixed=FALSE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
