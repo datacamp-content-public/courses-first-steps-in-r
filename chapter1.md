@@ -31,11 +31,11 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
 - Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
-- Fügen Sie bitte zuerst eine Codezeile hinzu, die die Summe von 67 und 32 berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken).
+- Fügen Sie bitte eine weitere Codezeile hinzu, die die Summe von 285 und 3211 berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken).
 
 `@hint`
-1. Fügen Sie bitte eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
-2. Stellen Sie sicher, dass Sie '14 + 32' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
+1. fügen Sie bitte eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
+2. Stellen Sie sicher, dass Sie '285 und 3211' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@pre_exercise_code`
 ```{r}
@@ -44,17 +44,18 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@sample_code`
 ```{r}
-# Addition 67+78
-
-# Ihre Lösung für die zweite Addition
+# Addition 
+67+78
+# Ihre Code für die zweite Addition
 
 ```
 
 `@solution`
 ```{r}
+# Addition 
 67+78
-
-14+32
+# Ihre erste eigene Codezeile:
+285+3211
 ```
 
 `@sct`
