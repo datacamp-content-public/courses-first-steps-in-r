@@ -43,7 +43,7 @@ Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten au
 Zuerst lese das zu bearbeitende Datenset **Kundendaten** ein.
 
 `@hint`
-Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolons separiert ist)
+Nutze die Funktion #read.csv() (liest externen Datensatz ein, der mit Semikolons separiert ist)
 
 `@pre_exercise_code`
 ```{r}
@@ -57,7 +57,7 @@ Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/dataset
 
 `@solution`
 ```{r}
-read.csv2(Kundendaten)
+read.csv(Kundendaten)
 ```
 
 `@sct`
@@ -84,7 +84,6 @@ Nützliche Funktionen für die Datenerkundung in R sind:
 - **head()** | **tail()**: Liefert den ersten oder letzten Teil eines Vektors, einer Matrix, einer Tabelle, eines Datenrahmens oder einer Funktion.
 - **summary()**: Ist eine generische Funktion, um Ergebniszusammenfassungen der Ergebnisse verschiedener Modellanpassungsfunktionen zu erstellen.
 (Quelle: R Dokumentation)
-Tipp: Wenn Sie die Bedeutung einer Funktion nicht mehr parat haben, können Sie die Hilfe aufrufen: z.B. ?nrow()
 
 
 `@pre_exercise_code`
