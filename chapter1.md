@@ -631,7 +631,7 @@ Sie haben eine Feier bevorstehen:
 - x ist die Anzahl der alkoholischen Getränke (alc)
 - y ist die Anzahl der nicht-alkolischen Getränke (nonalc)
 
-Weisen Sie bitte den Variablen x und y die passende Beschreibung der Getränkesorte zu:
+Weisen Sie bitte den Variablen x und y den passenden Text der Getränkesorte zu:
 
 `@hint`
 
@@ -658,7 +658,7 @@ x <- "alc"
 # Nicht-alkolische Getränke
 y <- "nonalc"
 # Augabe Menge Alkohol
-print(x)
+print("alc")
 ```
 
 `@sct`
