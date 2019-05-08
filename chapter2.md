@@ -47,7 +47,7 @@ Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolon
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/10696eb6afd691cd79a8537c8ae6f300af7ecea5/Kundendaten1.csv")
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv")
 ```
 
 `@sample_code`
@@ -88,7 +88,7 @@ Nützliche Funktionen für die Datenerkundung in R sind:
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/10696eb6afd691cd79a8537c8ae6f300af7ecea5/Kundendaten1.csv")
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv")
 ```
 
 ***
