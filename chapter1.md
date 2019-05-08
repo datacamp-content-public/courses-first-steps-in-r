@@ -60,9 +60,9 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@sct`
 ```{r}
-codeaddition <- c("14+32", "32+14")
-ex() %>% check_code(c(codeaddition), fixed = TRUE)
-success_msg("Sie sehen das Ergebnis in der Console. Sehr gut gemacht.")
+
+ex() %>% check_output(69, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+success_msg("Ja, genau!")
 ```
 
 ---
@@ -612,7 +612,7 @@ Nun kommen wir direkt zu den **Data Frames**:
 In eine Matrix bekommen Sie diese Daten unterschiedlichen Datentyps nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt (Tabelle) heißt in R Data Frame. (Quelle: De Vries/Meys 2018, S.146)
 
 Der Datensatz des Unternehmens Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
-Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen **Kundendaten** und ist eine Variable.
+Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen **Kundendaten** und ist eine Variable?.
 
 `@instructions`
 
@@ -623,6 +623,44 @@ Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes t
 `@pre_exercise_code`
 ```{r}
 Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/dataMay-3-2019.csv")
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## (Lists)
+
+```yaml
+type: NormalExercise
+key: 58ec510adf
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
 ```
 
 `@sample_code`
@@ -668,23 +706,6 @@ xp: 50
 - "Nein, da liegen Sie nicht richtig"
 - "Super gemacht, 14 Modulo 3 ergibt 2"
 - "Nein, da liegen Sie nicht richtig"
-
----
-
-## Insert exercise title here
-
-```yaml
-type: TabExercise
-key: 147d6f2f44
-xp: 100
-```
-
-
-
-`@pre_exercise_code`
-```{r}
-
-```
 
 ---
 
