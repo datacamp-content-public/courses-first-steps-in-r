@@ -31,7 +31,7 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
 - Wie viele Programmierbücher fangen wir auch mit dem Programm an: Der Welt Hallo Sagen
-	- Dafür schreiben wir print("Hallo Welt!") in das Skribt und drücken auf 'Submit Answer'
+- Dafür schreiben wir print("Hallo Welt!") in das Skribt und drücken auf 'Submit Answer'
 - Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
 - Fügen Sie bitte eine weitere Codezeile hinzu, die die **Summe von 285,51 und 3211** berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken). Schauen Sie dann in die Console.
 -
