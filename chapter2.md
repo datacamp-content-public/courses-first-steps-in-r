@@ -198,7 +198,7 @@ summary(Kundendaten)
 `@sct`
 ```{r}
 #ex() %>% check_object("summmary") %>% check_equal("mean(my_vec)")
-ex() %>% check_code("summary(Kundendaten)", fixed = TRUE, append = FALSE)
+ex() %>% check_code("summary(Kundendaten)", fixed = TRUE)
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen verstanden!")
 ```
 
