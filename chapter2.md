@@ -25,7 +25,7 @@ xp: 100
 ```
 
 Erste Schritte, um R 'hands-on' zu lernen und anzuwenden.
-Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt anhand der Datensätze von Kundendaten aus drei verschiedenen Datenbanken des Informationssystems der Firma XY durchgehen.
+Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt anhand der Datensätze von Kundendaten aus zwei verschiedenen Datenbanken des Informationssystems der Firma XY durchgehen.
 
 ![1](https://assets.datacamp.com/production/repositories/4810/datasets/82d92f41d7649657073e1e2e0b813011ecc4973a/Data_Science_Explore.png)
 
