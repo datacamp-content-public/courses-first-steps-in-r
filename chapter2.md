@@ -164,6 +164,34 @@ tail(Kundendaten)
 
 ```
 
+***
+
+```yaml
+type: NormalExercise
+key: 968ce3981c
+```
+
+`@instructions`
+Wir sind immer noch in dem Schritt, die Daten genau zu erkunden, um eine Überblick zu gewinnen und zu schauen, in welcher Qualität die Daten vorliegen. Welche der Funktionen, die vorgestellt wurden, eignen sich dafür zum Abschluss noch?
+
+`@hint`
+Die
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
 ---
 
 ## Daten bereinigen
