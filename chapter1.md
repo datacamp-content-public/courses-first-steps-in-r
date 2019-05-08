@@ -373,7 +373,7 @@ Das geht im Kopf - hier geht es um Verständnis.
 
 `@sct`
 ```{r}
-ex() %>% check_output(1, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+ex() %>% check_output(, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("Gutes Verständnis!")
 ```
 
