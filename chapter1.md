@@ -371,12 +371,12 @@ Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweis
 
 `@pre_exercise_code`
 ```{r}
-my_numeric <- 3
+my_nummerus <- 3
 ```
 
 `@sample_code`
 ```{r}
-# Welchen Wert hat my_numeric:
+# Welchen Wert hat my_nummerus:
 
 # Weisen Sie my_numeric den Wert 54 zu:
 
@@ -388,8 +388,8 @@ my_numeric <- 3
 
 `@solution`
 ```{r}
-# Geben Sie bitte den Wert von my_numeric aus:
-print(my_numeric)
+# Geben Sie bitte den Wert von my_nummerus aus:
+print(my_nummerus)
 # Weisen Sie my_numeric den Wert:
 my_numeric <- 54
 # Verändern Sie my_character zu "universe":
@@ -400,7 +400,7 @@ my_logical <- FALSE
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("print(my_numeric)", "my_numeric"), fixed = TRUE)
+ex() %>% check_code(c("print(my_nummerus)", "my_nummerus"), fixed = TRUE)
 ex() %>% check_output("3", fixed=TRUE, missing_msg="Da stimmt etwas nicht!")
 ex() %>% check_object("my_numeric")   %>% check_equal(54)
 ex() %>% check_object("my_character") %>% check_equal("universe")
