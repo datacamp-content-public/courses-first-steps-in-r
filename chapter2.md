@@ -359,7 +359,8 @@ key: 2a50556aeb
 xp: 100
 ```
 
-
+Modelle sind ergänzende Werkzeuge zur Visualisierung. Wenn Sie Ihre Fragen ausreichend präzise (mathematisch) formuliert haben, können Sie sie mit einem Modell beantworten. Modelle skalieren den Wert, weil sie Rechenwerkzeuge sind. Aber jedes Modell beinhaltet Annahmen und von Natur aus kann ein Modell seine eigenen Annahmen nicht in Frage stellen. Das bedeutet, dass ein Model Sie nicht fudamental überraschen kann.
+(Quelle: Wickham/Grolemund 2018, S.X)
 
 `@instructions`
 
