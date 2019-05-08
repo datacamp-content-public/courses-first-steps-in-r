@@ -60,8 +60,8 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@sct`
 ```{r}
-
-ex() %>% check_output(69, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+ex() %>% check_output(3496, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("Ja, genau!")
 ```
 
