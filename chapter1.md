@@ -360,16 +360,16 @@ key: 6df8493e71
 ```
 
 `@question`
-Was ist das Ergebnis von 9 Modulo 2
+Was ist das Ergebnis von 10 Modulo 4
 
 `@possible_answers`
-- [1]
-- 2
+- 1
+- [2]
 - 3
 - 9
 
 `@hint`
-Das geht im Kopf - hier geht es um Verständnis.
+Das geht im Kopf - hier geht es um das Verständnis.
 
 `@sct`
 ```{r}
