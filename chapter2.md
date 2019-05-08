@@ -57,7 +57,7 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/48
 
 `@solution`
 ```{r}
-read.csv2(Kundendaten)
+read.csv2("Kundendaten")
 ```
 
 `@sct`
