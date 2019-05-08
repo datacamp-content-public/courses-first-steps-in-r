@@ -198,7 +198,7 @@ summary(Kundendaten)
 `@sct`
 ```{r}
 #ex() %>% check_object(summmary()) %>% check_equal(summary(Kundendaten))
-ex() %>% check_code("summary(Kundendaten)", fixed = TRUE)
+ex() %>% check_code("summary(Kundendaten)", fixed = TRUE, missing_msg= "Da stimmt etwas nicht!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen verstanden!")
 ```
 
