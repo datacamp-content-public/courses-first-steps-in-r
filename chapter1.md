@@ -31,7 +31,7 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
 - Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
-- Fügen Sie bitte zuerst eine Codezeile hinzu, die die Summe von 14 und 32 berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken).
+- Fügen Sie bitte zuerst eine Codezeile hinzu, die die Summe von 67 und 32 berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken).
 
 `@hint`
 1. Fügen Sie bitte eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
