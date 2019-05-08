@@ -227,8 +227,8 @@ Summieren Sie die Zahlen 23 und 46
 
 `@sct`
 ```{r}
-ex() %>% check_object("69") %>% check_equal(69)
-ex() %>% check_output("69", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+ex() %>% check_object(69) %>% check_equal(69)
+ex() %>% check_output(69, fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
