@@ -32,6 +32,8 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 `@instructions`
 - Wie viele Programmierbücher fangen wir auch mit dem Programm an: Der Welt Hallo sagen :)
 	- Dafür schreiben wir: **print("Hallo Welt!")** in das Skript und drücken auf 'Submit Answer'
+    
+    ![](https://assets.datacamp.com/production/repositories/4810/datasets/efdb2635ca5a59a67d67dedea62813ca4cf68a0d/hello_welt.jpg)
 
 `@hint`
 
