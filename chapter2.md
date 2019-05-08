@@ -213,7 +213,6 @@ Achtung: Es ist nur **eine** Möglichkeit richtig! Lesen Sie bitte genau und wä
 - 4 : Nein, es gibt unrealistische Werte bei dem Umsatzdaten einzelner Kunden und es sind fehlende Werte im Datensatz enthalten.
 - 5 : Sorry Chef, ich habe keinen Überlick gewonnen und bin mir nicht sicher.
 
-
 `@hint`
 
 
@@ -243,7 +242,6 @@ xp: 100
 
 Das Aufräumen bzw. **Bereinigen** Ihrer Daten bedeutet, sie in einer konsistenten Form zu speichern, die der Semantik des Datensatzes mit der Art der Speicherung entspricht. Kurz gesagt, wenn Ihre Daten bereinigt sind, ist jede Spalte eine Variable und jede Zeile ist eine Beobachtung. Das Bereinigen (tyding) ist wichtig, weil die einheitliche Struktur es Ihnen ermöglicht Ihren Fokus auf die Fragen zu den Daten zu konzentrieren. 
 (Quelle: Wickham/Grolemund 2018, S.X)
-
 
 `@instructions`
 
