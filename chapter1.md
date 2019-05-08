@@ -320,8 +320,7 @@ Potenzieren Sie 2 hoch 5
 
 `@sct`
 ```{r}
-codepotenzierung <- c("2^5", "2*2*2*2*2")
-ex() %>% check_code(c(codepotenzierung), fixed = TRUE)
+ex() %>% check_output(32, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
