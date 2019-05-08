@@ -55,7 +55,7 @@ print("Hallo Welt!")
 
 `@sct`
 ```{r}
-ex() %>% check_output(""[H|h]allo [W|w]elt!"", fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+ex() %>% check_output("[H|h]allo [W|w]elt!", fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("So ihr erstes Programm ist vollendet!")
 ```
 
