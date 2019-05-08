@@ -118,7 +118,7 @@ xp: 20
 ```{r}
 # Beispielcode Addition 
 67+78
-# Ihre erste eigene Codezeile:
+# Ihre eigene Codezeile:
 285+51+3211
 ```
 
