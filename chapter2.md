@@ -117,9 +117,9 @@ Nutzen Sie bitte die Funktionen nrow() und ncol()
 `@solution`
 ```{r}
 # 1.Wie viele Zeilen gibt es?
-nrow(Kundendaten)
+nrow("Kundendaten")
 # 2.Wie viele Spalten gibt es?
-ncal(Kundendaten)
+ncal("Kundendaten")
 ```
 
 `@sct`
