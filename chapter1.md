@@ -619,7 +619,7 @@ my_mean <- mean(my_vec)
 ex() %>% check_object("my_vec") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
 ex() %>% check_object("my_mean") %>% check_equal("mean(my_vec)")
 ex() %>% check_object("my_mean") %>% check_equal(3)
-success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
+success_msg("Ja, genau - es sieht so aus als hätten Sie die Vektorzuweisung verstanden!")
 ```
 
 ---
