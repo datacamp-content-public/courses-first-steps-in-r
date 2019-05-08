@@ -47,7 +47,7 @@ Nutze die Funktion #read.csv() (liest externen Datensatz ein, der mit Komma sepa
 
 `@pre_exercise_code`
 ```{r}
-Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/10696eb6afd691cd79a8537c8ae6f300af7ecea5/Kundendaten1.csv"
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/10696eb6afd691cd79a8537c8ae6f300af7ecea5/Kundendaten1.csv")
 ```
 
 `@sample_code`
@@ -57,7 +57,7 @@ Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/dataset
 
 `@solution`
 ```{r}
-read.csv(Kundendaten)
+read.csv2(Kundendaten)
 ```
 
 `@sct`
