@@ -175,15 +175,15 @@ key: eb3ada4691
 xp: 100
 ```
 
-In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	
-	
-    Addition: +
-    Subtraktion: -
-    Multiplikation: *
-    Division: /
-    Potenzierung: ^
-    Modulo: %%
-
+In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	 
+    ```
+ Addition: + |
+ Subtraktion: - |
+ Multiplikation: * |
+ Division: / |
+ Potenzierung: ^ |
+ Modulo: %% |
+```
 Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: 
 - Zum Beispiel 4^2 ist 16.
 Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl:
