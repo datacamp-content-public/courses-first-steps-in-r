@@ -83,7 +83,8 @@ Nützliche Funktionen für die Datenerkundung in R sind:
 - **colnames()**: Abrufen oder setzen der Zeilen- oder Spaltennamen eines matrixartigen Objekts.
 - **head()** | **tail()**: Liefert den ersten oder letzten Teil eines Vektors, einer Matrix, einer Tabelle, eines Datenrahmens oder einer Funktion.
 - **summary()**: Ist eine generische Funktion, um Ergebniszusammenfassungen der Ergebnisse verschiedener Modellanpassungsfunktionen zu erstellen.
-()
+(Quelle: R Dokumentation)
+Tipp: Wenn Sie die Bedeutung einer Funktion nicht mehr parat haben, können Sie die Hilfe aufrufen: z.B. ?nrow()
 
 
 `@pre_exercise_code`
