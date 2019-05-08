@@ -248,9 +248,9 @@ Achtung: Es ist nur eine Möglichkeit richtig! Lesen Sie bitte genau und wählen
 
 
 `@possible_answers`
-- 1 : Ja, der Datensatz Kundendaten ist für die Analyse fertig bereinigt und enthält keine Auffälligkeiten 
-- 2 : Nein, es sind fehlende Werte enthalten
-- 3 : Nein, es gibt Ausreißerwerte bei dem Umsatz, die kommen mir nicht realistisch vor.
+- 1 : (Ja, der Datensatz Kundendaten ist für die Analyse fertig bereinigt und enthält keine Auffälligkeiten)
+- 2 : (Nein, es sind fehlende Werte enthalten)
+- 3 : (Nein, es gibt Ausreißerwerte bei dem Umsatz, die kommen mir nicht realistisch vor.)
 - [4]: Nein, es gibt unrealistische Werte bei dem Umsatzdaten einzelner Kunden und es sind fehlende Werte im Datensatz enthalten.
 - 5 : Sorry Chef, ich habe keinen Überlick gewonnen und bin mir nicht sicher.
 
