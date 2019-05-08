@@ -67,6 +67,57 @@ read.csv2(ShowerPath)
 
 ---
 
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: 9ead3b214c
+xp: 100
+```
+
+Erste Schritte, um R 'hands-on' zu lernen und anzuwenden.
+Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt anhand der Datensätze von Kundendaten aus drei verschiedenen Datenbanken des Informationssystems der Firma XY durchgehen.
+
+![1](https://assets.datacamp.com/production/repositories/4810/datasets/82d92f41d7649657073e1e2e0b813011ecc4973a/Data_Science_Explore.png)
+
+(Quelle: Wickham/Grolemund 2018, S.XI)
+
+`@instructions`
+Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Importieren der Datensätze loslegen. 
+
+Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten aus Exceltabellen und csv-Dateien zu importieren, gibt es zwei gängige Möglichkeiten: 
+
+1) read.csv 	(Komma 		(,) separierte Dateien)
+
+2) read.csv2 	(Semikolon  (;) separierte Dateien)
+
+Zuerst lese das zu bearbeitende Datenset **Kundendaten** ein. (Auszug hier der Datei)
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
 ## Daten erkunden
 
 ```yaml
