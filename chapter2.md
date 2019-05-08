@@ -54,12 +54,16 @@ Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolon
 ```{r}
 # Bitte Daten einlesen
 
+# Speichert den Datensatz in die Variable Kundendaten:
+
 ```
 
 `@solution`
 ```{r}
 # Bitten Datensatz Kundendaten einlesen:
 read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv")
+# Speichert den Datensatz in die Variable Kundendaten:
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv")
 ```
 
 `@sct`
