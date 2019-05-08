@@ -134,7 +134,7 @@ key: 580db0e321
 ```
 
 `@instructions`
-Jetzt wissen Sie, wie groß der Datensatz ist. Verschaffen Sie sich bitte einen Überblick über die größten und kleinsten Werte, die in den Kundendaten enthalten sind, um mögliche Ausreißer, besonders attraktived unprofitable Kunden zu identifizieren.
+Jetzt wissen Sie, wie groß der Datensatz ist. Verschaffen Sie sich bitte einen Überblick über die größten und kleinsten Werte, die in den Kundendaten enthalten sind, um mögliche Ausreißer, besonders profitable bwz. unprofitable Kunden zu identifizieren.
 
 `@hint`
 Nutzen Sie die Funktionen head() und tail()
