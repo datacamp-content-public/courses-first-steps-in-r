@@ -274,7 +274,8 @@ Das geht im Kopf - hier geht es nun um das Verständnis.
 
 `@sct`
 ```{r}
-
+ex() %>% check_output(2, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+success_msg("Richtig")
 ```
 
 ---
