@@ -67,7 +67,7 @@ read.csv2(Kundendaten)
 
 ---
 
-## Insert exercise title here
+## Lasst uns anfangen: Daten einlesen
 
 ```yaml
 type: NormalExercise
