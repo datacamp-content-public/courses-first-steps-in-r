@@ -180,6 +180,7 @@ Um Ergebniszusammenfassungen zu bekommen eigent sich die Funktion: summary()
 `@sample_code`
 ```{r}
 # Gesamtüberblick
+
 ```
 
 `@solution`
