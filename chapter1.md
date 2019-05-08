@@ -17,7 +17,7 @@ xp: 50
 
 ---
 
-## Wie R funktioniert
+## Wie R funktioniert in Data Camp funktioniert
 
 ```yaml
 type: NormalExercise
