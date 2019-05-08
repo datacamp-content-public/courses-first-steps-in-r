@@ -177,7 +177,7 @@ xp: 100
 ```
 
 In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	 
-    ```
+ 	```
  Addition: + |
  Subtraktion: - |
  Multiplikation: * |
@@ -361,7 +361,7 @@ key: 6df8493e71
 ```
 
 `@question`
-Was ist das Ergebnis von 10 Modulo 4
+Wie lautet das Ergebnis von 10 Modulo 4
 
 `@possible_answers`
 - 1
