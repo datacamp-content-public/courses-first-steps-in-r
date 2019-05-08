@@ -658,7 +658,7 @@ xp: 50
 - 5
 - 4
 - 3
-- [2] Ja, du bist gut
+- [2]
 - 1
 
 `@feedback`
