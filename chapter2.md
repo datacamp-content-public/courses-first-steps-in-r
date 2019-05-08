@@ -47,7 +47,7 @@ Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolon
 
 `@pre_exercise_code`
 ```{r}
-
+Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/400b53fb59ceec79beddacd8a9ea615f0f0df336/Kundendaten.csv"
 ```
 
 `@sample_code`
