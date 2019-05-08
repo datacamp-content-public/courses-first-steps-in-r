@@ -175,16 +175,17 @@ key: 968ce3981c
 Wir sind immer noch in dem Schritt, die Daten genau zu erkunden, um eine Überblick zu gewinnen und zu schauen, in welcher Qualität die Daten vorliegen. Welche der Funktionen, die vorgestellt wurden, eignen sich dafür zum Abschluss noch?
 
 `@hint`
-Die
+Um Ergebniszusammenfassungen zu bekommen eigent sich die Funktion: summary()
 
 `@sample_code`
 ```{r}
-
+# Gesamtüberblick
 ```
 
 `@solution`
 ```{r}
-
+# Gesamtüberblick
+summary(Kundendaten)
 ```
 
 `@sct`
