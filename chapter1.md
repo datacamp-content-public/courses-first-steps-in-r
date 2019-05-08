@@ -187,8 +187,9 @@ In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden
 
 Die letzten beiden Operatoren benötigen eine Erklärung:
 
-	Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: Zum Beispiel 4^2 ist 16.
-    Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 %% 2 ist 1.
+Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: 
+- Zum Beispiel 4^2 ist 16.
+Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 %% 2 ist 1.
 
 Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachstehenden Aufgaben, um die Übung erfolgreich abzuschließen.
 
