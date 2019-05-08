@@ -281,7 +281,8 @@ key: 8767c4d2d3
 xp: 100
 ```
 
-
+Der nächste übliche Schritt nach der Bereinigung der Daten (Tidying) ist es, die Daten zu transformieren. Dazu gehört die Einschränkung des Datensates auf das Analyseinteresse, die Erstellung neuer Variablen, die Funktionen bestehender Variablen sind und die Berechnung eines Satzes von zusammenfassenden Statistiken (counts, means, ...)
+(Quelle: Wickham/Grolemund 2018, S.X)
 
 `@instructions`
 
@@ -319,7 +320,8 @@ key: 78c1c653dc
 xp: 100
 ```
 
-
+Die Visualisierung ist eine grundlegende menschliche Aktivität und zeigt Ihnen Erkenntnisse, die Sie nicht erwartet hatten oder lässt Sie neue Fragen an die Daten stellen.Eine gute Visualisierung könnte auch darauf hinweisen, dass Sie die falschen Fragen stellen oder dass Sie andere Daten sammeln müssen. Die Visualisierung lässt Sie Daten besser interpretieren, jedoch skaliert sie nicht immer gut, da sie von Menschen in den häuftisgten Fällen für kontextbasierte und individuelle Sachverhalte angefragt wird.
+(Quelle: Wickham/Grolemund 2018, S.X)
 
 `@instructions`
 
