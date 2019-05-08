@@ -242,22 +242,30 @@ xp: 50
 
 Der Chef von Ihnen fragt Sie, ob Sie Auffälligkeiten entdeckt haben oder der Datensatz zu weiteren Analyse schon verwendbar sei.
 Was sagen Sie Ihm?
-Achtung: Es ist nur eine Möglichkeit richtig! Lesen Sie bitte genau und wählen danach.
-
+Achtung: Es ist nur **eine** Möglichkeit richtig! Lesen Sie bitte genau und wählen danach.
+- 1 : Ja, der Datensatz Kundendaten ist für die Analyse fertig bereinigt und enthält keine Auffälligkeiten
+- 2 : Nein, es sind fehlende Werte enthalten
+- 3 : Nein, es gibt Ausreißerwerte bei dem Umsatz, die kommen mir nicht realistisch vor.
+- 4 : Nein, es gibt unrealistische Werte bei dem Umsatzdaten einzelner Kunden und es sind fehlende Werte im Datensatz enthalten.
+- 5 : Sorry Chef, ich habe keinen Überlick gewonnen und bin mir nicht sicher.
 
 
 `@hint`
 
 
 `@possible_answers`
-- 1 : (Ja, der Datensatz Kundendaten ist für die Analyse fertig bereinigt und enthält keine Auffälligkeiten)
-- 2 : (Nein, es sind fehlende Werte enthalten)
-- 3 : (Nein, es gibt Ausreißerwerte bei dem Umsatz, die kommen mir nicht realistisch vor.
-- [4]: Nein, es gibt unrealistische Werte bei dem Umsatzdaten einzelner Kunden und es sind fehlende Werte im Datensatz enthalten.
-- 5 : Sorry Chef, ich habe keinen Überlick gewonnen und bin mir nicht sicher.
+- 1
+- 2
+- 3
+- [4]
+- 5
 
 `@feedback`
-
+- "Nein, da haben Sie viele Werte und Auffälligkeiten übersehen. Sie müssen genauer arbeiten.
+- "Nein. Sie liegen schon richtig, nur haben Sie eine Kombination übersehen. Es liegen zusätzlich Umsatzausreißer vor."
+- "Nein. Sie liegen schon richtig, nur haben Sie eine Kombination übersehen. Es liegen zusätzlich fehlende Werte vor."
+- "Ja, sehr gut! Sie haben sehr aufmerksam die Daten erkundet."
+- "Naja, dann aber beim nächsten mal bitte genauer!""
 
 ---
 
