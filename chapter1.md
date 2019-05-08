@@ -30,9 +30,11 @@ skills: 1
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
+- Wie viele Programmierbücher fangen wir auch mit dem Programm an: Der Welt Hallo Sagen
+	- Dafür schreiben wir print("Hallo Welt!") in das Skribt und drücken auf 'Submit Answer'
 - Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
 - Fügen Sie bitte eine weitere Codezeile hinzu, die die **Summe von 285,51 und 3211** berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken). Schauen Sie dann in die Console.
-- Ihr erstes kleines Programm:
+-
 
 `@hint`
 1. Fügen Sie bitte eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
@@ -45,6 +47,8 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@sample_code`
 ```{r}
+# Ihr erstes Programm: "Hallo Welt!"
+
 # Addition 
 67+78
 # Ihre Code für die zweite Addition
@@ -53,6 +57,8 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@solution`
 ```{r}
+# Erstes Programm: "Hallo Welt!"
+print("Hallo Welt!")
 # Beispielcode Addition 
 67+78
 # Ihre erste eigene Codezeile:
@@ -61,6 +67,7 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@sct`
 ```{r}
+
 ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 ex() %>% check_output(3547, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("Ja, genau!")
