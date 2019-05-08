@@ -32,12 +32,9 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 `@instructions`
 - Wie viele Programmierbücher fangen wir auch mit dem Programm an: Der Welt Hallo sagen :)
 	- Dafür schreiben wir: **print("Hallo Welt!")** in das Skript und drücken auf 'Submit Answer'
-	- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
-	- Fügen Sie bitte eine weitere Codezeile hinzu, die die **Summe von 285; 51 und 3211** berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken). Schauen Sie dann in die Console.
 
 `@hint`
-1. Fügen Sie bitte eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
-2. Stellen Sie sicher, dass Sie '285; 51 und 3211' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
+
 
 `@pre_exercise_code`
 ```{r}
@@ -48,16 +45,76 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 ```{r}
 # Ihr erstes Programm: "Hallo Welt!"
 
-# Addition 
-67+78
-# Ihre Code für die zweite Addition
-
 ```
 
 `@solution`
 ```{r}
 # Erstes Programm: "Hallo Welt!"
 print("Hallo Welt!")
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Rechnen mit R
+
+```yaml
+type: TabExercise
+key: eb3ada4691
+xp: 100
+```
+
+In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	 
+ 	```
+ Addition: + |
+ Subtraktion: - |
+ Multiplikation: * |
+ Division: / |
+ Potenzierung: ^ |
+ Modulo: %% |
+```
+Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: 
+- Zum Beispiel 4^2 ist 16.
+Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl:
+- Zum Beispiel 7 %% 2 ist 1.
+
+Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachstehenden Aufgaben, um die Übung erfolgreich abzuschließen.
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: f3ad798fa3
+xp: 20
+```
+
+`@instructions`
+- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
+- Fügen Sie bitte eine weitere Codezeile hinzu, die die **Summe von 285; 51 und 3211** berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken). Schauen Sie dann in die Console.
+
+`@hint`
+1. Fügen Sie bitte eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
+2. Stellen Sie sicher, dass Sie '285; 51 und 3211' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
+
+`@sample_code`
+```{r}
+# Beispielcode Addition 
+67+78
+# Ihre erste eigene Codezeile:
+
+```
+
+`@solution`
+```{r}
 # Beispielcode Addition 
 67+78
 # Ihre erste eigene Codezeile:
@@ -66,111 +123,157 @@ print("Hallo Welt!")
 
 `@sct`
 ```{r}
-
 ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 ex() %>% check_output(3547, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("Ja, genau!")
 ```
 
----
-
-## Rechnen mit R
+***
 
 ```yaml
 type: NormalExercise
-key: 729f60ecbd
-xp: 100
+key: dfd9aea716
+xp: 20
 ```
-
-Rechnen mit R:
-In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	
-	
-    Addition: +
-    Subtraktion: -
-    Multiplikation: *
-    Division: /
-    Potenzierung: ^
-    Modulo: %%
-
-Die letzten beiden Operatoren benötigen eine Erklärung:
-
-	Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: Zum Beispiel 4^2 ist 16.
-    Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 %% 2 ist 1.
-
-Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachstehenden Aufgaben, um die Übung erfolgreich abzuschließen.
 
 `@instructions`
-1. Summieren Sie die Zahlen 23 46
-2. Ziehen Sie von der Zahl 234 64 ab.
-3. Multiplizieren Sie die Zahlen 222 und 59
-4. Dividieren Sie 465 durch 3
-5. Potenzieren Sie 2 hoch 5
-6. Berechnen Sie 119 Modulo 13.
-    
-Klicken Sie nach dem Programmieren auf 'Submit Answer' und schauen Sie sich die R-Ausgabe in der Konsole an. 
-Beachten Sie, wie das '#' Symbol in den R-Codes verwendet wird.
+2. Ziehen Sie von der Zahl 2345 87 ab.
 
 `@hint`
-1. Achten Sie bitte auf die richtigen Operatoren und mögliche Tippfehler, da diese als Fehler ausgegeben werden.
-2. Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
 
-`@pre_exercise_code`
-```{r}
-#1 Addition
-
-#2 Subtraktion
-
-#3 Multiplikation
-
-#4 Division
-
-#5 Potenzierung
-
-#6 Modulo
-
-```
 
 `@sample_code`
 ```{r}
-#1 Addition
+# Ziehen Sie von der Zahl 2345 87 ab.
 
-#2 Subtraktion
-
-#3 Multiplikation
-
-#4 Division
-
-#5 Potenzierung
-
-#6 Modulo
 ```
 
 `@solution`
 ```{r}
-#1 Addition
-69
-#2 Subtraktion
-170
-#3 Multiplikation
-13098
-#4 Division
-155
-#5 Potenzierung
-32
-#6 Modulo
-2
+2345-87
 ```
 
 `@sct`
 ```{r}
-codeaddition <- c("23+46", "23+46")
-codesubtraktion <- c("234-64")
-codemultiplikation <- c("222*59")
-codedivision <- c("465/3")
-codepotenzierung <- c("2^5", "2*2*2*2*2")
-codemodulo <- c("119%%13", "119-9*13")
-ex() %>% check_code(c(codeaddition, codesubtraktion, codemultiplikation, codedivision, codepotenzierung, codemodulo), fixed = TRUE)
-success_msg("Gute Arbeit! Yeah richtig gut gemacht!")
+ex() %>% check_output(2258, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+success_msg("Richtig und die nächste Aufgabe!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 33bebf536a
+xp: 20
+```
+
+`@instructions`
+3. Multiplizieren Sie die Zahlen 222 und 59
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Multiplizieren Sie die Zahlen 222 und 59
+
+```
+
+`@solution`
+```{r}
+222*59
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(13098, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+success_msg("Richtig und die nächste Aufgabe!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: bfa213b421
+xp: 20
+```
+
+`@instructions`
+4. Potenzieren Sie 2 hoch 5
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Potenzieren Sie 2 hoch 5
+
+```
+
+`@solution`
+```{r}
+2^5		
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(32, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+success_msg("Richtig und die nächste Aufgabe!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 94b44944a6
+xp: 20
+```
+
+`@instructions`
+5. Berechnen Sie 119 Modulo 13
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Berechnen Sie 119 Modulo 13
+
+```
+
+`@solution`
+```{r}
+119 %% 13
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(2, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+success_msg("Richtig")
+```
+
+***
+
+```yaml
+type: MultipleChoiceExercise
+key: 6df8493e71
+```
+
+`@question`
+Wie lautet das Ergebnis von 10 Modulo 4
+
+`@possible_answers`
+- 1
+- [2]
+- 3
+- 9
+
+`@hint`
+Das geht im Kopf - hier geht es nun um das Verständnis.
+
+`@sct`
+```{r}
+
 ```
 
 ---
@@ -570,208 +673,98 @@ success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung 
 ## Rechnen mit R
 
 ```yaml
-type: TabExercise
-key: eb3ada4691
+type: NormalExercise
+key: 729f60ecbd
 xp: 100
 ```
 
-In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	 
- 	```
- Addition: + |
- Subtraktion: - |
- Multiplikation: * |
- Division: / |
- Potenzierung: ^ |
- Modulo: %% |
-```
-Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: 
-- Zum Beispiel 4^2 ist 16.
-Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl:
-- Zum Beispiel 7 %% 2 ist 1.
+Rechnen mit R:
+In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	
+	
+    Addition: +
+    Subtraktion: -
+    Multiplikation: *
+    Division: /
+    Potenzierung: ^
+    Modulo: %%
+
+Die letzten beiden Operatoren benötigen eine Erklärung:
+
+	Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: Zum Beispiel 4^2 ist 16.
+    Der Operator Modulo (%%) liefert den Rest durch die Division der linken Zahl durch die rechte Zahl, zum Beispiel 7 %% 2 ist 1.
 
 Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachstehenden Aufgaben, um die Übung erfolgreich abzuschließen.
 
+`@instructions`
+1. Summieren Sie die Zahlen 23 46
+2. Ziehen Sie von der Zahl 234 64 ab.
+3. Multiplizieren Sie die Zahlen 222 und 59
+4. Dividieren Sie 465 durch 3
+5. Potenzieren Sie 2 hoch 5
+6. Berechnen Sie 119 Modulo 13.
+    
+Klicken Sie nach dem Programmieren auf 'Submit Answer' und schauen Sie sich die R-Ausgabe in der Konsole an. 
+Beachten Sie, wie das '#' Symbol in den R-Codes verwendet wird.
+
+`@hint`
+1. Achten Sie bitte auf die richtigen Operatoren und mögliche Tippfehler, da diese als Fehler ausgegeben werden.
+2. Ein weiteres Beispiel für den Modulo Operator ist: 9 %% 2 gleich 1.
+
 `@pre_exercise_code`
 ```{r}
+#1 Addition
+
+#2 Subtraktion
+
+#3 Multiplikation
+
+#4 Division
+
+#5 Potenzierung
+
+#6 Modulo
 
 ```
-
-***
-
-```yaml
-type: NormalExercise
-key: f3ad798fa3
-xp: 20
-```
-
-`@instructions`
-Summieren Sie die Zahlen 23 und 46
-
-`@hint`
-
 
 `@sample_code`
 ```{r}
-# Summieren Sie die Zahlen 23 und 46
+#1 Addition
 
+#2 Subtraktion
+
+#3 Multiplikation
+
+#4 Division
+
+#5 Potenzierung
+
+#6 Modulo
 ```
 
 `@solution`
 ```{r}
-
-23+46
+#1 Addition
+69
+#2 Subtraktion
+170
+#3 Multiplikation
+13098
+#4 Division
+155
+#5 Potenzierung
+32
+#6 Modulo
+2
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output(69, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
-success_msg("Ja, genau!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: dfd9aea716
-xp: 20
-```
-
-`@instructions`
-2. Ziehen Sie von der Zahl 2345 87 ab.
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-# Ziehen Sie von der Zahl 2345 87 ab.
-
-```
-
-`@solution`
-```{r}
-2345-87
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(2258, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
-success_msg("Richtig und die nächste Aufgabe!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: 33bebf536a
-xp: 20
-```
-
-`@instructions`
-3. Multiplizieren Sie die Zahlen 222 und 59
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-# Multiplizieren Sie die Zahlen 222 und 59
-
-```
-
-`@solution`
-```{r}
-222*59
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(13098, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
-success_msg("Richtig und die nächste Aufgabe!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: bfa213b421
-xp: 20
-```
-
-`@instructions`
-4. Potenzieren Sie 2 hoch 5
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-# Potenzieren Sie 2 hoch 5
-
-```
-
-`@solution`
-```{r}
-2^5		
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(32, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
-success_msg("Richtig und die nächste Aufgabe!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: 94b44944a6
-xp: 20
-```
-
-`@instructions`
-5. Berechnen Sie 119 Modulo 13
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-# Berechnen Sie 119 Modulo 13
-
-```
-
-`@solution`
-```{r}
-119 %% 13
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(2, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
-success_msg("Richtig")
-```
-
-***
-
-```yaml
-type: MultipleChoiceExercise
-key: 6df8493e71
-```
-
-`@question`
-Wie lautet das Ergebnis von 10 Modulo 4
-
-`@possible_answers`
-- 1
-- [2]
-- 3
-- 9
-
-`@hint`
-Das geht im Kopf - hier geht es nun um das Verständnis.
-
-`@sct`
-```{r}
-
+codeaddition <- c("23+46", "23+46")
+codesubtraktion <- c("234-64")
+codemultiplikation <- c("222*59")
+codedivision <- c("465/3")
+codepotenzierung <- c("2^5", "2*2*2*2*2")
+codemodulo <- c("119%%13", "119-9*13")
+ex() %>% check_code(c(codeaddition, codesubtraktion, codemultiplikation, codedivision, codepotenzierung, codemodulo), fixed = TRUE)
+success_msg("Gute Arbeit! Yeah richtig gut gemacht!")
 ```
