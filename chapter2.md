@@ -241,6 +241,8 @@ key: a446c3e473
 xp: 100
 ```
 
+Das Aufräumen Ihrer Daten bedeutet, sie in einer konsistenten Form zu speichern, die der Semantik des Datensatzes mit der Art der Speicherung entspricht. Kurz gesagt, wenn Ihre Daten ordentlich sind, ist jede Spalte eine Variable und jede Zeile ist eine Beobachtung. Das Bereinigen (tyding) ist wichtig, weil die einheitliche Struktur es Ihnen ermöglicht, Ihren Fokus auf Fragen zu den Daten zu konzentrieren. 
+
 
 
 `@instructions`
