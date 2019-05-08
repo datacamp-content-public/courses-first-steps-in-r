@@ -55,7 +55,8 @@ print("Hallo Welt!")
 
 `@sct`
 ```{r}
-
+ex() %>% check_code("[H|h]allo*\\s*[W|w]elt\\!*")
+success_msg("So ihr erstes Programm ist vollendet!")
 ```
 
 ---
