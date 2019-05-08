@@ -731,9 +731,9 @@ Weisen Sie bitte den Variablen x und y die passende Beschreibung der Getränkeso
 `@solution`
 ```{r}
 # Alkolische Getränke
-x <- "alc"
+x <- alc
 # Nicht-alkolische Getränke
-y <- "nonalc"
+y <- nonalc
 # Augabe Menge Alkohol
 print(x)
 ```
