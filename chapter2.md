@@ -47,7 +47,7 @@ Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolon
 
 `@pre_exercise_code`
 ```{r}
-ShowerPath <- "https://assets.datacamp.com/production/repositories/4810/datasets/92686befd7e2045e704ac3f441df3e5ddddbd2f4/Shower_data.csv"
+Kundendaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/Kundendaten.csv"
 ```
 
 `@sample_code`
@@ -57,7 +57,7 @@ ShowerPath <- "https://assets.datacamp.com/production/repositories/4810/datasets
 
 `@solution`
 ```{r}
-read.csv2(ShowerPath)
+read.csv2(Kundendaten)
 ```
 
 `@sct`
@@ -94,7 +94,7 @@ Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten au
 Zuerst lese das zu bearbeitende Datenset **Kundendaten** ein. (Auszug hier der Datei)
 
 `@hint`
-
+Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolons separiert ist)
 
 `@pre_exercise_code`
 ```{r}
