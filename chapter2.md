@@ -43,7 +43,7 @@ Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten au
 Zuerst lese das zu bearbeitende Datenset **Kundendaten** ein.
 
 `@hint`
-Nutze die Funktion #read.csv() (liest externen Datensatz ein, der mit Komma separiert ist)
+Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolon separiert ist)
 
 `@pre_exercise_code`
 ```{r}
