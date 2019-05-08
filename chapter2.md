@@ -119,7 +119,7 @@ Nutzen Sie bitte die Funktionen nrow() und ncol()
 # 1.Wie viele Zeilen gibt es?
 nrow("Kundendaten")
 # 2.Wie viele Spalten gibt es?
-ncal("Kundendaten")
+ncol("Kundendaten")
 ```
 
 `@sct`
