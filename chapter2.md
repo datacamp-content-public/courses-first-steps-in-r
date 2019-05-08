@@ -104,16 +104,22 @@ xp: 100
 Wie viele Zeilen gibt es? Wie viele Spalten sind im Datensatz vorhanden?
 
 `@hint`
-
+Nutzen Sie bitte die Funktionen nrow() und ncol()
 
 `@sample_code`
 ```{r}
+# 1.Wie viele Zeilen gibt es?
+
+# 2.Wie viele Spalten gibt es?
 
 ```
 
 `@solution`
 ```{r}
-
+# 1.Wie viele Zeilen gibt es?
+nrow(Kundendaten)
+# 2.Wie viele Spalten gibt es?
+ncal(Kundendaten)
 ```
 
 `@sct`
