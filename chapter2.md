@@ -116,52 +116,6 @@ Wie viele Zeilen gibt es? Wie viele Spalten sind im Datensatz vorhanden?
 
 ---
 
-## Insert exercise title here
-
-```yaml
-type: TabExercise
-key: adaa725c93
-xp: 100
-```
-
-
-
-`@pre_exercise_code`
-```{r}
-Shower <- read.csv2("../data/Shower_data.csv")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: 2d24f8f943
-xp: 100
-```
-
-`@instructions`
-
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
 ## Daten bereinigen
 
 ```yaml
