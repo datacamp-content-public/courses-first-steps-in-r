@@ -40,7 +40,7 @@ Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten au
 
 2) read.csv2 	(Semikolon  (;) separierte Dateien)
 
-Zuerst lese das zu bearbeitende Datenset **Kundendaten** ein. (Auszug hier der Datei)
+Zuerst lese das zu bearbeitende Datenset **Kundendaten** ein.
 
 `@hint`
 Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolons separiert ist)
@@ -67,57 +67,6 @@ read.csv2(Kundendaten)
 
 ---
 
-## Lasst uns anfangen: Daten einlesen
-
-```yaml
-type: NormalExercise
-key: 9ead3b214c
-xp: 100
-```
-
-Erste Schritte, um R 'hands-on' zu lernen und anzuwenden.
-Hier sehen Sie den Data Science Zyklus. Diesen werden wir Schritt für Schritt anhand der Datensätze von Kundendaten aus drei verschiedenen Datenbanken des Informationssystems der Firma XY durchgehen.
-
-![1](https://assets.datacamp.com/production/repositories/4810/datasets/82d92f41d7649657073e1e2e0b813011ecc4973a/Data_Science_Explore.png)
-
-(Quelle: Wickham/Grolemund 2018, S.XI)
-
-`@instructions`
-Willkommen in der Programmierumgebung DataCamp. Lasst uns nun direkt mit dem Importieren der Datensätze loslegen. 
-
-Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten aus Exceltabellen und csv-Dateien zu importieren, gibt es zwei gängige Möglichkeiten: 
-
-1) read.csv 	(Komma 		(,) separierte Dateien)
-
-2) read.csv2 	(Semikolon  (;) separierte Dateien)
-
-Zuerst lese das zu bearbeitende Datenset **Kundendaten** ein. (Auszug hier der Datei)
-
-`@hint`
-Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolons separiert ist)
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
 ## Daten erkunden
 
 ```yaml
@@ -126,11 +75,20 @@ key: cac9b34188
 xp: 100
 ```
 
-Schaue Dir die Daten zuerst an und verschaffe Dir einen Überblick, was an Datentypen und Werten vorliegt.
+Schauen Sie sich die Daten zuerst an und verschaffen Sie sich einen Überblick, was an Datentypen und Werten vorliegt.
+
+Nützliche Funktionen für die Datenerkundung in R sind:
+- **nrow()** | **ncol()**: nrow and ncol gibt die Anzahl der Zeilen und Spalen in x zurück. Nrow und ncol behandeln einen Vektor genauso wie eine 1-spaltige Matrix.
+- **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
+- **colnames()**: Abrufen oder setzen der Zeilen- oder Spaltennamen eines matrixartigen Objekts.
+- **head()** | **tail()**: Liefert den ersten oder letzten Teil eines Vektors, einer Matrix, einer Tabelle, eines Datenrahmens oder einer Funktion.
+- **summary()**: Ist eine generische Funktion, um Ergebniszusammenfassungen der Ergebnisse verschiedener Modellanpassungsfunktionen zu erstellen.
+()
+
 
 `@pre_exercise_code`
 ```{r}
-ShowerPath <- "https://assets.datacamp.com/production/repositories/4810/datasets/92686befd7e2045e704ac3f441df3e5ddddbd2f4/Shower_data.csv"
+Kundaten <- "https://assets.datacamp.com/production/repositories/4810/datasets/92686befd7e2045e704ac3f441df3e5ddddbd2f4/Shower_data.csv"
 ```
 
 ***
