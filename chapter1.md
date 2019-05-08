@@ -740,7 +740,7 @@ print(x)
 
 `@sct`
 ```{r}
-ex() %>% check_object("x") %>% check_equal("alc")
+ex() %>% check_object("x") %>% check_equal(alc)
 ex() %>% check_object("y") %>% check_equal("nonalc")
 ex() %>% check_code(c("print(x)", "x", "print("alc")", "alc"), fixed = TRUE)
 ex() %>% check_output("alc", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
