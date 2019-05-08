@@ -258,8 +258,7 @@ xp: 20
 
 `@sct`
 ```{r}
-codesubstraktion <- c("2345-87")
-ex() %>% check_code(c(codesubstraktion), fixed = TRUE)
+ex() %>% check_output(2258, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
