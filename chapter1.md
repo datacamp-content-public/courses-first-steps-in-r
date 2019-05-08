@@ -433,64 +433,6 @@ success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung 
 
 ---
 
-## Einkauf für die Feier
-
-```yaml
-type: NormalExercise
-key: 547d116662
-xp: 100
-```
-
-Variablenzuweisung
-
-Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
-
-Eine Variable ermöglicht es einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
-
-So können Sie der Variable my_var den Wert 4 zuweisen: my_var <- 4
-
-`@instructions`
-Sie haben eine Feier bevorstehen: 
-- x ist die Anzahl der alkoholischen Getränke (alc)
-- y ist die Anzahl der nicht-alkolischen Getränke (nonalc)
-
-Weisen Sie bitte der Variablen x und y die passende Beschreibung zu:
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-# Alkolische Getränke
-
-# Nicht-alkolische Getränke
-
-# Ausgabe Alkohol
-
-```
-
-`@solution`
-```{r}
-# Alkolische Getränke
-x <- "alc"
-# Nicht-alkolische Getränke
-y <- "nonalc"
-# Augabe Menge Alkohol
-print(x)
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
 ## Basisdatentypen in R
 
 ```yaml
@@ -739,6 +681,64 @@ xp: 100
 
 
 `@pre_exercise_code`
+```{r}
+
+```
+
+---
+
+## Einkauf für die Feier
+
+```yaml
+type: NormalExercise
+key: 547d116662
+xp: 100
+```
+
+Variablenzuweisung
+
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
+
+Eine Variable ermöglicht es einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
+
+So können Sie der Variable my_var den Wert 4 zuweisen: my_var <- 4
+
+`@instructions`
+Sie haben eine Feier bevorstehen: 
+- x ist die Anzahl der alkoholischen Getränke (alc)
+- y ist die Anzahl der nicht-alkolischen Getränke (nonalc)
+
+Weisen Sie bitte der Variablen x und y die passende Beschreibung zu:
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+# Alkolische Getränke
+
+# Nicht-alkolische Getränke
+
+# Ausgabe Alkohol
+
+```
+
+`@solution`
+```{r}
+# Alkolische Getränke
+x <- "alc"
+# Nicht-alkolische Getränke
+y <- "nonalc"
+# Augabe Menge Alkohol
+print(x)
+```
+
+`@sct`
 ```{r}
 
 ```
