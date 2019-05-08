@@ -126,6 +126,40 @@ ncol("Kundendaten")
 
 ```
 
+***
+
+```yaml
+type: NormalExercise
+key: 580db0e321
+```
+
+`@instructions`
+Jetzt wissen Sie, wie groß der Datensatz ist. Verschaffen Sie sich bitte einen Überblick über die größten und kleinsten Werte, die in den Kundendaten enthalten sind.
+
+`@hint`
+Nutze die Funktionen head() und tail()
+
+`@sample_code`
+```{r}
+# Größsten Werte
+
+# Kleinsten Werte
+
+```
+
+`@solution`
+```{r}
+# Größsten Werte
+head(Kundendaten)
+# Kleinsten Werte
+tail(Kundendaten)
+```
+
+`@sct`
+```{r}
+
+```
+
 ---
 
 ## Daten bereinigen
