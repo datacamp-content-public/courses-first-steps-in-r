@@ -175,7 +175,6 @@ key: eb3ada4691
 xp: 100
 ```
 
-Rechnen mit R:
 In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	
 	
     Addition: +
@@ -184,8 +183,6 @@ In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden
     Division: /
     Potenzierung: ^
     Modulo: %%
-
-Die letzten beiden Operatoren benötigen eine Erklärung:
 
 Der Potenzierungs-Operator (^) steigert die linke Zahl durch die Größe der rechten Zahl: 
 - Zum Beispiel 4^2 ist 16.
