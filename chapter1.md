@@ -353,7 +353,7 @@ R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibun
 Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
 
 `@instructions`
-1. Geben Sie den Wert von my_numeric aus.
+1. Geben Sie den Wert von my_nummerus aus.
  
 	Ändern Sie die Werte von:
  2. Variable my_numeric zu 13.
