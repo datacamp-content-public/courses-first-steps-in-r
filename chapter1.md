@@ -580,19 +580,20 @@ xp: 25
 ```
 
 `@instructions`
-4. Berechnen Sie bitte die tägliche durchschnittliche (mean) Verkaufszeit pro Verkaufstag.
+4. Berechnen Sie bitte die tägliche durchschnittliche Verkaufszeit pro Verkaufstag.
 
 `@hint`
 
 
 `@sample_code`
 ```{r}
-
+# Durchschnittliche Verkaufszeit:
 ```
 
 `@solution`
 ```{r}
 
+mean(sell.time)
 ```
 
 `@sct`
