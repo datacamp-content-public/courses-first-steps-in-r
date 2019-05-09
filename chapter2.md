@@ -40,7 +40,7 @@ Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten au
 
 2) read.csv2 	(Semikolon  (;) separierte Dateien)
 
-Zuerst lesen Sie das zu bearbeitende Datenset ein. Es liegt unter diesem Pfad ab: 
+Zuerst lesen Sie das zu bearbeitende Datenset ein. Es liegt unter diesem Pfad semikolongetrennt ab: 
 
 "https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv"
 
