@@ -70,7 +70,7 @@ xp: 100
 ```
 
 In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	 
- ```
+```
  - Addition: + 
  - Subtraktion: - 
  - Multiplikation: * 
