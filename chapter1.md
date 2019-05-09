@@ -469,12 +469,11 @@ key: 2a988ba927
 xp: 100
 ```
 
-Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018). Wir behandeln hier zum Einstieg numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
+Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018). Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
 
 Vektoren erzeugen: 
 
-Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen und ihn zuzuweisen:  c(1,2,3) oder kürzer c(1:3)
-- first_vec <- c(1:3).
+Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  c(1,2,3) oder kürzer c(1:3)
 - Durchschnitt ausrechnen mean()
 
 `@pre_exercise_code`
