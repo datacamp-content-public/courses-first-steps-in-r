@@ -294,11 +294,11 @@ So können Sie der Variable my_var den Wert 4 zuweisen: my_var <- 4
 
 `@instructions`
 Ihre Aufgabe: 
-Vervollständigen Sie bitte den Code im Editor, sodass der Variable der x der Wert 42 zugeordnet wird. Schicken Sie dann die Antwort ab. 
-Bsp.: Beachten Sie: Wenn Sie R nach x fragen, wird der Wert angezeigt.
+Vervollständigen Sie bitte den Code im Editor, sodass der Variable x der Wert 42 zugeordnet wird. Schicken Sie dann die Antwort ab. 
+Wenn Sie R nach x fragen, wird der vorher zu gewiesene Wert angezeigt.
 
 `@hint`
-Der Variable my_var wurde jetzt im Beispiel der Wert 4 zugeteilt. Orientieren Sie sich einfach daran.
+Der Variable my_var wurde im Beispiel der Wert 4 zugeteilt. Orientieren Sie sich einfach an dieser Vorgehensweise.
 
 `@pre_exercise_code`
 ```{r}
