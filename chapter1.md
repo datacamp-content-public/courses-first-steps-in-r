@@ -443,10 +443,10 @@ sell_time <- c(9,8,8,8,8,7)
 
 `@solution`
 ```{r}
-# 1. Erstellen Sie einen Vektor mit dem Namen open_vec, der die Zahlen von 1 bis 5 beinhaltet:
+#1. Erstellen Sie einen Vektor mit dem Namen open_vec, der die Zahlen von 1 bis 5 beinhaltet:
 open_vec <- c(1,2,3,4,5)
 
-# 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und bennen Sie ihn bitte my_mean:
+#2. Berechnen Sie den Durchschnitt (mean) des Vektors sell_time und weisen Sie ihm bitte mean_time zu:
 mean_time <- mean(sell_time)
 ```
 
