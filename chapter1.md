@@ -344,7 +344,7 @@ R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibun
 - Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers').
 - Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
 - Boolesche Werte (TRUE oder FALSE) werden auch als Wahrheitswerte bezeichnet.
-- Text- (oder String-)werte werden als Zeichen ('Characters') benannt. **Wichtig:** Textwerte werden in "Anführungszeichen" gesetzt.
+- Texte-(oder String-)werte werden als Zeichen ('Characters') benannt. **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
 Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
 
@@ -353,7 +353,7 @@ Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
  
 	Ändern Sie die Werte von:
  2. Variable my_numeric zu 13.
- 3. Variable my_character zu "universe".
+ 3. Variable my_character zu der Zeichenkette universe.
  4. Variable my_logical zu FALSE.
 
 `@hint`
@@ -376,7 +376,7 @@ my_nummerus <- 3
 
 # Weisen Sie my_numeric den Wert 54 zu:
 
-# Verändern Sie my_character zu universe:
+# Verändern Sie my_character zu der Zeichenkette universe:
 
 # Verändern Sie my_logical zu FALSE:
 
@@ -388,7 +388,7 @@ my_nummerus <- 3
 print(my_nummerus)
 # Weisen Sie my_numeric den Wert:
 my_numeric <- 54
-# Verändern Sie my_character zu "universe":
+# Verändern Sie my_character zu  der Zeichenkette universe:
 my_character <- "universe"
 # Verändern Sie my_logical zu FALSE:
 my_logical <- FALSE
