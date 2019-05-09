@@ -45,7 +45,7 @@ Zuerst lesen Sie das zu bearbeitende Datenset ein. Es liegt unter diesem Pfad se
 "https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv"
 
 `@hint`
-Nutze die Funktion #read.csv2() (liest externen Datensatz ein, der mit Semikolon separiert ist)
+Nutze die Funktion #read.csv2() (Mithilfe dieser Funktion lesen Sie den externen Datensatz ein, der mit Semikolon getrennt vorliegt)
 
 `@pre_exercise_code`
 ```{r}
@@ -131,7 +131,10 @@ ncol(Kundendaten)
 
 `@sct`
 ```{r}
-
+ex() %>% check_code("head(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
+success_msg("Super, es liegen 100 Zeilen vor!")
+ex() %>% check_code("tail(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
+success_msg("Super, es liegen 4 Zeilen vor!")
 ```
 
 ***
@@ -145,7 +148,7 @@ key: 580db0e321
 Jetzt wissen Sie, wie groß der Datensatz ist. Verschaffen Sie sich bitte einen Überblick über die größten oder kleinsten Werte, die in den Kundendaten enthalten sind, um mögliche Ausreißer, besonders profitable bzw. unprofitable Kunden zu identifizieren.
 
 `@hint`
-Nutzen Sie die Funktionen head() und tail()
+Nutzen Sie die Funktionen **head()** und **tail()**
 
 `@sample_code`
 ```{r}
@@ -169,6 +172,10 @@ tail(Kundendaten)
 
 `@sct`
 ```{r}
+ex() %>% check_object("head()") %>% check_equal("")
+ex() %>% check_object("mean_time") %>% check_equal("mean(sell.time)")
+ex() %>% check_object("mean_time") %>% check_equal(8)
+success_msg("Ja, genau - es sieht so aus als hätten Sie das Erzeugen von Vektoren verstanden! Die durschnittliche Arbeitszeit an den Arbeitstagen beträgt 7h") 
 
 ```
 
