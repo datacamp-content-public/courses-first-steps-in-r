@@ -97,12 +97,11 @@ xp: 20
 ```
 
 `@instructions`
-- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem '#' werden Kommentare gekennzeichnet.
-- Fügen Sie bitte eine weitere Codezeile hinzu, die die **Summe von 285; 51 und 3211** berechnet und klicken Sie danach auf "Submit Answer" (Antwort abschicken). Schauen Sie dann in die Console.
+- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
+- Fügen Sie bitte eine weitere Codezeile hinzu, die die **Summe von 285 und 51 und 3211** berechnet und klicken Sie danach auf "Submit Answer". Schauen Sie anschließend bitte in die Console.
 
 `@hint`
-1. Fügen Sie bitte eine Zeile R-Code ein, die die Summe von 67 und 78 berechnet, genau wie im Beispielcode demonstriert.
-2. Stellen Sie sicher, dass Sie '285; 51 und 3211' in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
+Stellen Sie sicher, dass Sie die Summe aus 285 + 51 + 3211 in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@sample_code`
 ```{r}
@@ -122,7 +121,7 @@ xp: 20
 
 `@sct`
 ```{r}
-ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht richtig - Beachten Sie Tippfehler!")
 ex() %>% check_output(3547, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
 success_msg("Ja, genau!")
 ```
