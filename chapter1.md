@@ -574,7 +574,7 @@ xp: 25
 
 `@sct`
 ```{r}
-ex() %>% check_output(567, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie es nicht richtig berechnet!")
+ex() %>% check_output(567, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie es nicht korrekt berechnet!")
 success_msg("Richtig. Am Freitag wurden 567 Euro Umsatz pro Stunde erwirtschaftet!")
 ```
 
