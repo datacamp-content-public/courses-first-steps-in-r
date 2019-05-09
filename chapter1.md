@@ -542,7 +542,7 @@ print(sell.time)
 
 `@sct`
 ```{r}
-ex() %>% check_object("print(sell.time)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+ex() %>% check_object(c("print(sell.time)", "sell.time"), fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau!")
 ```
 
