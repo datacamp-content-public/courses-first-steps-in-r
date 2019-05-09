@@ -511,8 +511,7 @@ open.vec <- c(1:6)
 `@sct`
 ```{r}
 ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)")
-success_msg("Ja, genau!") 
-
+success_msg("Ja, genau!")
 ```
 
 ***
@@ -527,7 +526,7 @@ xp: 25
 2. In dem Vektor sell.time ist die Verkaufszeit für jeden Verkaufstag hinterlegt. Lassen Sie sich bitte den Vektor ausgeben, um zu bestimmen, welcher Verkaufstag der zeitlich längste ist.
 
 `@hint`
-
+Die Funktion print() haben Sie doch schon kennen gelernt.
 
 `@sample_code`
 ```{r}
