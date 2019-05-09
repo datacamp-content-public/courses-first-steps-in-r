@@ -430,7 +430,7 @@ Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <-
 
 `@pre_exercise_code`
 ```{r}
-sell_time <- c(9,8,8,8,7,6)
+sell_time <- c(9,8,8,8,8,7)
 ```
 
 `@sample_code`
@@ -452,9 +452,9 @@ mean_time <- mean(sell_time)
 
 `@sct`
 ```{r}
-ex() %>% check_object("open_cev") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
-ex() %>% check_object("my_mean") %>% check_equal("mean(my_vec)")
-ex() %>% check_object("my_mean") %>% check_equal(3)
+ex() %>% check_object("open_vec") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
+ex() %>% check_object("mean_time") %>% check_equal("mean(sell_time)")
+ex() %>% check_object("mean_time") %>% check_equal(8)
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Vektorzuweisung verstanden!")
 ```
 
