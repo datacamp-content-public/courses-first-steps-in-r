@@ -30,6 +30,9 @@ skills: 1
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
+Hallo nettes Gesicht,
+Sie sind unser neuer Mitarbeiter in der IT-Abteilung und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben, nun fangen wir aber erstmal leicht an. 
+
 - Wir fangen mit dem Programm an, mit dem auch viele Programmierbücher starten: "Hello World!"
 	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'
 
