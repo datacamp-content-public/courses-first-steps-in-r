@@ -498,11 +498,12 @@ xp: 25
 
 `@sample_code`
 ```{r}
-
+# Verkaufstage
 ```
 
 `@solution`
 ```{r}
+
 open.vec <- c(1:6)
 ```
 
@@ -588,6 +589,7 @@ xp: 25
 `@sample_code`
 ```{r}
 # Durchschnittliche Verkaufszeit:
+
 ```
 
 `@solution`
