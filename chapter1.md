@@ -618,10 +618,11 @@ Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen
 
 `@instructions`
 Der Datensatz aus dem Unternehmen Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
-Der Datensatz wurde der Variable **Kundendaten** zugewiesen.
+Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewiesen worden.
 
-1. Lassen Sie sich den Datensatz in der Konsole ausgeben
-2. Welche Struktur und Datentypen hat der Datensatz? Denken Sie an die Ausgabe.
+1. Lassen Sie sich den Datensatz in der Konsole ausgeben und verschaffen Sie sich einen Überblick. Stellen Sie sich diese Fragen:
+
+- Welche Struktur und Datentypen hat der Datensatz?
 
 `@hint`
 
