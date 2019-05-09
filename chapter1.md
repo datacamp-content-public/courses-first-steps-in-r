@@ -455,7 +455,7 @@ mean_time <- mean(sell_time)
 ex() %>% check_object("open_vec") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
 ex() %>% check_object("mean_time") %>% check_equal("mean(sell_time)")
 ex() %>% check_object("mean_time") %>% check_equal(8)
-success_msg("Ja, genau - es sieht so aus als hätten Sie die Vektorzuweisung verstanden!")
+success_msg("Ja, genau - es sieht so aus als hätten Sie das Erzeugen von Vektoren verstanden!")
 ```
 
 ---
