@@ -131,9 +131,9 @@ ncol(Kundendaten)
 
 `@sct`
 ```{r}
-ex() %>% check_code("head(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas bei dem Code für die Zeilen nicht!")
+ex() %>% check_code("nrow(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas bei dem Code für die Zeilen nicht!")
 success_msg("Super, es liegen 100 Zeilen vor!")
-ex() %>% check_code("tail(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas bei dem Code für die Spalten nicht!")
+ex() %>% check_code("ncol(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas bei dem Code für die Spalten nicht!")
 success_msg("Super, es liegen 4 Zeilen vor!")
 ```
 
