@@ -90,7 +90,9 @@ Nützliche Funktionen für die Datenerkundung in R sind:
 - **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
 - **colnames()**: Abrufen oder setzen der Zeilen- oder Spaltennamen eines matrixartigen Objekts.
 - **head()** | **tail()**: Liefert den ersten oder letzten Teil eines Vektors, einer Matrix, einer Tabelle, eines Datenrahmens oder einer Funktion.
+- **str()**: Erstellt eine kompakte Darstellung der internen Struktur eines R-Objekts.
 - **summary()**: Ist eine generische Funktion, um Ergebniszusammenfassungen zu erstellen.
+
 
 (Quelle: R Dokumentation)
 
@@ -145,7 +147,7 @@ key: 580db0e321
 ```
 
 `@instructions`
-Jetzt wissen Sie, wie groß der Datensatz ist. Verschaffen Sie sich bitte einen Überblick über die größten oder kleinsten Werte, die in den Kundendaten enthalten sind, um mögliche Ausreißer, besonders profitable bzw. unprofitable Kunden zu identifizieren.
+Jetzt wissen Sie, wie groß der Datensatz ist. Verschaffen Sie sich bitte einen Überblick über die obersten und untersten Werte, die in den Kundendaten enthalten sind, um sich einen Überblick zu verschaffen und mögliche Ausreißer, besonders profitable bzw. unprofitable Kunden zu identifizieren.
 
 `@hint`
 Nutzen Sie die Funktionen **head()** und **tail()**
@@ -154,11 +156,11 @@ Nutzen Sie die Funktionen **head()** und **tail()**
 ```{r}
 # Obersten Werte
 
-# -> Schauen Sie sich bitte den Datensatz in der Console an und merken Sie sich bitte Auffälligkeiten
+
 
 # Untersten Werte
 
-# -> Was fällt Ihnen hier im Datensatz auf?
+
 
 ```
 
