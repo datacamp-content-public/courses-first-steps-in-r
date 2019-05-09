@@ -527,12 +527,13 @@ xp: 25
 
 `@sample_code`
 ```{r}
-
+#Verkaufszeit
 ```
 
 `@solution`
 ```{r}
 
+print(sell.time)
 ```
 
 `@sct`
@@ -556,12 +557,13 @@ xp: 25
 
 `@sample_code`
 ```{r}
-
+# Umsatz pro Stunde am Freitag:
 ```
 
 `@solution`
 ```{r}
 
+5103/9
 ```
 
 `@sct`
