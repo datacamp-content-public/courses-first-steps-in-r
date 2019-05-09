@@ -430,7 +430,7 @@ Mit der Funktion c() kombinieren Sie aus einzelnen Elementen Vektoren:
 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und benennen Sie ihn bitte my_mean.
 
 `@hint`
-Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Varialbe <- c(Zahl:Zahl)
+Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Varialbe <- (Zahl:Zahl)
 
 `@pre_exercise_code`
 ```{r}
