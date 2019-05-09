@@ -199,7 +199,7 @@ summary(Kundendaten)
 ```{r}
 #ex() %>% check_object(summmary()) %>% check_equal(summary(Kundendaten))
 ex() %>% check_code("summary(Kundendaten)", fixed = TRUE, missing_msg= "Da stimmt etwas nicht!")
-success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen verstanden!")
+success_msg("Glückwunsch, jetzt müssten Sie einen Überblick über die  Daten bekommen haben!")
 ```
 
 ---
@@ -249,8 +249,8 @@ key: a446c3e473
 xp: 100
 ```
 
-Das Aufräumen bzw. **Bereinigen** Ihrer Daten bedeutet, sie in einer konsistenten Form zu speichern, die der Semantik des Datensatzes mit der Art der Speicherung entspricht. Kurz gesagt, wenn Ihre Daten bereinigt sind, ist jede Spalte eine Variable und jede Zeile ist eine Beobachtung. Das Bereinigen (tyding) ist wichtig, weil die einheitliche Struktur es Ihnen ermöglicht Ihren Fokus auf die Fragen zu den Daten zu konzentrieren. 
-(Quelle: Wickham/Grolemund 2018, S.X)
+Das Aufräumen bzw. **Bereinigen** Ihrer Daten bedeutet, sie in einer konsistenten Form zu speichern, die der Semantik des Datensatzes mit der Art der Speicherung entspricht. Kurz gesagt, wenn Ihre Daten bereinigt sind, ist jede Spalte eine Variable und jede Zeile ist eine Beobachtung. Das Bereinigen (tyding) ist wichtig, weil die einheitliche Struktur es Ihnen ermöglicht Ihren Fokus auf die Fragen zu den Daten zu konzentrieren 
+(Quelle: Wickham/Grolemund 2018, S.X).
 
 `@instructions`
 
