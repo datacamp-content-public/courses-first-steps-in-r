@@ -420,7 +420,7 @@ Vektoren erzeugen und erstellen:
 Bsp.: Um einen Vektor mit den Zahlen von 1 bis 3 zu erzeugen: 
 - myfirstvector <- c(1,2,3).
 
-Tipp zur Schreibeweise: Bei einer längeren Folge eignet sich die Schreibweise: 
+Tipp zur Schreibweise: Bei einer längeren Folge eignet sich die Schreibweise: 
 - myfirstvector <- c(1:3).
 
 `@instructions`
