@@ -542,7 +542,7 @@ print(sell.time)
 
 `@sct`
 ```{r}
-ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+ex() %>% check_object("print(sell.time)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau!")
 ```
 
