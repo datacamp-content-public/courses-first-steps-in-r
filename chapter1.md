@@ -505,13 +505,12 @@ xp: 100
 ```
 
 Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die sehr häufig Anwendung finden. Aufgrund der Kürze der Einführung in diesem Kurs kommen wir direkt zu **Data Frames**:
-In eine Matrix bekommen Sie diese Daten unterschiedlichen Datentyps nur, wenn Sie alles in Text umwandeln, was jedoch die Auswertung erschwert. Deswegen wird ein Data Frame verwendet, da Sie in diesem alle Daten unterschiedlichen Typs speichern können. Dieses Objekt (Tabelle) heißt in R Data Frame. (De Vries/Meys 2018, S.146)
 
-Der Datensatz des Unternehmens Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
-Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen **Kundendaten** und ist eine Variable?.
+Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames, ein Datenobjekt, in dem Sie alle Daten unterschielichen Typs speichern können. (de Vries/Meys 2018, S.146)
 
 `@instructions`
-
+Der Datensatz des Unternehmens Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
+Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen **Kundendaten** und ist eine Variable?.
 
 `@hint`
 
