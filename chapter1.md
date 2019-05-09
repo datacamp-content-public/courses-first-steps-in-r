@@ -542,7 +542,7 @@ print(sell.time)
 
 `@sct`
 ```{r}
-ex() %>% check_object(c("print(sell.time)", "sell.time"), fixed=TRUE) 
+ex() %>% check_object(c("print(sell.time)", "sell.time")) 
 success_msg("Ja, genau!")
 ```
 
