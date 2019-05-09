@@ -406,61 +406,6 @@ success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen ver
 
 ---
 
-## Erzeugen von Vektoren
-
-```yaml
-type: NormalExercise
-key: bd8c85316c
-xp: 100
-```
-
-Vektoren erzeugen und kombinieren:
-- Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018). Wir behandeln hier zum Einstieg numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
-
-Vektoren erzeugen: 
-
-Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen und ihn zuzuweisen:  c(1,2,3) oder kürzer c(1:3)
-- first_vec <- c(1:3).
-
-`@instructions`
-1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Namen open.vec zu. Die Zahlen stehen jeweils für einen Verkaufstag (1= Montag).
-2. In dem Vektor sell.time ist die Verkaufszeit für jeden Verkaufstag hinterlegt. Lassen Sie sich bitte den Vektor ausgeben, um zu bestimmen, welcher Verkaufstag der zeitlich längste ist.
-3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt?
-4. Berechnen Sie bitte die tägliche durchschnittliche (mean) Verkaufszeit pro Verkaufstag.
-
-`@hint`
-Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <- (Zahl:Zahl)
-
-`@pre_exercise_code`
-```{r}
-sell.time <- c(8,8,8,8,9,6)
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-#1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitten den Namen open.vec zu:
-open.vec <- c(1,2,3,4,5,6)
-
-#2. Berechnen Sie den Durchschnitt (mean) des Vektors sell.time und weisen Sie ihm bitte mean_time zu:
-mean_time <- mean(sell.time)
-```
-
-`@sct`
-```{r}
-ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
-ex() %>% check_object("mean_time") %>% check_equal("mean(sell.time)")
-ex() %>% check_object("mean_time") %>% check_equal(8)
-success_msg("Ja, genau - es sieht so aus als hätten Sie das Erzeugen von Vektoren verstanden! Die durschnittliche Arbeitszeit an den Arbeitstagen beträgt 7h") 
-
-```
-
----
-
 ## Vektoren
 
 ```yaml
@@ -922,4 +867,59 @@ codepotenzierung <- c("2^5", "2*2*2*2*2")
 codemodulo <- c("119%%13", "119-9*13")
 ex() %>% check_code(c(codeaddition, codesubtraktion, codemultiplikation, codedivision, codepotenzierung, codemodulo), fixed = TRUE)
 success_msg("Gute Arbeit! Yeah richtig gut gemacht!")
+```
+
+---
+
+## Erzeugen von Vektoren
+
+```yaml
+type: NormalExercise
+key: bd8c85316c
+xp: 100
+```
+
+Vektoren erzeugen und kombinieren:
+- Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018). Wir behandeln hier zum Einstieg numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
+
+Vektoren erzeugen: 
+
+Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen und ihn zuzuweisen:  c(1,2,3) oder kürzer c(1:3)
+- first_vec <- c(1:3).
+
+`@instructions`
+1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Namen open.vec zu. Die Zahlen stehen jeweils für einen Verkaufstag (1= Montag).
+2. In dem Vektor sell.time ist die Verkaufszeit für jeden Verkaufstag hinterlegt. Lassen Sie sich bitte den Vektor ausgeben, um zu bestimmen, welcher Verkaufstag der zeitlich längste ist.
+3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt?
+4. Berechnen Sie bitte die tägliche durchschnittliche (mean) Verkaufszeit pro Verkaufstag.
+
+`@hint`
+Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <- (Zahl:Zahl)
+
+`@pre_exercise_code`
+```{r}
+sell.time <- c(8,8,8,8,9,6)
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+#1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitten den Namen open.vec zu:
+open.vec <- c(1,2,3,4,5,6)
+
+#2. Berechnen Sie den Durchschnitt (mean) des Vektors sell.time und weisen Sie ihm bitte mean_time zu:
+mean_time <- mean(sell.time)
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
+ex() %>% check_object("mean_time") %>% check_equal("mean(sell.time)")
+ex() %>% check_object("mean_time") %>% check_equal(8)
+success_msg("Ja, genau - es sieht so aus als hätten Sie das Erzeugen von Vektoren verstanden! Die durschnittliche Arbeitszeit an den Arbeitstagen beträgt 7h") 
+
 ```
