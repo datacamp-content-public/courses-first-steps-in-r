@@ -152,11 +152,11 @@ Nutzen Sie die Funktionen **head()** und **tail()**
 
 `@sample_code`
 ```{r}
-# Größsten Werte
+# Obersten Werte
 
 # -> Schauen Sie sich bitte den Datensatz in der Console an und merken Sie sich bitte Auffälligkeiten
 
-# Kleinsten Werte
+# Untersten Werte
 
 # -> Was fällt Ihnen hier im Datensatz auf?
 
@@ -164,19 +164,18 @@ Nutzen Sie die Funktionen **head()** und **tail()**
 
 `@solution`
 ```{r}
-# Größsten Werte
+# Obersten Werte
 head(Kundendaten)
-# Kleinsten Werte
+# Untersten Werte
 tail(Kundendaten)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("head()") %>% check_equal("")
-ex() %>% check_object("mean_time") %>% check_equal("mean(sell.time)")
-ex() %>% check_object("mean_time") %>% check_equal(8)
-success_msg("Ja, genau - es sieht so aus als hätten Sie das Erzeugen von Vektoren verstanden! Die durschnittliche Arbeitszeit an den Arbeitstagen beträgt 7h") 
-
+ex() %>% check_code("head(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas bei dem Code für die obersten Werte nicht!")
+success_msg("Richtig gecodet!")
+ex() %>% check_code("tail(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas bei dem Code für die untersten Werte nicht!")
+success_msg("Richtig gecodet!") 
 ```
 
 ***
