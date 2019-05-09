@@ -100,10 +100,14 @@ xp: 20
 
 `@instructions`
 - Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
-- Fügen Sie bitte eine weitere Codezeile hinzu, die die **Summe von 285 und 51 und 3211** berechnet und klicken Sie danach auf "Submit Answer". Schauen Sie anschließend bitte in die Console.
+- Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 erstellen. Fügen Sie bitte eine weitere Codezeile hinzu, fügen Sie Ihre Rechnung ein und klicken Sie danach auf "Submit Answer". Schauen Sie anschließend bitte in die Console.
+
+```
+Umsatz: Jannuar 23400 | Februar 32000 | März 29400
+```
 
 `@hint`
-Stellen Sie sicher, dass Sie die Summe aus 285 + 51 + 3211 in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
+Stellen Sie sicher, dass Sie die Summe aus 234000 + 320000 + 294000 in einer neuen Zeile eingefügt haben. Starten Sie die Zeile nicht mit einem '#'-Zeichen, ansonsten wird der geschriebene Code nicht wie gewünscht ausgeführt, da damit Kommentare gekennzeichnet werden!
 
 `@sample_code`
 ```{r}
@@ -118,14 +122,14 @@ Stellen Sie sicher, dass Sie die Summe aus 285 + 51 + 3211 in einer neuen Zeile 
 # Beispielcode Addition 
 67+78
 # Ihre eigene Berechnung:
-285+51+3211
+234000 + 320000 + 294000
 ```
 
 `@sct`
 ```{r}
 ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht richtig - beachten Sie Tippfehler!")
-ex() %>% check_output(3547, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - beachten Sie Tippfehler!")
-success_msg("Ja, genau!")
+ex() %>% check_output(848000, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - beachten Sie Tippfehler!")
+success_msg("Ja, genau - der Umsatz im ersten Quartal beträgt 848.000€!")
 ```
 
 ***
