@@ -616,13 +616,16 @@ Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen,
 
 Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames, ein Datenobjekt, in dem Sie alle Daten unterschielichen Typs speichern können (de Vries/Meys 2018).
 
+- Struktur und Datentyp anzeigen lassen: str()
+- Anzahl der Zeilen bzw. Spalten ausgeben lassen: nrow() bzw. ncol()
+
+
 `@instructions`
 Der Datensatz aus dem Unternehmen Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
 Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewiesen worden.
 
-1. Lassen Sie sich den Datensatz in der Konsole ausgeben und verschaffen Sie sich einen Überblick. Stellen Sie sich diese Fragen:
-
-- Welche Struktur und Datentypen hat der Datensatz?
+1. Was beinhaltet der Datensatz an Informationen, bzw. welchen Datentypen kommen vor?
+2. Wie viele Kunden sind im Kundendatensatz aufgelistet, wenn Sie davon ausgehen, dass es keine doppelten Kunden gibt?
 
 `@hint`
 
