@@ -209,7 +209,7 @@ xp: 20
 4. Potenzieren Sie 2 hoch 5
 
 `@hint`
-Haben Sie den Potenzierungsoperator ^ korrekt eingegeben - Schauen Sie nochmal konkret auf Ihre Berechnung.
+Haben Sie den Potenzierungsoperator ^ korrekt eingegeben? Schauen Sie nochmal konkret auf Ihre Berechnung.
 
 `@sample_code`
 ```{r}
