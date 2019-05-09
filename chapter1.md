@@ -121,8 +121,8 @@ Stellen Sie sicher, dass Sie die Summe aus 285 + 51 + 3211 in einer neuen Zeile 
 
 `@sct`
 ```{r}
-ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht richtig - Beachten Sie Tippfehler!")
-ex() %>% check_output(3547, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+ex() %>% check_output(145, fixed=TRUE, missing_msg= "So ist das nicht richtig - beachten Sie Tippfehler!")
+ex() %>% check_output(3547, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Ja, genau!")
 ```
 
@@ -153,7 +153,7 @@ xp: 20
 
 `@sct`
 ```{r}
-ex() %>% check_output(2258, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+ex() %>% check_output(2258, fixed=TRUE, missing_msg="So ist das nicht richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
@@ -184,7 +184,7 @@ xp: 20
 
 `@sct`
 ```{r}
-ex() %>% check_output(13098, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+ex() %>% check_output(13098, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
@@ -200,7 +200,7 @@ xp: 20
 4. Potenzieren Sie 2 hoch 5
 
 `@hint`
-
+Haben Sie den Potenzierungsoperator ^ korrekt eingegeben - Schauen Sie nochmal konkret auf Ihre Berechnung.
 
 `@sample_code`
 ```{r}
@@ -215,7 +215,7 @@ xp: 20
 
 `@sct`
 ```{r}
-ex() %>% check_output(32, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - Beachten Sie Tippfehler!")
+ex() %>% check_output(32, fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
