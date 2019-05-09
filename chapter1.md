@@ -434,7 +434,7 @@ Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <-
 
 `@pre_exercise_code`
 ```{r}
-sell_time <- (9,8,8,8,7,6)
+sell_time <- c(9,8,8,8,7,6)
 ```
 
 `@sample_code`
