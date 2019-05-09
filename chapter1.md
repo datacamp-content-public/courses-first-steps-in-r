@@ -425,7 +425,7 @@ Tipp zur Schreibeweise: Bei einer längeren Folge eignet sich die Schreibweise:
 
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
-2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
+2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und benennen Sie ihn bitte my_mean.
 
 `@hint`
 Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Varialbe <- c(Zahl:Zahl)
@@ -439,7 +439,7 @@ Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Varialbe <-
 ```{r}
 # 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
 
-# 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
+# 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und bennen Sie ihn bitte my_mean:
 
 ```
 
@@ -448,7 +448,7 @@ Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Varialbe <-
 # 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet:
 my_vec <- c(1,2,3,4,5)
 
-# 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
+# 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und bennen Sie ihn bitte my_mean:
 my_mean <- mean(my_vec)
 ```
 
