@@ -406,7 +406,7 @@ success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen ver
 
 ---
 
-## Erstellen eines Vektors
+## Erzeugen von Vektoren
 
 ```yaml
 type: NormalExercise
@@ -414,14 +414,16 @@ key: bd8c85316c
 xp: 100
 ```
 
-Vektoren erzeugen und erstellen:
-- Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018).
+Vektoren erzeugen und kombinieren:
+- Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018). Wir behandeln hier zum Einstieg numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten.
 
-Bsp.: Um einen Vektor mit den Zahlen von 1 bis 3 zu erzeugen: 
-- myfirstvector <- c(1,2,3).
+Vektoren erzeugen: 
+Um einen Vektor mit den Zahlen von 1 bis 3 zu erzeugen und ihn zuzuweisen:  (1,2,3) oder kürzer (1:3)
+- first_vec <- (1,2,3).
 
-Tipp zur Schreibweise: Bei einer längeren Folge eignet sich die Schreibweise: 
-- myfirstvector <- c(1:3).
+Vektoren kombinieren:
+Mit der Funktion c() kombinieren Sie aus einzelnen Elementen Vektoren: 
+- sec_vec <- c(1,2,3,7,8,9)
 
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
