@@ -494,11 +494,12 @@ xp: 25
 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Namen open.vec zu. Die Zahlen stehen jeweils für einen Verkaufstag (1= Montag)
 
 `@hint`
-
+Schauen Sie bitte in die Erläuterungen, dort sind Beispiele gegeben.
 
 `@sample_code`
 ```{r}
 # Verkaufstage
+
 ```
 
 `@solution`
@@ -509,6 +510,8 @@ open.vec <- c(1:6)
 
 `@sct`
 ```{r}
+ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)")
+success_msg("Ja, genau!") 
 
 ```
 
@@ -529,6 +532,7 @@ xp: 25
 `@sample_code`
 ```{r}
 #Verkaufszeit
+
 ```
 
 `@solution`
@@ -559,6 +563,7 @@ xp: 25
 `@sample_code`
 ```{r}
 # Umsatz pro Stunde am Freitag:
+
 ```
 
 `@solution`
