@@ -514,7 +514,10 @@ Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen
 
 `@instructions`
 Der Datensatz des Unternehmens Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
-Welche Rubriken sind dies? Denken Sie an die Ausgabe. Der Name des Datensatzes trägt den Namen **Kundendaten** und ist eine Variable?
+Der Datensatz wurde der Variable **Kundendaten** zugewiesen.
+
+1. Lassen Sie sich den Datensatz in der Konsole ausgeben
+2. Welche Struktur und Datentypen hat der Datensatz?  sind dies? Denken Sie an die Ausgabe.
 
 `@hint`
 
