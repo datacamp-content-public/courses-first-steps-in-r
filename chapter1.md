@@ -415,15 +415,16 @@ xp: 100
 ```
 
 Vektoren erzeugen und erstellen:
-- Ein Vektor ist die einfachste Datenstruktur in R und wird als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" definiert (R-Handbuch). Es ist die kleinstmögliche Dateneinheit in R. (de Vries/Meys 2018)
-Bsp.: Um einen Vektor mit den Zahlen von 1 bis 2 zu erzeugen: myfirstvector <- c(1,2).
+- Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018).
+Bsp.: Um einen Vektor mit den Zahlen von 1 bis 3 zu erzeugen: myfirstvector <- c(1,2,3).
+Tipp zur Schreibeweise: Bei einer längeren Folge eignet sich die Schreibweise: myfirstvector <- c(1:3).
 
 `@instructions`
 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und weisen Sie ihm dem Namen my_mean zu.
 
 `@hint`
-
+Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Varialbe <- c(Zahl:Zahl)
 
 `@pre_exercise_code`
 ```{r}
