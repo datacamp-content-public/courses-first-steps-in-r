@@ -28,6 +28,7 @@ skills: 1
 ```
 
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
+![Welt](https://assets.datacamp.com/production/repositories/4810/datasets/efdb2635ca5a59a67d67dedea62813ca4cf68a0d/hello_welt.jpg)
 
 `@instructions`
 - Wir fangen mit dem Programm an, mit dem auch viele Programmierbücher starten: "Hello World!"
