@@ -426,8 +426,8 @@ Mit der Funktion c() kombinieren Sie aus einzelnen Elementen Vektoren:
 - sec_vec <- c(1,2,3,7,8,9)
 
 `@instructions`
-1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
-2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und benennen Sie ihn bitte my_mean.
+1. Erstellen Sie einen Vektor mit dem Namen open_vec, der die Zahlen von 1 bis 6 beinhaltet. Die Zahlen stehen jeweils für einen Verkaufstag.       (1= Montag)
+2. Berechnen Sie den Durchschnitt (mean) des Vektors open_vec und benennen Sie ihn bitte .
 
 `@hint`
 Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <- (Zahl:Zahl)
@@ -439,7 +439,7 @@ Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <-
 
 `@sample_code`
 ```{r}
-# 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet.
+# 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 6 beinhaltet.
 
 # 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und bennen Sie ihn bitte my_mean:
 
@@ -447,8 +447,8 @@ Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <-
 
 `@solution`
 ```{r}
-# 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet:
-my_vec <- c(1,2,3,4,5)
+# 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 6 beinhaltet:
+my_vec <- c(1,2,3,4,5,6)
 
 # 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und bennen Sie ihn bitte my_mean:
 my_mean <- mean(my_vec)
@@ -456,7 +456,7 @@ my_mean <- mean(my_vec)
 
 `@sct`
 ```{r}
-ex() %>% check_object("my_vec") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
+ex() %>% check_object("my_vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)")
 ex() %>% check_object("my_mean") %>% check_equal("mean(my_vec)")
 ex() %>% check_object("my_mean") %>% check_equal(3)
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Vektorzuweisung verstanden!")
