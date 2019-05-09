@@ -577,7 +577,7 @@ key: 3e48f500af
 xp: 100
 ```
 
-Matrizen sind eine rechteckige Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
+Matrizen sind eine rechteckige, zweidimensionale Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
 
 `@instructions`
 
@@ -619,8 +619,8 @@ Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen,
 
 Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames, ein Datenobjekt, in dem Sie alle Daten unterschielichen Typs speichern können (de Vries/Meys 2018).
 
-- Struktur und Datentyp anzeigen lassen: str()
-- Anzahl der Zeilen bzw. Spalten ausgeben lassen: nrow() bzw. ncol()
+- Struktur und Datentyp anzeigen lassen: **str()**
+- Anzahl der Zeilen bzw. Spalten ausgeben lassen: **nrow() bzw. ncol()**
 
 
 `@instructions`
