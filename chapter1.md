@@ -415,7 +415,7 @@ xp: 100
 ```
 
 Vektoren erzeugen und kombinieren:
-- Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018). Wir behandeln hier zum Einstieg numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten.
+- Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018). Wir behandeln hier zum Einstieg numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
 
 Vektoren erzeugen: 
 Um einen Vektor mit den Zahlen von 1 bis 3 zu erzeugen und ihn zuzuweisen:  (1,2,3) oder kürzer (1:3)
@@ -426,20 +426,20 @@ Mit der Funktion c() kombinieren Sie aus einzelnen Elementen Vektoren:
 - sec_vec <- c(1,2,3,7,8,9)
 
 `@instructions`
-1. Erstellen Sie einen Vektor mit dem Namen open_vec, der die Zahlen von 1 bis 6 beinhaltet. Die Zahlen stehen jeweils für einen Verkaufstag.       (1= Montag)
-2. Berechnen Sie den Durchschnitt (mean) des Vektors open_vec und benennen Sie ihn bitte .
+1. Erstellen Sie einen Vektor mit dem Namen open_vec, der die Zahlen von 1 bis 5 beinhaltet. Die Zahlen stehen jeweils für einen Verkaufstag.       (1= Montag)
+2. Im Vektor sell_time ist die Verkaufszeit für jeden Verkaufstag hinterlegt. Berechnen Sie bitte die tägliche durchschnittliche (mean) Verkaufszeit und verweisen Sie bitte die durchschnittliche Verkaufszeit auf die Variable mean_time.   .
 
 `@hint`
 Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <- (Zahl:Zahl)
 
 `@pre_exercise_code`
 ```{r}
-
+sell_time <- (9,8,8,8,7,6)
 ```
 
 `@sample_code`
 ```{r}
-# 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 6 beinhaltet.
+# 1. Erstellen Sie einen Vektor mit dem Namen open_vec, der die Zahlen von 1 bis 5 beinhaltet.
 
 # 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und bennen Sie ihn bitte my_mean:
 
@@ -447,8 +447,8 @@ Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <-
 
 `@solution`
 ```{r}
-# 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 6 beinhaltet:
-my_vec <- c(1,2,3,4,5,6)
+# 1. Erstellen Sie einen Vektor mit dem Namen open_vec, der die Zahlen von 1 bis 5 beinhaltet:
+open_vec <- c(1,2,3,4,5)
 
 # 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und bennen Sie ihn bitte my_mean:
 my_mean <- mean(my_vec)
@@ -456,7 +456,7 @@ my_mean <- mean(my_vec)
 
 `@sct`
 ```{r}
-ex() %>% check_object("my_vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)")
+ex() %>% check_object("open_cev") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
 ex() %>% check_object("my_mean") %>% check_equal("mean(my_vec)")
 ex() %>% check_object("my_mean") %>% check_equal(3)
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Vektorzuweisung verstanden!")
