@@ -526,7 +526,7 @@ xp: 25
 2. In dem Vektor sell.time ist die Verkaufszeit für jeden Verkaufstag hinterlegt. Lassen Sie sich bitte den Vektor ausgeben, um zu bestimmen, welcher Verkaufstag der zeitlich längste ist.
 
 `@hint`
-Die Funktion print() haben Sie doch schon kennen gelernt.
+Die Funktion print() haben Sie schon kennen gelernt. Nutzen Sie diese.
 
 `@sample_code`
 ```{r}
@@ -537,12 +537,12 @@ Die Funktion print() haben Sie doch schon kennen gelernt.
 `@solution`
 ```{r}
 
-print(sell.time)
+print("sell.time")
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object(c(print(sell.time), sell.time)) 
+ex() %>% check_object(c("print(sell.time)", "sell.time")) 
 success_msg("Ja, genau!")
 ```
 
