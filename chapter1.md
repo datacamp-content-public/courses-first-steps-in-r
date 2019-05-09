@@ -475,7 +475,7 @@ Vektoren erzeugen:
 
 Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  **c(1,2,3) oder kürzer c(1:3)**
 
-Typ eines Vektors bestimmen: **str()**
+Typ eines Vektors bestimmen und Überblick verschaffen: **str()**
 Durchschnitt ausrechnen: **mean()**
 
 `@pre_exercise_code`
