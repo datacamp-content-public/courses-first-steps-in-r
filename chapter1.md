@@ -78,7 +78,7 @@ In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden
  - Potenzierung: ^ (z.B. 4^2 ist 16)
  - Modulo: %% 
 ```
-Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl: Zum Beispiel: 7 %% 2 ist 1.
+Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl: z.B.: 7 %% 2 ist 1.
 
 Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachfolgenden Aufgaben, um die Übung erfolgreich abzuschließen.
 
@@ -266,11 +266,11 @@ Wie lautet das Ergebnis von 10 Modulo 4
 - 9
 
 `@hint`
-Das geht im Kopf - hier geht es nun um das Verständnis.
+Das geht im Kopf - hier geht es nun um das Verständnis. Sie können aber auch die Console in R verwenden.
 
 `@sct`
 ```{r}
-ex() %>% check_output("[2]", fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+ex() %>% check_code("[2]", fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
 success_msg("Richtig")
 ```
 
