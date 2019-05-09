@@ -30,7 +30,7 @@ skills: 1
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
-Hallo nettes Gesicht,
+Hallo und herzlich Willkommen,
 
 Sie sind unser neuer Mitarbeiter in der IT-Abteilung und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben, nun fangen wir aber erstmal leicht an. 
 
