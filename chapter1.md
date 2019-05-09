@@ -476,6 +476,7 @@ Vektoren erzeugen:
 Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  **c(1,2,3) oder kürzer c(1:3)**
 
 Typ eines Vektors bestimmen und Überblick verschaffen: **str()**
+
 Durchschnitt ausrechnen: **mean()**
 
 `@pre_exercise_code`
@@ -538,12 +539,12 @@ Die Funktion print() haben Sie schon kennen gelernt. Nutzen Sie diese.
 `@solution`
 ```{r}
 
-print("sell.time")
+str(sell.time)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object(c("print(sell.time)", "sell.time")) 
+ex() %>% check_object("str(sell.time)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen in der Beschreibung!") 
 success_msg("Ja, genau!")
 ```
 
