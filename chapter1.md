@@ -270,7 +270,8 @@ Das geht im Kopf - hier geht es nun um das Verständnis. Sie können aber auch d
 
 `@sct`
 ```{r}
-
+ex() %>% check_code("-[2]"", fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+success_msg("Richtig")
 ```
 
 ---
