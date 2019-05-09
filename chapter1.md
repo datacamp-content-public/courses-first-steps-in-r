@@ -34,7 +34,7 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'
 
 `@hint`
-
+Keine Angst - einfach print("Hello World!") in das Script schreiben und auf 'Submit Answer' drücken.
 
 `@pre_exercise_code`
 ```{r}
@@ -610,11 +610,11 @@ Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen,
 Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames, ein Datenobjekt, in dem Sie alle Daten unterschielichen Typs speichern können (de Vries/Meys 2018).
 
 `@instructions`
-Der Datensatz des Unternehmens Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
+Der Datensatz aus dem Unternehmen Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
 Der Datensatz wurde der Variable **Kundendaten** zugewiesen.
 
 1. Lassen Sie sich den Datensatz in der Konsole ausgeben
-2. Welche Struktur und Datentypen hat der Datensatz?  sind dies? Denken Sie an die Ausgabe.
+2. Welche Struktur und Datentypen hat der Datensatz? Denken Sie an die Ausgabe.
 
 `@hint`
 
