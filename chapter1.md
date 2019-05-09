@@ -430,32 +430,32 @@ Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Variable <-
 
 `@pre_exercise_code`
 ```{r}
-sell_time <- c(9,8,8,8,8,7)
+sell.time <- c(9,8,8,8,8,7)
 ```
 
 `@sample_code`
 ```{r}
-#1. Erstellen Sie einen Vektor mit dem Namen open_vec, der die Zahlen von 1 bis 5 beinhaltet:
+#1. Erstellen Sie einen Vektor mit dem Namen open.vec, der die Zahlen von 1 bis 5 beinhaltet:
 
-#2. Berechnen Sie den Durchschnitt (mean) des Vektors sell_time und weisen Sie ihm bitte mean_time zu:
+#2. Berechnen Sie den Durchschnitt (mean) des Vektors sell.time und weisen Sie ihm bitte mean_time zu:
 
 ```
 
 `@solution`
 ```{r}
-#1. Erstellen Sie einen Vektor mit dem Namen open_vec, der die Zahlen von 1 bis 5 beinhaltet:
-open_vec <- c(1,2,3,4,5)
+#1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 5 beinhaltet und weisen Sie ihm bitten den Namen open.vec zu:
+open.vec <- c(1,2,3,4,5)
 
-#2. Berechnen Sie den Durchschnitt (mean) des Vektors sell_time und weisen Sie ihm bitte mean_time zu:
-mean_time <- mean(sell_time)
+#2. Berechnen Sie den Durchschnitt (mean) des Vektors sell.time und weisen Sie ihm bitte mean_time zu:
+mean_time <- mean(sell.time)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("open_vec") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
-ex() %>% check_object("mean_time") %>% check_equal("mean(sell_time)")
+ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
+ex() %>% check_object("mean_time") %>% check_equal("mean(sell.time)")
 ex() %>% check_object("mean_time") %>% check_equal(8)
-success_msg("Ja, genau - es sieht so aus als hätten Sie das Erzeugen von Vektoren verstanden!")
+success_msg("Ja, genau - es sieht so aus als hätten Sie das Erzeugen von Vektoren verstanden! Die durschnittliche Arbeitszeit an den Arbeitstagen beträgt 7h")
 ```
 
 ---
