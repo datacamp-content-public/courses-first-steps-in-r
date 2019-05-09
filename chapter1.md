@@ -603,7 +603,7 @@ xp: 25
 `@solution`
 ```{r}
 
-mean("sell.time")
+mean(sell.time)
 ```
 
 `@sct`
