@@ -448,7 +448,7 @@ Schauen Sie sich die Beispiele an. Verwenden Sie diese Schreibweise: Varialbe <-
 `@solution`
 ```{r}
 # 1. Erstellen Sie einen Vektor mit dem Namen my_vec, der die Zahlen von 1 bis 5 beinhaltet:
-my_vec <- c(1,2,3,4,5)
+my_vec <- (1,2,3,4,5)
 
 # 2. Berechnen Sie den Durchschnitt (mean) des Vektors my_vec und bennen Sie ihn bitte my_mean:
 my_mean <- mean(my_vec)
@@ -456,7 +456,7 @@ my_mean <- mean(my_vec)
 
 `@sct`
 ```{r}
-ex() %>% check_object("my_vec") %>% check_equal("c(1,2,3,4,5)", "c(1:5)")
+ex() %>% check_object("my_vec") %>% check_equal("(1,2,3,4,5)", "(1:5)")
 ex() %>% check_object("my_mean") %>% check_equal("mean(my_vec)")
 ex() %>% check_object("my_mean") %>% check_equal(3)
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Vektorzuweisung verstanden!")
