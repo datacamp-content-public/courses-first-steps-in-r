@@ -391,7 +391,7 @@ z > (x+y)
 `@sct`
 ```{r}
 ex() %>% check_object("x") %>% check_equal(805200)
-ex() %>% check_object("y") %>% check_equal(859529,9)
+ex() %>% check_object("y") %>% check_equal(859529.9)
 #ex() %>% check_code(c("print(x)", "x", print("alc"), "alc"), fixed = TRUE)
 #ex() %>% check_output("alc", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
 #success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
