@@ -75,7 +75,7 @@ key: eb3ada4691
 xp: 100
 ```
 
-In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	 
+R kann in seiner Basisfunktion als Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	 
 ```
  - Addition: + 
  - Subtraktion: - 
@@ -85,7 +85,6 @@ In seiner grundlegendsten Form kann R als ein einfacher Rechner verwendet werden
  - Modulo: %% 
 ```
 Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl: z.B.: 7 %% 2 ist 1.
-
 Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachfolgenden Aufgaben, um die Übung erfolgreich abzuschließen.
 
 `@pre_exercise_code`
@@ -317,7 +316,7 @@ Der Variable my_var wurde im Beispiel der Wert 4 zugeteilt. Orientieren Sie sich
 
 `@sample_code`
 ```{r}
-# Weisen Sie x den Wert 42 zu
+# Weisen Sie x den Wert 105 zu
 
 # Geben Sie den Wert der Variable x aus
 
@@ -325,17 +324,17 @@ Der Variable my_var wurde im Beispiel der Wert 4 zugeteilt. Orientieren Sie sich
 
 `@solution`
 ```{r}
-# Weisen Sie x den Wert 42 zu
-x <- 42
+# Weisen Sie x den Wert 105 zu
+x <- 105
 # Geben Sie den Wert der Variable x aus
 x
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("x") %>% check_equal(42)
+ex() %>% check_object("x") %>% check_equal(105)
 ex() %>% check_code(c("print(x)", "x"))
-ex() %>% check_output("42", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+ex() %>% check_output("105", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
