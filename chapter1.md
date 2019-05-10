@@ -303,17 +303,17 @@ Variablenzuweisung
 
 Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
 
-Eine Variable ermöglicht es einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
+Eine Variable ermöglicht es einen Wert (z.B. 5) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
 
-So können Sie der Variable my_var den Wert 4 zuweisen: **my_var <- 4**
+So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
 
 `@instructions`
 Ihre Aufgabe: 
-Vervollständigen Sie bitte den Code im Editor, sodass der Variable x der Wert 42 zugeordnet wird. Schicken Sie dann die Antwort ab. 
+Vervollständigen Sie bitte den Code im Editor, sodass der Variable x der Wert 105 zugeordnet wird. Schicken Sie dann die Antwort ab. 
 Wenn Sie R nach x fragen, wird der vorher zu gewiesene Wert angezeigt.
 
 `@hint`
-Der Variable my_var wurde im Beispiel der Wert 4 zugeteilt. Orientieren Sie sich einfach an dieser Vorgehensweise.
+Der Variable my_var wurde im Beispiel der Wert 5 zugeteilt. Orientieren Sie sich einfach an dieser Vorgehensweise.
 
 `@pre_exercise_code`
 ```{r}
