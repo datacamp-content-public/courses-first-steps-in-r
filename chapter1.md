@@ -364,7 +364,7 @@ Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Qu
 
 `@pre_exercise_code`
 ```{r}
-z <- 1665000
+z <- 1655000
 ```
 
 `@sample_code`
