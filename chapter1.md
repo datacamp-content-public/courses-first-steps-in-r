@@ -197,7 +197,7 @@ xp: 20
 
 `@sct`
 ```{r}
-ex() %>% check_output(846711.4, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - beachten Sie Tippfehler!")
+ex() %>% check_output(859520.9, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
