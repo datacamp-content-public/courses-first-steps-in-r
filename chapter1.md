@@ -353,11 +353,10 @@ xor(x, y) 	exklusiv x logisch-oder y
 ```
 
 `@instructions`
-Sie sollen nun die Quartalszahlen 2019 aus Q1: 805200  und Q2: 859520,9 den Variablen x und y zuordnen 
-- x sind die 
-- y ist die Anzahl der nicht-alkolischen Getränke (nonalc)
-
-Weisen Sie bitte den Variablen x und y den passenden Text der Getränkesorte zu:
+Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Quartale vertraut zu machen.
+1. Sie sollen nun die Quartalszahlen 2019 aus Q1: 805200  und Q2: 859520,9 den Variablen x und y zuordnen, um besser die Werte vergleichen zu können. 
+2. In der Variable z wurden die Quartalszahlen aus Q3 & Q4 hinterlegt. Bitte vergleichen Sie, ob diese Unternehmensperiode umsatzmäßíg erfolgreicher war.
+3. Berechnen Sie die Differenz und weisen Sie Ihre Rechnung der Variablen **d** zu.
 
 `@hint`
 
@@ -378,7 +377,7 @@ z <- 1665000
 x <- 805200
 # Q2
 y <- 859529,9
-# In Variable z wurden die Quartalszahlen aus 
+# Vergleich der  
 print("alc")
 ```
 
