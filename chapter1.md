@@ -267,6 +267,68 @@ success_msg("Richtig")
 ***
 
 ```yaml
+type: NormalExercise
+key: 713bfa0770
+```
+
+`@instructions`
+R hält eine riesige Menge von mathematischen Funktionen bereit. Herr Müller zeigt Ihnen noch weitere nützliche Funktionen:
+
+```
+log(x,base = y) Logarithmus von x zur Basis y
+exp(x) Exponentailfunktion von x
+sqrt(x) Qudratwurzel von x
+```
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: d92390f6d2
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
 type: MultipleChoiceExercise
 key: 6df8493e71
 ```
@@ -287,6 +349,68 @@ Das geht im Kopf - hier geht es nun um das Verständnis. Sie können aber auch d
 ```{r}
 ex() %>% check_code(-[2], fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
 success_msg("Richtig")
+```
+
+---
+
+## Variablen
+
+```yaml
+type: NormalExercise
+key: 547d116662
+xp: 100
+```
+
+Variablen zuweisen:
+
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
+
+Eine Variable ermöglicht es einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
+
+So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
+
+`@instructions`
+Sie haben eine Feier bevorstehen: 
+- x ist die Anzahl der alkoholischen Getränke (alc)
+- y ist die Anzahl der nicht-alkolischen Getränke (nonalc)
+
+Weisen Sie bitte den Variablen x und y den passenden Text der Getränkesorte zu:
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+# Alkolische Getränke
+
+# Nicht-alkolische Getränke
+
+# Ausgabe Alkohol
+
+```
+
+`@solution`
+```{r}
+# Alkolische Getränke
+x <- "alc"
+# Nicht-alkolische Getränke
+y <- "nonalc"
+# Augabe Menge Alkohol
+print("alc")
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("x") %>% check_equal("alc")
+ex() %>% check_object("y") %>% check_equal("nonalc")
+ex() %>% check_code(c("print(x)", "x", print("alc"), "alc"), fixed = TRUE)
+ex() %>% check_output("alc", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
+success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
 ---
@@ -724,68 +848,6 @@ xp: 50
 - "Nein, da liegen Sie nicht richtig"
 - "Super gemacht, 14 Modulo 3 ergibt 2"
 - "Nein, da liegen Sie nicht richtig"
-
----
-
-## Einkauf für die Feier
-
-```yaml
-type: NormalExercise
-key: 547d116662
-xp: 100
-```
-
-Variablenzuweisung
-
-Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
-
-Eine Variable ermöglicht es einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
-
-So können Sie der Variable my_var den Wert 4 zuweisen: my_var <- 4
-
-`@instructions`
-Sie haben eine Feier bevorstehen: 
-- x ist die Anzahl der alkoholischen Getränke (alc)
-- y ist die Anzahl der nicht-alkolischen Getränke (nonalc)
-
-Weisen Sie bitte den Variablen x und y den passenden Text der Getränkesorte zu:
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-# Alkolische Getränke
-
-# Nicht-alkolische Getränke
-
-# Ausgabe Alkohol
-
-```
-
-`@solution`
-```{r}
-# Alkolische Getränke
-x <- "alc"
-# Nicht-alkolische Getränke
-y <- "nonalc"
-# Augabe Menge Alkohol
-print("alc")
-```
-
-`@sct`
-```{r}
-ex() %>% check_object("x") %>% check_equal("alc")
-ex() %>% check_object("y") %>% check_equal("nonalc")
-ex() %>% check_code(c("print(x)", "x", print("alc"), "alc"), fixed = TRUE)
-ex() %>% check_output("alc", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
-success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
-```
 
 ---
 
