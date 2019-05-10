@@ -335,7 +335,7 @@ xp: 100
 
 Variablen zuweisen und vergleichen:
 
-Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.Eine Variable ermöglicht es einen Wert (z.B. 5) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind (de Vries/ Meys 2018).
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.Eine Variable ermöglicht es einen Wert (z.B. 5) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind (de Vries/ Meys 2018, 45 & 86).
 
 So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
 
@@ -345,6 +345,7 @@ x == y 		TRUE, wenn x exakt mit y übereinstimmt
 x != y 		TRUE, wenn x von y abweicht
 x > y  
 x >= y
+x & y 		x logisch-und y
 x | y  		x logisch-oder y
 !x    		nicht x
 xor(x, y) 	exklusiv x logisch-oder y
@@ -352,7 +353,7 @@ xor(x, y) 	exklusiv x logisch-oder y
 ```
 
 `@instructions`
-Sie sollen nun die Quartalszahlen aus Q1:  und Q2 den Variablen x und y zuordnen 
+Sie sollen nun die Quartalszahlen 2019 aus Q1: 805200  und Q2: 859520,9 den Variablen x und y zuordnen 
 - x sind die 
 - y ist die Anzahl der nicht-alkolischen Getränke (nonalc)
 
@@ -363,26 +364,21 @@ Weisen Sie bitte den Variablen x und y den passenden Text der Getränkesorte zu:
 
 `@pre_exercise_code`
 ```{r}
-
+z <- 1665000
 ```
 
 `@sample_code`
 ```{r}
-# Alkolische Getränke
-
-# Nicht-alkolische Getränke
-
-# Ausgabe Alkohol
 
 ```
 
 `@solution`
 ```{r}
-# Alkolische Getränke
-x <- "alc"
-# Nicht-alkolische Getränke
-y <- "nonalc"
-# Augabe Menge Alkohol
+# Q1
+x <- 805200
+# Q2
+y <- 859529,9
+# In Variable z wurden die Quartalszahlen aus 
 print("alc")
 ```
 
