@@ -335,7 +335,7 @@ xp: 100
 
 Variablen zuweisen und vergleichen:
 
-Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.Eine Variable ermöglicht es einen Wert (z.B. 5) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind (de Vries/ Meys 2018, 45 & 86).
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.Eine Variable ermöglicht es einen Wert (z.B. 5) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind (de Vries/ Meys 2018, S.45 & 86).
 
 So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
 
@@ -354,6 +354,7 @@ xor(x, y) 	exklusiv x logisch-oder y
 
 `@instructions`
 Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Quartale vertraut zu machen.
+
 1. Sie sollen nun die Quartalszahlen 2019 aus Q1: 805200  und Q2: 859520,9 den Variablen x und y zuordnen, um besser die Werte vergleichen zu können. 
 2. In der Variable z wurden die Quartalszahlen aus Q3 & Q4 hinterlegt. Stimmt es, dass das letzte Halbjahr 2018 so erfolgreich war oder sind Sie weiter gewachsen?
 3. Berechnen Sie die Differenz und weisen Sie Ihre Rechnung der Variablen **d** zu.
@@ -368,11 +369,11 @@ z <- 1665000
 
 `@sample_code`
 ```{r}
-# Q1
+#1.Q1
 
 # Q2
 
-# Vergleich der Umsätze
+#2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019 
 
 ```
 
@@ -381,7 +382,7 @@ z <- 1665000
 # Q1
 x <- 805200
 # Q2
-y <- 859529,9
+y <- 859529.9
 # Vergleich der Umsätze
 z > (x+y)
 ```
@@ -390,9 +391,9 @@ z > (x+y)
 ```{r}
 ex() %>% check_object("x") %>% check_equal(805200)
 ex() %>% check_object("y") %>% check_equal(859529,9)
-ex() %>% check_code(c("print(x)", "x", print("alc"), "alc"), fixed = TRUE)
-ex() %>% check_output("alc", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
-success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
+#ex() %>% check_code(c("print(x)", "x", print("alc"), "alc"), fixed = TRUE)
+#ex() %>% check_output("alc", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
+#success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
 ```
 
 ---
