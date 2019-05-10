@@ -353,7 +353,7 @@ success_msg("Richtig")
 
 ---
 
-## Variablen
+## Variablen zuweisen
 
 ```yaml
 type: NormalExercise
@@ -363,11 +363,21 @@ xp: 100
 
 Variablen zuweisen:
 
-Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
-
-Eine Variable ermöglicht es einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.Eine Variable ermöglicht es einen Wert (z.B. 5) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind (de Vries/ Meys 2018).
 
 So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
+
+```
+Variablen vergleichen:
+x == y 		TRUE, wenn x exakt mit y übereinstimmt
+x != y 		TRUE, wenn x von y abweicht
+x > y  
+x >= y
+x | y  		x logisch-oder y
+!x    		nicht x
+xor(x, y) 	exklusiv x logisch-oder y
+
+```
 
 `@instructions`
 Sie haben eine Feier bevorstehen: 
