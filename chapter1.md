@@ -335,7 +335,7 @@ x
 ex() %>% check_object("x") %>% check_equal(105)
 ex() %>% check_code(c("print(x)", "x"))
 ex() %>% check_output("105", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
-success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden!")
+success_msg("Ja, genau: x <- 105 erzeugt keine Ausgabe, weil R davon ausgeht, dass Sie diese Variable in der Zukunft benötigen! Gehen Sie bitte zur nächsten Aufgabe")
 ```
 
 ---
