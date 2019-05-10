@@ -425,61 +425,6 @@ success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung 
 
 ---
 
-## Variablenzuweisung
-
-```yaml
-type: NormalExercise
-key: b16f728974
-xp: 100
-```
-
-Variablenzuweisung
-
-Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
-
-Eine Variable ermöglicht es einen Wert (z.B. 5) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
-
-So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
-
-`@instructions`
-Ihre Aufgabe: 
-Vervollständigen Sie bitte den Code im Editor, sodass der Variable x der Wert 105 zugeordnet wird. Schicken Sie dann die Antwort ab. 
-Wenn Sie R nach x fragen, wird der vorher zu gewiesene Wert angezeigt.
-
-`@hint`
-Der Variable my_var wurde im Beispiel der Wert 5 zugeteilt. Orientieren Sie sich einfach an dieser Vorgehensweise.
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-# Weisen Sie x den Wert 105 zu
-
-# Geben Sie den Wert der Variable x aus
-
-```
-
-`@solution`
-```{r}
-# Weisen Sie x den Wert 105 zu
-x <- 105
-# Geben Sie den Wert der Variable x aus
-x
-```
-
-`@sct`
-```{r}
-ex() %>% check_object("x") %>% check_equal(105)
-ex() %>% check_code(c("print(x)", "x"))
-ex() %>% check_output("105", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
-success_msg("Ja, genau: x <- 105 erzeugt keine Ausgabe, weil R davon ausgeht, dass Sie diese Variable in der Zukunft benötigen! Gehen Sie bitte zur nächsten Aufgabe")
-```
-
----
-
 ## Basisdatentypen in R
 
 ```yaml
@@ -563,7 +508,7 @@ key: 2a988ba927
 xp: 100
 ```
 
-Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R (de Vries/Meys 2018). Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können.
+Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können (de Vries/Meys 2018).
 
 Vektoren erzeugen: 
 
@@ -1013,4 +958,59 @@ ex() %>% check_object("mean_time") %>% check_equal("mean(sell.time)")
 ex() %>% check_object("mean_time") %>% check_equal(8)
 success_msg("Ja, genau - es sieht so aus als hätten Sie das Erzeugen von Vektoren verstanden! Die durschnittliche Arbeitszeit an den Arbeitstagen beträgt 7h") 
 
+```
+
+---
+
+## Variablenzuweisung
+
+```yaml
+type: NormalExercise
+key: b16f728974
+xp: 100
+```
+
+Variablenzuweisung
+
+Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
+
+Eine Variable ermöglicht es einen Wert (z.B. 5) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
+
+So können Sie der Variable my_var den Wert 5 zuweisen: **my_var <- 5**
+
+`@instructions`
+Ihre Aufgabe: 
+Vervollständigen Sie bitte den Code im Editor, sodass der Variable x der Wert 105 zugeordnet wird. Schicken Sie dann die Antwort ab. 
+Wenn Sie R nach x fragen, wird der vorher zu gewiesene Wert angezeigt.
+
+`@hint`
+Der Variable my_var wurde im Beispiel der Wert 5 zugeteilt. Orientieren Sie sich einfach an dieser Vorgehensweise.
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+# Weisen Sie x den Wert 105 zu
+
+# Geben Sie den Wert der Variable x aus
+
+```
+
+`@solution`
+```{r}
+# Weisen Sie x den Wert 105 zu
+x <- 105
+# Geben Sie den Wert der Variable x aus
+x
+```
+
+`@sct`
+```{r}
+ex() %>% check_object("x") %>% check_equal(105)
+ex() %>% check_code(c("print(x)", "x"))
+ex() %>% check_output("105", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+success_msg("Ja, genau: x <- 105 erzeugt keine Ausgabe, weil R davon ausgeht, dass Sie diese Variable in der Zukunft benötigen! Gehen Sie bitte zur nächsten Aufgabe")
 ```
