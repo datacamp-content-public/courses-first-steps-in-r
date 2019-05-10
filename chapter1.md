@@ -356,8 +356,8 @@ xor(x, y) 	exklusiv x logisch-oder y
 Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Quartale vertraut zu machen.
 
 1. Sie sollen nun die Quartalszahlen 2019 aus Q1: 805200  und Q2: 859520,9 den Variablen x und y zuordnen, um besser die Werte vergleichen zu können. 
-2. In der Variable z wurden die Quartalszahlen aus Q3 & Q4 hinterlegt. Stimmt es, dass das letzte Halbjahr 2018 so erfolgreich war oder sind Sie weiter gewachsen?
-3. Berechnen Sie die Differenz und weisen Sie Ihre Rechnung der Variablen **d** zu.
+2. In der Variable z wurden die Quartalszahlen aus Q3 & Q4 hinterlegt. Stimmt es, dass das letzte Halbjahr 2018 erfolgreicherwar als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet?
+3. Berechnen Sie eine mögliche Differenz und weisen Sie Ihre Rechnung der Variablen **d** zu.
 
 `@hint`
 
@@ -375,6 +375,7 @@ z <- 1665000
 
 #2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019 
 
+#3.
 ```
 
 `@solution`
