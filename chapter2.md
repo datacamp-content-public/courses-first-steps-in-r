@@ -188,10 +188,10 @@ key: 968ce3981c
 ```
 
 `@instructions`
-Wir sind immer noch in dem Schritt, die Daten genau zu erkunden, um eine Überblick zu gewinnen und zu schauen, in welcher Qualität die Daten vorliegen. Welche der Funktionen, die vorgestellt wurden, eignen sich dafür zum Abschluss noch?
+Wir sind immer noch in dem Schritt, die Daten genau zu erkunden, um einen Überblick zu gewinnen und zu schauen, in welcher Qualität die Daten vorliegen. Welche der Funktionen, die vorgestellt wurden, eignen sich dafür zum Abschluss noch?
 
 `@hint`
-Um Ergebniszusammenfassungen zu bekommen eigent sich die Funktion: summary()
+Um Ergebniszusammenfassungen zu bekommen eigent sich die Funktion: summary() oder alternativ auch str()
 
 `@sample_code`
 ```{r}
@@ -208,7 +208,7 @@ summary(Kundendaten)
 `@sct`
 ```{r}
 #ex() %>% check_object(summmary()) %>% check_equal(summary(Kundendaten))
-ex() %>% check_code("summary(Kundendaten)", fixed = TRUE, missing_msg= "Da stimmt etwas nicht!")
+ex() %>% check_code(c("summary(Kundendaten)", "str(Kundendaten)"), fixed = TRUE, missing_msg= "Da stimmt etwas nicht!")
 success_msg("Glückwunsch, jetzt müssten Sie einen Überblick über die  Daten bekommen haben!")
 ```
 
