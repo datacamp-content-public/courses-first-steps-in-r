@@ -373,9 +373,9 @@ z <- 1655000
 
 # Q2
 
-#2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019 
+#2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019: 
 
-#3.Mögliche Differenz der Variablen d zuweisen
+#3.Mögliche Differenz der Variablen d zuweisen:
 ```
 
 `@solution`
