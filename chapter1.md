@@ -32,15 +32,15 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 `@instructions`
 Hallo und herzlich Willkommen,
 
-Sie sind unser/e neue/r MitarbeiterIn in der IT-Abteilung und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben, nun fangen wir aber erstmal leicht an. 
+Sie sind unser/e neue/r MitarbeiterIn in der IT-Abteilung und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir aber erstmal leicht an. 
 
 ![](https://assets.datacamp.com/production/repositories/4810/datasets/44f5b387423e2b1a9a47c24d837c1bd4f3184ee0/IT_Mitarbeiter.jpg)
 
-- Wir fangen mit dem Programm an, mit dem auch viele Programmierbücher starten: "Hello World!"
-	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'
+- Wir fangen mit dem Programm an mit dem fast alle Programmierbücher starten: "Hello World!"
+	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'.
 
 `@hint`
-Keine Angst - einfach print("Hello World!") in das Script schreiben und auf 'Submit Answer' drücken.
+Keine Angst - einfach print("Hello World!") in das Skript schreiben und auf 'Submit Answer' drücken.
 
 `@pre_exercise_code`
 ```{r}
@@ -55,7 +55,7 @@ Keine Angst - einfach print("Hello World!") in das Script schreiben und auf 'Sub
 
 `@solution`
 ```{r}
-# Erstes Programm: "Hello World!"
+# Ihr erstes Programm: "Hello World!"
 print("Hello World!")
 ```
 
@@ -75,16 +75,19 @@ key: eb3ada4691
 xp: 100
 ```
 
-R kann in seiner Basisfunktion als Rechner verwendet werden. Beachten Sie folgende Rechenoperatoren:	 
+R kann in seiner Basisfunktion als Rechner verwendet werden. Beachten Sie folgende arithmetische Rechenoperatoren:	 
+
 ```
  - Addition: + 
  - Subtraktion: - 
  - Multiplikation: * 
  - Division: / 
- - Potenzierung: ^ (z.B. 4^2 ist 16)
+ - Potenzierung: ^
  - Modulo: %% 
 ```
+ 
 Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl: z.B.: 7 %% 2 ist 1.
+
 Behalten Sie diese Informationen im Hinterkopf und befolgen Sie sie in den nachfolgenden Aufgaben, um die Übung erfolgreich abzuschließen.
 
 `@pre_exercise_code`
@@ -105,7 +108,7 @@ xp: 20
 - Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 erstellen. Fügen Sie bitte eine weitere Codezeile hinzu, fügen Sie Ihre Rechnung ein und klicken Sie danach auf "Submit Answer". Schauen Sie anschließend bitte in die Console.
 
 ```
-Umsatz: Jannuar 23400 | Februar 32000 | März 29400
+Umsatz: Jannuar 234000 | Februar 320000 | März 294000
 ```
 
 `@hint`
@@ -115,7 +118,7 @@ Stellen Sie sicher, dass Sie die Summe aus 234000 + 320000 + 294000 in einer neu
 ```{r}
 # Beispielcode Addition 
 67+78
-# Ihre eigene Berechnung:
+# Quartalsumsatz Q1:
 
 ```
 
@@ -123,7 +126,7 @@ Stellen Sie sicher, dass Sie die Summe aus 234000 + 320000 + 294000 in einer neu
 ```{r}
 # Beispielcode Addition 
 67+78
-# Ihre eigene Berechnung:
+# Quartalsumsatz Q1:
 234000 + 320000 + 294000
 ```
 
@@ -143,25 +146,26 @@ xp: 20
 ```
 
 `@instructions`
-2. Ziehen Sie von der Zahl 2345 87 ab.
+2. Sie hatten im Quartal Q1 einen Umsatz von 848.000€ zuerst ausgegeben. Aufgrund einer Rückstellung von 42800€ müssen diese am Umsatz berücksichtigt werden.
 
 `@hint`
 
 
 `@sample_code`
 ```{r}
-# Ziehen Sie von der Zahl 2345 87 ab.
+# Rückstellung berücksichtigen
 
 ```
 
 `@solution`
 ```{r}
-2345-87
+
+848000-42800
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output(2258, fixed=TRUE, missing_msg="So ist das nicht richtig - beachten Sie Tippfehler!")
+ex() %>% check_output(805200, fixed=TRUE, missing_msg="So ist das nicht richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
@@ -174,25 +178,26 @@ xp: 20
 ```
 
 `@instructions`
-3. Multiplizieren Sie die Zahlen 222 und 59
+3. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab?
 
 `@hint`
 
 
 `@sample_code`
 ```{r}
-# Multiplizieren Sie die Zahlen 222 und 59
+# Umsatzprognose Q2
 
 ```
 
 `@solution`
 ```{r}
-222*59
+
+805200*(1.022^3)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output(13098, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - beachten Sie Tippfehler!")
+ex() %>% check_output(846711.4, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
@@ -236,25 +241,26 @@ xp: 20
 ```
 
 `@instructions`
-5. Berechnen Sie 119 Modulo 13
+5. Herr Müller braucht für weitere Abrechnungen die Information, an welchem Tag (Zahl) wir uns innerhalb der aktuellen Kalenderwoche befinden. Wir haben heute den 11.05.2019 und das Jahr hat 365 Tage. Es ist also der 131 Tag. An welchem Tag liegen wir in der angebrochenen Kalenderwoche?
+**Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen:
 
 `@hint`
-
+Versuchen Sie es doch mal mit dem Modulo-Operator (%%)
 
 `@sample_code`
 ```{r}
-# Berechnen Sie 119 Modulo 13
+# Tag in der aktuellen Kalenderwoche
 
 ```
 
 `@solution`
 ```{r}
-119 %% 13
+131%%7
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output(2, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - beachten Sie Tippfehler!")
+ex() %>% check_code(,%%) %>% check_output(5, fixed=TRUE, missing_msg="So ist das nicht ganz richtig, achten Sie auf den Hinweis!")
 success_msg("Richtig")
 ```
 
@@ -299,7 +305,7 @@ Ein grundlegendes Konzept in der (statistischen) Programmierung sind Variablen.
 
 Eine Variable ermöglicht es einen Wert (z.B. 4) oder ein Objekt (z.B. Funktionsbeschreibung) in R zu speichern. Später können Sie den Namen der Variable nutzen, um einfach auf den Wert oder das Objekt zuzugreifen, die innerhalb dieser Variablen hinterlegt sind.
 
-So können Sie der Variable my_var den Wert 4 zuweisen: my_var <- 4
+So können Sie der Variable my_var den Wert 4 zuweisen: **my_var <- 4**
 
 `@instructions`
 Ihre Aufgabe: 
@@ -350,8 +356,8 @@ xp: 100
 
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
 
-- Natürliche Zahlen, wie 4, heißen auch ganze Zahlen ('Integers').
-- Dezimalwerte, wie 4.5 werden auch Numerik ('Numerics') genannt.
+- Natürliche Zahlen (z.B. 10) werden als auch ganze Zahlen ('Integers') benannt.
+- Dezimalwerte (z.B. 2,5) werden auch Numerik ('Numerics') genannt.
 - Boolesche Werte (TRUE oder FALSE) werden auch als Wahrheitswerte bezeichnet.
 - Texte-(oder String-)werte werden als Zeichen ('Characters') benannt. **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
