@@ -577,7 +577,7 @@ xp: 25
 ```
 
 `@instructions`
-3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt?
+3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Rechnen Sie es bitte aus und schreiben es in die Variable fr_h.
 
 `@hint`
 
@@ -591,7 +591,7 @@ xp: 25
 `@solution`
 ```{r}
 
-5103/9
+fr_h <- 5103/9
 ```
 
 `@sct`
