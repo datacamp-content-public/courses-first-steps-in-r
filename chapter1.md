@@ -385,8 +385,10 @@ z <- 1655000
 x <- 805200
 # Q2
 y <- 859529.9
-# Vergleich der Umsätze
+# 2.Vergleich der Umsätze
 z > (x+y)
+# 3.Mögliche Differenz der Variablen d zuweisen:
+
 ```
 
 `@sct`
