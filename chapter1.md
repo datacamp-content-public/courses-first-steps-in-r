@@ -443,7 +443,7 @@ Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweis
 ```{r}
 Anzahl_Mitarbeiter <- "Schmidt, Klaus"
 
-Begrüßungstermin <- date(25.09.2019)
+Begrueßungstermin <- date(25.09.2019)
 ```
 
 `@sample_code`
@@ -454,7 +454,7 @@ Begrüßungstermin <- date(25.09.2019)
 
 # Bennen Sie my_office mit der Zeichenkette Nordwand:
 
-# Überprüfen Sie, ob Begrüßungstermin eine Datumsangabe ist:
+# Überprüfen Sie, ob Begrueßungstermin eine Datumsangabe ist:
 
 ```
 
@@ -466,8 +466,8 @@ print(Anzahl_Mitarbeiter)
 Anzahl_Mitarbeiter <- 17
 # Bennen Sie my_office mit der Zeichenkette Nordwand:
 my_office <- "Nordwand"
-# Überprüfen Sie, ob Begrüßungstermin eine Datumsangabe ist:
-is.date(Begrüßungstermin)
+# Überprüfen Sie, ob Begrueßungstermin eine Datumsangabe ist:
+is.date(Begrueßungstermin)
 ```
 
 `@sct`
