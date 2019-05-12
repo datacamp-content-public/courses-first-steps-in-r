@@ -609,7 +609,7 @@ xp: 25
 ```
 
 `@instructions`
-4. Berechnen Sie bitte die tägliche durchschnittliche Verkaufszeit pro Verkaufstag.
+4. Berechnen Sie bitte die tägliche durchschnittliche Verkaufszeit pro Verkaufstag in der Woche.
 
 `@hint`
 
