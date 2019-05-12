@@ -416,7 +416,6 @@ R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibun
 - Dezimalwerte (z.B. 3.4) werden 'numeric' genannt (z.B. )
 - Zeichenketten und Buchstaben (Strings) ("Hallo") werden auch als 'character' bezeichnet.
 - Kategorien (A,B,C) werden auch als 'factor' bezeichnet.
-- Datumsangaben werden als 'date' gehandhabt.
 
 **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
@@ -441,8 +440,8 @@ Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweis
 
 `@pre_exercise_code`
 ```{r}
-Anzahl_Mitarbeiter <- character("Schmidt, Klaus")
-Begrueßungstermin <- date(2019-09-21)
+Anzahl_Mitarbeiter <- "Schmidt, Klaus"
+Termin <- 2019-09-21
 ```
 
 `@sample_code`
@@ -459,14 +458,16 @@ Begrueßungstermin <- date(2019-09-21)
 
 `@solution`
 ```{r}
+# Die Anzahl der Mitarbeiter müsste eine numerische Zahl. Überprüfen Sie dies bitte: 
+is.numeric(Anzahl_Mitarbeiter)
 # Ausgabe Anzahl_Mitarbeiter:
-print(Anzahl_Mitarbeiter)
+#print(Anzahl_Mitarbeiter)
 # Weisen Sie der Variablen Anzahl_Mitarbeiter den Wert 17 zu:
-Anzahl_Mitarbeiter <- 17
+#Anzahl_Mitarbeiter <- 17
 # Weisen Sie my_office die Zeichenkette Nordwand zu:
-my_office <- "Nordwand"
+#my_office <- "Nordwand"
 # Überprüfen Sie, ob Begrueßungstermin eine Datumsangabe ist:
-is.Date(Begrueßungstermin)
+#is.Date(Begrueßungstermin)
 ```
 
 `@sct`
@@ -477,6 +478,97 @@ is.Date(Begrueßungstermin)
 #ex() %>% check_object("my_character") %>% check_equal("universe")
 #ex() %>% check_object("my_logical")   %>% check_equal("FALSE")
 #success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen verstanden!")
+```
+
+---
+
+## Basisdatentypen in R
+
+```yaml
+type: TabExercise
+key: 0f1fc594d9
+xp: 100
+```
+
+R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
+
+- Boolesche Werte oder auch als Wahrheitswerte bezeichnet (TRUE oder FALSE) werden auch 'Logical' genannt.
+- Dezimalwerte (z.B. 3.4) werden 'numeric' genannt (z.B. )
+- Zeichenketten und Buchstaben (Strings) ("Hallo") werden auch als 'character' bezeichnet.
+- Kategorien (A,B,C) werden auch als 'factor' bezeichnet.
+
+**Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
+
+`@pre_exercise_code`
+```{r}
+Anzahl_Mitarbeiter <- "Schmidt, Klaus"
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: f3c9691aef
+xp: 50
+```
+
+`@instructions`
+Von einer kleineren Tochtergesellschaft, die neu eröffnet hat, hat Herr Müller einen Kundendatensatz zugeschickt bekommen. Ihr Chef Herr Müller sagt, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau mit den Basisdatentypen beschäftigen müssen, damit die Mitarbeiter von Ihnen eine Vorlage bekommen können. 
+Kontrollieren Sie bitte einzelne Werte hinsichtlich ihrer Basisdatentypen.
+
+1. Die Variable müsste Anzahl_Mitarbeiter müsste eine numerische Basisdatentyp sein - richtig
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+is.numeric(Anzahl_Mitarbeiter)
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 2a20b35038
+xp: 50
+```
+
+`@instructions`
+2. Lassen Sie sich bitte die Variable Anzahl_Mitarbeiter ausgeben und wenn nicht die Anzahl von 17 hinterlegt ist, tun sie dies bitte. Klicken Sie zur Ausgabe 'Run Code'
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+#2.1 Ausgabe
+
+#2.2 
+
+```
+
+`@solution`
+```{r}
+#2.1 Ausgabe
+print(Anzahl_Mitarbeiter)
+#2.2 
+Anzahl_Mitarbeiter <- 17
+```
+
+`@sct`
+```{r}
+
 ```
 
 ---
