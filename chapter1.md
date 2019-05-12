@@ -747,8 +747,8 @@ Vektoren in eine Matrix zusammenführen:
 - *Matrix <- rbind(Vektor, Vektor)
 - **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
 
-Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können: Zeilen- und Spaltennamen verändern: 
-- Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
+Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können. Zeilen- und Spaltennamen sinnvoll verändern: 
+- Zeilennamen verändern: Beispiel **rownames(Matrix)** <- c("Region", "Umsätze")
 - Spaltennamen verändern: Beispiel **colnames(Matrix)** <-c("Januar", "Februar")
 
 Grundlegende Operationen mit Matrizen durchführen:
