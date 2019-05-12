@@ -413,11 +413,10 @@ xp: 100
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
 
 - Natürliche Zahlen (z.B. 10) werden als auch ganze Zahlen ('Integers') benannt.
-- Dezimalwerte (z.B. 2,5) werden auch Numerik ('Numerics') genannt.
+- Dezimalwerte (z.B. 2,5) werden auch Numerik ('Numerics') benannt.
 - Boolesche Werte (TRUE oder FALSE) werden auch als Wahrheitswerte bezeichnet.
-- Texte-(oder String-)werte werden als Zeichen ('Characters') benannt. **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
-
-Bsp.: Der Variable x soll der Wert 25 zugewiesen werden: x <- 25.
+- Texte-(oder String-)werte werden als Zeichen ('Characters') benannt. 
+**Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
 `@instructions`
 1. Geben Sie den Wert von my_nummerus aus.
