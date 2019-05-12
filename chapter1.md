@@ -388,7 +388,7 @@ y <- 859529.9
 # 2.Vergleich der Umsätze
 z > (x+y)
 # 3.Mögliche Differenz der Variablen d zuweisen:
-
+d <- (x+y-z)
 ```
 
 `@sct`
