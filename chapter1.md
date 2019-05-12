@@ -412,14 +412,16 @@ xp: 100
 
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
 
-- Natürliche Zahlen (z.B. 10) werden als auch ganze Zahlen ('Integers') benannt.
-- Dezimalwerte (z.B. 2,5) werden auch Numerik ('Numerics') benannt.
+![Basisdatentypen](https://assets.datacamp.com/production/repositories/4810/datasets/9b03e35de433daa0c560843afc3955d82c6b6928/Basisdatentypen_%C3%9Cbersicht.PNG)
+
 - Boolesche Werte (TRUE oder FALSE) werden auch als Wahrheitswerte bezeichnet.
-- Texte-(oder String-)werte werden als Zeichen ('Characters') benannt. 
+- Dezimalwerte (z.B. 2,5; 5) werden auch Numerik ('Numerics') benannt.
+- Texte-(oder String-)werte (z.B. "Hallo") werden als Zeichen ('Characters') benannt. 
 **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
+- 
 
 `@instructions`
-Von einer kleineren Verkaufsniederlassung, die neu eröffnet hat, hat Herr Müller einen Verkaufsdatensatz zugeschickt bekokmmen. Ihr Chef Herr Müller sagt, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau mit den Basisdatentypen beschäftigen müssen, damit die Mitarbeiter von Ihnen eine Vorlage bekommen können. 
+Von einer kleineren Tochtergesellschaft, die neu eröffnet hat, hat Herr Müller einen Kundendatensatz zugeschickt bekommen. Ihr Chef Herr Müller sagt, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau mit den Basisdatentypen beschäftigen müssen, damit die Mitarbeiter von Ihnen eine Vorlage bekommen können. 
 
 1. Geben Sie den Wert von my_nummerus aus.
  
