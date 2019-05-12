@@ -412,14 +412,13 @@ xp: 100
 
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
 
-   Boolesche Werte oder auch als Wahrheitswerte bezeichnet (TRUE oder FALSE) werden auch 'Logical' genannt.
-   Dezimalwerte (z.B. 3.4) werden 'numeric' genannt (z.B. )
-   Zeichenketten und Buchstaben (Strings) ("Hallo") werden auch als 'character' bezeichnet.
-   Kategorien (A,B,C) werden auch als 'factor' bezeichnet.
-   Datumsangaben werden als 'date'gehandhabt.
-   
+- Boolesche Werte oder auch als Wahrheitswerte bezeichnet (TRUE oder FALSE) werden auch 'Logical' genannt.
+- Dezimalwerte (z.B. 3.4) werden 'numeric' genannt (z.B. )
+- Zeichenketten und Buchstaben (Strings) ("Hallo") werden auch als 'character' bezeichnet.
+- Kategorien (A,B,C) werden auch als 'factor' bezeichnet.
+- Datumsangaben werden als 'date' gehandhabt.
 
-- **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
+**Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
 `@instructions`
 Von einer kleineren Tochtergesellschaft, die neu eröffnet hat, hat Herr Müller einen Kundendatensatz zugeschickt bekommen. Ihr Chef Herr Müller sagt, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau mit den Basisdatentypen beschäftigen müssen, damit die Mitarbeiter von Ihnen eine Vorlage bekommen können. 
