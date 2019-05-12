@@ -708,7 +708,7 @@ Herr Müller bittet Sie einen Report für die Tochterfirma zu erstellen.
 
 `@pre_exercise_code`
 ```{r}
-sell.day <- c("Montag", "Dienstag", "Mittwoch", "Donnestag", "Freitag", "Samstag")
+sell.day <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
 sell.time <- c(8,8,8,8,9,6)
 revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
 ```
