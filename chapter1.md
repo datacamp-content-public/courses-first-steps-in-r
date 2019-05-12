@@ -688,14 +688,17 @@ xp: 100
 Matrizen sind eine rechteckige, zweidimensionale Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
 
 `@instructions`
+Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
 
+Herr Müller bittet Sie
 
 `@hint`
 
 
 `@pre_exercise_code`
 ```{r}
-
+sell.time <- c(8,8,8,8,9,6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
 ```
 
 `@sample_code`
@@ -709,6 +712,23 @@ Matrizen sind eine rechteckige, zweidimensionale Anordnung (Tabelle) von Element
 ```
 
 `@sct`
+```{r}
+
+```
+
+---
+
+## Matrizen
+
+```yaml
+type: TabExercise
+key: ebe932dc2c
+xp: 100
+```
+
+Matrizen sind eine rechteckige, zweidimensionale Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
+
+`@pre_exercise_code`
 ```{r}
 
 ```
