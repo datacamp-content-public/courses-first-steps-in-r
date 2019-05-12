@@ -399,7 +399,7 @@ ex() %>% check_output(FALSE, fixed=TRUE, missing_msg= "Da haben Sie etwas falsch
 ex() %>% check_output(FALSE, fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
 #ex() %>% check_code(c("print(x)", "x", print("alc"), "alc"), fixed = TRUE)
 #ex() %>% check_output("alc", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
-success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Deshalb ist eine Überpüfung anhand von Daten für eine fundierte Aussage immer notwendig!")
+success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Deshalb ist eine Überpüfung anhand von Daten für eine fundierte Aussage und unternehmensrelevante Entscheidungen immer notwendig!")
 ```
 
 ---
