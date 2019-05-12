@@ -564,7 +564,7 @@ str(sell.time)
 
 `@sct`
 ```{r}
-ex() %>% check_object("str(sell.time)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code("str(sell.time)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau!")
 ```
 
