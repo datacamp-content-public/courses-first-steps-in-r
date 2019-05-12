@@ -683,7 +683,6 @@ Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen
 - Struktur und Datentyp anzeigen lassen: **str()**
 - Anzahl der Zeilen bzw. Spalten ausgeben lassen: **nrow() bzw. ncol()**
 
-
 `@instructions`
 Der Datensatz aus dem Unternehmen Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
 Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewiesen worden.
