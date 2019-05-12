@@ -774,19 +774,21 @@ xp: 50
 Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
 Herr Müller bittet Sie einen Report.Wochenverkaeufe für die Tochterfirma zu erstellen.
 
-1. Ihre Aufgabe ist es eine Tabelle aus den Vektoren sell.time und revenue.day zu erstellen.
+1. Ihre Aufgabe ist es eine Tabelle aus den Vektoren sell.time und revenue.day zu erstellen und der Variable report.wochenverkaufe zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
 `@hint`
 
 
 `@sample_code`
 ```{r}
+# report.wochenverkaeufe
 
 ```
 
 `@solution`
 ```{r}
-Report.Wochenverkaeufe <- rbind(sell.time, revenue.day)
+
+report.wochenverkaeufe <- rbind(sell.time, revenue.day)
 ```
 
 `@sct`
