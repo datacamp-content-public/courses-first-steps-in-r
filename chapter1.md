@@ -703,12 +703,14 @@ Grundlegende Operationen mit Matrizen durchführen:
 Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
 Herr Müller bittet Sie einen Report für die Tochterfirma zu erstellen.
 
+1. Ihre Aufgabe ist es eine Tabelle auch aus der vorher brechneteten
+
 `@hint`
 
 
 `@pre_exercise_code`
 ```{r}
-sell.day <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
+sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
 sell.time <- c(8,8,8,8,9,6)
 revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
 ```
@@ -740,7 +742,55 @@ xp: 100
 
 Matrizen sind eine rechteckige, zweidimensionale Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
 
+Vektoren in eine Matrix zusammenführen: 
+- **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
+- *Matrix <- rbind(Vektor, Vektor)
+- **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
+- 
+
+Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können: Zeilen- und Spaltennamen verändern: 
+- Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
+- Spaltennamen verändern: Beispiel **colnames(Matrix)** <-c("Januar", "Februar")
+
+Grundlegende Operationen mit Matrizen durchführen:
+
+
+
 `@pre_exercise_code`
+```{r}
+sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
+sell.time <- c(8,8,8,8,9,6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 45beaefb5a
+xp: 100
+```
+
+`@instructions`
+Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
+Herr Müller bittet Sie einen Report.Wochenverkäufe für die Tochterfirma zu erstellen.
+
+1. Ihre Aufgabe ist es eine Tabelle aus den Vektoren sell.day, sell.time und revenue.day zu erstellen.
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+rbind(Report.Wochenverkäufe) <- c()
+```
+
+`@sct`
 ```{r}
 
 ```
