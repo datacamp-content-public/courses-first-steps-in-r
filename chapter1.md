@@ -375,7 +375,7 @@ z <- 1655000
 
 #2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019: 
 
-#3.Wahrheitswert der Variable d zuordnen:
+#3.Booleschen Wert der Variable d zuordnen:
 
 ```
 
@@ -387,7 +387,7 @@ x <- 805200
 y <- 859529.9
 # 2.Vergleich der Umsätze
 z > (x+y)
-# 3.Wahrheitswert der Variable d zuordnen:
+# 3.Booleschen Wert der Variable d zuordnen:
 d <- FALSE
 ```
 
