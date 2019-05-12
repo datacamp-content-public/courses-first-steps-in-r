@@ -442,7 +442,8 @@ Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweis
 `@pre_exercise_code`
 ```{r}
 Anzahl_Mitarbeiter <- "Schmidt, Klaus"
-Begrüßungstermin <- 25.09.2019
+
+Begrüßungstermin <- date(25.09.2019)
 ```
 
 `@sample_code`
