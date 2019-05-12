@@ -447,13 +447,13 @@ Begrüßungstermin <- 25.09.2019
 
 `@sample_code`
 ```{r}
-# Welchen Wert hat my_nummerus:
+# Ausgabe Anzahl_Mitarbeiter:
 
-# Weisen Sie my_numeric den Wert 54 zu:
+# Weisen Sie der Variablen Anzahl_Mitarbeiter den Wert 17 zu:
 
-# Verändern Sie my_character zu der Zeichenkette universe:
+# Bennen Sie my_office mit der Zeichenkette Nordwand:
 
-# Verändern Sie my_logical zu FALSE:
+# Überprüfen Sie, ob Begrüßungstermin eine Datumsangabe ist:
 
 ```
 
@@ -471,12 +471,12 @@ is.date(Begrüßungstermin)
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("print(my_nummerus)", "my_nummerus"), fixed = TRUE)
-ex() %>% check_output("3", fixed=TRUE, missing_msg="Da stimmt etwas nicht!")
-ex() %>% check_object("my_numeric")   %>% check_equal(54)
-ex() %>% check_object("my_character") %>% check_equal("universe")
-ex() %>% check_object("my_logical")   %>% check_equal("FALSE")
-success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen verstanden!")
+#ex() %>% check_code(c("print(my_nummerus)", "my_nummerus"), fixed = TRUE)
+#ex() %>% check_output("3", fixed=TRUE, missing_msg="Da stimmt etwas nicht!")
+#ex() %>% check_object("my_numeric")   %>% check_equal(54)
+#ex() %>% check_object("my_character") %>% check_equal("universe")
+#ex() %>% check_object("my_logical")   %>% check_equal("FALSE")
+#success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen verstanden!")
 ```
 
 ---
