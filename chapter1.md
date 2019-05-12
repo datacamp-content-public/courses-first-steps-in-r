@@ -412,12 +412,9 @@ xp: 100
 
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
 
-![Basisdatentypen](https://assets.datacamp.com/production/repositories/4810/datasets/9b03e35de433daa0c560843afc3955d82c6b6928/Basisdatentypen_%C3%9Cbersicht.PNG)
-
-    Dezimalwerte, wie 4.5 werden auch numerics (Numerik) genannt.
-    Natürliche Zahlen, wie 4, heißen auch integers (Ganze Zahlen). Ganze Zahlen sind auch Numerik.
-    Boolesche Werte (TRUE oder FALSE) werden auch logical (logisch) genannt.
-    Text- (oder String-) Werte werden auch als characters (Zeichen) bezeichnet.
+    Dezimalwerte (z.B. 3.4) werden 'Numerics' genannt (z.B. )
+    Boolesche Werte oder auch Wahrheitswerte (TRUE oder FALSE) werden auch 'Logical' genannt.
+    Zeichenketten und Buchstaben (Strings) werden auch als 'Characters' bezeichnet.
 
 - **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
