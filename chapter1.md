@@ -419,6 +419,8 @@ R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibun
 **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
 `@instructions`
+Von einer kleineren Verkaufsniederlassung, die neu eröffnet hat, hat Herr Müller einen Verkaufsdatensatz zugeschickt bekokmmen. Ihr Chef Herr Müller sagt, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau mit den Basisdatentypen beschäftigen müssen, damit die Mitarbeiter von Ihnen eine Vorlage bekommen können. 
+
 1. Geben Sie den Wert von my_nummerus aus.
  
 	Ändern Sie die Werte von:
