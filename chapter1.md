@@ -767,7 +767,7 @@ revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
 ```yaml
 type: NormalExercise
 key: 45beaefb5a
-xp: 100
+xp: 50
 ```
 
 `@instructions`
@@ -787,6 +787,35 @@ Herr Müller bittet Sie einen Report.Wochenverkaeufe für die Tochterfirma zu er
 `@solution`
 ```{r}
 Report.Wochenverkaeufe <- rbind(sell.time, revenue.day)
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 66d829cdea
+xp: 50
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
 ```
 
 `@sct`
