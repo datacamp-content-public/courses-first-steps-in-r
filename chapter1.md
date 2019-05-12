@@ -687,17 +687,21 @@ xp: 100
 
 Matrizen sind eine rechteckige, zweidimensionale Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
 
+Vektoren in eine Matrix zusammenführen: 
+- **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
+- **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
+
+Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können: Zeilen- und Spaltennamen verändern: 
+- Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
+- Spaltennamen verändern: Beispiel **colnames(Matrix)** <-c("Januar", "Februar")
+
+Grundlegende Operationen mit Matrizen durchführen:
+
+
+
 `@instructions`
 Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
 Herr Müller bittet Sie einen Report für die Tochterfirma zu erstellen.
-
-Vektoren in eine Matrix zusammenführen: 
-**rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
-**cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
-
-Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können: Zeilen- und Spaltennamen verändern: 
-Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
-Spaltennamen verändern: Beispiel **colnames(Matrix)** <-c("Januar", "Februar")
 
 `@hint`
 
