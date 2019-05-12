@@ -786,7 +786,7 @@ Herr Müller bittet Sie einen Report.Wochenverkäufe für die Tochterfirma zu er
 
 `@solution`
 ```{r}
-Report.Wochenverkäufe) <- rbind(sell.day, sell.time, revenue.day)
+Report.Wochenverkäufe <- rbind(sell.day, sell.time, revenue.day)
 ```
 
 `@sct`
