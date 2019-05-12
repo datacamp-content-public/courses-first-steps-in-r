@@ -442,7 +442,7 @@ Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweis
 `@pre_exercise_code`
 ```{r}
 Anzahl_Mitarbeiter <- character("Schmidt, Klaus")
-Begrueßungstermin <- is.Date(2019-09-21)
+Begrueßungstermin <- 2019-09-21
 ```
 
 `@sample_code`
