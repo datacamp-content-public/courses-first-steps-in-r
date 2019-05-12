@@ -767,7 +767,7 @@ revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
 ```yaml
 type: NormalExercise
 key: 45beaefb5a
-xp: 50
+xp: 35
 ```
 
 `@instructions`
@@ -801,11 +801,41 @@ report.wochenverkaeufe <- rbind(sell.day, sell.time, revenue.day)
 ```yaml
 type: NormalExercise
 key: 66d829cdea
-xp: 50
+xp: 35
 ```
 
 `@instructions`
-2. Bitte fügen Sie zu dem erstellten Report einen passenden Spaltennamen und
+2. Bitte fügen Sie zu dem erstellten Report passende Spaltennamen (Verkaufstag, Verkaufszeit in h, Tagesumsatz) der ersten Spalte ein.
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+rownames(report.wochenverkaeufe) <- c("Verkaufstag", "Verkaufszeit in h", "Umsatz")
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: fd557c6f5a
+xp: 30
+```
+
+`@instructions`
+3. Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich bei noch Übersetzungsfehler eingeschlichen hat. Kontrollieren Sie dies bitte und ändern Sie es in die deutsche Version ab.
 
 `@hint`
 
