@@ -423,7 +423,7 @@ R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibun
 `@instructions`
 Von einer kleineren Tochtergesellschaft, die neu eröffnet hat, hat Herr Müller einen Kundendatensatz zugeschickt bekommen. Ihr Chef Herr Müller sagt, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau mit den Basisdatentypen beschäftigen müssen, damit die Mitarbeiter von Ihnen eine Vorlage bekommen können. 
 
-1. Geben Sie den Wert von my_nummerus aus.
+1. Geben Sie den Wert von Anzahl_Mitarbeiter aus.
  
 	Ändern Sie die Werte von:
  2. Variable my_numeric zu 13.
@@ -441,7 +441,8 @@ Zum Beispiel: my_numeric <- 13 , um der Variable my_numeric den Wert 13 zuzuweis
 
 `@pre_exercise_code`
 ```{r}
-Mitarbeiter <- 15
+Anzahl_Mitarbeiter <- "Schmidt, Klaus"
+Begrüßungstermin <- 25.09.2019
 ```
 
 `@sample_code`
@@ -458,14 +459,14 @@ Mitarbeiter <- 15
 
 `@solution`
 ```{r}
-# Geben Sie bitte den Wert von my_nummerus aus:
-print(my_nummerus)
-# Weisen Sie my_numeric den Wert:
-my_numeric <- 54
-# Verändern Sie my_character zu  der Zeichenkette universe:
-my_character <- "universe"
-# Verändern Sie my_logical zu FALSE:
-my_logical <- FALSE
+# Ausgabe Anzahl_Mitarbeiter:
+print(Anzahl_Mitarbeiter)
+# Weisen Sie der Variablen Anzahl_Mitarbeiter den Wert 17 zu:
+Anzahl_Mitarbeiter <- 17
+# Bennen Sie my_office mit der Zeichenkette Nordwand:
+my_office <- "Nordwand"
+# Überprüfen Sie, ob Begrüßungstermin eine Datumsangabe ist:
+is.date(Begrüßungstermin)
 ```
 
 `@sct`
