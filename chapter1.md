@@ -509,7 +509,7 @@ Anzahl_Mitarbeiter <- "Schmidt, Klaus"
 ```yaml
 type: NormalExercise
 key: f3c9691aef
-xp: 50
+xp: 35
 ```
 
 `@instructions`
@@ -541,7 +541,7 @@ is.numeric(Anzahl_Mitarbeiter)
 ```yaml
 type: NormalExercise
 key: 2a20b35038
-xp: 50
+xp: 35
 ```
 
 `@instructions`
@@ -571,6 +571,35 @@ Anzahl_Mitarbeiter <- 17
 
 ```
 
+***
+
+```yaml
+type: NormalExercise
+key: 08e4ebd18f
+xp: 30
+```
+
+`@instructions`
+3. Ihr Chef Herr Müller hat für den Mitarbeiter Klaus Schmidt ein neues Büro renovieren lassen. Nennen Sie das Office Schmidt_Office bitte in Nordwand um.
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+Schmidt_Office <- "Nordwand"
+```
+
+`@sct`
+```{r}
+
+```
+
 ---
 
 ## Vektoren
@@ -583,9 +612,8 @@ xp: 100
 
 Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können (de Vries/Meys 2018).
 
-Vektoren erzeugen: 
-
-Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  **c(1,2,3) oder kürzer c(1:3)**
+Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  
+> **c(1,2,3) oder kürzer c(1:3)**
 
 Typ eines Vektors bestimmen und Überblick verschaffen: **str()**
 
@@ -669,7 +697,7 @@ xp: 25
 ```
 
 `@instructions`
-3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Rechnen Sie es bitte aus und schreiben es in die Variable fr_h.
+3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Rechnen Sie es bitte aus.
 
 `@hint`
 
