@@ -464,7 +464,7 @@ Begrueßungstermin <- date(25.09.2019)
 print(Anzahl_Mitarbeiter)
 # Weisen Sie der Variablen Anzahl_Mitarbeiter den Wert 17 zu:
 Anzahl_Mitarbeiter <- 17
-# Bennen Sie my_office mit der Zeichenkette Nordwand:
+# Weisen Sie my_office die Zeichenkette Nordwand zu:
 my_office <- "Nordwand"
 # Überprüfen Sie, ob Begrueßungstermin eine Datumsangabe ist:
 is.date(Begrueßungstermin)
