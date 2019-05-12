@@ -395,7 +395,7 @@ d <- (y-x)
 ```{r}
 ex() %>% check_object("x") %>% check_equal(805200)
 ex() %>% check_object("y") %>% check_equal(859520.9)
-ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen oder die Aussage von Herrn Müller nicht direkt überprüft!")
+ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht direkt überprüft!")
 ex() %>% check_output("540320.9", fixed=TRUE, missing_msg= "Da stimmt etwas bei Aufgabe 3. nicht!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Deshalb ist eine Überpüfung anhand von Daten für eine fundierte Aussage und unternehmensrelevante Entscheidungen immer notwendig!")
 ```
@@ -542,6 +542,7 @@ Durchschnitt ausrechnen: **mean()**
 `@pre_exercise_code`
 ```{r}
 sell.time <- c(8,8,8,8,9,6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
 ```
 
 ***
@@ -676,7 +677,7 @@ success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,66h
 
 ---
 
-## (Matrizen)
+## Matrizen
 
 ```yaml
 type: NormalExercise
