@@ -373,9 +373,9 @@ z <- 1655000
 
 # Q2
 
-#2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019: 
+# 2.Vergleich der halbjährlichen Umsätze aus 2018 und 2019: 
 
-#3.Booleschen Wert der Variable d zuordnen:
+# 3.Verweisen Sie die Differenz aus Q2 und Q1 der Variable d zu:
 
 ```
 
@@ -387,8 +387,8 @@ x <- 805200
 y <- 859520.9
 # 2.Vergleich der Umsätze
 z > (x+y)
-# 3.Booleschen Wert der Variable d zuordnen:
-d <- FALSE
+# 3.Verweisen Sie die Differenz aus Q2 und Q1 der Variable d zu:
+d <- (y-x)
 ```
 
 `@sct`
@@ -396,7 +396,7 @@ d <- FALSE
 ex() %>% check_object("x") %>% check_equal(805200)
 ex() %>% check_object("y") %>% check_equal(859520.9)
 ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen!")
-ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
+ex() %>% check_output("540320.9", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
 #ex() %>% check_code(c("print(x)", "x", print("alc"), "alc"), fixed = TRUE)
 #ex() %>% check_output("alc", fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Deshalb ist eine Überpüfung anhand von Daten für eine fundierte Aussage und unternehmensrelevante Entscheidungen immer notwendig!")
