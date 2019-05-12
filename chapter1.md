@@ -384,7 +384,7 @@ z <- 1655000
 # Q1
 x <- 805200
 # Q2
-y <- 859529.9
+y <- 859520.9
 # 2.Vergleich der Umsätze
 z > (x+y)
 # 3.Booleschen Wert der Variable d zuordnen:
@@ -394,7 +394,7 @@ d <- FALSE
 `@sct`
 ```{r}
 ex() %>% check_object("x") %>% check_equal(805200)
-ex() %>% check_object("y") %>% check_equal(859529.9)
+ex() %>% check_object("y") %>% check_equal(859520.9)
 ex() %>% check_output(FALSE, fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen!")
 ex() %>% check_output(FALSE, fixed=TRUE, missing_msg= "Da stimmt etwas nicht!")
 #ex() %>% check_code(c("print(x)", "x", print("alc"), "alc"), fixed = TRUE)
