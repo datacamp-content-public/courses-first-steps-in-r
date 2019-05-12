@@ -680,61 +680,6 @@ success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,66h
 ## Matrizen
 
 ```yaml
-type: NormalExercise
-key: 3e48f500af
-xp: 100
-```
-
-Matrizen sind eine rechteckige, zweidimensionale Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
-
-Vektoren in eine Matrix zusammenführen: 
-- **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
-- **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
-
-Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können: Zeilen- und Spaltennamen verändern: 
-- Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
-- Spaltennamen verändern: Beispiel **colnames(Matrix)** <-c("Januar", "Februar")
-
-Grundlegende Operationen mit Matrizen durchführen:
-
-
-
-`@instructions`
-Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
-Herr Müller bittet Sie einen Report für die Tochterfirma zu erstellen.
-
-1. Ihre Aufgabe ist es eine Tabelle auch aus der vorher brechneteten
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
-sell.time <- c(8,8,8,8,9,6)
-revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
-## Matrizen
-
-```yaml
 type: TabExercise
 key: ebe932dc2c
 xp: 100
@@ -1258,4 +1203,59 @@ is.numeric(Anzahl_Mitarbeiter)
 #ex() %>% check_object("my_character") %>% check_equal("universe")
 #ex() %>% check_object("my_logical")   %>% check_equal("FALSE")
 #success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen verstanden!")
+```
+
+---
+
+## Matrizen
+
+```yaml
+type: NormalExercise
+key: 3e48f500af
+xp: 100
+```
+
+Matrizen sind eine rechteckige, zweidimensionale Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
+
+Vektoren in eine Matrix zusammenführen: 
+- **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
+- **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
+
+Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können: Zeilen- und Spaltennamen verändern: 
+- Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
+- Spaltennamen verändern: Beispiel **colnames(Matrix)** <-c("Januar", "Februar")
+
+Grundlegende Operationen mit Matrizen durchführen:
+
+
+
+`@instructions`
+Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
+Herr Müller bittet Sie einen Report für die Tochterfirma zu erstellen.
+
+1. Ihre Aufgabe ist es eine Tabelle auch aus der vorher brechneteten
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
+sell.time <- c(8,8,8,8,9,6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
 ```
