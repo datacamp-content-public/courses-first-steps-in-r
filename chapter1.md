@@ -466,7 +466,7 @@ Anzahl_Mitarbeiter <- 17
 # Weisen Sie my_office die Zeichenkette Nordwand zu:
 my_office <- "Nordwand"
 # Überprüfen Sie, ob Begrueßungstermin eine Datumsangabe ist:
-is.date(Begrueßungstermin)
+is.Date(Begrueßungstermin)
 ```
 
 `@sct`
