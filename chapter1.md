@@ -628,7 +628,7 @@ mean(sell.time)
 
 `@sct`
 ```{r}
-ex() %>% check_output(46/6, fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
+ex() %>% check_code(c("46/6", "mean(sell.time)"), fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,66h !")
 ```
 
