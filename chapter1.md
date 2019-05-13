@@ -556,7 +556,7 @@ xp: 25
 `@instructions`
 Sie sollen als neuer Mitarbeiter wieder der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diesen.
 
-1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Namen open.vec zu. Die Zahlen stehen jeweils für einen Verkaufstag (1= Montag)
+- 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Namen open.vec zu. Die Zahlen stehen jeweils für einen Verkaufstag (1= Montag)
 
 `@hint`
 Schauen Sie bitte in die Erläuterungen, dort sind Beispiele gegeben.
@@ -588,7 +588,7 @@ xp: 25
 ```
 
 `@instructions`
-2. In dem Vektor sell.time ist die Verkaufszeit für jeden Verkaufstag hinterlegt. Lassen Sie sich bitte die Informationen über Typ und Struktur des Vektors sell.time ausgeben. Beurteilen Sie bitte, ob dieser nur numerische Zahlen enthält und welcher Tag der zeitlich Längste ist.
+- 2. In dem Vektor sell.time ist die Verkaufszeit für jeden Verkaufstag hinterlegt. Lassen Sie sich bitte die Informationen über Typ und Struktur des Vektors sell.time ausgeben. Beurteilen Sie bitte, ob dieser nur numerische Zahlen enthält und welcher Tag der zeitlich Längste ist.
 
 `@hint`
 Die Funktion str() haben Sie in der Kontextbeschreibung gegeben.
@@ -620,7 +620,7 @@ xp: 25
 ```
 
 `@instructions`
-3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Rechnen Sie es bitte aus.
+- 3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Rechnen Sie es bitte aus.
 
 `@hint`
 
@@ -652,7 +652,7 @@ xp: 25
 ```
 
 `@instructions`
-4. Berechnen Sie bitte die tägliche durchschnittliche Verkaufszeit pro Verkaufstag in der Woche.
+- 4. Berechnen Sie bitte die tägliche durchschnittliche Verkaufszeit pro Verkaufstag in der Woche.
 
 `@hint`
 
