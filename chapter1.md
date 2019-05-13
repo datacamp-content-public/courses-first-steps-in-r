@@ -1004,6 +1004,35 @@ Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewi
 
 ---
 
+## Haben Sie es verstanden?
+
+```yaml
+type: PureMultipleChoiceExercise
+key: a24e1b005a
+xp: 50
+```
+
+14 %% 3
+
+`@hint`
+
+
+`@possible_answers`
+- 5
+- 4
+- 3
+- [2]
+- 1
+
+`@feedback`
+- "Nein, da haben Sie etwas falsch verstanden"
+- "Nein, da liegen Sie nicht richtig"
+- "Nein, da liegen Sie nicht richtig"
+- "Super gemacht, 14 Modulo 3 ergibt 2"
+- "Nein, da liegen Sie nicht richtig"
+
+---
+
 ## (Lists)
 
 ```yaml
@@ -1039,35 +1068,6 @@ xp: 100
 ```{r}
 
 ```
-
----
-
-## Haben Sie es verstanden?
-
-```yaml
-type: PureMultipleChoiceExercise
-key: a24e1b005a
-xp: 50
-```
-
-14 %% 3
-
-`@hint`
-
-
-`@possible_answers`
-- 5
-- 4
-- 3
-- [2]
-- 1
-
-`@feedback`
-- "Nein, da haben Sie etwas falsch verstanden"
-- "Nein, da liegen Sie nicht richtig"
-- "Nein, da liegen Sie nicht richtig"
-- "Super gemacht, 14 Modulo 3 ergibt 2"
-- "Nein, da liegen Sie nicht richtig"
 
 ---
 
