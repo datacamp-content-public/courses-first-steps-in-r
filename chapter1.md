@@ -754,7 +754,7 @@ xp: 35
 ```
 
 `@instructions`
-2.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich bei noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Sie es bitte ab.
+2.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Ihn bitte ab.
 
 - 2.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
 
@@ -765,6 +765,9 @@ xp: 35
 
 `@sample_code`
 ```{r}
+# Ausgabe
+
+# Änderung vornehmen
 
 ```
 
@@ -790,7 +793,7 @@ xp: 30
 ```
 
 `@instructions`
-
+3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. Da Sie für die Woche die Umsatze pro Tag und die Tagesöffnungszeit gegeben haben, tun sie dies bitte für die ganze Woche.
 
 `@hint`
 
