@@ -816,7 +816,7 @@ report.wochenverkaeufe[1,2] <- 8
 
 `@solution`
 ```{r}
-report.final <- rbind(sell.time, revenue.day, average.byday) | report.final <- rbind(report.wochenverkaeufe, average.byday) 
+report.final <- rbind(sell.time, revenue.day, average.byday) 
 ```
 
 `@sct`
