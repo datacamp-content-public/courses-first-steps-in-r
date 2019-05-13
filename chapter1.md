@@ -749,7 +749,7 @@ xp: 35
 ```
 
 `@instructions`
-2. Bitte fügen Sie zu dem erstellten Report passende Spaltennamen (Verkaufstag, Verkaufszeit in h, Tagesumsatz) der ersten Spalte ein.
+- 2. Bitte fügen Sie zu dem erstellten Report passende Spaltennamen (Verkaufstag, Verkaufszeit in h, Tagesumsatz) der ersten Spalte ein.
 
 `@hint`
 
@@ -781,8 +781,9 @@ xp: 30
 `@instructions`
 3.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich bei noch Übersetzungsfehler eingeschlichen haben. Kontrollieren Sie dies und ändern Sie es bitte in die deutsche Version ab.
 
-3.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
-3.2 Ändern Sie einen Fehler ab und verweisen Sie den fertigen Report erneut auf die Variable report.wochenverkaeufe.
+- 3.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
+
+- 3.2 Ändern Sie einen Fehler ab und verweisen Sie den fertigen Report erneut auf die Variable report.wochenverkaeufe.
 
 `@hint`
 
