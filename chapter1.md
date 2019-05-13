@@ -542,7 +542,7 @@ Durchschnitt ausrechnen: **mean()**
 `@pre_exercise_code`
 ```{r}
 sell.time <- c(8,8,8,8,9,6)
-revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
+revenue.day <- c(2700, 3500, 4200, 4700, 5100, 3300)
 ```
 
 ***
