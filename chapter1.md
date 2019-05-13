@@ -436,7 +436,7 @@ Kontrollieren Sie bitte einzelne Werte hinsichtlich ihrer Basisdatentypen.
 - 1. Die Variable **Anzahl_Mitarbeiter** müsste ein numerischer Basisdatentyp sein. Überpüfen Sie dies bitte.
 
 `@hint`
-
+Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird! Schauen Sie in die Tabelle unter **Abfrage (Query)**
 
 `@sample_code`
 ```{r}
@@ -452,7 +452,7 @@ is.numeric(Anzahl_Mitarbeiter)
 
 `@sct`
 ```{r}
-ex() %>% check_output(FALSE, fixed=TRUE, missing_msg= "So ist das nicht richtig. Schreiben Sie so den Code, damit als Output ein boolescher Wert ausgegeben wird!")
+ex() %>% check_output(FALSE, fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
 success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
 ```
 
