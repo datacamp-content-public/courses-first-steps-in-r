@@ -490,7 +490,8 @@ Anzahl_Mitarbeiter <- 17
 
 `@sct`
 ```{r}
-
+ex() %>% check_output(17, fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
+success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
 ```
 
 ***
