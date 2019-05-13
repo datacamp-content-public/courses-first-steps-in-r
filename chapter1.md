@@ -527,7 +527,7 @@ Office_33 <- "Nordwand"
 
 `@sct`
 ```{r}
-ex() %>% check_code("Office_33 <- "Nordwand"", fixed=TRUE, missing_msg= "Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
+ex() %>% check_code(Office_33 <- "Nordwand", fixed=TRUE, missing_msg= "Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
 success_msg("Super!")
 ```
 
