@@ -702,7 +702,6 @@ Werte einer Matrix ersetzten:
 Grundlegende Operationen mit Matrizen durchführen:
 
 
-
 `@pre_exercise_code`
 ```{r}
 report.wochenverkaeufe <- matrix(1:18, ncol=6)
