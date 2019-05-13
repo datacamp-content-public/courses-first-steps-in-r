@@ -795,6 +795,9 @@ xp: 30
 
 `@solution`
 ```{r}
+# Ausgabe
+print(report.wochenverkaeufe)
+# Änderung vornehmen
 
 ```
 
