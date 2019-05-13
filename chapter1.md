@@ -440,13 +440,13 @@ Kontrollieren Sie bitte einzelne Werte hinsichtlich ihrer Basisdatentypen.
 
 `@sample_code`
 ```{r}
-#1.numerische Variable?
+#1.Überprüfung des Datentyps
 
 ```
 
 `@solution`
 ```{r}
-#1.numerische Variable?
+#1.Überprüfung des Datentyps
 is.numeric(Anzahl_Mitarbeiter)
 ```
 
