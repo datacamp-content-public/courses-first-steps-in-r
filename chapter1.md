@@ -724,7 +724,7 @@ Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in e
 
 Herr Müller bittet Sie einen **report.wochenverkaeufe** für die Tochterfirma zu erstellen.
 
-1. Ihre Aufgabe ist es eine Tabelle (Matrix) aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen **report.wochenverkaeufe** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
+- 1. Ihre Aufgabe ist es eine Tabelle (Matrix) aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen **report.wochenverkaeufe** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
 `@hint`
 
@@ -737,6 +737,7 @@ Herr Müller bittet Sie einen **report.wochenverkaeufe** für die Tochterfirma z
 
 `@solution`
 ```{r}
+
 report.wochenverkaeufe <- rbind(sell.time, revenue.day)
 ```
 
@@ -755,7 +756,7 @@ xp: 35
 ```
 
 `@instructions`
-2.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Ihn bitte ab.
+- 2.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Ihn bitte ab.
 
 - 2.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
 
@@ -797,7 +798,7 @@ xp: 30
 ```
 
 `@instructions`
-3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie diesen Vektor bitte noch dem Report hinzu, damit der Wochenreport vollständig ist und weisen Sie die Tabelle bitte der Variablen **report.final** zu.
+- 3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie diesen Vektor bitte noch dem Report hinzu, damit der Wochenreport vollständig ist und weisen Sie die Tabelle bitte der Variablen **report.final** zu.
 
 `@hint`
 
@@ -848,14 +849,15 @@ print(report.wochenverkaeufe)
 report.wochenverkaeufe[1,2] <- 8
 # Umsatz pro Tag hinzufügen
 report.final <- rbind(sell.time, revenue.day, average.byday) 
+# Zeilennamen benennen
+
 # Spaltennamen umbenennen
 
-# Zeilennamen umbennen
 ```
 
 `@solution`
 ```{r}
-
+# Spaltennamen umbenennen
 rownames(report.final) <- c("Verkaufszeit h", "Umsatz", "Umsatz pro Stunde")
 colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
 ```
