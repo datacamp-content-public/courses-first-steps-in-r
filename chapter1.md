@@ -920,7 +920,7 @@ report.wochenverkaeufe[1,2] <- 8
 ```{r}
 ex() %>% check_code("report.wochenverkaeufe <- rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
-ex() %>% check_code("report.wochenverkaeufe[1,2] <- 8", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code("report.wochenverkaeufe[1,2] <- 8", fixed=TRUE, missing_msg="Sie haben den Fehler noch nicht richtig ausgebessert!") 
 success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
 ```
 
