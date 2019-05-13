@@ -754,11 +754,11 @@ xp: 35
 ```
 
 `@instructions`
-3.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich bei noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Sie es bitte ab.
+2.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich bei noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Sie es bitte ab.
 
-- 3.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
+- 2.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
 
-- 3.2 Ändern Sie einen Fehler ab.
+- 2.2 Ändern Sie einen Fehler ab.
 
 `@hint`
 
