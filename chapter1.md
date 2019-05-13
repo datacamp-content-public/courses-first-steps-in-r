@@ -849,6 +849,83 @@ success_msg("Ja, genau!")
 
 ---
 
+## Matrizen
+
+```yaml
+type: NormalExercise
+key: 3e48f500af
+xp: 100
+```
+
+Matrizen sind rechteckige, zweidimensionale Anordnungen (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
+
+Vektoren in eine Matrix zusammenführen: 
+- **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
+- *Matrix <- rbind(Vektor, Vektor)
+- **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
+
+Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können. Zeilen- und Spaltennamen sinnvoll verändern: 
+- Zeilennamen verändern: Beispiel **rownames(Matrix)** <- c("Region", "Umsätze")
+- Spaltennamen verändern: Beispiel **colnames(Matrix)** <- c("Januar", "Februar")
+
+Werte einer Matrix ersetzen:
+- Um den Wert in der dritten Zeile und zweiten Spalte der Matrix matrix.eins zu 5 zu ändern: matrix.eins[3,2] <- 5
+
+`@instructions`
+Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
+
+Herr Müller bittet Sie einen report.wochenverkaeufe1 für die Tochterfirma zu erstellen.
+
+1. Ihre Aufgabe ist es eine Tabelle (Matrix) aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen **report.wochenverkaeufe** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
+
+2.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Ihn bitte ab.
+
+- 2.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
+
+- 2.2 Ändern Sie einen Fehler ab.
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+#report.wochenverkaeufe <- matrix(1:18, ncol=6)
+#sell.day <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
+sell.time <- c(8,18,8,8,9,6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5100, 3300)
+average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5100/9, 3300/6)
+```
+
+`@sample_code`
+```{r}
+# report.wochenverkaeufe
+
+# Ausgabe
+
+# Änderung vornehmen
+
+```
+
+`@solution`
+```{r}
+#report.wochenverkaeufe <- matrix(1:18, ncol=6)
+report.wochenverkaeufe <- rbind(sell.time, revenue.day)
+# Ausgabe
+print(report.wochenverkaeufe)
+# Änderung vornehmen
+report.wochenverkaeufe[1,2] <- 8
+```
+
+`@sct`
+```{r}
+ex() %>% check_code("report.wochenverkaeufe <- rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
+ex() %>% check_code("report.wochenverkaeufe[1,2] <- 8", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
+```
+
+---
+
 ## Data Frames
 
 ```yaml
@@ -1280,59 +1357,6 @@ is.numeric(Anzahl_Mitarbeiter)
 #ex() %>% check_object("my_character") %>% check_equal("universe")
 #ex() %>% check_object("my_logical")   %>% check_equal("FALSE")
 #success_msg("Ja, genau - es sieht so aus als hätten Sie die Basisdatentypen verstanden!")
-```
-
----
-
-## Matrizen
-
-```yaml
-type: NormalExercise
-key: 3e48f500af
-xp: 100
-```
-
-Matrizen sind eine rechteckige, zweidimensionale Anordnung (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
-
-Vektoren in eine Matrix zusammenführen: 
-- **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
-- **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
-
-Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können: Zeilen- und Spaltennamen verändern: 
-- Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
-- Spaltennamen verändern: Beispiel **colnames(Matrix)** <-c("Januar", "Februar")
-
-Grundlegende Operationen mit Matrizen durchführen:
-
-`@instructions`
-Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
-Herr Müller bittet Sie einen Report für die Tochterfirma zu erstellen.
-
-1. Ihre Aufgabe ist es eine Tabelle auch aus der vorher brechneteten
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
-sell.time <- c(8,8,8,8,9,6)
-revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
 ```
 
 ---
