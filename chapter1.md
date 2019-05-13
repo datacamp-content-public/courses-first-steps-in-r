@@ -702,7 +702,7 @@ Werte einer Matrix ersetzten:
 `@pre_exercise_code`
 ```{r}
 report.wochenverkaeufe <- matrix(1:18, ncol=6)
-sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
+sell.day <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
 sell.time <- c(8,18,8,8,9,6)
 revenue.day <- c(2700, 3500, 4200, 4700, 5100, 3300)
 average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5100/9, 3300/6)
