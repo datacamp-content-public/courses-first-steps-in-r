@@ -863,7 +863,7 @@ colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Fre
 
 `@sct`
 ```{r}
-ex() %>% check_code("rownames(report.final) <- c("Verkaufszeit in h", "Umsatz", "Umsatz pro Stunde"")), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code("rownames(report.final) <- c("Verkaufszeit in h", "Umsatz", "Umsatz pro Stunde")", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau!")
 ex() %>% check_code("colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau!")
