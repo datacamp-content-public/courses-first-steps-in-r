@@ -1109,44 +1109,6 @@ xp: 50
 
 ---
 
-## (Lists)
-
-```yaml
-type: NormalExercise
-key: 58ec510adf
-xp: 100
-```
-
-
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
 ## Rechnen mit R
 
 ```yaml
