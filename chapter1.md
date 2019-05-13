@@ -792,7 +792,7 @@ xp: 30
 `@instructions`
 3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. Da Sie für die Woche die Umsatze pro Tag und die Tagesöffnungszeit gegeben haben, tun sie dies bitte für die ganze Woche.
 
-3.1 In dem Vektor average.perday wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie diesen Vektor bitte noch dem Report hinzu.
+3.1 In dem Vektor average.perday wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie diesen Vektor bitte noch dem Report hinzu, damit die Tabelle vollständig ist.
 
 `@hint`
 
@@ -804,7 +804,7 @@ xp: 30
 
 `@solution`
 ```{r}
-
+report.wochenverkaeufe <- rbind(report.wochenverkaeufe, average.perday)
 ```
 
 `@sct`
@@ -820,7 +820,7 @@ key: 7a6e4f697b
 ```
 
 `@instructions`
-- 2. Bitte fügen Sie zu dem erstellten Report passende Spaltennamen (Verkaufszeit in h, Tagesumsatz) der ersten Spalte ein.
+- 4. Bitte fügen Sie zu dem erstellten Report passende Spaltennamen (Verkaufszeit in h, Tagesumsatz, Umsatz pro Stunde) der ersten Spalte ein.
 
 `@hint`
 
@@ -833,7 +833,7 @@ key: 7a6e4f697b
 `@solution`
 ```{r}
 
-rownames(report.wochenverkaeufe) <- c("Verkaufszeit in h", "Umsatz")
+rownames(report.wochenverkaeufe) <- c("Verkaufszeit in h", "Umsatz", "Umsatz pro Stunde")
 ```
 
 `@sct`
