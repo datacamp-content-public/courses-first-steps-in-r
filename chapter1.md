@@ -708,7 +708,8 @@ Grundlegende Operationen mit Matrizen durchführen:
 report.wochenverkaeufe <- matrix(1:18, ncol=6)
 sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
 sell.time <- c(8,18,8,8,9,6)
-revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
+revenue.day <- c(2700, 3500, 4200, 4700, 5100, 3300)
+average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5100/9, 3300/6)
 ```
 
 ***
@@ -790,11 +791,7 @@ xp: 30
 ```
 
 `@instructions`
-3.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich bei noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Sie es bitte ab.
 
-- 3.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
-
-- 3.2 Ändern Sie einen Fehler ab.
 
 `@hint`
 
@@ -806,10 +803,7 @@ xp: 30
 
 `@solution`
 ```{r}
-# Ausgabe
-print(report.wochenverkaeufe)
-# Änderung vornehmen
-report.wochenverkaeufe[1,4] <-
+
 ```
 
 `@sct`
