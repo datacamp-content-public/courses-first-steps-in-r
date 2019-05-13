@@ -834,7 +834,9 @@ key: 7a6e4f697b
 ```
 
 `@instructions`
-- 4. Bitte nennen Sie bei dem erstellten finalen Report die Spaltennamen in (Verkaufszeit h, Tagesumsatz, Umsatz pro Stunde) um.
+Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit von der Leitung auf einen schnellen Blick ersichtlich ist, was dargestellt wurde. 
+
+- 4. Bitte nennen Sie bei dem erstellten finalen Report die Zeilennamen in Verkaufszeit h, Tagesumsatz, Umsatz pro Stunde und die Spaltennamen in Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag um.
 
 `@hint`
 
@@ -851,14 +853,15 @@ report.wochenverkaeufe[1,2] <- 8
 report.final <- rbind(sell.time, revenue.day, average.byday) 
 # Zeilennamen benennen
 
-# Spaltennamen umbenennen
+# Spaltennamen benennen
 
 ```
 
 `@solution`
 ```{r}
-# Spaltennamen umbenennen
+# Zeilennamen benennen
 rownames(report.final) <- c("Verkaufszeit h", "Umsatz", "Umsatz pro Stunde")
+# Spaltennamen bennen
 colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
 ```
 
