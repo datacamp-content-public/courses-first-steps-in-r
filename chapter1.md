@@ -704,8 +704,8 @@ Werte einer Matrix ersetzen:
 #report.wochenverkaeufe <- matrix(1:18, ncol=6)
 #sell.day <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
 sell.time <- c(8,18,8,8,9,6)
-revenue.day <- c(2700, 3500, 4200, 4700, 5100, 3300)
-average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5100/9, 3300/6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
+average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
 ```
 
 ***
@@ -891,8 +891,8 @@ Herr Müller bittet Sie einen report.wochenverkaeufe für die Tochterfirma zu er
 #report.wochenverkaeufe <- matrix(1:18, ncol=6)
 #sell.day <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
 sell.time <- c(8,18,8,8,9,6)
-revenue.day <- c(2700, 3500, 4200, 4700, 5100, 3300)
-average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5100/9, 3300/6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
+average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
 ```
 
 `@sample_code`
