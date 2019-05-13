@@ -433,7 +433,7 @@ xp: 35
 Von einer kleineren Tochtergesellschaft, die neu eröffnet hat, hat Ihr Chef Herr Müller einen Kundendatensatz zugeschickt bekommen. Herr Müller sagt, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau mit den Basisdatentypen beschäftigen müssen, damit die Mitarbeiter von Ihnen eine Vorlage bekommen können. 
 Kontrollieren Sie bitte einzelne Werte hinsichtlich ihrer Basisdatentypen.
 
-1. Die Variable **Anzahl_Mitarbeiter** müsste ein numerischer Basisdatentyp sein. Überpüfen Sie dies bitte.
+- 1. Die Variable **Anzahl_Mitarbeiter** müsste ein numerischer Basisdatentyp sein. Überpüfen Sie dies bitte.
 
 `@hint`
 
@@ -464,7 +464,7 @@ xp: 35
 ```
 
 `@instructions`
-2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von 17 hinterlegt ist, tun sie dies bitte. Klicken Sie zur Ausgabe 'Run Code'
+- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von 17 hinterlegt ist, tun sie dies bitte. Klicken Sie zur Ausgabe 'Run Code'
 
 `@hint`
 
@@ -508,11 +508,14 @@ xp: 30
 
 `@sample_code`
 ```{r}
+#1.numerische Variable?
+is.numeric(Anzahl_Mitarbeiter)
 #2.1 Ausgabe
 print(Anzahl_Mitarbeiter)
 #2.2 
 Anzahl_Mitarbeiter <- 17
 #3 
+
 ```
 
 `@solution`
