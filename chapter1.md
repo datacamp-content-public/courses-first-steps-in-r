@@ -416,7 +416,7 @@ R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibun
 - Dezimalwerte (z.B. 3.4) werden '**numeric**' genannt.
 - Zeichenketten und Buchstaben (Strings) ("Hallo") werden auch als '**character**' bezeichnet.
 - Kategorien (A,B,C) werden auch als '**factor**' bezeichnet.
-![Basisdatentypen]()
+![Basisdatentypen](https://assets.datacamp.com/production/repositories/4810/datasets/893260b55479a71ff88107db16b1a96fc6bd4116/Basisdatentypen_R.PNG)
 
 **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
