@@ -698,8 +698,6 @@ Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehe
 
 Grundlegende Operationen mit Matrizen durchführen:
 
-
-
 `@pre_exercise_code`
 ```{r}
 sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
@@ -1232,8 +1230,6 @@ Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehe
 - Spaltennamen verändern: Beispiel **colnames(Matrix)** <-c("Januar", "Februar")
 
 Grundlegende Operationen mit Matrizen durchführen:
-
-
 
 `@instructions`
 Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
