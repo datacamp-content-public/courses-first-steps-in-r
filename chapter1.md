@@ -534,7 +534,7 @@ Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus
 
 Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  
 ```
-**c(1,2,3) oder kürzer c(1:3)**
+c(1,2,3) oder kürzer c(1:3)
 ```
 
 Typ eines Vektors bestimmen und Überblick verschaffen: **str()**
