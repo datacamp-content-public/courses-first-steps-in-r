@@ -529,6 +529,27 @@ Schmidt_Office <- "Nordwand"
 
 ```
 
+***
+
+```yaml
+type: MultipleChoiceExercise
+key: 87f538b93c
+```
+
+`@question`
+
+
+`@possible_answers`
+
+
+`@hint`
+
+
+`@sct`
+```{r}
+
+```
+
 ---
 
 ## Vektoren
