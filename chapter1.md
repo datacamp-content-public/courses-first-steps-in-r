@@ -491,7 +491,7 @@ Anzahl_Mitarbeiter <- 17
 `@sct`
 ```{r}
 ex() %>% check_code("Anzahl_Mitarbeiter <- 17", fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
-success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
+success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
 ```
 
 ***
@@ -528,7 +528,7 @@ Office_33 <- "Nordwand"
 `@sct`
 ```{r}
 ex() %>% check_code("Office_33 <- "Nordwand"", fixed=TRUE, missing_msg= "Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
-success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
+success_msg("Super!")
 ```
 
 ***
