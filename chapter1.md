@@ -514,7 +514,7 @@ xp: 30
 is.numeric(Anzahl_Mitarbeiter)
 #2.1 Ausgabe
 print(Anzahl_Mitarbeiter)
-#2.2 
+
 Anzahl_Mitarbeiter <- 17
 #3 Umbenennung Büro
 
@@ -528,7 +528,8 @@ Schmidt_Office <- "Nordwand"
 
 `@sct`
 ```{r}
-
+ex() %>% check_output(FALSE, fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
+success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
 ```
 
 ***
