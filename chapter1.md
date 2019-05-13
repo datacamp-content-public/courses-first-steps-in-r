@@ -699,9 +699,6 @@ Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehe
 Werte einer Matrix ersetzten:
 - Um den Wert in der dritten Zeile und zweiten Spalte der Matrix matrix.eins zu 5 zu ändern: matrix.eins[3,2] <- 5
 
-Grundlegende Operationen mit Matrizen durchführen:
-
-
 `@pre_exercise_code`
 ```{r}
 report.wochenverkaeufe <- matrix(1:18, ncol=6)
