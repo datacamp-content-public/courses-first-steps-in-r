@@ -514,12 +514,13 @@ is.numeric(Anzahl_Mitarbeiter)
 print(Anzahl_Mitarbeiter)
 #2.2 
 Anzahl_Mitarbeiter <- 17
-#3 
+#3 Umbenennung Büro
 
 ```
 
 `@solution`
 ```{r}
+
 Schmidt_Office <- "Nordwand"
 ```
 
