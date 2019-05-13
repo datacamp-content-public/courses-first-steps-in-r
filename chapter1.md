@@ -812,7 +812,7 @@ report.wochenverkaeufe <- rbind(sell.time, revenue.day)
 print(report.wochenverkaeufe)
 # Änderung vornehmen
 report.wochenverkaeufe[1,2] <- 8
-# Weitere Zeile hinzufügen
+# Zeile hinzufügen, Umsatz pro Tag
 
 ```
 
@@ -850,8 +850,9 @@ print(report.wochenverkaeufe)
 report.wochenverkaeufe[1,2] <- 8
 # Weitere Zeile hinzufügen
 report.final <- rbind(sell.time, revenue.day, average.byday) 
-# Spalten namen umbenennen
+# Spaltennamen umbenennen
 
+# Zeilennamen umbennen
 ```
 
 `@solution`
