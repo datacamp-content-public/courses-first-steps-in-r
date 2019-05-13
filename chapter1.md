@@ -797,9 +797,7 @@ xp: 30
 ```
 
 `@instructions`
-3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. Da Sie für die Woche die Umsatze pro Tag und die Tagesöffnungszeit gegeben haben, tun sie dies bitte für die ganze Woche.
-
-3.1 In dem Vektor average.byday wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie diesen Vektor bitte noch dem Report hinzu, damit die Tabelle vollständig ist und weisen sie die Tabelle bitte der Variablen report.final zu.
+3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie diesen Vektor bitte noch dem Report hinzu, damit der Wochenreport vollständig ist und weisen Sie die Tabelle bitte der Variablen **report.final** zu.
 
 `@hint`
 
@@ -812,7 +810,7 @@ report.wochenverkaeufe <- rbind(sell.time, revenue.day)
 print(report.wochenverkaeufe)
 # Änderung vornehmen
 report.wochenverkaeufe[1,2] <- 8
-# Zeile hinzufügen, Umsatz pro Tag
+# Umsatz pro Tag hinzufügen
 
 ```
 
