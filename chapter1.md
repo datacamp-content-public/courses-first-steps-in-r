@@ -804,7 +804,7 @@ xp: 30
 
 `@solution`
 ```{r}
-report.wochenverkaeufe <- rbind(sell.time, , average.perday)
+report.wochenverkaeufe <- rbind(sell.time, revenue.day, average.perday)
 ```
 
 `@sct`
