@@ -761,7 +761,7 @@ xp: 35
 `@solution`
 ```{r}
 
-rownames(report.wochenverkaeufe) <- c("Verkaufstag", "Verkaufszeit in h", "Umsatz")
+rownames(report_wochenverkaeufe) <- c("Verkaufstag", "Verkaufszeit in h", "Umsatz")
 ```
 
 `@sct`
