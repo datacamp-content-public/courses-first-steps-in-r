@@ -465,7 +465,7 @@ xp: 35
 ```
 
 `@instructions`
-- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von 17 hinterlegt ist, tun sie dies bitte. Klicken Sie zur Ausgabe 'Run Code'
+- 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von **17** hinterlegt ist, tun sie dies bitte. Klicken Sie zur Zwischenausgabe 'Run Code'
 
 `@hint`
 
@@ -482,9 +482,9 @@ is.numeric(Anzahl_Mitarbeiter)
 
 `@solution`
 ```{r}
-#2.1 Ausgabe
+#2.1 Ausgabe und ggf. neue Zuweisung
 print(Anzahl_Mitarbeiter)
-#2.2 
+
 Anzahl_Mitarbeiter <- 17
 ```
 
