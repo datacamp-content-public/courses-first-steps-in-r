@@ -792,7 +792,7 @@ xp: 30
 `@instructions`
 3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. Da Sie für die Woche die Umsatze pro Tag und die Tagesöffnungszeit gegeben haben, tun sie dies bitte für die ganze Woche.
 
-3.1 In dem Vektor average.perday wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie diesen Vektor bitte noch dem Report hinzu, damit die Tabelle vollständig ist.
+3.1 In dem Vektor average.byday wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie diesen Vektor bitte noch dem Report hinzu, damit die Tabelle vollständig ist.
 
 `@hint`
 
