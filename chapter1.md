@@ -436,7 +436,7 @@ xp: 35
 Von einer kleineren Tochtergesellschaft, die neu eröffnet hat, hat Herr Müller einen Kundendatensatz zugeschickt bekommen. Ihr Chef Herr Müller sagt, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau mit den Basisdatentypen beschäftigen müssen, damit die Mitarbeiter von Ihnen eine Vorlage bekommen können. 
 Kontrollieren Sie bitte einzelne Werte hinsichtlich ihrer Basisdatentypen.
 
-1. Die Variable müsste Anzahl_Mitarbeiter müsste eine numerische Basisdatentyp sein - richtig
+1. Die Variable müsste Anzahl_Mitarbeiter müsste eine numerische Basisdatentyp sein. Überpüfen Sie dies bitte.
 
 `@hint`
 
@@ -448,6 +448,7 @@ Kontrollieren Sie bitte einzelne Werte hinsichtlich ihrer Basisdatentypen.
 
 `@solution`
 ```{r}
+#1.numerische Variable?
 is.numeric(Anzahl_Mitarbeiter)
 ```
 
@@ -465,13 +466,15 @@ xp: 35
 ```
 
 `@instructions`
-2. Lassen Sie sich bitte die Variable Anzahl_Mitarbeiter ausgeben und wenn nicht die Anzahl von 17 hinterlegt ist, tun sie dies bitte. Klicken Sie zur Ausgabe 'Run Code'
+2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von 17 hinterlegt ist, tun sie dies bitte. Klicken Sie zur Ausgabe 'Run Code'
 
 `@hint`
 
 
 `@sample_code`
 ```{r}
+#1.numerische Variable?
+is.numeric(Anzahl_Mitarbeiter)
 #2.1 Ausgabe
 
 #2.2 
@@ -500,14 +503,18 @@ xp: 30
 ```
 
 `@instructions`
-3. Ihr Chef Herr Müller hat für den Mitarbeiter Klaus Schmidt ein neues Büro renovieren lassen. Nennen Sie das Office Schmidt_Office bitte in Nordwand um.
+3. Ihr Chef Herr Müller hat für den Mitarbeiter Klaus Schmidt ein neues Büro renovieren lassen. Nennen Sie das Büro **Schmidt_Office** bitte in **Nordwand** um.
 
 `@hint`
 
 
 `@sample_code`
 ```{r}
-
+#2.1 Ausgabe
+print(Anzahl_Mitarbeiter)
+#2.2 
+Anzahl_Mitarbeiter <- 17
+#3 
 ```
 
 `@solution`
