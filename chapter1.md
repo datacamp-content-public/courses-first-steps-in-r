@@ -734,7 +734,7 @@ Herr Müller bittet Sie einen report.wochenverkaeufe für die Tochterfirma zu er
 
 `@solution`
 ```{r}
-#report.wochenverkaeufe <- matrix(1:18, ncol=6)
+report.wochenverkaeufe <- matrix(1:18, ncol=6)
 report.wochenverkaeufe <- rbind(sell.time, revenue.day)
 ```
 
