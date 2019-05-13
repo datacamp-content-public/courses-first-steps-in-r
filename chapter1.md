@@ -783,7 +783,7 @@ xp: 30
 
 - 3.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
 
-- 3.2 Ändern Sie einen Fehler ab und verweisen Sie den fertigen Report erneut auf die Variable report.wochenverkaeufe.
+- 3.2 Ändern Sie einen Fehler ab.
 
 `@hint`
 
@@ -798,6 +798,34 @@ xp: 30
 # Ausgabe
 print(report.wochenverkaeufe)
 # Änderung vornehmen
+report.wochenverkaeufe[1,4] <- "Donnerstag"
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 7a6e4f697b
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
 
 ```
 
