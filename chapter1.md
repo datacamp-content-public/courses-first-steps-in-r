@@ -842,7 +842,8 @@ colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Fre
 
 `@sct`
 ```{r}
-
+ex() %>% check_code(c("report.final <- rbind(sell.time, revenue.day, average.byday)","report.final <- rbind(report.wochenverkaeufe, average.byday)", fixed=FALSE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau!")
 ```
 
 ---
