@@ -412,10 +412,11 @@ xp: 100
 
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
 
-- **Boolesche Werte** oder auch als Wahrheitswerte bezeichnet (TRUE oder FALSE) werden auch **'Logical'** genannt.
+- **Boolesche Werte** oder auch als Wahrheitswerte bezeichnet (TRUE oder FALSE) werden auch **'logical'** genannt.
 - Dezimalwerte (z.B. 3.4) werden '**numeric**' genannt.
 - Zeichenketten und Buchstaben (Strings) ("Hallo") werden auch als '**character**' bezeichnet.
 - Kategorien (A,B,C) werden auch als '**factor**' bezeichnet.
+![Basisdatentypen](https://assets.datacamp.com/production/repositories/4810/datasets/9b03e35de433daa0c560843afc3955d82c6b6928/Basisdatentypen_%C3%9Cbersicht.PNG)
 
 **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
