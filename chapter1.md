@@ -533,7 +533,9 @@ xp: 100
 Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Dingen besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können (de Vries/Meys 2018).
 
 Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  
-> **c(1,2,3) oder kürzer c(1:3)**
+```
+**c(1,2,3) oder kürzer c(1:3)**
+```
 
 Typ eines Vektors bestimmen und Überblick verschaffen: **str()**
 
@@ -671,8 +673,8 @@ mean(sell.time)
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("46/6", "mean(sell.time)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
-success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,66h !")
+ex() %>% check_code(c("47/6", "mean(sell.time)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
+success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h !")
 ```
 
 ---
