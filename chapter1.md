@@ -939,13 +939,12 @@ Bislang war immer bei zweidimensionalen Tabellen von Matrizen die Rede. Nun komm
 
 Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames, ein Datenobjekt, in dem Sie alle Daten unterschielichen Typs speichern können (de Vries/Meys 2018).
 
-- **nrow() bzw. ncol()**: 	Anzahl der Zeilen bzw. Spalten ausgeben lassen: 
-- **names()**: 				Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
+- **nrow() bzw. ncol()**: Anzahl der Zeilen bzw. Spalten ausgeben lassen: 
+- **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
 - **colnames()**: Abrufen oder setzen der Zeilen- oder Spaltennamen eines matrixartigen Objekts.
 - **head()** | **tail()**: Liefert den ersten oder letzten Teil eines Vektors, einer Matrix, einer Tabelle, eines Datenrahmens oder einer Funktion.
 - **str()**: Erstellt eine kompakte Darstellung der internen Struktur eines R-Objekts.
-- **summary()**: Ist eine generische Funktion, um Ergebniszusammenfassungen zu erstellen.- 
-Struktur und Datentyp anzeigen lassen: **str()**
+- **summary()**: Ist eine generische Funktion, um Ergebniszusammenfassungen zu erstellen.
 
 `@pre_exercise_code`
 ```{r}
@@ -991,6 +990,78 @@ Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewi
 
 `@hint`
 
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 0f3bbf5d27
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Visualisierung
+
+```yaml
+type: NormalExercise
+key: e826bcc1cb
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+sell.time <- c(8,8,8,8,9,6)
+revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3300)
+average.byday <- c(2700/8, 3500/8, 4200/8, 4700/8, 5103/9, 3300/6)
+report.wochenverkaeufe <- rbind(sell.time, revenue.day, average.byday)
+rownames(report.wochenverkaeufe) <- c("Verkaufszeit in h", "Umsatz", "Umsatz pro Stunde")
+colnames(report.wochenverkaeufe) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
+report.final <- report.wochenverkaeufe
+```
 
 `@sample_code`
 ```{r}
