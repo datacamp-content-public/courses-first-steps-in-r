@@ -835,7 +835,7 @@ key: 7a6e4f697b
 ```
 
 `@instructions`
-- 4. Bitte nennen Sie bei dem erstellten finalen Report die Spaltennamen in (Verkaufszeit in h, Tagesumsatz, Umsatz pro Stunde) um.
+- 4. Bitte nennen Sie bei dem erstellten finalen Report die Spaltennamen in (Verkaufszeit h, Tagesumsatz, Umsatz pro Stunde) um.
 
 `@hint`
 
@@ -857,13 +857,13 @@ report.final <- rbind(sell.time, revenue.day, average.byday)
 `@solution`
 ```{r}
 
-rownames(report.final) <- c("Verkaufszeit in h", "Umsatz", "Umsatz pro Stunde")
+rownames(report.final) <- c("Verkaufszeit h", "Umsatz", "Umsatz pro Stunde")
 colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_code("rownames(report.final) <- c("Verkaufszeit in h", "Umsatz", "Umsatz pro Stunde")", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code("rownames(report.final) <- c("Verkaufszeit h", "Umsatz", "Umsatz pro Stunde")", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau!")
 ex() %>% check_code("colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau!")
