@@ -702,11 +702,12 @@ Werte einer Matrix ersetzten:
 Grundlegende Operationen mit Matrizen durchführen:
 
 
+
 `@pre_exercise_code`
 ```{r}
 report.wochenverkaeufe <- matrix(1:18, ncol=6)
 sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
-sell.time <- c(8,8,8,8,9,6)
+sell.time <- c(8,18,8,8,9,6)
 revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
 ```
 
@@ -722,7 +723,7 @@ xp: 35
 Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
 Herr Müller bittet Sie einen report.wochenverkaeufe für die Tochterfirma zu erstellen.
 
-1. Ihre Aufgabe ist es eine Tabelle (Matrix) aus den Vektoren **sell.day, sell.time und revenue.day** zu erstellen und der Variablen report_wochenverkaufe zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
+1. Ihre Aufgabe ist es eine Tabelle (Matrix) aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen report_wochenverkaufe zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
 `@hint`
 
@@ -736,7 +737,7 @@ Herr Müller bittet Sie einen report.wochenverkaeufe für die Tochterfirma zu er
 `@solution`
 ```{r}
 report.wochenverkaeufe <- matrix(1:18, ncol=6)
-report.wochenverkaeufe <- rbind(sell.day, sell.time, revenue.day)
+report.wochenverkaeufe <- rbind(sell.time, revenue.day)
 ```
 
 `@sct`
@@ -766,7 +767,7 @@ xp: 35
 `@solution`
 ```{r}
 
-rownames(report.wochenverkaeufe) <- c("Verkaufstag", "Verkaufszeit in h", "Umsatz")
+rownames(report.wochenverkaeufe) <- c("Verkaufszeit in h", "Umsatz")
 ```
 
 `@sct`
@@ -802,7 +803,7 @@ xp: 30
 # Ausgabe
 print(report.wochenverkaeufe)
 # Änderung vornehmen
-report.wochenverkaeufe[1,4] <- "Donnerstag"
+report.wochenverkaeufe[1,4] <-
 ```
 
 `@sct`
@@ -881,6 +882,23 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/48
 ```
 
 `@sct`
+```{r}
+
+```
+
+---
+
+## Data Frames
+
+```yaml
+type: TabExercise
+key: 0675d8c8f5
+xp: 100
+```
+
+
+
+`@pre_exercise_code`
 ```{r}
 
 ```
