@@ -804,7 +804,7 @@ xp: 30
 
 `@solution`
 ```{r}
-report.wochenverkaeufe <- rbind(report.wochenverkaeufe, average.perday)
+report.wochenverkaeufe <- rbind(sell.time, , average.perday)
 ```
 
 `@sct`
@@ -820,7 +820,7 @@ key: 7a6e4f697b
 ```
 
 `@instructions`
-- 4. Bitte fügen Sie zu dem erstellten Report passende Spaltennamen (Verkaufszeit in h, Tagesumsatz, Umsatz pro Stunde) der ersten Spalte ein.
+- 4. Bitte nennen Sie bei dem erstellten Report die Spaltennamen in (Verkaufszeit in h, Tagesumsatz, Umsatz pro Stunde) um.
 
 `@hint`
 
