@@ -784,7 +784,7 @@ report.wochenverkaeufe[1,2] <- 8
 
 `@sct`
 ```{r}
-ex() %>% check_code("report.wochenverkaeufe[1,2] <- 8", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code("report.wochenverkaeufe[1,2] <- 8", fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!") 
 success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
 ```
 
