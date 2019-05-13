@@ -847,8 +847,8 @@ colnames(report.wochenverkaeufe) <- c("Montag", "Dienstag", "Mittwoch", "Donners
 ## Data Frames
 
 ```yaml
-type: NormalExercise
-key: 35f2e90e22
+type: TabExercise
+key: 0675d8c8f5
 xp: 100
 ```
 
@@ -859,6 +859,41 @@ Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen
 - Struktur und Datentyp anzeigen lassen: **str()**
 - Anzahl der Zeilen bzw. Spalten ausgeben lassen: **nrow() bzw. ncol()**
 
+`@pre_exercise_code`
+```{r}
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/dataMay-3-2019.csv")
+```
+
+***
+
+```yaml
+type: MultipleChoiceExercise
+key: 159dd79d73
+xp: 50
+```
+
+`@question`
+
+
+`@possible_answers`
+
+
+`@hint`
+
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 968db7b3b5
+xp: 50
+```
+
 `@instructions`
 Der Datensatz aus dem Unternehmen Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
 Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewiesen worden.
@@ -868,11 +903,6 @@ Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewi
 
 `@hint`
 
-
-`@pre_exercise_code`
-```{r}
-Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/dataMay-3-2019.csv")
-```
 
 `@sample_code`
 ```{r}
@@ -885,23 +915,6 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/48
 ```
 
 `@sct`
-```{r}
-
-```
-
----
-
-## Data Frames
-
-```yaml
-type: TabExercise
-key: 0675d8c8f5
-xp: 100
-```
-
-
-
-`@pre_exercise_code`
 ```{r}
 
 ```
@@ -1300,6 +1313,53 @@ Herr Müller bittet Sie einen Report für die Tochterfirma zu erstellen.
 sell.day <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
 sell.time <- c(8,8,8,8,9,6)
 revenue.day <- c(2700, 3500, 4200, 4700, 5103, 3305)
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Data Frames
+
+```yaml
+type: NormalExercise
+key: 35f2e90e22
+xp: 100
+```
+
+Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die sehr häufig Anwendung finden. Aufgrund der Kürze der Einführung in diesem Kurs kommen wir direkt zu **Data Frames**:
+
+Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames, ein Datenobjekt, in dem Sie alle Daten unterschielichen Typs speichern können (de Vries/Meys 2018).
+
+- Struktur und Datentyp anzeigen lassen: **str()**
+- Anzahl der Zeilen bzw. Spalten ausgeben lassen: **nrow() bzw. ncol()**
+
+`@instructions`
+Der Datensatz aus dem Unternehmen Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
+Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewiesen worden.
+
+1. Was beinhaltet der Datensatz an Informationen, bzw. welchen Datentypen kommen vor?
+2. Wie viele Kunden sind im Kundendatensatz aufgelistet, wenn Sie davon ausgehen, dass es keine doppelten Kunden gibt?
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/dataMay-3-2019.csv")
 ```
 
 `@sample_code`
