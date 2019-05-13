@@ -503,10 +503,10 @@ xp: 30
 ```
 
 `@instructions`
-3. Ihr Chef Herr Müller hat für den Mitarbeiter Klaus Schmidt ein neues Büro renovieren lassen. Nennen Sie das Büro **Schmidt_Office** bitte in **Nordwand** um.
+- 3. Ihr Chef Herr Müller hat für den Mitarbeiter Maximilian Flix ein neues Büro renovieren lassen. Nennen Sie das Büro **Office_33** bitte in **Nordwand** um.
 
 `@hint`
-
+Verweisen Sie auf die Variable Office_33 einfach den neuen Namen. Beachten Sie, dass Nordwand ein String ist und folglich in Anführungszeichen gesetz werden muss.
 
 `@sample_code`
 ```{r}
@@ -514,7 +514,6 @@ xp: 30
 is.numeric(Anzahl_Mitarbeiter)
 #2.1 Ausgabe
 print(Anzahl_Mitarbeiter)
-
 Anzahl_Mitarbeiter <- 17
 #3 Umbenennung Büro
 
@@ -523,12 +522,12 @@ Anzahl_Mitarbeiter <- 17
 `@solution`
 ```{r}
 
-Schmidt_Office <- "Nordwand"
+Office_33 <- "Nordwand"
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output(FALSE, fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
+ex() %>% check_code("Office_33 <- "Nordwand"", fixed=TRUE, missing_msg= "Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
 success_msg("Super, es ist keine numerische Variable hinterlegt, da müssen die Mitarbeiter der Tochtergesellschaft etwas falsch zugewiesen haben!")
 ```
 
