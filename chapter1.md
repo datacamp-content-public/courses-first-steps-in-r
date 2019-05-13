@@ -939,8 +939,8 @@ Bislang war immer bei zweidimensionalen Tabellen von Matrizen die Rede. Nun komm
 
 Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames, ein Datenobjekt, in dem Sie alle Daten unterschielichen Typs speichern können (de Vries/Meys 2018).
 
-- Struktur und Datentyp anzeigen lassen: **str()**
 - Anzahl der Zeilen bzw. Spalten ausgeben lassen: **nrow() bzw. ncol()**
+- Struktur und Datentyp anzeigen lassen: **str()**
 
 `@pre_exercise_code`
 ```{r}
@@ -951,12 +951,12 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/48
 
 ```yaml
 type: MultipleChoiceExercise
-key: 159dd79d73
+key: a05461fbaa
 xp: 50
 ```
 
 `@question`
-
+Warum ist es nicht möglich diese Tabelle in eine Matrix zu speichern?
 
 `@possible_answers`
 
