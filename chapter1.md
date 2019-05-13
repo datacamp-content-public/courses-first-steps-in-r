@@ -858,6 +858,7 @@ xp: 100
 ```
 
 Matrizen sind rechteckige, zweidimensionale Anordnungen (Tabelle) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
+Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern.
 
 Vektoren in eine Matrix zusammenführen: 
 - **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
@@ -872,9 +873,7 @@ Werte einer Matrix ersetzen:
 - Um den Wert in der dritten Zeile und zweiten Spalte der Matrix matrix.eins zu 5 zu ändern: matrix.eins[3,2] <- 5
 
 `@instructions`
-Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
-
-Herr Müller bittet Sie einen report.wochenverkaeufe1 für die Tochterfirma zu erstellen.
+Herr Müller bittet Sie einen report.wochenverkaeufe für die Tochterfirma zu erstellen.
 
 1. Ihre Aufgabe ist es eine Tabelle (Matrix) aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen **report.wochenverkaeufe** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
