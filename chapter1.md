@@ -440,6 +440,7 @@ Kontrollieren Sie bitte einzelne Werte hinsichtlich ihrer Basisdatentypen.
 
 `@sample_code`
 ```{r}
+#1.numerische Variable?
 
 ```
 
