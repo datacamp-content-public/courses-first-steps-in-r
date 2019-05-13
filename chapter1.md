@@ -834,7 +834,7 @@ key: 7a6e4f697b
 ```{r}
 
 rownames(report.wochenverkaeufe) <- c("Verkaufszeit in h", "Umsatz", "Umsatz pro Stunde")
-colnames(report.wochenverkaeufe) <- c("Montag", "Dienstag", "Mittwoch", "Thursday", "Freitag", "Samstag")
+colnames(report.wochenverkaeufe) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
 ```
 
 `@sct`
