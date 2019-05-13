@@ -942,7 +942,6 @@ Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen
 - Struktur und Datentyp anzeigen lassen: **str()**
 - Anzahl der Zeilen bzw. Spalten ausgeben lassen: **nrow() bzw. ncol()**
 
-
 `@pre_exercise_code`
 ```{r}
 Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/31e25bf7206a508aa8681c19698e57afc52ab492/dataMay-3-2019.csv")
