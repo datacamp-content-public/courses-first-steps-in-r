@@ -773,7 +773,7 @@ xp: 35
 # Ausgabe
 print(report.wochenverkaeufe)
 # Änderung vornehmen
-report.wochenverkaeufe[1,4] <-
+report.wochenverkaeufe[1,2] <- 8
 ```
 
 `@sct`
