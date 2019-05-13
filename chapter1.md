@@ -721,7 +721,7 @@ xp: 35
 `@instructions`
 Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
 
-Herr Müller bittet Sie einen report.wochenverkaeufe1 für die Tochterfirma zu erstellen.
+Herr Müller bittet Sie einen report.wochenverkaeufe für die Tochterfirma zu erstellen.
 
 1. Ihre Aufgabe ist es eine Tabelle (Matrix) aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen **report.wochenverkaeufe** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
@@ -766,6 +766,8 @@ xp: 35
 
 `@sample_code`
 ```{r}
+# report.wochenverkaeufe
+report.wochenverkaeufe <- rbind(sell.time, revenue.day)
 # Ausgabe
 
 # Änderung vornehmen
@@ -804,7 +806,12 @@ xp: 30
 
 `@sample_code`
 ```{r}
-
+# report.wochenverkaeufe
+report.wochenverkaeufe <- rbind(sell.time, revenue.day)
+# Ausgabe
+print(report.wochenverkaeufe)
+# Änderung vornehmen
+report.wochenverkaeufe[1,2] <- 8
 ```
 
 `@solution`
@@ -833,6 +840,13 @@ key: 7a6e4f697b
 
 `@sample_code`
 ```{r}
+# report.wochenverkaeufe
+report.wochenverkaeufe <- rbind(sell.time, revenue.day)
+# Ausgabe
+print(report.wochenverkaeufe)
+# Änderung vornehmen
+report.wochenverkaeufe[1,2] <- 8
+# Umbenennung der Spaltennamen
 
 ```
 
@@ -845,7 +859,7 @@ colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Fre
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("report.final <- rbind(sell.time, revenue.day, average.byday)","report.final <- rbind(report.wochenverkaeufe, average.byday)", fixed=FALSE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code(c("report.final <- rbind(sell.time, revenue.day, average.byday)","report.final <- rbind(report.wochenverkaeufe, average.byday)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau!")
 ```
 
