@@ -935,12 +935,13 @@ key: 0675d8c8f5
 xp: 100
 ```
 
-Bislang war immer von einem Vektor die Rede. Des Weiteren gibt es noch Matrizen, die sehr häufig Anwendung finden. Aufgrund der Kürze der Einführung in diesem Kurs kommen wir direkt zu **Data Frames**:
+Bislang war immer bei zweidimensionalen Tabellen von Matrizen die Rede. Nun kommen wir zu den **Data Frames**:
 
 Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames, ein Datenobjekt, in dem Sie alle Daten unterschielichen Typs speichern können (de Vries/Meys 2018).
 
 - Struktur und Datentyp anzeigen lassen: **str()**
 - Anzahl der Zeilen bzw. Spalten ausgeben lassen: **nrow() bzw. ncol()**
+
 
 `@pre_exercise_code`
 ```{r}
