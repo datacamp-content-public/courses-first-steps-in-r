@@ -489,6 +489,7 @@ xp: 35
 ```{r}
 #1.numerische Variable?
 is.numeric(Anzahl_Mitarbeiter)
+class(Anzahl_Mitarbeiter) #funktioniert auch, gibt direkt den Basisdatentyp aus.
 #2.1 Ausgabe
 
 #2.2 
