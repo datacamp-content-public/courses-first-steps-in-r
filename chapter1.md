@@ -451,7 +451,7 @@ Kontrollieren Sie bitte einzelne Werte hinsichtlich ihrer Basisdatentypen.
 - 1. Die Variable **Anzahl_Mitarbeiter** müsste ein numerischer Basisdatentyp sein. Überpüfen Sie dies bitte.
 
 `@hint`
-Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird! Schauen Sie in die Tabelle unter **Abfrage (Query)**
+Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder FALSE) ausgegeben wird! Schauen Sie in die Tabelle unter **Abfrage (Query)**
 
 `@sample_code`
 ```{r}
