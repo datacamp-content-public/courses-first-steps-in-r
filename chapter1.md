@@ -330,7 +330,7 @@ key: 6df8493e71
 - 9
 
 `@hint`
-Das geht im Kopf - hier geht es nun um das Verständnis. Sie können aber auch die Console in R verwenden.
+Das geht im Kopf - hier geht es nun um das Verständnis. Sie können aber auch die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
 
 `@sct`
 ```{r}
