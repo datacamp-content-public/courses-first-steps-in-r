@@ -191,25 +191,25 @@ xp: 20
 ```
 
 `@instructions`
-- 4. Es
+- 4. Es sind auf den Umsatz von 295005€ im Januar eine Umsatzsteuer in Höhe von 56050.95€ aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen? Runden Sie bitte mit der Funktion round() auf.
 
 `@hint`
 Haben Sie den Potenzierungsoperator ^ korrekt eingegeben? Schauen Sie nochmal konkret auf Ihre Berechnung.
 
 `@sample_code`
 ```{r}
-# Potenzieren Sie 2 hoch 5
+# Ausrechnen der Umsatzsteuer
 
 ```
 
 `@solution`
 ```{r}
-2^5		
+round(56050.95/(295995/100))	
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_output(32, fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
+ex() %>% check_output(c("0.19", "19") fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
