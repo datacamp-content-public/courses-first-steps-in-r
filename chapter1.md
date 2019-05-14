@@ -162,7 +162,7 @@ xp: 20
 - 2. Sie hatten im Quartal Q1 einen Umsatz von 848.000€ zuerst ausgegeben. Aufgrund eines Forderungsausfalles von 42800€ müssen diese am Umsatz berücksichtigt werden.
 
 `@hint`
-
+Hier müssen Sie nur zwei Werte voneinander subtrahieren.
 
 `@sample_code`
 ```{r}
