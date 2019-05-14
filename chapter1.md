@@ -321,7 +321,7 @@ key: 6df8493e71
 ```
 
 `@question`
-Wie lautet das Ergebnis von 11 Modulo 4
+- 7. Wie lautet das Ergebnis von 11 Modulo 4
 
 `@possible_answers`
 - 1
@@ -335,7 +335,7 @@ Das geht im Kopf - hier geht es nun um das Verständnis. Sie können aber auch d
 `@sct`
 ```{r}
 ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
-success_msg("Richtig")
+success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
 ```
 
 ---
