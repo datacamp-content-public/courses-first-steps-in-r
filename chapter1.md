@@ -191,7 +191,7 @@ xp: 20
 ```
 
 `@instructions`
-- 3. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab?
+- 3. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab? Nehmen Sie den  Ausgangswert von 805000 am Ende von Q1 an.
 
 `@hint`
 
