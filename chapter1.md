@@ -286,7 +286,7 @@ key: 713bfa0770
 ```
 
 `@instructions`
-- 6. Herr Müller zeigt strebt ein Umsatzziel für Q3 (2019) von 910000 an. Wie hoch muss dafür das Umsatzwachstum ausfallen, wenn Ende Q2(2019) 859521€ Umsatz vorliegen.
+- 6. Herr Müller zeigt strebt ein Umsatzziel für Q3 (2019) von 900000 an. Wie hoch muss dafür das Umsatzwachstum ausfallen, wenn Ende Q2(2019) 859521€ Umsatz vorliegen.
 
 R hält eine riesige Menge von mathematischen Funktionen bereit. 
 ```
