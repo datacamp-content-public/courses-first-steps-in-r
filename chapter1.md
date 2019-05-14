@@ -186,38 +186,6 @@ success_msg("Richtig und die nächste Aufgabe!")
 
 ```yaml
 type: NormalExercise
-key: 33bebf536a
-xp: 20
-```
-
-`@instructions`
-- 3. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab? Nehmen Sie den  Ausgangswert von 805000 am Ende von Q1 an.
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-# Umsatzprognose Q2
-
-```
-
-`@solution`
-```{r}
-
-805200*(1.022^3)
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(859520.9, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - beachten Sie Tippfehler!")
-success_msg("Richtig und die nächste Aufgabe!")
-```
-
-***
-
-```yaml
-type: NormalExercise
 key: bfa213b421
 xp: 20
 ```
@@ -242,6 +210,38 @@ Haben Sie den Potenzierungsoperator ^ korrekt eingegeben? Schauen Sie nochmal ko
 `@sct`
 ```{r}
 ex() %>% check_output(32, fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
+success_msg("Richtig und die nächste Aufgabe!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 33bebf536a
+xp: 20
+```
+
+`@instructions`
+- 3. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab? Nehmen Sie den  Ausgangswert von 805200 am Ende von Q1 an.
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+# Umsatzprognose Q2
+
+```
+
+`@solution`
+```{r}
+
+805200*(1.022^3)
+```
+
+`@sct`
+```{r}
+ex() %>% check_output(859520.9, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
