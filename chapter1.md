@@ -461,7 +461,7 @@ Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben
 
 `@solution`
 ```{r}
-#1.Überprüfung des Datentyps
+#1.Überprüfung des numerischen Datentyps
 is.numeric(Anzahl_Mitarbeiter)
 ```
 
