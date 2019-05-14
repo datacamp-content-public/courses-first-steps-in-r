@@ -411,7 +411,7 @@ d <- (y-x)
 ex() %>% check_object("x") %>% check_equal(805200)
 ex() %>% check_object("y") %>% check_equal(859520.9)
 ex() %>% check_output("FALSE", fixed=TRUE, missing_msg= "Da haben Sie etwas falsch verglichen bei Aufgabe 2 oder die Aussage von Herrn Müller nicht direkt überprüft!")
-ex() %>% check_output("54320.9", fixed=TRUE, missing_msg= "Da stimmt etwas bei Aufgabe 3. nicht!")
+ex() %>% check_code(c("54320.9", "y-x", "859520.9-805200"), fixed=TRUE, missing_msg= "Da stimmt etwas bei Aufgabe 3. nicht!")
 success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung verstanden und Herr Müller lag mit seiner Prognose falsch. Deshalb ist eine Überpüfung anhand von Daten für eine fundierte Aussage und unternehmensrelevante Entscheidungen immer notwendig!")
 ```
 
