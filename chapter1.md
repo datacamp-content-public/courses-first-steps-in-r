@@ -44,7 +44,7 @@ Lasst uns mit der ersten Aufgabe starten! Let´s go!
 `@instructions`
 Hallo und herzlich Willkommen,
 
-Sie sind unser/e neue/r MitarbeiterIn in der IT-Abteilung und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir aber erstmal leicht an. 
+Sie sind unser/e neue/r MitarbeiterIn in der **Abteilung Business Intelligence & Data Analtics** und befassen sich das erste Mal mit der Programmiersprache R. Ihr Chef Herr Müller hat Ihnen verschiedene Aufgaben gegeben - nun fangen wir aber erstmal leicht an. 
 
 ![](https://assets.datacamp.com/production/repositories/4810/datasets/44f5b387423e2b1a9a47c24d837c1bd4f3184ee0/IT_Mitarbeiter.jpg)
 
@@ -741,7 +741,7 @@ Matrizen sind rechteckige, zweidimensionale Anordnungen (Tabellen) von Elementen
 
 Vektoren in eine Matrix zusammenführen: 
 - **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
-- *Matrix <- rbind(Vektor, Vektor)
+	- *Matrix <- rbind(Vektor, Vektor)
 - **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
 
 Werte einer Matrix ersetzen:
