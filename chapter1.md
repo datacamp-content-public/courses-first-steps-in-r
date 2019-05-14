@@ -27,7 +27,7 @@ xp: 100
 skills: 1
 ```
 
-Lasst uns mit der ersten Aufgabe starten! Let´s go!
+Die Hauptfunktionen von DataCamp
 
 Die linke Funktionsseite:
 - 1) Hier im **Exercisebereich** wird immer die grundlegende Theorie dargestellt sein, die dann direkt in der Übung angewendet wird. - 
@@ -36,9 +36,10 @@ Die linke Funktionsseite:
 
 Die rechte Funktionsseite:
 - 4) **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben.
-- 5) Die Console ist in diesem Fall eine Oberfläche in der Sie sehen können, wie Ihr geschriebener Code ausgeführt wird und welche Ausgaben er liefert. 
+- 5) Mithilfe des Buttons **RunCode** kompilieren Sie nur den Code mit **Submit Answer** führen Sie ihn aus.
+- 6) Die **Console** ist in diesem Fall eine Oberfläche in der Sie sehen können, wie Ihr geschriebener Code ausgeführt wird und welche Ausgaben er liefert. 
 
-
+Lasst uns mit der ersten Aufgabe starten! Let´s go!
 
 `@instructions`
 Hallo und herzlich Willkommen,
@@ -47,7 +48,7 @@ Sie sind unser/e neue/r MitarbeiterIn in der IT-Abteilung und befassen sich das 
 
 ![](https://assets.datacamp.com/production/repositories/4810/datasets/44f5b387423e2b1a9a47c24d837c1bd4f3184ee0/IT_Mitarbeiter.jpg)
 
-- Wir fangen mit dem Programm an mit dem fast alle Programmierbücher starten: "Hello World!"
+- Wir fangen mit dem Programm an mit dem fast alle Programmierbücher starten:
 	- Dafür schreiben Sie bitte: **print("Hello World!")** in das Skript und drücken auf 'Submit Answer'.
 
 `@hint`
@@ -115,8 +116,9 @@ xp: 20
 ```
 
 `@instructions`
-- Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
-- Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 erstellen. Fügen Sie bitte eine weitere Codezeile hinzu, fügen Sie Ihre Rechnung ein und klicken Sie danach auf "Submit Answer". Schauen Sie anschließend bitte in die Console.
+Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
+
+- 1) Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 erstellen. Fügen Sie bitte eine weitere Codezeile hinzu, fügen Sie Ihre Rechnung ein und klicken Sie danach auf "Submit Answer". Schauen Sie anschließend bitte in die Console.
 
 ```
 Umsatz: Jannuar 234000 | Februar 320000 | März 294000
@@ -129,7 +131,7 @@ Stellen Sie sicher, dass Sie die Summe aus 234000 + 320000 + 294000 in einer neu
 ```{r}
 # Beispielcode Addition 
 67+78
-# Quartalsumsatz Q1:
+#1.Quartalsumsatz Q1:
 
 ```
 
@@ -157,7 +159,7 @@ xp: 20
 ```
 
 `@instructions`
-2. Sie hatten im Quartal Q1 einen Umsatz von 848.000€ zuerst ausgegeben. Aufgrund einer Rückstellung von 42800€ müssen diese am Umsatz berücksichtigt werden.
+- 2. Sie hatten im Quartal Q1 einen Umsatz von 848.000€ zuerst ausgegeben. Aufgrund einer Rückstellung von 42800€ müssen diese am Umsatz berücksichtigt werden.
 
 `@hint`
 
@@ -189,7 +191,7 @@ xp: 20
 ```
 
 `@instructions`
-3. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab?
+- 3. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab?
 
 `@hint`
 
@@ -221,7 +223,7 @@ xp: 20
 ```
 
 `@instructions`
-4. Potenzieren Sie 2 hoch 5
+- 4. Potenzieren Sie 2 hoch 5
 
 `@hint`
 Haben Sie den Potenzierungsoperator ^ korrekt eingegeben? Schauen Sie nochmal konkret auf Ihre Berechnung.
@@ -252,8 +254,9 @@ xp: 20
 ```
 
 `@instructions`
-5. Herr Müller braucht für weitere Abrechnungen die Information, an welchem Tag (Zahl) wir uns innerhalb der aktuellen Kalenderwoche befinden. Wir haben heute den 11.05.2019 und das Jahr hat 365 Tage. Es ist also der 131 Tag. An welchem Tag liegen wir in der angebrochenen Kalenderwoche?
-**Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen:
+- 5. Herr Müller braucht für weitere Abrechnungen die Information, an welchem Tag (Zahl) wir uns innerhalb der aktuellen Kalenderwoche befinden. Wir haben heute den 11.05.2019 und das Jahr hat 365 Tage. Es ist also der 131 Tag. An welchem Tag liegen wir in der angebrochenen Kalenderwoche?
+
+**Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
 
 `@hint`
 Versuchen Sie es doch mal mit dem Modulo-Operator (%%)
@@ -330,7 +333,7 @@ Das geht im Kopf - hier geht es nun um das Verständnis. Sie können aber auch d
 
 `@sct`
 ```{r}
-ex() %>% check_code(-[2], fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+ex() %>% check_code([2], fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
 success_msg("Richtig")
 ```
 
