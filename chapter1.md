@@ -209,7 +209,7 @@ round(56050.95/(295995/100))
 
 `@sct`
 ```{r}
-ex() %>% check_output(c("0.19", "19", "56050.95/(295995/100)"), fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
+ex() %>% check_output(c("0.19", "19", "56050.95/(295005/100)"), fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
