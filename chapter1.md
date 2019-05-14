@@ -223,7 +223,7 @@ xp: 20
 ```
 
 `@instructions`
-- 4. Potenzieren Sie 2 hoch 5
+- 4. Potenzieren Sie 2 hoch 5 -> andere Aufgabe sehr wichtig!!
 
 `@hint`
 Haben Sie den Potenzierungsoperator ^ korrekt eingegeben? Schauen Sie nochmal konkret auf Ihre Berechnung.
@@ -274,7 +274,7 @@ Versuchen Sie es doch mal mit dem Modulo-Operator (%%)
 
 `@sct`
 ```{r}
-ex() %>% check_code(,%%) %>% check_output(5, fixed=TRUE, missing_msg="So ist das nicht ganz richtig, achten Sie auf den Hinweis!")
+ex() %>% check_code(%%, fixed=FALSE) %>% check_output(5, fixed=TRUE, missing_msg="So ist das nicht ganz richtig, achten Sie auf den Hinweis!")
 success_msg("Richtig")
 ```
 
