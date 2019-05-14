@@ -483,7 +483,7 @@ xp: 35
 - 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von **17** hinterlegt ist, tun sie dies bitte. Klicken Sie zur Zwischenausgabe 'Run Code'
 
 `@hint`
-
+Eine Zuweisung (<-) funktiniert mit diesem Zeichen in R. Weisen Sie der Variablen den numerischen Wert 17 zu.
 
 `@sample_code`
 ```{r}
