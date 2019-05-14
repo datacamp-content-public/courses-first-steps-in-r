@@ -194,7 +194,7 @@ xp: 20
 - 4. Es sind auf den Umsatz von 295005€ im Januar eine Umsatzsteuer in Höhe von 56050.95€ aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen? Runden Sie bitte mit der Funktion round() auf.
 
 `@hint`
-Haben Sie den Potenzierungsoperator ^ korrekt eingegeben? Schauen Sie nochmal konkret auf Ihre Berechnung.
+Schauen Sie nochmal konkret auf Ihre Berechnung.
 
 `@sample_code`
 ```{r}
@@ -286,8 +286,9 @@ key: 713bfa0770
 ```
 
 `@instructions`
-R hält eine riesige Menge von mathematischen Funktionen bereit. Herr Müller zeigt Ihnen noch weitere nützliche Funktionen:
+- 6. Herr Müller zeigt strebt ein Umsatzziel für Q3 (2019) von 910000 an. Wie hoch muss dafür das Umsatzwachstum ausfallen, wenn Ende Q2(2019) 859521€ Umsatz vorliegen.
 
+R hält eine riesige Menge von mathematischen Funktionen bereit. 
 ```
 log(x,base = y) Logarithmus von x zur Basis y
 exp(x) Exponentailfunktion von x
@@ -320,12 +321,12 @@ key: 6df8493e71
 ```
 
 `@question`
-Wie lautet das Ergebnis von 10 Modulo 4
+Wie lautet das Ergebnis von 11 Modulo 4
 
 `@possible_answers`
 - 1
-- [2]
-- 3
+- 2
+- [3]
 - 9
 
 `@hint`
@@ -333,7 +334,7 @@ Das geht im Kopf - hier geht es nun um das Verständnis. Sie können aber auch d
 
 `@sct`
 ```{r}
-ex() %>% check_code(2, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
 success_msg("Richtig")
 ```
 
