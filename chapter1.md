@@ -490,9 +490,9 @@ xp: 35
 #1.numerische Variable?
 is.numeric(Anzahl_Mitarbeiter)
 class(Anzahl_Mitarbeiter) #funktioniert auch, gibt direkt den Basisdatentyp aus.
-#2.1 Ausgabe
+#2.Ausgabe + Zuweisung
 
-#2.2 
+
 
 ```
 
@@ -506,7 +506,7 @@ Anzahl_Mitarbeiter <- 17
 
 `@sct`
 ```{r}
-ex() %>% check_code("Anzahl_Mitarbeiter <- 17", fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben wird!")
+ex() %>% check_code("Anzahl_Mitarbeiter <- 17", fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
 success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
 ```
 
@@ -528,7 +528,7 @@ Verweisen Sie auf die Variable Office_33 einfach den neuen Namen. Beachten Sie, 
 ```{r}
 #1.numerische Variable?
 is.numeric(Anzahl_Mitarbeiter)
-#2.1 Ausgabe
+#2.Ausgabe + Zuweisung
 print(Anzahl_Mitarbeiter)
 Anzahl_Mitarbeiter <- 17
 #3 Umbenennung Büro
