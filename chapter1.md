@@ -194,7 +194,7 @@ xp: 20
 - 4. Es sind auf den Umsatz von 295005€ im Januar eine Umsatzsteuer in Höhe von 56050.95€ aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen? Runden Sie bitte mit der Funktion round() auf.
 
 `@hint`
-Schauen Sie nochmal konkret auf Ihre Berechnung.
+Schauen Sie nochmal konkret auf Ihre Berechnung und überlegen Sie sich, wie der Dreisatz, den Sie aus der Schulzeit kennen müssten funktioniert.
 
 `@sample_code`
 ```{r}
