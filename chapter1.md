@@ -225,7 +225,7 @@ xp: 20
 - 4. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab? Nehmen Sie den  Ausgangswert von 805200 am Ende von Q1 an.
 
 `@hint`
-
+Beachten Sie, dass in R anstatt dem Komma als Trennzeichen der Punkt verwendet wird!
 
 `@sample_code`
 ```{r}
