@@ -274,7 +274,7 @@ Versuchen Sie es doch mal mit dem Modulo-Operator (%%)
 
 `@sct`
 ```{r}
-ex() %>% check_code(%%, fixed=FALSE) %>% check_output(5, fixed=TRUE, missing_msg="So ist das nicht ganz richtig, achten Sie auf den Hinweis!")
+ex() %>% check_output(5, fixed=TRUE, missing_msg="So ist das nicht ganz richtig, achten Sie auf den Hinweis!")
 success_msg("Richtig")
 ```
 
