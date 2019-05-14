@@ -194,7 +194,7 @@ xp: 20
 - 4. Es sind auf den Umsatz von 295005€ im Januar eine Umsatzsteuer in Höhe von 56050.95€ aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen? Runden Sie bitte mit der Funktion round() auf.
 
 `@hint`
-Schauen Sie nochmal konkret auf Ihre Berechnung und überlegen Sie sich, wie der Dreisatz, den Sie aus der Schulzeit kennen müssten funktioniert.
+Schauen Sie nochmal konkret auf Ihre Berechnung und überlegen Sie sich, wie Sie ein Verhältnisgleichung aufstellen. Denken Sie an den Dreisatz aus Ihrer Schulzeit.
 
 `@sample_code`
 ```{r}
@@ -225,7 +225,7 @@ xp: 20
 - 4. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab? Nehmen Sie den  Ausgangswert von 805200 am Ende von Q1 an.
 
 `@hint`
-Beachten Sie, dass in R anstatt dem Komma als Trennzeichen der Punkt verwendet wird!
+Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
 
 `@sample_code`
 ```{r}
