@@ -455,7 +455,7 @@ Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert ausgegeben
 
 `@sample_code`
 ```{r}
-#1.Überprüfung des Datentyps
+#1.Überprüfung des numerischen Datentyps
 
 ```
 
