@@ -159,7 +159,7 @@ xp: 20
 ```
 
 `@instructions`
-- 2. Sie hatten im Quartal Q1 einen Umsatz von 848.000€ zuerst ausgegeben. Aufgrund einer Rückstellung von 42800€ müssen diese am Umsatz berücksichtigt werden.
+- 2. Sie hatten im Quartal Q1 einen Umsatz von 848.000€ zuerst ausgegeben. Aufgrund eines Forderungsausfalles von 42800€ müssen diese am Umsatz berücksichtigt werden.
 
 `@hint`
 
