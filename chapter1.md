@@ -783,7 +783,7 @@ Herr Müller bittet Sie einen **report.wochenverkaeufe** für die Tochterfirma z
 - 1. Ihre Aufgabe ist es eine Matrix aus den Vektoren **sell.time und revenue.day** zu erstellen und der Matrix **report.wochenverkaeufe** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
 `@hint`
-
+Schauen Sie bitte in die Exercisebox und verwenden Sie bitte die Funktion um Zeilenvektoren zusammen zu führen - verweisen (<-) Sie diese auf report.wochenverkaeufe.
 
 `@sample_code`
 ```{r}
