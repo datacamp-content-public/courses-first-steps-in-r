@@ -759,8 +759,6 @@ Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehe
 - Zeilennamen verändern: Beispiel **rownames(Matrix)** <- c("Region", "Umsätze")
 - Spaltennamen verändern: Beispiel **colnames(Matrix)** <- c("Januar", "Februar")
 
-
-
 `@pre_exercise_code`
 ```{r}
 report.wochenverkaeufe <- matrix(1:18, ncol=6)
