@@ -555,24 +555,24 @@ key: 87f538b93c
 ```
 
 `@question`
-Was ist "53" für ein Basisdatentyp:
-- 1:
-- 2:
-- 3:
-- 4:
+Was ist "53" für ein Basisdatentyp?
+- 1: Es ist ein booleischer Wert - logical.
+- 2: Es ist eine Ganzzahl oder Fließkommazahl - numeric.
+- 3: Es ist eine Zeichenkette - character.
+- 4: Es ist eine Kategorie - factor.
 
 `@possible_answers`
 - 1
-- [2]
-- 3
+- 2
+- [3]
 - 4
 
 `@hint`
-
+Beachten Sie die Anführungszeichen.
 
 `@sct`
 ```{r}
-ex() %>% check_code(2, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal. Beachten Sie die Anführungszeichen!")
+ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
 success_msg("Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist")
 ```
 
