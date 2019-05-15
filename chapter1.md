@@ -982,7 +982,7 @@ Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen
 - **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
 - **colnames()**: Abrufen oder setzen der Zeilen- oder Spaltennamen eines matrixartigen Objekts.
 - **head()** | **tail()**: Liefert den ersten oder letzten Teil eines Vektors, einer Matrix, einer Tabelle, eines Datenrahmens oder einer Funktion.
-- **str()**: Erstellt eine kompakte Darstellung der internen Struktur eines R-Objekts.
+- **str()**: Erstellt eine kompakte Darstellung der internen Struktur eines R-Objektes.
 - **summary()**: Ist eine generische Funktion, um Ergebniszusammenfassungen zu erstellen.
 
 `@pre_exercise_code`
@@ -1041,8 +1041,8 @@ xp: 50
 Der Datensatz aus dem Unternehmen Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
 Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewiesen worden.
 
-1. Was beinhaltet der Datensatz an Informationen, bzw. welchen Datentypen kommen vor?
-2. Wie viele Kunden sind im Kundendatensatz aufgelistet, wenn Sie davon ausgehen, dass es keine doppelten Kunden gibt?
+
+1. Wie viele Kunden sind im Kundendatensatz aufgelistet, wenn Sie davon ausgehen, dass es keine doppelten Kunden gibt?
 
 `@hint`
 
