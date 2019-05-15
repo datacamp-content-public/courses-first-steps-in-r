@@ -887,7 +887,7 @@ key: 7a6e4f697b
 ```
 
 `@instructions`
-Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit von der Leitung auf einen schnellen Blick ersichtlich ist, was dargestellt wurde. 
+Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit von dem Management der Tochtergesellscahft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisert wurde. 
 
 - 4. Bitte nennen Sie bei dem erstellten finalen Report die Tabelle um:
 	- **Verkaufszeit h, Tagesumsatz, Umsatz pro Stunde** 
