@@ -90,12 +90,12 @@ xp: 100
 R kann in seiner Basisfunktion als Rechner verwendet werden. Beachten Sie folgende arithmetische Rechenoperatoren:	 
 
 ```
- - Addition: + 
- - Subtraktion: - 
- - Multiplikation: * 
- - Division: / 
- - Potenzierung: ^
- - Modulo: %% 
+ Addition: + 
+ Subtraktion: - 
+ Multiplikation: *
+ Division: / 
+ Potenzierung: ^
+ Modulo: %% 
 ```
  
 Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl: z.B.: 7 %% 2 ist 1.
@@ -593,9 +593,10 @@ Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:
 c(1,2,3) oder kürzer c(1:3)
 ```
 
-Typ eines Vektors bestimmen und Überblick verschaffen: **str()**
+**str()**: Typ eines Vektors bestimmen und Überblick verschaffen
 
-Durchschnitt ausrechnen: **mean()**
+**mean()**: Durchschnitt ausrechnen
+
 
 `@pre_exercise_code`
 ```{r}
