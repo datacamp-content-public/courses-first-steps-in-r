@@ -746,22 +746,20 @@ key: ebe932dc2c
 xp: 100
 ```
 
-Matrizen sind rechteckige, zweidimensionale Anordnungen (Tabellen) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt (de Vries/Meys 2018).
+Matrizen sind rechteckige, zweidimensionale Anordnungen (Tabellen) von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. In der Statistik werden häufig Matrixberechnungen angewandt. Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern (de Vries/Meys 2018).
 
 Vektoren in eine Matrix zusammenführen: 
-- **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können.
-	- *Matrix <- rbind(Vektor, Vektor)
+- **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können. *Matrix <- rbind(Vektor, Vektor)
 - **cbind():** Funktion mit der Vektoren als Spalten einer Matrix zusammengefügt werden.
 
 Werte einer Matrix ersetzen:
-- Um den Wert in der dritten Zeile und zweiten Spalte der Matrix matrix.eins zu 5 zu ändern: 
-	- matrix.eins[3,2] <- 5
+- Um den Wert in der dritten Zeile und zweiten Spalte der Matrix matrix.eins zu 5 zu ändern: matrix.eins[3,2] <- 5
 
 Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können. Zeilen- und Spaltennamen sinnvoll verändern: 
-- Zeilennamen verändern: 
-	- Beispiel **rownames(Matrix)** <- c("Region", "Umsätze")
-- Spaltennamen verändern: 
-	- Beispiel **colnames(Matrix)** <- c("Januar", "Februar")
+- Zeilennamen verändern: Beispiel **rownames(Matrix)** <- c("Region", "Umsätze")
+- Spaltennamen verändern: Beispiel **colnames(Matrix)** <- c("Januar", "Februar")
+
+
 
 `@pre_exercise_code`
 ```{r}
@@ -782,8 +780,6 @@ xp: 35
 ```
 
 `@instructions`
-Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Tabelle (Matrix) speichern. 
-
 Herr Müller bittet Sie einen **report.wochenverkaeufe** für die Tochterfirma zu erstellen.
 
 - 1. Ihre Aufgabe ist es eine Tabelle (Matrix) aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen **report.wochenverkaeufe** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
