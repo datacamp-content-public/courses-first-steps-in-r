@@ -593,9 +593,9 @@ Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:
 c(1,2,3) oder kürzer c(1:3)
 ```
 
-**str()**: Typ eines Vektors bestimmen und Überblick verschaffen
+**str()**: Typ eines Vektors bestimmen und Überblick verschaffen.
 
-**mean()**: Durchschnitt ausrechnen
+**mean()**: Durchschnitt ausrechnen.
 
 
 `@pre_exercise_code`
