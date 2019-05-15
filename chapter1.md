@@ -928,6 +928,44 @@ success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können 
 
 ---
 
+## (Lists)
+
+```yaml
+type: NormalExercise
+key: ffb7d8b3a8
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
 ## Data Frames
 
 ```yaml
@@ -938,7 +976,7 @@ xp: 100
 
 Bislang war immer bei zweidimensionalen Tabellen von Matrizen die Rede. Nun kommen wir zu den **Data Frames**:
 
-Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames, ein Datenobjekt, in dem Sie alle Daten unterschielichen Typs speichern können (de Vries/Meys 2018).
+Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames. Es ist eine Liste von Vektoren gleicher Länge (de Vries/Meys 2018; R-Handbuch).
 
 - **nrow() bzw. ncol()**: Anzahl der Zeilen bzw. Spalten ausgeben lassen: 
 - **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
