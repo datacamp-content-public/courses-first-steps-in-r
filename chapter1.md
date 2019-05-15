@@ -1003,18 +1003,30 @@ Warum ist es nicht möglich diese Tabelle mit weiteren 3.5 Mio Zeilen in eine Ma
 
 ![Beispiel](https://assets.datacamp.com/production/repositories/4810/datasets/81e60fc1e3769bcf2010d82dec9b050ab3c87ca3/Data_frame_bsp..PNG.png)
 
-`@possible_answers`
-- [1] weil der Datensatz Zeichenketten (character) und numerische Werte (numeric) enthält.
+- 1 weil der Datensatz Zeichenketten (character) und numerische Werte (numeric) enthält.
 - 2 weil der Datensatz numerische Werte und boolesche Werte enthält.
 - 3 weil der Datensatz zu groß ist.
 - 4 er lässt sich doch ohne weiteres in eine Matrix speichern.
+
+`@possible_answers`
+- [1]
+- 2
+- 3
+- 4
 
 `@hint`
 
 
 `@sct`
 ```{r}
-
+ex() %>% check_code(1, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
+ex() %>% check_code(2, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
+ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
+ex() %>% check_code(4, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
 ```
 
 ***
