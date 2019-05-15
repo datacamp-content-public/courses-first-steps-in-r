@@ -976,7 +976,7 @@ xp: 100
 
 Bislang war immer bei zweidimensionalen Tabellen von Matrizen die Rede. Nun kommen wir zu den **Data Frames**:
 
-Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames. Es ist eine Liste von Vektoren gleicher Länge (de Vries/Meys 2018; R-Handbuch).
+Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames. Es ist eine Liste von Vektoren gleicher Länge und sehr ähnlich zu Exceltabellen, da die Daten in einem ähnlichen Format gespeichert werden (de Vries/Meys 2018; Grolemund 2019, S.55).
 
 - **nrow() bzw. ncol()**: Anzahl der Zeilen bzw. Spalten ausgeben lassen: 
 - **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
@@ -999,10 +999,15 @@ xp: 50
 ```
 
 `@question`
-Warum ist es nicht möglich diese Tabelle in eine Matrix zu speichern?
+Warum ist es nicht möglich diese Tabelle mit weiteren 3.5 Mio Zeilen in eine Matrix zu speichern?
+
+![Beispiel](https://assets.datacamp.com/production/repositories/4810/datasets/d97d7478a72fa9918855494ec0bacdfac09cb90e/Data_frame_bsp..PNG)
 
 `@possible_answers`
-
+- 1
+- 2
+- 3
+- 4
 
 `@hint`
 
