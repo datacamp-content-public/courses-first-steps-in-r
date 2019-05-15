@@ -825,9 +825,7 @@ xp: 35
 ```{r}
 # report.wochenverkaeufe
 report.wochenverkaeufe <- rbind(sell.time, revenue.day)
-# Ausgabe
-
-# Änderung vornehmen
+# Ausgabe + Änderung vornehmen
 
 ```
 
@@ -863,9 +861,8 @@ xp: 30
 ```{r}
 # report.wochenverkaeufe
 report.wochenverkaeufe <- rbind(sell.time, revenue.day)
-# Ausgabe
+# Ausgabe + Änderung vornehmen
 print(report.wochenverkaeufe)
-# Änderung vornehmen
 report.wochenverkaeufe[1,2] <- 8
 # Umsatz pro Tag hinzufügen
 
@@ -892,7 +889,9 @@ key: 7a6e4f697b
 `@instructions`
 Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit von der Leitung auf einen schnellen Blick ersichtlich ist, was dargestellt wurde. 
 
-- 4. Bitte nennen Sie bei dem erstellten finalen Report die Zeilennamen in **Verkaufszeit h, Tagesumsatz, Umsatz pro Stunde** und die Spaltennamen in **Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag** um.
+- 4. Bitte nennen Sie bei dem erstellten finalen Report die Tabelle um:
+	- **Verkaufszeit h, Tagesumsatz, Umsatz pro Stunde** 
+    - **Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag**
 
 `@hint`
 
@@ -901,15 +900,14 @@ Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch
 ```{r}
 # report.wochenverkaeufe
 report.wochenverkaeufe <- rbind(sell.time, revenue.day)
-# Ausgabe
+# Ausgabe + Änderung vornehmen
 print(report.wochenverkaeufe)
-# Änderung vornehmen
 report.wochenverkaeufe[1,2] <- 8
 # Umsatz pro Tag hinzufügen
 report.final <- rbind(sell.time, revenue.day, average.byday) 
-# Zeilennamen benennen
+# Tabelle benennen
 
-# Spaltennamen benennen
+
 
 ```
 
