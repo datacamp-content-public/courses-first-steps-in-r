@@ -699,7 +699,7 @@ Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein.
 `@sct`
 ```{r}
 ex() %>% check_output(567, fixed=TRUE, missing_msg="Nicht richtig, da haben Sie sich wahrscheinlich vertippt!")
-success_msg("Richtig. Am Freitag wurden 567 Euro Umsatz pro Stunde erwirtschaftet!")
+success_msg("Richtig. Am Freitag wurden 567€ Umsatz pro Stunde erwirtschaftet!")
 ```
 
 ***
