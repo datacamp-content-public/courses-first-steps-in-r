@@ -597,7 +597,6 @@ c(1,2,3) oder kürzer c(1:3)
 
 **mean()**: Durchschnitt ausrechnen.
 
-
 `@pre_exercise_code`
 ```{r}
 sell.time <- c(8,8,8,8,9,6)
