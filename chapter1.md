@@ -555,17 +555,25 @@ key: 87f538b93c
 ```
 
 `@question`
-
+Was ist "53" für ein Basisdatentyp:
+- 1:
+- 2:
+- 3:
+- 4:
 
 `@possible_answers`
-
+- 1
+- [2]
+- 3
+- 4
 
 `@hint`
 
 
 `@sct`
 ```{r}
-
+ex() %>% check_code(2, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal. Beachten Sie die Anführungszeichen!")
+success_msg("Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist")
 ```
 
 ---
