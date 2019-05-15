@@ -894,7 +894,7 @@ Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch
     - **Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag**
 
 `@hint`
-
+Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut.
 
 `@sample_code`
 ```{r}
