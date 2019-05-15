@@ -755,7 +755,7 @@ Vektoren in eine Matrix zusammenführen:
 Werte einer Matrix ersetzen:
 - Um den Wert in der dritten Zeile und zweiten Spalte der Matrix matrix.eins zu 5 zu ändern: matrix.eins[3,2] <- 5
 
-Um die Übersicht zu behalten und damit auch andere die Ergebnisse nachvollziehen können. Zeilen- und Spaltennamen sinnvoll verändern: 
+Zeilen- und Spaltennamen verändern: 
 - Zeilennamen verändern: Beispiel **rownames(Matrix)** <- c("Region", "Umsätze")
 - Spaltennamen verändern: Beispiel **colnames(Matrix)** <- c("Januar", "Februar")
 
@@ -926,7 +926,7 @@ colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Fre
 ex() %>% check_code(rownames(report.final) <- c("Verkaufszeit h", "Umsatz", "Umsatz pro Stunde"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau!")
 ex() %>% check_code(colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau!")
+success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
 ```
 
 ---
