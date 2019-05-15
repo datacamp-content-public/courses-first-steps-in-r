@@ -1019,14 +1019,14 @@ Warum ist es nicht möglich diese Tabelle mit weiteren 3.5 Mio Zeilen in eine Ma
 
 `@sct`
 ```{r}
-ex() %>% check_code(1, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
-success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
-ex() %>% check_code(2, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
-success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
+ex() %>% check_code(1, fixed=TRUE)
+success_msg("Richtig - in Matrizen können nur gleiche Datentypen gespeichert werden. In Data Frames können Elemente unterschiedlichen Typs gleicher Zeilenlänge gespeichert werden. Innerhalb der Spalten müssen aber die Datentypen gleich sein")
+ex() %>% check_code(2, fixed=TRUE, missing_msg="Leider nicht richtig, es kommen in dem Datensatz keine boolschen Werte vor!")
+success_msg("")
 ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
-success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
+success_msg("")
 ex() %>% check_code(4, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
-success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
+success_msg("")
 ```
 
 ***
