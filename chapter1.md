@@ -714,7 +714,7 @@ xp: 25
 - 4. Berechnen Sie bitte die tägliche durchschnittliche Verkaufszeit pro Verkaufstag in der Woche.
 
 `@hint`
-
+Benutzen Sie die Funktion aus der Exercisebox und verwenden Sie die richtige Variable.
 
 `@sample_code`
 ```{r}
