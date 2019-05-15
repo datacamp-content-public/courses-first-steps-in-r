@@ -999,7 +999,7 @@ xp: 50
 ```
 
 `@question`
-Warum ist es nicht möglich diese Tabelle mit weiteren 3.5 Mio Zeilen in eine Matrix zu speichern?
+Warum ist es nicht möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matrix zu speichern?
 
 ![Beispiel](https://assets.datacamp.com/production/repositories/4810/datasets/81e60fc1e3769bcf2010d82dec9b050ab3c87ca3/Data_frame_bsp..PNG.png)
 
@@ -1023,9 +1023,9 @@ ex() %>% check_code(1, fixed=TRUE)
 success_msg("Richtig - in Matrizen können nur gleiche Datentypen gespeichert werden. In Data Frames können Elemente unterschiedlichen Typs gleicher Zeilenlänge gespeichert werden. Innerhalb der Spalten müssen aber die Datentypen gleich sein")
 ex() %>% check_code(2, fixed=TRUE, missing_msg="Leider nicht richtig, es kommen in dem Datensatz keine boolschen Werte vor!")
 success_msg("")
-ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, dies ist für R kein Problem!")
 success_msg("")
-ex() %>% check_code(4, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+ex() %>% check_code(4, fixed=TRUE, missing_msg="Leider nicht richtig, unterschiedliche Datentypen lassen sich nicht einer Matrix speichern. Überlegen Sie noch einmal!")
 success_msg("")
 ```
 
