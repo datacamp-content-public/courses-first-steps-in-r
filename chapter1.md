@@ -819,7 +819,7 @@ xp: 35
 - 2.2 Ändern Sie einen Fehler ab.
 
 `@hint`
-
+Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h, also alles darüber ist falsch. report.wochenverkaeufe[Zeile, Spalte] <- Wert
 
 `@sample_code`
 ```{r}
