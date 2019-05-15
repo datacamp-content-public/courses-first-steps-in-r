@@ -682,7 +682,7 @@ xp: 25
 - 3. Am Freitag wurden 5103 Euro Umsatz generiert. Wie viel wurde pro Stunde umgesetzt? Rechnen Sie es bitte aus.
 
 `@hint`
-
+Eine Divisionsaufgabe - denken Sie nicht kompliziert und tippen Sie es ein.
 
 `@sample_code`
 ```{r}
