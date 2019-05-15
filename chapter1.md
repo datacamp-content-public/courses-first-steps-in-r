@@ -613,7 +613,7 @@ xp: 25
 ```
 
 `@instructions`
-Sie sollen als neuer Mitarbeiter wieder der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diesen.
+Sie sollen als Mitarbeiter der Business Intelligence & Data Analyticsabteilung erneut der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diese.
 
 - 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
@@ -730,7 +730,7 @@ mean(sell.time)
 
 `@sct`
 ```{r}
-ex() %>% check_output(47/6, fixed=TRUE, missing_msg="Nicht ganz richtig!")
+ex() %>% check_output(47/6, fixed=FALSE, missing_msg="Nicht ganz richtig!")
 success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h !")
 #ex() %>% check_code(c("47/6", "mean(sell.time)"), fixed=TRUE, missing_msg="Nicht ganz richtig!")
 #success_msg("Richtig - die durschnittliche tägliche Verkaufszeit beträgt 7,83 h !")
