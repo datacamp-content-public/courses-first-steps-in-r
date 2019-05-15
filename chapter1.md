@@ -615,7 +615,7 @@ xp: 25
 `@instructions`
 Sie sollen als neuer Mitarbeiter wieder der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diesen.
 
-- 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Namen open.vec zu. Die Zahlen stehen jeweils für einen Verkaufstag (1= Montag)
+- 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
 `@hint`
 Schauen Sie bitte in die Exercisebox, dort sind Beispiele gegeben.
