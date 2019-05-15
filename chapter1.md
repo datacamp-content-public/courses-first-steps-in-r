@@ -1082,7 +1082,7 @@ key: 0f3bbf5d27
 
 `@solution`
 ```{r}
-
+nrow(Kundendaten)
 ```
 
 `@sct`
