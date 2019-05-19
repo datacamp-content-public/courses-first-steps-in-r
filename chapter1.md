@@ -489,7 +489,7 @@ Eine Zuweisung (<-) funktiniert mit diesem Zeichen in R. Weisen Sie der Variable
 ```{r}
 #1.numerische Variable?
 is.numeric(Anzahl_Mitarbeiter)
-class(Anzahl_Mitarbeiter) #funktioniert auch, gibt direkt den Basisdatentyp aus.
+#class(Anzahl_Mitarbeiter) funktioniert auch, gibt direkt den Basisdatentyp aus.
 #2.Ausgabe + Zuweisung
 
 
