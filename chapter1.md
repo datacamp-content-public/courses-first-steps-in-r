@@ -786,17 +786,17 @@ xp: 35
 `@instructions`
 - 2.Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Ihn bitte ab.
 
-- 2.1 Lassen Sie sich die Matrix report.wochenverkaeufe ausgeben.
+- 2.1 Lassen Sie sich die Matrix report.weeksales ausgeben.
 
 - 2.2 Ändern Sie einen Fehler ab.
 
 `@hint`
-Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h, also alles darüber ist falsch. report.wochenverkaeufe[Zeile, Spalte] <- Wert
+Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h, also alles darüber ist falsch. report.weeksales[Zeile, Spalte] <- Wert
 
 `@sample_code`
 ```{r}
-# report.wochenverkaeufe
-report.wochenverkaeufe <- rbind(sell.time, revenue.day)
+# report.weeksales
+report.weeksales <- rbind(sell.time, revenue.day)
 # Ausgabe + Änderung vornehmen
 
 ```
@@ -804,14 +804,14 @@ report.wochenverkaeufe <- rbind(sell.time, revenue.day)
 `@solution`
 ```{r}
 # Ausgabe
-print(report.wochenverkaeufe)
+print(report.weeksales)
 # Änderung vornehmen
-report.wochenverkaeufe[1,2] <- 8
+report.weeksales[1,2] <- 8
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_code("report.wochenverkaeufe[1,2] <- 8", fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!") 
+ex() %>% check_code(c("report.weeksales[1,2] <- 8","8 -> report.weeksales[1,2]"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!") 
 success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
 ```
 
