@@ -1550,3 +1550,16 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/48
 ```{r}
 
 ```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: VideoExercise
+key: c5b78df0ca
+xp: 50
+```
+
+`@projector_key`
+656734224fae3761207a17715a0b1d2e
