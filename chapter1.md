@@ -95,7 +95,7 @@ R kann in seiner Basisfunktion als Rechner verwendet werden. Beachten Sie folgen
  Multiplikation: *
  Division: / 
  Potenzierung: ^
- Modulo: %% 
+ Modulo: %%
 ```
  
 Der Operator Modulo (%%) liefert den Rest der Division der linken Zahl durch die rechte Zahl: z.B.: 7 %% 2 ist 1.
@@ -121,7 +121,7 @@ Im Editor auf der rechten Seite gibt es bereits einige Beispiel-Codes. Beachten 
 - 1) Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 erstellen. Fügen Sie bitte eine weitere Codezeile hinzu, fügen Sie Ihre Rechnung ein und klicken Sie danach auf "Submit Answer". Schauen Sie anschließend bitte in die Console.
 
 ```
-Umsatz: Jannuar 234000 | Februar 320000 | März 294000
+Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
 ```
 
 `@hint`
@@ -162,7 +162,7 @@ xp: 20
 - 2. Sie hatten im Quartal Q1 einen Umsatz von 848.000€ zuerst ausgegeben. Aufgrund eines Forderungsausfalles von 42800€ müssen diese am Umsatz berücksichtigt werden.
 
 `@hint`
-Hier müssen Sie nur zwei Werte voneinander subtrahieren.
+Hier müssen Sie nur zwei Werte voneinander substrahieren.
 
 `@sample_code`
 ```{r}
@@ -191,7 +191,8 @@ xp: 20
 ```
 
 `@instructions`
-- 3. Es sind auf den Umsatz von 295005€ im Januar eine Umsatzsteuer in Höhe von 56050.95€ aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen? Geben Sie bitte das **Ergebnis in Prozent** aus!
+- 3. Es sind auf den Umsatz von 295005€ im Januar eine Umsatzsteuer in Höhe von 56050.95€ aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen, wenn die gesamte Steuer an den Verbraucher weitergegeben wurde? 
+- Geben Sie bitte das **Ergebnis in Prozent** aus!
 
 `@hint`
 Schauen Sie nochmal konkret auf Ihre Berechnung und überlegen Sie sich, wie Sie eine Verhältnisgleichung aufstellen. Es kann Ihnen helfen, an den Dreisatz aus Ihrer Schulzeit zu denken.
@@ -222,7 +223,7 @@ xp: 20
 ```
 
 `@instructions`
-- 4. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab? Nehmen Sie den  Ausgangswert von 805200 am Ende von Q1 an.
+- 4. Die Umsätze sollen in Q2 um 2.2% im Monat steigen. Welche Prognose geben Sie für die Umsatzzahlen am Ende des Q2 ab? Nehmen Sie den  Ausgangswert von 805200€ am Ende von Q1 an.
 
 `@hint`
 Beachten Sie, dass in R anstatt dem Komma als Dezimaltrennzeichen der Punkt verwendet wird!
@@ -254,7 +255,7 @@ xp: 20
 ```
 
 `@instructions`
-- 6. Herr Müller zeigt strebt ein Umsatzziel für Q3 (2019) von 900000 an. Wie hoch muss dafür das Umsatzwachstum ausfallen, wenn Ende Q2(2019) 859521€ Umsatz vorliegen.
+- 5. Herr Müller zeigt strebt ein Umsatzziel für Q3 (2019) von 900000€ an. Wie hoch muss dafür das Umsatzwachstum ausfallen, wenn Ende Q2(2019) 859521€ Umsatz vorliegen.
 
 R hält eine riesige Menge von mathematischen Funktionen bereit. 
 ```
@@ -342,7 +343,7 @@ xor(x, y) 	exklusiv x logisch-oder y
 `@instructions`
 Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Quartale vertraut zu machen.
 
-1. Sie sollen nun die Quartalszahlen 2019 aus Q1: 805200  und Q2: 859520.9 den Variablen x und y zuordnen, um besser die Werte vergleichen zu können. 
+1. Sie sollen nun die Quartalszahlen 2019 aus Q1: 805200€  und Q2: 859520.9€ den Variablen x und y zuordnen, um besser die Werte vergleichen zu können. 
 2. In der Variable z wurden die Quartalszahlen aus Q3 & Q4 hinterlegt. Ist es richtig, dass das letzte Halbjahr 2018 erfolgreicher war als das Halbjahr 2019 sich zu entwickeln scheint, wie Herr Müller vermutet?
 3. Berechnen Sie die Differenz aus den zwei Quartalen Q2 (Progosewert 2019) und Q1 2019 und weisen Sie Ihre Rechnung der Variablen **d** zu.
 
@@ -455,7 +456,7 @@ xp: 35
 - 2. Lassen Sie sich bitte die Variable **Anzahl_Mitarbeiter** ausgeben und wenn nicht die Anzahl von **17** hinterlegt ist, tun sie dies bitte. Klicken Sie zur Zwischenausgabe 'Run Code'
 
 `@hint`
-Eine Zuweisung (<-) funktiniert mit diesem Zeichen in R. Weisen Sie der Variablen den numerischen Wert 17 zu.
+Eine Zuweisung (<-) funktioniert mit diesem Zeichen in R. Weisen Sie der Variablen den numerischen Wert 17 zu.
 
 `@sample_code`
 ```{r}
@@ -478,7 +479,7 @@ Anzahl_Mitarbeiter <- 17
 
 `@sct`
 ```{r}
-ex() %>% check_code("Anzahl_Mitarbeiter <- 17", fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
+ex() %>% check_code(c("Anzahl_Mitarbeiter <- 17", "17->Anzahl_Mitarbeiter"), fixed=TRUE, missing_msg= "Nicht richtig. Schreiben Sie bitte den Code so, damit als Output 17 ausgeben wird!")
 success_msg("Super, nun ist der richtige Wert zugewiesen worden!")
 ```
 
