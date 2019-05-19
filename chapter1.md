@@ -862,19 +862,19 @@ key: 7a6e4f697b
 Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit von dem Management der Tochtergesellscahft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
 
 - 4. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- und Spaltennamen:
-	- **Verkaufszeit h, Tagesumsatz, Umsatz pro Stunde** 
-    - **Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag**
+		- **Sales time in h, Revenue, Revenue per hour **
+    	- **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
 `@hint`
 Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut.
 
 `@sample_code`
 ```{r}
-# report.wochenverkaeufe
-report.wochenverkaeufe <- rbind(sell.time, revenue.day)
+# report.weeksales
+report.weeksales <- rbind(sell.time, revenue.day)
 # Ausgabe + Änderung vornehmen
-print(report.wochenverkaeufe)
-report.wochenverkaeufe[1,2] <- 8
+print(report.weeksales)
+report.weeksales[1,2] <- 8
 # Umsatz pro Tag hinzufügen
 report.final <- rbind(sell.time, revenue.day, average.byday) 
 # Tabelle benennen
@@ -886,16 +886,16 @@ report.final <- rbind(sell.time, revenue.day, average.byday)
 `@solution`
 ```{r}
 # Zeilennamen benennen
-rownames(report.final) <- c("Verkaufszeit h", "Umsatz", "Umsatz pro Stunde")
+rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour")
 # Spaltennamen bennen
-colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag")
+colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_code(rownames(report.final) <- c("Verkaufszeit h", "Umsatz", "Umsatz pro Stunde"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code(rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau!")
-ex() %>% check_code(colnames(report.final) <- c("Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
 ```
 
