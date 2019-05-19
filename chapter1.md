@@ -750,28 +750,28 @@ xp: 35
 ```
 
 `@instructions`
-Herr Müller bittet Sie einen **report.wochenverkaeufe** für die Tochterfirma zu erstellen.
+Herr Müller bittet Sie einen **report.weeksales** für die Tochterfirma zu erstellen.
 
-- 1. Ihre Aufgabe ist es eine Matrix aus den Vektoren **sell.time und revenue.day** zu erstellen und der Matrix **report.wochenverkaeufe** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
+- 1. Ihre Aufgabe ist es eine Matrix aus den Vektoren **sell.time und revenue.day** zu erstellen und der Matrix **report.weeksales** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
 `@hint`
 Schauen Sie bitte in die Exercisebox und verwenden Sie bitte die Funktion um Zeilenvektoren zusammen zu führen - verweisen (<-) Sie diese auf report.wochenverkaeufe.
 
 `@sample_code`
 ```{r}
-# report.wochenverkaeufe
+# report.weeksales
 
 ```
 
 `@solution`
 ```{r}
 
-report.wochenverkaeufe <- rbind(sell.time, revenue.day)
+report.weeksales <- rbind(sell.time, revenue.day)
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("report.wochenverkaeufe <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.wochenverkaeufe"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code(c("report.weeksales <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.weeksales"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
 ```
 
