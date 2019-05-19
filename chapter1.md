@@ -831,11 +831,11 @@ Einen weitere Vektor der Matrix hinzufügen. Die Funktion rbind() hatten Sie ber
 
 `@sample_code`
 ```{r}
-# report.wochenverkaeufe
-report.wochenverkaeufe <- rbind(sell.time, revenue.day)
+# report.weeksales
+report.weeksales <- rbind(sell.time, revenue.day)
 # Ausgabe + Änderung vornehmen
-print(report.wochenverkaeufe)
-report.wochenverkaeufe[1,2] <- 8
+print(report.weeksales)
+report.weeksales[1,2] <- 8
 # Umsatz pro Tag hinzufügen
 
 ```
