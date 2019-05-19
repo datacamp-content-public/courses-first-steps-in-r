@@ -771,7 +771,7 @@ report.wochenverkaeufe <- rbind(sell.time, revenue.day)
 
 `@sct`
 ```{r}
-ex() %>% check_code("report.wochenverkaeufe <- rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+ex() %>% check_code(c("report.wochenverkaeufe <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.wochenverkaeufe"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
 ```
 
@@ -859,7 +859,7 @@ key: 7a6e4f697b
 ```
 
 `@instructions`
-Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit von dem Management der Tochtergesellscahft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisert wurde. 
+Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit von dem Management der Tochtergesellscahft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
 
 - 4. Bitte nennen Sie bei dem erstellten finalen Report die Tabelle um:
 	- **Verkaufszeit h, Tagesumsatz, Umsatz pro Stunde** 
