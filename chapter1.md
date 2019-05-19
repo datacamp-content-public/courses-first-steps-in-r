@@ -249,40 +249,8 @@ success_msg("Richtig und die nächste Aufgabe!")
 
 ```yaml
 type: NormalExercise
-key: 94b44944a6
-xp: 20
-```
-
-`@instructions`
-- 5. Herr Müller braucht für weitere Abrechnungen die Information, an welchem Tag (Zahl) wir uns innerhalb der aktuellen Kalenderwoche befinden. Wir haben heute den 11.05.2019 und das Jahr hat 365 Tage. Es ist also der 131 Tag. An welchem Tag liegen wir in der angebrochenen Kalenderwoche?
-
-**Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
-
-`@hint`
-Versuchen Sie es doch mal mit dem Modulo-Operator (%%)
-
-`@sample_code`
-```{r}
-# Tag in der aktuellen Kalenderwoche
-
-```
-
-`@solution`
-```{r}
-131%%7
-```
-
-`@sct`
-```{r}
-ex() %>% check_output(5, fixed=TRUE, missing_msg="So ist das nicht ganz richtig, achten Sie auf den Hinweis!")
-success_msg("Richtig")
-```
-
-***
-
-```yaml
-type: NormalExercise
 key: 713bfa0770
+xp: 20
 ```
 
 `@instructions`
