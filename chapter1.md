@@ -390,7 +390,7 @@ success_msg("Ja, genau - es sieht so aus als hätten Sie die Variablenzuweisung 
 
 ---
 
-## Basisdatentypen in R
+## Datentypen in R
 
 ```yaml
 type: TabExercise
@@ -400,7 +400,7 @@ xp: 100
 
 R arbeitet mit zahlreichen Datentypen und ist sensitiv auf Groß-/Kleinschreibung. Einige der grundlegendsten Datentypen sind:
 
-![Basisdatentypen](https://assets.datacamp.com/production/repositories/4810/datasets/893260b55479a71ff88107db16b1a96fc6bd4116/Basisdatentypen_R.PNG)
+![Datentypen](https://assets.datacamp.com/production/repositories/4810/datasets/893260b55479a71ff88107db16b1a96fc6bd4116/Basisdatentypen_R.PNG)
 
 **Wichtig:** Zeichenketten werden in "Anführungszeichen" gesetzt.
 
