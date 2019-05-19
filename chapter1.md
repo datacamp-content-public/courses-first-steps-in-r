@@ -191,7 +191,7 @@ xp: 20
 ```
 
 `@instructions`
-- 3. Es sind auf den Umsatz von 295005€ im Januar eine Umsatzsteuer in Höhe von 56050.95€ aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen? Runden Sie bitte mit der Funktion round() auf.
+- 3. Es sind auf den Umsatz von 295005€ im Januar eine Umsatzsteuer in Höhe von 56050.95€ aufgeschlagen worden. Wie viel Prozent an Umsatzsteuer wurden zur späteren Weitergabe an den Verbraucher aufgeschlagen? Geben Sie bitte das **Ergebnis in Prozent** aus!
 
 `@hint`
 Schauen Sie nochmal konkret auf Ihre Berechnung und überlegen Sie sich, wie Sie eine Verhältnisgleichung aufstellen. Es kann Ihnen helfen, an den Dreisatz aus Ihrer Schulzeit zu denken.
@@ -204,7 +204,7 @@ Schauen Sie nochmal konkret auf Ihre Berechnung und überlegen Sie sich, wie Sie
 
 `@solution`
 ```{r}
-round(56050.95/(295995/100))	
+56050.95/(295995/100)
 ```
 
 `@sct`
@@ -321,21 +321,25 @@ key: 6df8493e71
 ```
 
 `@question`
-- 7. Wie lautet das Ergebnis von 11 Modulo 4
+- 6. Herr Müller braucht für weitere Abrechnungen die Information, an welchem Tag (Zahl) wir uns innerhalb der aktuellen Kalenderwoche befinden. Wir haben heute den 11.05.2019 und das Jahr hat 365 Tage. Es ist also der 131 Tag. 
+- An welchem Tag liegen wir in der angebrochenen Kalenderwoche?
+
+**Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
 
 `@possible_answers`
 - 1
-- 2
-- [3]
-- 9
+- 4
+- [5]
+- 18
+- 19
 
 `@hint`
-Das geht im Kopf - hier geht es nun um das Verständnis. Sie können aber auch die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
+Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
 
 `@sct`
 ```{r}
-ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
-success_msg("Richtig - Sie werden in Zukunft noch öfters den Modulooperator brauchen")
+ex() %>% check_code(5, fixed=TRUE, missing_msg="So ist das nicht ganz richtig, überlegen Sie noch einmal. Sonst haben Sie die Möglichkeit, den Hinweis zu nehmen!")
+success_msg("Richtig - sehr gut!")
 ```
 
 ---
