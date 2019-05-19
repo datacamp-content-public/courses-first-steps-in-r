@@ -1563,3 +1563,16 @@ xp: 50
 
 `@projector_key`
 656734224fae3761207a17715a0b1d2e
+
+---
+
+## Listen
+
+```yaml
+type: VideoExercise
+key: 871247578a
+xp: 50
+```
+
+`@projector_key`
+50052f5ae7dbd75eaf808625828fa0a0
