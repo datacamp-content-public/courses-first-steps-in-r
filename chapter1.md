@@ -861,7 +861,7 @@ key: 7a6e4f697b
 `@instructions`
 Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch eine eindeutige Benennung, damit von dem Management der Tochtergesellscahft auf einen schnellen Blick ersichtlich ist, was dargestellt und analyisiert wurde. 
 
-- 4. Bitte nennen Sie bei dem erstellten finalen Report die Zeilen- und Spaltennamen um:
+- 4. Bitte benennen Sie bei dem erstellten finalen Report die Zeilen- und Spaltennamen:
 	- **Verkaufszeit h, Tagesumsatz, Umsatz pro Stunde** 
     - **Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag**
 
