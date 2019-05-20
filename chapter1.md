@@ -307,7 +307,7 @@ Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console 
 
 `@sct`
 ```{r}
-ex() %>% check_code(5, fixed=TRUE, missing_msg="So ist das nicht ganz richtig, überlegen Sie noch einmal. Sonst haben Sie die Möglichkeit, den Hinweis zu nehmen!")
+ex() %>% check_code(5, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig, überlegen Sie noch einmal. Sonst haben Sie die Möglichkeit, den Hinweis zu nehmen!")
 success_msg("Richtig - sehr gut!")
 ```
 
