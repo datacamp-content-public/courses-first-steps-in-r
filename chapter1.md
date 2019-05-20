@@ -1114,7 +1114,7 @@ xp: 50
 
 ---
 
-## Rechnen mit R
+## Rechnen mit R - 2
 
 ```yaml
 type: NormalExercise
