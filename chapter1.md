@@ -296,10 +296,10 @@ key: 1041a8d575
 **Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
 
 `@possible_answers`
-4
-[5]
-6
-18
+- 4
+- [5]
+- 6
+- 18
 
 `@hint`
 Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
