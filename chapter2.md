@@ -3,7 +3,7 @@ title: 'Teaching Case: Kundendaten analysieren'
 description: 'Das Unternehmen XY.'
 ---
 
-## Problemstellung
+## Problemstellung/Einstieg
 
 ```yaml
 type: VideoExercise
@@ -259,8 +259,8 @@ key: a446c3e473
 xp: 100
 ```
 
-Das Aufräumen bzw. **Bereinigen** Ihrer Daten bedeutet, sie in einer konsistenten Form zu speichern, die der Semantik des Datensatzes mit der Art der Speicherung entspricht. Kurz gesagt, wenn Ihre Daten bereinigt sind, ist jede Spalte eine Variable und jede Zeile ist eine Beobachtung. Das Bereinigen (tyding) ist wichtig, weil die einheitliche Struktur es Ihnen ermöglicht Ihren Fokus auf die Fragen zu den Daten zu konzentrieren 
-(Quelle: Wickham/Grolemund 2018, S.X).
+Das Aufräumen bzw. **Bereinigen** Ihrer Daten bedeutet, sie in einer konsistenten Form zu speichern, die der Semantik des Datensatzes mit der Art der Speicherung entspricht. Kurz gesagt, wenn Ihre Daten bereinigt sind, ist jede Spalte eine Variable und jede Zeile ist eine Beobachtung. Das Bereinigen (tidying) ist wichtig, weil die einheitliche Struktur es Ihnen ermöglicht Ihren Fokus auf die Fragen zu den Daten zu konzentrieren 
+(Wickham/Grolemund 2018, S.X).
 
 `@instructions`
 
@@ -299,7 +299,7 @@ xp: 100
 ```
 
 Der nächste übliche Schritt nach der Bereinigung der Daten (Tidying) ist es, die Daten zu **transformieren**. Dazu gehört die Einschränkung des Datensates auf das Analyseinteresse, die Erstellung neuer Variablen, die Funktionen bestehender Variablen sind und die Berechnung eines Satzes von zusammenfassenden Statistiken (counts, means, ...)
-(Quelle: Wickham/Grolemund 2018, S.X)
+(Wickham/Grolemund 2018, S.X)
 
 `@instructions`
 
@@ -338,7 +338,7 @@ xp: 100
 ```
 
 Die **Visualisierung** ist eine grundlegende menschliche Aktivität und zeigt Ihnen Erkenntnisse, die Sie nicht erwartet hatten oder lässt Sie neue Fragen an die Daten stellen.Eine gute Visualisierung könnte auch darauf hinweisen, dass Sie die falschen Fragen stellen oder dass Sie andere Daten sammeln müssen. Die Visualisierung lässt Sie Daten besser interpretieren, jedoch skaliert sie nicht immer gut, da sie von Menschen in den häuftisgten Fällen für kontextbasierte und individuelle Sachverhalte angefragt wird.
-(Quelle: Wickham/Grolemund 2018, S.X)
+(Wickham/Grolemund 2018, S.X)
 
 `@instructions`
 
@@ -377,7 +377,7 @@ xp: 100
 ```
 
 Modelle sind ergänzende Werkzeuge zur Visualisierung. Wenn Sie Ihre Fragen ausreichend präzise (mathematisch) formuliert haben, können Sie sie mit einem Modell beantworten. Modelle skalieren den Wert, weil sie Rechenwerkzeuge sind. Aber jedes Modell beinhaltet Annahmen und von Natur aus kann ein Modell seine eigenen Annahmen nicht in Frage stellen. Das bedeutet, dass ein Model Sie nicht fudamental überraschen kann.
-(Quelle: Wickham/Grolemund 2018, S.X)
+(Wickham/Grolemund 2018, S.X)
 
 `@instructions`
 
