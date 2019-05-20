@@ -995,7 +995,7 @@ xp: 50
 
 `@instructions`
 Der Datensatz aus dem Unternehmen Bambergus, der aus der zentralen Kundendatenbank stammt, enthält verschiedene Kundeninformationen.
-Der Datensatz wurde schon eingelesen und ist der Variable **Kundendaten** zugewiesen worden.
+Er wurde eingelesen und der Variable **Kundendaten** zugewiesen.
 
 1. Wie viele Kunden sind im Kundendatensatz aufgelistet, wenn Sie annehmen, dass es keine doppelten Kunden in der Tabelle gibt?
 
