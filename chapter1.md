@@ -286,7 +286,7 @@ sqrt(x) Qudratwurzel von x
 
 ```yaml
 type: MultipleChoiceExercise
-key: 6df8493e71
+key: 1041a8d575
 ```
 
 `@question`
@@ -296,10 +296,10 @@ key: 6df8493e71
 **Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
 
 `@possible_answers`
-- 4
-- [5]
-- 6
-- 18
+4
+[5]
+6
+18
 
 `@hint`
 Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
@@ -314,7 +314,7 @@ success_msg("Richtig - sehr gut!")
 
 ```yaml
 type: MultipleChoiceExercise
-key: 1041a8d575
+key: 6df8493e71
 ```
 
 `@question`
