@@ -1093,7 +1093,7 @@ report.final <- report.wochenverkaeufe
 
 ---
 
-## Haben Sie es verstanden?
+## Wrap up. Haben Sie es verstanden?
 
 ```yaml
 type: PureMultipleChoiceExercise
