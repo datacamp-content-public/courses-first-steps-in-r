@@ -855,10 +855,11 @@ report.final <- rbind(sell.time, revenue.day, average.byday)
 
 `@sct`
 ```{r}
-ex() %>% check_object("report.final") %>% check_equal(c("rbind(sell.time, revenue.day, average.byday)", "report.final <- rbind(report.weeksales, average.byday)"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!")success_msg("Richtig!")
+#ex() %>% check_object("report.final") %>% check_equal(c("rbind(sell.time, revenue.day, average.byday)", "report.final <- rbind(report.weeksales, average.byday)"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!")
+#success_msg("Richtig!")
 
-#ex() %>% check_code(c("report.final <- rbind(sell.time, revenue.day, average.byday)","report.final <- rbind(report.weeksales, average.byday)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-#success_msg("Ja, genau!")
+ex() %>% check_code(c("report.final <- rbind(sell.time, revenue.day, average.byday)","report.final <- rbind(report.weeksales, average.byday)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau!")
 ```
 
 ***
