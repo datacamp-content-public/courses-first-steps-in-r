@@ -514,9 +514,8 @@ Office_33 <- "Nordwand"
 
 `@sct`
 ```{r}
-ex() %>% check_object("Anzahl_Mitarbeiter") %>% check_equal(17), fixed=TRUE, missing_msg="Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
-#ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
-#success_msg("Super!")
+ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
+success_msg("Super!")
 ```
 
 ***
