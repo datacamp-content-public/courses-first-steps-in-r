@@ -770,11 +770,11 @@ report.weeksales <- rbind(sell.time, revenue.day)
 
 `@sct`
 ```{r}
-ex() %>% check_object("report.weeksales") %>% check_equal("rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
-success_msg("Ja, genau!")
+ex() %>% check_code(c("report.weeksales <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.weeksales"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
 
-#ex() %>% check_code(c("report.weeksales <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.weeksales"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-#success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
+#ex() %>% check_object("report.weeksales") %>% check_equal("rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+#success_msg("Ja, genau!")
 ```
 
 ***
@@ -883,7 +883,6 @@ report.weeksales[1,2] <- 8
 # Umsatz pro Tag hinzufügen
 report.final <- rbind(sell.time, revenue.day, average.byday) 
 # Tabelle benennen
-
 
 
 ```
