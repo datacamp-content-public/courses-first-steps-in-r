@@ -179,7 +179,7 @@ Hier müssen Sie nur zwei Werte voneinander substrahieren.
 `@sct`
 ```{r}
 ex() %>% check_output(805200, fixed=TRUE, missing_msg= "So ist das nicht richtig - beachten Sie Tippfehler!")
-success_msg("Richtig und die nächste Aufgabe! Wir haben nun einen Umsatz in Q1 von 805200€")
+success_msg("Richtig! Wir haben nun einen Umsatz in Q1 von 805200€")
 ```
 
 ***
