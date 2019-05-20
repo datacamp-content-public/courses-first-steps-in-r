@@ -417,8 +417,7 @@ xp: 35
 ```
 
 `@instructions`
-Von einer kleineren Tochtergesellschaft, die neu eröffnet hat, hat Ihr Chef Herr Müller einen Kundendatensatz zugeschickt bekommen. Herr Müller sagt, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau mit den Basisdatentypen beschäftigen müssen, damit die Mitarbeiter von Ihnen eine Vorlage bekommen können. 
-Kontrollieren Sie bitte einzelne Werte hinsichtlich ihrer Basisdatentypen.
+Von einer kleineren Tochtergesellschaft hat Ihr Chef Herr Müller einen Kundendatensatz zugeschickt bekommen. Er sagt Ihnen, dass die Mitarbeiter dort noch nicht vertraut mit den Datentypen seien und Sie sich deswegen genau damit beschäftigen müssen, um dies zu überprüfen. 
 
 - 1. Die Variable **Anzahl_Mitarbeiter** müsste ein numerischer Basisdatentyp sein. Überpüfen Sie dies bitte.
 
