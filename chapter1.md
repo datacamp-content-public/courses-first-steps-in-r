@@ -296,9 +296,9 @@ key: 6df8493e71
 **Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
 
 `@possible_answers`
-- 1
 - 4
 - [5]
+- 6
 - 18
 
 `@hint`
@@ -356,7 +356,7 @@ z <- 1655000
 
 `@sample_code`
 ```{r}
-# 1.Q1
+# 1.Q1:
 
 # Q2
 
