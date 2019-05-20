@@ -913,44 +913,6 @@ xp: 50
 
 ---
 
-## (Lists) - Kurzvideo
-
-```yaml
-type: NormalExercise
-key: ffb7d8b3a8
-xp: 100
-```
-
-
-
-`@instructions`
-
-
-`@hint`
-
-
-`@pre_exercise_code`
-```{r}
-
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
----
-
 ## Data Frames
 
 ```yaml
@@ -1443,7 +1405,7 @@ is.numeric(Anzahl_Mitarbeiter)
 
 ---
 
-## Matrizen
+## Matrizen22
 
 ```yaml
 type: NormalExercise
@@ -1519,7 +1481,7 @@ success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsnieder
 
 ---
 
-## Data Frames
+## Data Frames22
 
 ```yaml
 type: NormalExercise
@@ -1563,16 +1525,3 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/48
 ```{r}
 
 ```
-
----
-
-## Insert exercise title here
-
-```yaml
-type: VideoExercise
-key: c5b78df0ca
-xp: 50
-```
-
-`@projector_key`
-656734224fae3761207a17715a0b1d2e
