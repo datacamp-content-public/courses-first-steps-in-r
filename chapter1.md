@@ -957,10 +957,10 @@ Warum ist es nicht möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matri
 
 ![Beispiel](https://assets.datacamp.com/production/repositories/4810/datasets/81e60fc1e3769bcf2010d82dec9b050ab3c87ca3/Data_frame_bsp..PNG.png)
 
-1. weil der Datensatz Zeichenketten (character) und numerische Werte (numeric) enthält.
-2. weil der Datensatz numerische Werte und boolesche Werte enthält.
-3. weil der Datensatz zu groß ist.
-4. er lässt sich doch ohne weiteres in eine Matrix speichern.
+1. weil der Datensatz unterschiedliche Datentypen nämlich Zeichenketten (character) und numerische Werte (numeric) enthält.
+2. weil der Datensatz unterschiedliche Datentypen nämlich numerische Werte und boolesche Werte enthält.
+3. weil der Datensatz zu groß ist und deswegen nicht geladen werden kann.
+4. er lässt sich ohne weitere Bearbeitung in eine Matrix speichern.
 
 `@possible_answers`
 - [1]
@@ -973,6 +973,8 @@ Warum ist es nicht möglich diese Tabelle mit weiteren 3500 Zeilen in eine Matri
 
 `@sct`
 ```{r}
+
+
 ex() %>% check_code("1", fixed=TRUE)
 success_msg("Richtig - in Matrizen können nur gleiche Datentypen gespeichert werden. In Data Frames können Elemente unterschiedlichen Typs gleicher Zeilenlänge gespeichert werden. Innerhalb der Spalten müssen aber die Datentypen gleich sein")
 ex() %>% check_code("2", fixed=TRUE, missing_msg="Leider nicht richtig, es kommen in dem Datensatz keine boolschen Werte vor!")
