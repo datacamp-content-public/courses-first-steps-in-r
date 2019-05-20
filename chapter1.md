@@ -770,11 +770,11 @@ report.weeksales <- rbind(sell.time, revenue.day)
 
 `@sct`
 ```{r}
-ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+ex() %>% check_object("report.weeksales") %>% check_equal("rbind(sell.time, revenue.day)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
 success_msg("Ja, genau!")
 
-ex() %>% check_code(c("report.weeksales <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.weeksales"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
-success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
+#ex() %>% check_code(c("report.weeksales <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.weeksales"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
+#success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
 ```
 
 ***
@@ -813,8 +813,11 @@ report.weeksales[1,2] <- 8
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("report.weeksales[1,2] <- 8","8 -> report.weeksales[1,2]"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!") 
-success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
+ex() %>% check_object("report.weeksales[1,2]") %>% check_equal(8, fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!")
+success_msg("Ja, genau - da war wohl jemand unaufmerksam. Gut, dass Sie es geändert haben, sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
+
+#ex() %>% check_code(c("report.weeksales[1,2] <- 8","8 -> report.weeksales[1,2]"), fixed=TRUE, missing_msg="Der Code für die Änderung des Wertes ist nicht korrekt!") 
+#success_msg("Ja, genau - sonst wären falsche Umsatzzahlen an die Verkaufsniederlassung weitergegeben worden!")
 ```
 
 ***
