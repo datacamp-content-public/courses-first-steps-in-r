@@ -843,7 +843,8 @@ report.weeksales <- rbind(sell.time, revenue.day)
 # Ausgabe + Änderung vornehmen
 print(report.weeksales)
 report.weeksales[1,2] <- 8
-# Umsatz pro Tag hinzufügen
+# Vektor: Umsatz pro Tag hinzufügen
+
 
 ```
 
