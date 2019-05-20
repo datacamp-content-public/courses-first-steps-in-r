@@ -921,10 +921,11 @@ key: 0675d8c8f5
 xp: 100
 ```
 
-Bislang war immer von zweidimensionalen Matrizen oder Listen die Rede. Nun kommen wir zu den **Data Frames**:
+Bislang war immer von Vektoren, Matrizen oder Listen die Rede. Nun kommen wir zu den **Data Frames**:
 
-Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames. Es ist eine Liste von Vektoren gleicher Länge und sehr ähnlich zu Exceltabellen, da die Daten in einem ähnlichen Format gespeichert werden  Data Frames sind nichts anderes als eine Spezialform von Listen mit Vektoren gleicher Länge (Grolemund 2019, S.55).
+Datensätze bestehen sehr häufig aus unterschiedlichen Datentypen (Produktnamen, Preis, Datum der Herstellung). In eine Matrix bekommen Sie die Daten nur, wenn Sie alles in Text umwandeln, was die Auswertung erschwert. Geeigneter sind da Data Frames. Sie sind eine Spezialform von Listen mit Vektoren gleicher Länge (Grolemund 2019, S.55).
 
+Nützliche Befehle:
 - **nrow() bzw. ncol()**: Anzahl der Zeilen bzw. Spalten ausgeben lassen: 
 - **names()**: Funktionen zum Abrufen oder Einstellen der Namen eines Objekts.
 - **colnames()**: Abrufen oder setzen der Zeilen- oder Spaltennamen eines matrixartigen Objekts.
