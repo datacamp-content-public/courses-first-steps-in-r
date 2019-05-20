@@ -310,34 +310,6 @@ ex() %>% check_code(5, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig, 
 success_msg("Richtig - sehr gut!")
 ```
 
-***
-
-```yaml
-type: MultipleChoiceExercise
-key: 6df8493e71
-```
-
-`@question`
-- 6. Herr Müller braucht für weitere Abrechnungen die Information, an welchem Tag (Zahl) wir uns innerhalb der aktuellen Kalenderwoche befinden. Wir haben heute den 11.05.2019 und das Jahr hat 365 Tage. Es ist also der 131 Tag. 
-- An welchem Tag liegen wir in der angebrochenen Kalenderwoche?
-
-**Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
-
-`@possible_answers`
-- 4
-- [5]
-- 6
-- 18
-
-`@hint`
-Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
-
-`@sct`
-```{r}
-ex() %>% check_code(5, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig, überlegen Sie noch einmal. Sonst haben Sie die Möglichkeit, den Hinweis zu nehmen!")
-success_msg("Richtig - sehr gut!")
-```
-
 ---
 
 ## Variablen
@@ -543,8 +515,9 @@ Office_33 <- "Nordwand"
 
 `@sct`
 ```{r}
-ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
-success_msg("Super!")
+ex() %>% check_object("Anzahl_Mitarbeiter") %>% check_equal(17), fixed=TRUE, missing_msg="Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
+#ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
+#success_msg("Super!")
 ```
 
 ***
@@ -781,7 +754,7 @@ Herr Müller bittet Sie einen **report.weeksales** für die Tochterfirma zu erst
 - 1. Ihre Aufgabe ist es eine Matrix aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variablen vom Typ Matrix **report.weeksales** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
 `@hint`
-Schauen Sie bitte in die Exercisebox und verwenden Sie bitte die Funktion um Zeilenvektoren zusammen zu führen - verweisen (<-) Sie diese auf report.wochenverkaeufe.
+Schauen Sie bitte in die Exercisebox und verwenden Sie bitte die Funktion um Zeilenvektoren zusammen zu führen - verweisen (<-) Sie diese auf report.weeksales.
 
 `@sample_code`
 ```{r}
@@ -797,6 +770,9 @@ report.weeksales <- rbind(sell.time, revenue.day)
 
 `@sct`
 ```{r}
+ex() %>% check_object("open.vec") %>% check_equal("c(1,2,3,4,5,6)", "c(1:6)", fixed=TRUE, missing_msg="So ist das nicht ganz richtig!")
+success_msg("Ja, genau!")
+
 ex() %>% check_code(c("report.weeksales <- rbind(sell.time, revenue.day)", "rbind(sell.time, revenue.day) -> report.weeksales"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau - Schauen Sie sich gern Ihre selbst erstellte Tabelle an!")
 ```
@@ -919,6 +895,8 @@ colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday
 
 `@sct`
 ```{r}
+
+
 ex() %>% check_code(rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung! Haben Sie beachtet, dass die Benennungen Zeichenketten sind und dementsprechend gekennzeichnet werden müssen") 
 success_msg("Ja, genau!")
 ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
