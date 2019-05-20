@@ -310,6 +310,34 @@ ex() %>% check_code(5, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig, 
 success_msg("Richtig - sehr gut!")
 ```
 
+***
+
+```yaml
+type: MultipleChoiceExercise
+key: 1041a8d575
+```
+
+`@question`
+- 6. Herr Müller braucht für weitere Abrechnungen die Information, an welchem Tag (Zahl) wir uns innerhalb der aktuellen Kalenderwoche befinden. Wir haben heute den 11.05.2019 und das Jahr hat 365 Tage. Es ist also der 131 Tag. 
+- An welchem Tag liegen wir in der angebrochenen Kalenderwoche?
+
+**Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
+
+`@possible_answers`
+- 4
+- [5]
+- 6
+- 18
+
+`@hint`
+Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
+
+`@sct`
+```{r}
+ex() %>% check_code(5, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig, überlegen Sie noch einmal. Sonst haben Sie die Möglichkeit, den Hinweis zu nehmen!")
+success_msg("Richtig - sehr gut!")
+```
+
 ---
 
 ## Variablen
