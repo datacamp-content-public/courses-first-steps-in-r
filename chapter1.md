@@ -300,7 +300,6 @@ key: 6df8493e71
 - 4
 - [5]
 - 18
-- 19
 
 `@hint`
 Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console in R verwenden. Modulo bedeutet auch Division mit Rest.
