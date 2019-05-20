@@ -1015,35 +1015,7 @@ nrow(Kundendaten)
 `@sct`
 ```{r}
 ex() %>% check_output(100, fixed=TRUE, missing_msg="So ist das nicht richtig - vielleicht haben Sie auch nur eine Ausgabefunktion vergessen. Ihr Ziel ist es, dass die Anzahl der Kunden als Ausgabe in der Konsole erscheinen")
-success_msg("Hervorragend - so einfach bekommt man ein Ergebnis!")
-```
-
-***
-
-```yaml
-type: NormalExercise
-key: 0f3bbf5d27
-```
-
-`@instructions`
-
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
+success_msg("Hervorragend - so einfach bekommt man an ein Ergebnis!")
 ```
 
 ---
