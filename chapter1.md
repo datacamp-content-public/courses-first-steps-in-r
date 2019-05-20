@@ -718,7 +718,7 @@ key: ebe932dc2c
 xp: 100
 ```
 
-Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen. In R können komplexe Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Matrix speichern (de Vries/Meys 2018).
+Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen. In R können Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Matrix speichern (de Vries/Meys 2018).
 
 Vektoren in eine Matrix zusammenführen: 
 - **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können. *Matrix <- rbind(Vektor, Vektor)
@@ -897,6 +897,19 @@ success_msg("Ja, genau!")
 ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung!") 
 success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
 ```
+
+---
+
+## Listen
+
+```yaml
+type: VideoExercise
+key: 871247578a
+xp: 50
+```
+
+`@projector_key`
+50052f5ae7dbd75eaf808625828fa0a0
 
 ---
 
@@ -1563,16 +1576,3 @@ xp: 50
 
 `@projector_key`
 656734224fae3761207a17715a0b1d2e
-
----
-
-## Listen
-
-```yaml
-type: VideoExercise
-key: 871247578a
-xp: 50
-```
-
-`@projector_key`
-50052f5ae7dbd75eaf808625828fa0a0
