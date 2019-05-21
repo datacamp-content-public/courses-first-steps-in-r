@@ -30,13 +30,13 @@ skills: 1
 Die Hauptfunktionen von DataCamp
 
 Die linke Funktionsseite:
-- 1) Hier im **Exercisebereich** wird immer die grundlegende Theorie dargestellt sein, die dann direkt in der Übung angewendet wird. - 
+- 1) Hier im **Exercisebereich** wird immer die grundlegende Theorie dargestellt sein, die dann direkt in der Übung angewendet wird. 
 - 2) Im Bereich der **Instruktion** bekommen Sie die Erläuterung, was genau Ihre Aufgabe ist, die Sie anschließend lösen sollen. 
 - 3) Die **Hints** können Sie nutzen, wenn Sie nicht mehr weiter kommen und einen Hinweis benötigen.
 
 Die rechte Funktionsseite:
 - 4) **script.R** ist ihre Kommandozeile mit der Sie Ihre Befehle und Ihren Code in der Programmiersprache R eingeben.
-- 5) Mithilfe des Buttons **RunCode** kompilieren Sie nur den Code mit **Submit Answer** führen Sie ihn aus.
+- 5) Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code mit **Submit Answer** führen Sie ihn aus.
 - 6) Die **Console** ist in diesem Fall eine Oberfläche in der Sie sehen können, wie Ihr geschriebener Code ausgeführt wird und welche Ausgaben er liefert. 
 
 Lasst uns mit der ersten Aufgabe starten! Let´s go!
