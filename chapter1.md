@@ -1018,6 +1018,62 @@ ex() %>% check_output(100, fixed=TRUE, missing_msg="So ist das nicht richtig - v
 success_msg("Hervorragend - so einfach bekommt man an ein Ergebnis!")
 ```
 
+***
+
+```yaml
+type: NormalExercise
+key: 71a30c036d
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 3531f1dfce
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
 ---
 
 ## Visualisierung
