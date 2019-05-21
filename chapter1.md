@@ -1046,34 +1046,6 @@ key: 71a30c036d
 
 ```
 
-***
-
-```yaml
-type: NormalExercise
-key: 3531f1dfce
-```
-
-`@instructions`
-
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
 ---
 
 ## Visualisierung
