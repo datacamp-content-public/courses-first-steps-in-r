@@ -295,9 +295,9 @@ key: 1041a8d575
 **Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
 
 `@possible_answers`
-- [4]
-- 5
+- [5]
 - 6
+- 7
 - 18
 
 `@hint`
