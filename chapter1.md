@@ -501,7 +501,7 @@ is.numeric(Anzahl_Mitarbeiter)
 #2.Ausgabe + Zuweisung
 print(Anzahl_Mitarbeiter)
 Anzahl_Mitarbeiter <- 17
-#3 Umbenennung Büro
+#3.Umbenennung Büro
 
 ```
 
