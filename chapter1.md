@@ -929,7 +929,7 @@ xp: 100
 ```
 
 Nach den Listen kommen wir zur Spezialform von Listen, zu **Data Frames**. 
-Listen mit Vektoren gleicher Länge, die bei der Datenanalyse in R sehr häufig Anwendung finden, da unterschiedliche Datentypen gespeichert werden können  (Grolemund 2019, S.55).
+Data Frames sind Listen mit Vektoren gleicher Länge, die bei der Datenanalyse in R sehr häufig Anwendung finden, da in einem Data Frame unterschiedliche Datentypen gespeichert werden können  (Grolemund 2019, S.55).
 
 Nützliche Funkionen: 
 - **nrow() bzw. ncol()**: Anzahl der Zeilen bzw. Spalten
