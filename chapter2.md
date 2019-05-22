@@ -1,5 +1,5 @@
 ---
-title: 'Teaching Case: Kundendaten analysieren'
+title: 'Teaching Case Ende'
 description: ""
 ---
 
