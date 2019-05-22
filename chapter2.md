@@ -11,7 +11,7 @@ key: 5c5dfb4752
 xp: 50
 ```
 
-Hallo	
+Hallo
 
 `@hint`
 
