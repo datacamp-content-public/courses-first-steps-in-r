@@ -749,14 +749,14 @@ xp: 35
 ```
 
 `@instructions`
-- 2. Sie haben den Report bei Herrn Müller abgeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Ihn bitte ab.
+- 2. Sie haben den Report bei Herrn Müller abgegeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Sie es bitte.
 
 - 2.1 Lassen Sie sich die Matrix report.weeksales ausgeben.
 
-- 2.2 Ändern Sie einen Fehler ab.
+- 2.2 Korrigieren Sie bitte den Report.
 
 `@hint`
-Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h, also alles darüber ist falsch. report.weeksales[Zeile, Spalte] <- Wert
+Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - Alles darüber ist falsch. report.weeksales[Zeile, Spalte] <- Wert
 
 `@sample_code`
 ```{r}
