@@ -839,7 +839,7 @@ Nun ist der Report für die Tochtergesellschaft schon fast fertig. Es fehlt noch
     	- **Monday, Tuesday, Wednesday, Thursday, Friday, Saturday**
 
 `@hint`
-Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass es die Spaltentitel Zeichenketten sind.
+Schauen Sie dazu in die Exercisebox. Die Beispiele verdeutlichen die notwendige Programmierung sehr gut. Achten Sie darauf, dass die Spaltentitel Zeichenketten sind.
 
 `@sample_code`
 ```{r}
