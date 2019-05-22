@@ -796,7 +796,7 @@ xp: 30
 - 3. Sie hatten für Freitag schon den durchschnittlichen Umsatz pro Stunde ausgerechnet. In dem Vektor **average.byday** wurde der Umsatz pro Stunde für alle sechs Verkaufstage errechnet. Fügen Sie dem Report bitte die Information des Vektors hinzu, damit der Wochenreport vollständig ist und weisen Sie den neuen Report bitte der Variablen **report.final** zu.
 
 `@hint`
-Bitte einen weiteren Vektor average.byday der Matrix hinzufügen. Die Funktion rbind() hatten Sie bereits in Aufgabe 1 verwendet.
+Bitte einen weiteren Vektor average.byday der Matrix hinzufügen. Die Funktion rbind() hatten Sie bereits in Teil 1 dieser Aufgabe verwendet.
 
 `@sample_code`
 ```{r}
