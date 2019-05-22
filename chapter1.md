@@ -714,7 +714,7 @@ xp: 35
 `@instructions`
 Herr Müller bittet Sie einen Report mit dem Namen **report.weeksales** für die Tochterfirma zu erstellen.
 
-- 1. Ihre Aufgabe ist es eine Matrix aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variable vom Typ Matrix **report.weeksales** zuzuordnen. Testen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
+- 1. Ihre Aufgabe ist es eine Matrix (Tabelle) aus den Vektoren **sell.time und revenue.day** zu erstellen und der Variable vom Typ Matrix **report.weeksales** zuzuordnen. Schauen Sie, ob Sie es richtig gemacht haben mit der Ausgabe in der Console.
 
 `@hint`
 Schauen Sie bitte in die Exercisebox und verwenden Sie bitte die Funktion um Zeilenvektoren zusammen zu führen - verweisen (<-) Sie diese auf report.weeksales.
