@@ -248,44 +248,9 @@ success_msg("Richtig und die nächste Aufgabe!")
 ***
 
 ```yaml
-type: NormalExercise
-key: 713bfa0770
-xp: 20
-```
-
-`@instructions`
-- 5. Herr Müller zeigt strebt ein Umsatzziel für Q3 (2019) von 900000€ an. Wie hoch muss dafür das Umsatzwachstum ausfallen, wenn Ende Q2(2019) 859521€ Umsatz vorliegen.
-
-R hält eine riesige Menge von mathematischen Funktionen bereit. 
-```
-log(x,base = y) Logarithmus von x zur Basis y
-exp(x) Exponentailfunktion von x
-sqrt(x) Qudratwurzel von x
-```
-
-`@hint`
-
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
-
-***
-
-```yaml
 type: MultipleChoiceExercise
 key: 1041a8d575
+xp: 20
 ```
 
 `@question`
@@ -295,7 +260,7 @@ key: 1041a8d575
 **Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
 
 `@possible_answers`
-- [5]
+- [4]
 - 6
 - 7
 - 18
