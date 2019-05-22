@@ -6,35 +6,18 @@ description: ""
 ## Insert exercise title here
 
 ```yaml
-type: NormalExercise
-key: a3883624bb
-xp: 100
+type: PureMultipleChoiceExercise
+key: 5c5dfb4752
+xp: 50
 ```
 
-
-
-`@instructions`
-
+Hallo	
 
 `@hint`
 
 
-`@pre_exercise_code`
-```{r}
+`@possible_answers`
+- [1]
 
-```
-
-`@sample_code`
-```{r}
-
-```
-
-`@solution`
-```{r}
-
-```
-
-`@sct`
-```{r}
-
-```
+`@feedback`
+- You´re good!
