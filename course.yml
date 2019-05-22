@@ -1,6 +1,5 @@
 title: Eine interaktive Einführung in R für Data Science Beginner
 description: |
   1. Erste Schritte in R: Einführung
-  2. Teaching Case: Ermittle den profitträchtigsten Kunden
 programming_language: r
 from: 'r-base-prod:v1.0.2'
