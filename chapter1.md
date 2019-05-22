@@ -749,11 +749,9 @@ xp: 35
 ```
 
 `@instructions`
-- 2. Sie haben den Report bei Herrn Müller abgegeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat. Kontrollieren Sie dies und ändern Sie es bitte.
+- Sie haben den Report bei Herrn Müller abgegeben. Er kommt auf Sie zu und entgegnet Ihnen, ob Ihnen aufgefallen sei, dass sich noch ein Zahlenfehler eingeschlichen hat.
 
-- 2.1 Lassen Sie sich die Matrix report.weeksales ausgeben.
-
-- 2.2 Korrigieren Sie bitte den Report.
+- 2. Lassen Sie sich die Matrix report.weeksales ausgeben und korrigieren Sie bitte den Report.
 
 `@hint`
 Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - Alles darüber ist falsch. report.weeksales[Zeile, Spalte] <- Wert
@@ -762,7 +760,7 @@ Haben Sie den falschen Wert entdeckt, ein Tag hat nur 24h! - Alles darüber ist 
 ```{r}
 # report.weeksales
 report.weeksales <- rbind(sell.time, revenue.day)
-# Ausgabe + Änderung vornehmen
+#2.Ausgabe + Änderung vornehmen
 
 ```
 
