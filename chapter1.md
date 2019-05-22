@@ -456,7 +456,7 @@ xp: 30
 - 3. Ihr Chef Herr Müller hat für den Mitarbeiter Maximilian Flix ein neues Büro renovieren lassen. Nennen Sie das Büro **Office_33** bitte in **Nordwand** um.
 
 `@hint`
-Verweisen Sie auf die Variable Office_33 einfach den neuen Namen. Beachten Sie, dass Nordwand ein String ist und folglich in Anführungszeichen gesetz werden muss.
+Verweisen Sie auf die Variable Office_33 einfach den neuen Namen. Beachten Sie, dass Nordwand eine Zeichenkette/String ist.
 
 `@sample_code`
 ```{r}
@@ -477,8 +477,8 @@ Office_33 <- "Nordwand"
 
 `@sct`
 ```{r}
-ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Verweisen Sie auf die Variable Office_33 einfach den neuen Namen")
-success_msg("Super!")
+ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
+success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
 ```
 
 ***
