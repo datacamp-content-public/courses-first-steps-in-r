@@ -209,7 +209,7 @@ Schauen Sie nochmal konkret auf Ihre Berechnung und überlegen Sie sich, wie Sie
 
 `@sct`
 ```{r}
-ex() %>% check_output(c("19","0.19"), fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
+ex() %>% check_output("19", fixed=TRUE, missing_msg="Nicht ganz richtig - beachten Sie Tippfehler!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
@@ -270,8 +270,8 @@ Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console 
 
 `@sct`
 ```{r}
-ex() %>% check_code(5, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig, überlegen Sie noch einmal. Sonst haben Sie die Möglichkeit, den Hinweis zu nehmen!")
-success_msg("Richtig - sehr gut!")
+#ex() %>% check_code(5, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig, überlegen Sie noch einmal. Sonst haben Sie die Möglichkeit, den Hinweis zu nehmen!")
+#success_msg("Richtig - sehr gut!")
 ```
 
 ---
