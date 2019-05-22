@@ -489,7 +489,7 @@ key: 87f538b93c
 ```
 
 `@question`
-Was ist "53" für ein Basisdatentyp?
+Was ist "53.Stock" für ein Basisdatentyp?
 - 1: Es ist ein booleischer Wert - logical.
 - 2: Es ist eine Ganzzahl oder Fließkommazahl - numeric.
 - 3: Es ist eine Zeichenkette - character.
