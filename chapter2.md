@@ -3,19 +3,6 @@ title: 'Teaching Case: Kundendaten analysieren'
 description: 'Das Unternehmen XY.'
 ---
 
-## Problemstellung/Einstieg
-
-```yaml
-type: VideoExercise
-key: 570b5b662b
-xp: 50
-```
-
-`@projector_key`
-32f5909bd9725fdcbf4b5ffeb2ee4f3f
-
----
-
 ## Lasst uns anfangen: Daten einlesen
 
 ```yaml
