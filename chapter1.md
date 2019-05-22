@@ -520,12 +520,14 @@ key: 2a988ba927
 xp: 100
 ```
 
-Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Objekten besteht" wird ein Vektor im R-Handbuch definiert. Es ist die kleinstmögliche Dateneinheit in R. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können (de Vries/Meys 2018).
+Ein Vektor ist die einfachste Datenstruktur in R. Als "einzelnes Objekt, das aus einer Ansammlung von Daten besteht" wird ein Vektor im R-Handbuch definiert. Wir behandeln in dieser Einheit zum Einstieg nur numerische Vektoren, also Vektoren, die alle Arten von Zahlen enthalten können (de Vries/Meys 2018).
 
 Um einen Vektor mit einer Folge von Zahlen von 1 bis 3 zu erzeugen:  
 ```
 c(1,2,3) oder kürzer c(1:3)
 ```
+
+Wichtige Befehle:
 
 **str()**: Typ eines Vektors bestimmen und Überblick verschaffen.
 
@@ -546,7 +548,7 @@ xp: 25
 ```
 
 `@instructions`
-Sie sollen als Mitarbeiter der Business Intelligence & Data Analyticsabteilung erneut der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diese.
+Sie sollen als Mitarbeiter der Business Intelligence & Data Analyticsabteilung erneut der kleinen Tochtergesellschaft zuarbeiten und analysieren dazu die Verkaufszeiten, den Umsatz pro Stunde und vergleichen diese auf Profitabilität.
 
 - 1. Erstellen Sie einen Vektor, der die Zahlen von 1 bis 6 beinhaltet und weisen Sie ihm bitte den Variablennamen **open.vec** zu. Die Zahlen stehen jeweils für einen Verkaufstag (1 = "Montag")
 
