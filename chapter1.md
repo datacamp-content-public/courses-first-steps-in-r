@@ -204,7 +204,7 @@ Schauen Sie nochmal konkret auf Ihre Berechnung und überlegen Sie sich, wie Sie
 
 `@solution`
 ```{r}
-56050.95/(295995/100)
+56050.95/(295005/100)
 ```
 
 `@sct`
