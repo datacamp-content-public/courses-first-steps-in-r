@@ -389,13 +389,13 @@ Schreiben Sie bitte den Code so, damit als Output ein boolescher Wert (TRUE oder
 
 `@sample_code`
 ```{r}
-#1.Überprüfung des numerischen Datentyps
+#1.Überprüfung Datentyp Variable Anzahl_Mitarbeiter:
 
 ```
 
 `@solution`
 ```{r}
-#1.Überprüfung Variable Anzahl_Mitarbeiter als numerischen Datentyps
+#1.Überprüfung Variable Anzahl_Mitarbeiter:
 is.numeric(Anzahl_Mitarbeiter)
 ```
 
