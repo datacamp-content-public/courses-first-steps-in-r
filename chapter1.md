@@ -506,8 +506,8 @@ Beachten Sie die Anführungszeichen.
 
 `@sct`
 ```{r}
-ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
-success_msg("Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist")
+#ex() %>% check_code(3, fixed=TRUE, missing_msg="Leider nicht richtig, überlegen Sie noch einmal!")
+#success_msg("Richtig - es ist eine Zeichenkette (String), da der Wert in Anführungszeichen notiert ist")
 ```
 
 ---
