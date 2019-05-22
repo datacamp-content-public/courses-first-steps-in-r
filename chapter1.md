@@ -118,7 +118,7 @@ xp: 20
 `@instructions`
 Im Editor auf der rechten Seite gibt es einige Beispiel-Codes. Beachten Sie, dass es Unterschiede in den Zeilen gibt - sie beinhalten Code und mit dem **'#'** werden Kommentare gekennzeichnet.
 
-- 1) Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 erstellen. Fügen Sie bitte eine weitere Codezeile hinzu, fügen Sie Ihre Rechnung ein und klicken Sie danach auf "Submit Answer". Schauen Sie anschließend bitte in die Console.
+- 1) Sie sollen die Umsätze der letzten drei Monate zusammenrechnen und somit den Umsatz für das Quartal Q1 erstellen. Fügen Sie bitte eine weitere Codezeile, die Rechnung, hinzu und klicken Sie danach auf "Submit Answer".
 
 ```
 Umsatz in €: Jannuar 234000 | Februar 320000 | März 294000
