@@ -241,7 +241,7 @@ Beachten Sie, dass die Prozente jeweils im Monat steigen. Beachten Sie, dass in 
 
 `@sct`
 ```{r}
-ex() %>% check_output(859520.9, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - beachten Sie Tippfehler!")
+ex() %>% check_output(859520.9, fixed=TRUE, missing_msg="So ist das nicht ganz richtig - haben Sie den monatlichen Umsatzwachstum berechnet und beachtet, dass es sich um 3 Monate handelt?!")
 success_msg("Richtig und die nächste Aufgabe!")
 ```
 
