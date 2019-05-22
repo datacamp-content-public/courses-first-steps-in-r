@@ -863,9 +863,9 @@ colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday
 
 `@sct`
 ```{r}
-ex() %>% check_code(c("rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour")","c("Sales time in h", "Revenue", "Revenue per hour") -> rownames(report.final)"), fixed=TRUE, missing_msg="Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung! Haben Sie beachtet, dass die Benennungen Zeichenketten sind und dementsprechend gekennzeichnet werden müssen") 
+ex() %>% check_code(rownames(report.final) <- c("Sales time in h", "Revenue", "Revenue per hour"), fixed=TRUE, missing_msg="Haben Sie beachtet, dass die Benennungen Zeichenketten sind und dementsprechend gekennzeichnet werden müssen?") 
 success_msg("Ja, genau!")
-ex() %>% check_code(c("colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")","colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday") -> colnames(report.final)"), fixed=TRUE, missing_msg= "Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung! Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt?") 
+ex() %>% check_code(colnames(report.final) <- c("Monday","Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"), fixed=TRUE, missing_msg=" Haben Sie alle Wochentage ohne Tippfehler und als Zeichenkette gekennzeichnet erstellt? Verwenden Sie bitte die Funktionen aus der Kontextbeschreibung") 
 success_msg("Ja, genau - so behalten Sie die Übersicht und auch andere können Ihre Ergebnisse leichter nachvollziehen!")
 ```
 
