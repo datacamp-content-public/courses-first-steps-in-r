@@ -681,7 +681,7 @@ key: ebe932dc2c
 xp: 100
 ```
 
-Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen. In R können Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Matrix speichern (de Vries/Meys 2018).
+Matrizen sind rechteckige, zweidimensionale Anordnungen von Elementen, wie Tabellen. In R können Matrixoperationen einfach und effizient durchgeführt werden. Anhand von Matrizen können Sie im Gegensatz zu Vektoren nun mehrere Zeilen in ein und derselben Matrix speichern (de Vries/Meys 2018).
 
 Vektoren in eine Matrix zusammenführen: 
 - **rbind():** Funktion mit der Vektoren zu Zeilen ein und derselbe Matrix zusammengefügt werden können. *Matrix <- rbind(Vektor, Vektor)
@@ -691,8 +691,8 @@ Werte einer Matrix ersetzen:
 - Um den Wert in der dritten Zeile und zweiten Spalte der Matrix zu 5 zu ändern: my.matrix[3,2] <- 5
 
 Zeilen- und Spaltennamen verändern: 
-- Zeilennamen verändern: Beispiel **rownames(Matrix)** <- c("Region", "Umsätze")
-- Spaltennamen verändern: Beispiel **colnames(Matrix)** <- c("Januar", "Februar")
+- Zeilennamen verändern: Bsp. **rownames(Matrix)** <- c("Region", "Umsätze")
+- Spaltennamen verändern: Bsp. **colnames(Matrix)** <- c("Januar", "Februar")
 
 `@pre_exercise_code`
 ```{r}
