@@ -260,7 +260,7 @@ xp: 20
 **Hinweis:** Da das Ergebnis direkt in die Abrechnung einfließst, ist es die Vorgabe, das Ergebnis mit einer Rechenoperation ausgeben zu lassen.
 
 `@possible_answers`
-- [4]
+- [5]
 - 6
 - 7
 - 18
@@ -270,7 +270,7 @@ Versuchen Sie es doch mal mit dem Modulo-Operator (%%). Sie können die Console 
 
 `@sct`
 ```{r}
-ex() %>% check_code(4, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig, überlegen Sie noch einmal. Sonst haben Sie die Möglichkeit, den Hinweis zu nehmen!")
+ex() %>% check_code(5, fixed=TRUE, missing_msg= "So ist das nicht ganz richtig, überlegen Sie noch einmal. Sonst haben Sie die Möglichkeit, den Hinweis zu nehmen!")
 success_msg("Richtig - sehr gut!")
 ```
 
