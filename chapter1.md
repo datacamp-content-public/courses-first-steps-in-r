@@ -310,7 +310,7 @@ Herr Müller bittet Sie sich mit den Quartalszahlen der letzten und aktuellen Qu
 3. Berechnen Sie die Differenz aus den zwei Quartalen Q2 (Prognosewert 2019) und Q1 (2019) und weisen Sie Ihre Rechnung der Variablen **d** zu.
 
 `@hint`
-Schauen Sie bitte in die Exercisebox. Hier is die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitten genau die Instruktionen. Der Wert für Variable z wurde bereits zugewiesen.
+Schauen Sie bitte in die Exercisebox. Hier ist die Zuweisung anhand eines Beispiels verdeutlicht. Lesen Sie bitte genau die Instruktionen. Der Wert für Variable z wurde bereits zugewiesen.
 
 `@pre_exercise_code`
 ```{r}
