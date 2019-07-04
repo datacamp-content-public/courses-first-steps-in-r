@@ -26,7 +26,7 @@ Die rechte Funktionsseite:
 - 5) Mithilfe des Buttons **Run Code** kompilieren Sie nur den Code mit **Submit Answer** führen Sie ihn aus.
 - 6) Die **Console** ist in diesem Fall eine Oberfläche in der Sie sehen können, wie Ihr geschriebener Code ausgeführt wird und welche Ausgaben er liefert. 
 
-Lasst uns mit der ersten Aufgabe starten! Let´s go!
+Lasst uns mit der ersten Aufgabe starten!
 
 `@instructions`
 Hallo und herzlich Willkommen,
